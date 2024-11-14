@@ -306,7 +306,7 @@ def mearge_input_and_sort(problem_csv, student_input_csv, dataset_name):
     return sorted_by_input_data_csv
     
 
-def run_model(data_for_assess_csv,model_name, dataset_name, prompt_version,ques_list_to_skip = [],prob_names_skip = [],
+def run_model(data_for_assess_csv,model_name, dataset_name, prompt_version,ques_list_to_skip = [],prob_names_skip = [], av_input_len_thld = 0, input_len_thld = 0,
                         max_tokens = None, min_num_words = 10, max_num_words = 300, max_num_words_in_all_responses = 100000, batch_size = 32):
     '''
     Run model
@@ -318,11 +318,14 @@ def run_model(data_for_assess_csv,model_name, dataset_name, prompt_version,ques_
     prompts_list = []
 
     for i, row in df.iterrows():
-        
+    
         problem_name = row['Problem Name']
         question = row['Question']
         answer = row['Explanation']
         input = row['Input']
+        
+        average_input_len = row['Average Input Length']
+        input_len = row['Input Length']
         
         if question == '':
             continue
@@ -336,6 +339,13 @@ def run_model(data_for_assess_csv,model_name, dataset_name, prompt_version,ques_
         
         if problem_name in prob_names_skip:
             continue
+        
+        if average_input_len <= av_input_len_thld:
+            continue
+        
+        if input_len <= input_len_thld:
+            continue
+            
         
         # output_df = output_df.append(row, ignore_index=True)
 
@@ -366,7 +376,7 @@ def run_model(data_for_assess_csv,model_name, dataset_name, prompt_version,ques_
     '''
     num_batches = len(prompts_list) / batch_size 
     
-    fname = dataset_name + '-' + model_name + '-' + prompt_version
+    fname = dataset_name + '-' + model_name + '-' + prompt_version + '-thld-av-' + str(av_input_len_thld) + '-' + str(input_len_thld)
     
     path  = './output/'+ dataset_name +  '/' + model_name + '/' + prompt_version + '/'
     
@@ -391,10 +401,11 @@ def run_model(data_for_assess_csv,model_name, dataset_name, prompt_version,ques_
     output_df[outputs_col] = all_text_list          
      
     
+    
     '''
     Output to csv
     '''
-    eval_file = eval_path + model_name + "_" + dataset_name + "_" + prompt_version 
+    eval_file = eval_path + model_name + "_" + dataset_name + "_" + prompt_version + "_thld_av_" + str(av_input_len_thld) + '_' + str(input_len_thld)
     
     if max_tokens is not None:
         eval_file += 'max_token_' + str(max_tokens) 
@@ -471,11 +482,11 @@ def main():
     # problem_csv = '/Users/machi/Desktop/OLI Biology Data _ALL/Betshune-Cookman INtro Biology/stat/problem_data_all_w_explanation.csv'
     # problem_csv = '/Users/machi/Desktop/OLI Biology Data _ALL/Betshune-Cookman INtro Biology/stat/problem_data_all_w_explanation_qid_match.csv'
     # problem_csv = '/Users/machi/Desktop/OLI Biology Data _ALL/Heartland Community Colleage Engaging Biology/stat/problem_data_all_w_explanation_qid_match_courseVersion.csv'
-    problem_csv = '/Users/machi/Desktop/OLI Biology Data _ALL/OLI Biology/stat/problem_data_all_w_explanation_qid_match.csv'
+    # problem_csv = '/Users/machi/Desktop/OLI Biology Data _ALL/OLI Biology/stat/problem_data_all_w_explanation_qid_match.csv'
     
     # student_input_csv = '/Users/machi/Desktop/OLI Biology Data _ALL/Betshune-Cookman INtro Biology/shortAns_filtered/Betshune_ShortAns_filtered.csv'
     # student_input_csv = '/Users/machi/Desktop/OLI Biology Data _ALL/Heartland Community Colleage Engaging Biology/shortAns_filtered/Heartland_ShortAns_filtered.csv'
-    student_input_csv = '/Users/machi/Desktop/OLI Biology Data _ALL/OLI Biology/shortAns_filtered/OLI_ShortAns_filtered.csv'
+    # student_input_csv = '/Users/machi/Desktop/OLI Biology Data _ALL/OLI Biology/shortAns_filtered/OLI_ShortAns_filtered.csv'
 
 
     # student_input_with_coursever_csv = '/Users/machi/Desktop/OLI Biology Data _ALL/Heartland Community Colleage Engaging Biology/shortAns_filtered/Heartland_ShortAns_filtered_with_coursename.csv'
@@ -494,30 +505,39 @@ def main():
     prompt_version = 'zero_shots_qid_match'
     
     
-    sorted_by_input_data_csv = mearge_input_and_sort(problem_csv, student_input_csv, dataset_name)
+    # sorted_by_input_data_csv = mearge_input_and_sort(problem_csv, student_input_csv, dataset_name)
     # sorted_by_input_data_csv = mearge_input_and_sort_multi_course(problem_csv, student_input_with_coursever_csv, dataset_name)
-    data_for_assess_csv = sorted_by_input_data_csv
+    # data_for_assess_csv = sorted_by_input_data_csv
     
     # data_for_assess_csv = '/Users/machi/Desktop/OLI_TransactionData_Analyze/sorted_data/Betsune/Betsune_sorted_by_av_inputlen.csv'
     # data_for_assess_csv = '/Users/machi/Desktop/OLI_TransactionData_Analyze/sorted_data/Betsune/Betsune_sorted_by_av_inputlen_Multi_Steps.csv'
+    data_for_assess_csv = '/Users/machi/Documents/GitHub/Misconception_Analysis/OLI_TransactionData_Analyze/sorted_data/OLI Biology/OLI Biology_sorted_by_av_inputlen_noblank.csv'
     
     
-    ques_list_to_skip = ['List several questions you have about the study of biology. What concepts do you hope to cover in this course? What are you most excited to learn about?',
-     'List three control variables other than age.']
+    # ques_list_to_skip = ['List several questions you have about the study of biology. What concepts do you hope to cover in this course? What are you most excited to learn about?',
+    #  'List three control variables other than age.']
     
-    prob_names_skip = ['genetics_heredity_albino_digt', 'molecular_genes_mutation_lbd']
+    # prob_names_skip = ['genetics_heredity_albino_digt', 'molecular_genes_mutation_lbd']
     
-    # run_model(data_for_assess_csv,model_name, dataset_name, prompt_version, ques_list_to_skip,prob_names_skip,
-    #                     max_tokens = None, min_num_words = 10, max_num_words = 300, max_num_words_in_all_responses = 100000, batch_size = 16)
+    # run_model(data_for_assess_csv,model_name, dataset_name, prompt_version, ques_list_to_skip,prob_names_skip,av_input_len_thld = 20, input_len_thld = 10,
+    #                     max_tokens = None, min_num_words = 10, max_num_words = 300, max_num_words_in_all_responses = 100000, batch_size = 32)
     
     
+    '''
+    # Notes----------------
+    # For OLI data
+    * Run if the avarge input lenght of the problem > 20  the input length > 10, assess the input.
+    
+    '''
     
     # output_df = '/Users/machi/Desktop/OLI_TransactionData_Analyze/eval/Betsune/gpt-4o-mini/zero_shots/gpt-4o-mini_Betsune_zero_shots.csv'
+    output_df = '/Users/machi/Documents/GitHub/Misconception_Analysis/OLI_TransactionData_Analyze/eval/OLI Biology/gpt-4o-mini/zero_shots_qid_match/gpt-4o-mini_OLI Biology_zero_shots_qid_match_thld_av_20_10.csv'
     # extracted_csv_name = '/Users/machi/Desktop/OLI_TransactionData_Analyze/eval/Betsune/gpt-4o-mini/zero_shots/gpt-4o-mini_Betsune_zero_shots_extracted.csv'
+    extracted_csv_name = '/Users/machi/Documents/GitHub/Misconception_Analysis/OLI_TransactionData_Analyze/eval/OLI Biology/gpt-4o-mini/zero_shots_qid_match/gpt-4o-mini_OLI Biology_zero_shots_qid_match_thld_av_20_10_extracted.csv'
     
-    # df = pd.read_csv(output_df)
+    df = pd.read_csv(output_df)
     
-    # show_output_nicely(df,extracted_csv_name)
+    show_output_nicely(df,extracted_csv_name)
     
 
     
