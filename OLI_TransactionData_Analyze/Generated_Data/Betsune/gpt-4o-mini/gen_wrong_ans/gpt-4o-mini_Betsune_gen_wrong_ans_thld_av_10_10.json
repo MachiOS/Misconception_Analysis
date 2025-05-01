@@ -1,0 +1,781 @@
+
+ {
+  "Unit":"_u830_metabolism",
+  "Module":"_m3_pathways_and_regulation",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/_u830_metabolism\/_m3_pathways_and_regulation\/x-oli-inline-assessment\/_m3_enzm_substrate_product_SC.xml",
+  "Problem Name":"_m3_enzm_substrate_product_SC",
+  "Question":"What are enzymes, substrate, and product?",
+  "Question ID":21663447718.0,
+  "Step ID":"_m3_enzm_substrate_product_SC-DIGTq1",
+  "Explanation":"Enzymes are proteins that act as catalysts (make it easier for chemical reactions to occur). Substrates are molecules that bind to an enzyme. For any given enzyme, one or more specific substrate molecules will bind to that enzyme. Substrates are then converted to product(s) by the reaction catalyzed by the enzyme.",
+  "extracted_qid":"q1",
+  "Step Name":"_m3_enzm_substrate_product_SC-DIGTq1_A UpdateShortAnswer",
+  "Selection":"_m3_enzm_substrate_product_SC-DIGTq1_A",
+  "Level (Unit)":"Metabolism",
+  "Level (Module)":"Pathways and Regulation",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"didigetthis",
+  "step_index":0,
+  "gpt-4o-mini_gen_wrong_ans":"1. **Response:** \"Enzymes are just sugars that provide energy for chemical reactions to happen.\"\n   - **Explanation:** This response is incorrect because enzymes are proteins, not sugars. While sugars can be related to energy production (such as glucose being a key energy source for cells), they do not function as catalysts in chemical reactions. Enzymes facilitate reactions without being consumed, whereas sugars primarily serve as energy sources or structural components.\n\n2. **Response:** \"Substrates are the same as products; they are simply the final result of any chemical reaction.\"\n   - **Explanation:** This misunderstanding conflates the definitions of substrates and products. Substrates are the initial reactants that bind to an enzyme, while products are the molecules formed as a result of the reaction. They are two different stages of the enzymatic process, not interchangeable terms.\n\n3. **Response:** \"Enzymes can work on any type of molecule without specificity. They don't need specific substrates.\"\n   - **Explanation:** This response is incorrect because enzymes are highly specific in their action. Each enzyme typically binds to a particular substrate, or a group of closely related substrates, due to unique active site shapes and chemical properties. This specificity is a fundamental characteristic of enzyme function.\n\n4. **Response:** \"If there are no enzymes present, the reaction cannot occur at all.\"\n   - **Explanation:** While enzymes catalyze reactions to significantly speed them up, many chemical reactions can occur without enzymes, albeit at a much slower rate. Chemical reactions can still take place due to thermal energy and other factors even in the absence of enzymes, which is important in understanding the broader context of chemistry.\n\n5. **Response:** \"Enzymes are consumed during the reaction, so they are part of the products.\"\n   - **Explanation:** This statement is incorrect because enzymes are not consumed during the chemical reactions they catalyze. They facilitate the conversion of substrates into products and can continue to catalyze multiple reactions without being part of the end products. This property of enzymes is crucial for their function in biological systems, allowing them to act repeatedly."
+ }
+
+ {
+  "Unit":"_u830_metabolism",
+  "Module":"_m3_pathways_and_regulation",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/_u830_metabolism\/_m3_pathways_and_regulation\/x-oli-inline-assessment\/_m3_enzm_substrate_product_SC.xml",
+  "Problem Name":"_m3_enzm_substrate_product_SC",
+  "Question":"What is the active site of an enzyme?",
+  "Question ID":5974992642.0,
+  "Step ID":"_m3_enzm_substrate_product_SC-DIGTq2",
+  "Explanation":"It is the site in the enzyme to which substrate binds.",
+  "extracted_qid":"q2",
+  "Step Name":"_m3_enzm_substrate_product_SC-DIGTq2_A UpdateShortAnswer",
+  "Selection":"_m3_enzm_substrate_product_SC-DIGTq2_A",
+  "Level (Unit)":"Metabolism",
+  "Level (Module)":"Pathways and Regulation",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"didigetthis",
+  "step_index":1,
+  "gpt-4o-mini_gen_wrong_ans":"1. **Response:** The active site is where the enzyme is produced inside the cell.  \n   **Explanation:** This response is incorrect because the active site is not the location of enzyme production. The active site refers specifically to the region on the enzyme where the substrate binds during a chemical reaction. Enzymes are synthesized by translating genetic information in the cell, separate from their functional sites.\n\n2. **Response:** The active site is where the enzyme is stored in the cell until it is needed.  \n   **Explanation:** This misunderstanding conflates the concept of enzyme storage with its active site. While enzymes are indeed stored in cells, the active site is a part of the enzyme's structure that interacts with substrates, not a storage location. Enzymes do not perform their function while stored; they must be active.\n\n3. **Response:** The active site is where products are released after the reaction has occurred.  \n   **Explanation:** This is incorrect because the active site is dedicated to binding substrates, not releasing products. After the enzyme catalyzes the reaction, the products are released from the active site, but this site does not act as a release point. The function of the active site is to facilitate the reaction between substrates, not manage product release.\n\n4. **Response:** The active site changes shape to fit any molecule that comes into it, like a lock and key mechanism.  \n   **Explanation:** This statement is misleading. While the \"lock and key\" analogy suggests that the active site has a specific shape that only fits particular substrates, it does not imply that the active site changes shape to fit any molecule. Instead, the active site often shows slight conformational changes that complement the substrate, but it is specific to certain substrates and does not universally accommodate any molecule.\n\n5. **Response:** The active site is where the enzyme accumulates energy for the reaction.  \n   **Explanation:** This response is incorrect because the active site does not function as a site of energy accumulation. Instead, the role of the active site is to facilitate the interaction between the enzyme and substrate to lower the activation energy of the reaction. Energy transformation occurs during the process, but the active site does not store or accumulate energy."
+ }
+
+ {
+  "Unit":"_u830_metabolism",
+  "Module":"_m3_pathways_and_regulation",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/_u830_metabolism\/_m3_pathways_and_regulation\/x-oli-inline-assessment\/_m3_long_term_factors_weight_LBD.xml",
+  "Problem Name":"_m3_long_term_factors_weight_LBD",
+  "Question":"You may have seen television programs that make weight loss into a contest, with the prize going to the contestant who takes off pounds the fastest. You may even have similar incentive programs in your own school, church, or workplace. Are these contests or incentives a good idea?",
+  "Question ID":51795946593.0,
+  "Step ID":"m3_long_term_factors_weight_LBD_q5_SC",
+  "Explanation":"Yes and no. It is a good idea for obese or overweight people to lose weight. Excess body fat can harm their health or interfere with their daily activities. However, weight loss should occur slowly in the context of permanent changes to a person\u2019s lifestyle. Very rapid weight loss can be counterproductive, because the pounds are likely to pile back on as the person\u2019s metabolism slows and hunger increases.",
+  "extracted_qid":"q5",
+  "Step Name":"m3_long_term_factors_weight_LBD_q5_SC_A UpdateShortAnswer",
+  "Selection":"m3_long_term_factors_weight_LBD_q5_SC_A",
+  "Level (Unit)":"Metabolism",
+  "Level (Module)":"Pathways and Regulation",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"learnbydoing",
+  "step_index":0,
+  "gpt-4o-mini_gen_wrong_ans":"1. **Response:** \"Weight loss contests are a great way to make people feel bad about their bodies and encourage unhealthy habits to win the prize.\"\n   - **Why it's wrong:** This response misunderstands the purpose of weight loss contests. While some may feel negative pressure, the intention behind these programs is often to promote healthier lifestyles rather than to belittle individuals. Healthy weight loss should encourage self-improvement and well-being, not foster negative body image or unhealthy behaviors.\n\n2. **Response:** \"Losing weight quickly is the best way to achieve your goals because it shows determination and willpower.\"\n   - **Why it's wrong:** This perception is flawed because rapid weight loss can lead to health complications and is often unsustainable. It overlooks the importance of gradual changes and proper health management, which can lead to long-term success. It promotes a dangerous mentality that equates speed with effectiveness in health-related endeavors.\n\n3. **Response:** \"Weight loss contests encourage people to eat less food, which is the only factor that matters in weight management.\"\n   - **Why it's wrong:** This response simplifies the complex issue of weight management. It fails to recognize that weight loss is influenced by a variety of factors, including nutrition quality, physical activity, emotional well-being, and metabolism. Oversimplifying it to just eating less disregards the importance of a balanced diet and healthy lifestyle changes.\n\n4. **Response:** \"As long as you lose weight, it doesn't matter how you do it. Any method is fine!\"\n   - **Why it's wrong:** This statement overlooks the critical aspect of health and safety associated with weight loss. It implies that any approach, including potentially harmful practices like starvation or extreme dieting, is acceptable simply because the outcome is weight loss. Healthy weight loss should prioritize well-being and sustainable practices, not just quick results.\n\n5. **Response:** \"Weight loss contests are better than exercise programs because they focus purely on results instead of effort.\"\n   - **Why it's wrong:** This response fails to recognize the value of exercise. While contests may focus on quick results, successful weight management also involves physical activity for overall health. Exercise plays a crucial role in maintaining a healthy weight and enhancing fitness, and equating contests solely with results neglects the importance of incorporating regular physical activity into a lifestyle change."
+ }
+
+ {
+  "Unit":"_u830_metabolism",
+  "Module":"_m3_pathways_and_regulation",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/_u830_metabolism\/_m3_pathways_and_regulation\/x-oli-inline-assessment\/_m3_low_cal_diet_LBD.xml",
+  "Problem Name":"_m3_low_cal_diet_LBD",
+  "Question":"Bill, an overweight man in his twenties, goes on a very low calorie diet. He is determined to lose weight and keep it off. Within a few days, Bill has already lost four pounds! How or why was Bill able to lose those first few pounds so quickly?",
+  "Question ID":60422599195.0,
+  "Step ID":"_m3_low_cal_diet_LBDq1",
+  "Explanation":"Most of the weight lost was probably water weight. Bill catabolized his glycogen and the resulting water was excreted in the urine.",
+  "extracted_qid":"q1",
+  "Step Name":"_m3_low_cal_diet_LBDq1_A UpdateShortAnswer",
+  "Selection":"_m3_low_cal_diet_LBDq1_A",
+  "Level (Unit)":"Metabolism",
+  "Level (Module)":"Pathways and Regulation",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"learnbydoing",
+  "step_index":0,
+  "gpt-4o-mini_gen_wrong_ans":"1. **Response: Bill lost weight because his metabolism was boosted by consuming more carbohydrates.**\n   - **Explanation:** This response is incorrect because carbohydrates typically lead to glycogen storage in the body, which holds onto water. A very low-calorie diet often involves a reduction in carbohydrate intake, which actually causes a decrease in glycogen stores and a subsequent loss of water weight, not an increase.\n\n2. **Response: Bill gained weight because he was exercising intensely right after starting his diet.**\n   - **Explanation:** This response misunderstands the effects of caloric restriction in conjunction with exercise. While exercise can cause temporary weight fluctuations due to muscle repair and glycogen replenishment, a very low-calorie diet typically leads to initial weight loss, particularly from water weight. Therefore, Bill likely experienced weight loss, not gain.\n\n3. **Response: Bill lost weight because he is now eating more fat and protein than before.**\n   - **Explanation:** While a very low-calorie diet can indeed include higher proportions of fat and protein, this doesn't explain the rapid initial weight loss. In fact, it is the reduction in total caloric intake and the depletion of glycogen stores that immediately lead to significant weight loss, not merely a shift in macronutrient composition that would take longer to show effects.\n\n4. **Response: Bill's body is using muscle mass for energy, which resulted in the initial weight loss.**\n   - **Explanation:** While it is true that prolonged calorie restriction can lead to muscle loss, initial weight loss typically involves water weight due to glycogen depletion, not muscle mass. The body does not rapidly start using muscle for energy in the first few days of a diet; that usually occurs later if calorie deficit persists.\n\n5. **Response: Bill lost weight quickly because of a miracle supplement he started taking.**\n   - **Explanation:** This response reflects a misunderstanding of weight loss processes. While some supplements claim rapid weight loss effects, such assertions lack scientific backing. Real weight loss, especially in a very low-calorie diet, is primarily due to reduced caloric intake and changes in water retention, rather than any magical supplement."
+ }
+
+ {
+  "Unit":"_u830_metabolism",
+  "Module":"_m3_pathways_and_regulation",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/_u830_metabolism\/_m3_pathways_and_regulation\/x-oli-inline-assessment\/_m3_low_cal_diet_LBD.xml",
+  "Problem Name":"_m3_low_cal_diet_LBD",
+  "Question":"Over time, Bill continues to lose weight. At first he is averaging about one pound per week of weight loss. Gradually the rate of weight loss slows down, even though he sticks to the exact same level of calorie intake and exercise each day. Why, with the same calorie intake and activity level, would Bill\u2019s weight loss slow down as he gets thinner?",
+  "Question ID":39682824368.0,
+  "Step ID":"_m3_low_cal_diet_LBDq2",
+  "Explanation":"Bill\u2019s basal metabolic rate (BMR) \u2014 the number of calories used just to stay alive \u2014 is probably slowing down, partly as a result of weight loss itself, and partly as his body\u2019s response to the loss of body fat. This reduces Bill\u2019s total calorie expenditure, even though his activity level is the same. Bill will have to cut his calorie intake even more if he wants to continue losing weight.",
+  "extracted_qid":"q2",
+  "Step Name":"_m3_low_cal_diet_LBDq2_A UpdateShortAnswer",
+  "Selection":"_m3_low_cal_diet_LBDq2_A",
+  "Level (Unit)":"Metabolism",
+  "Level (Module)":"Pathways and Regulation",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"learnbydoing",
+  "step_index":1,
+  "gpt-4o-mini_gen_wrong_ans":"1. **Response:** Bill simply needs to exercise less frequently as he loses weight because his body doesn't require as much energy.\n   - **Why it\u2019s wrong:** This response misunderstands the relationship between exercise and weight loss. Exercise burns calories regardless of body weight, and reducing frequency could further decrease calorie expenditure and potentially hinder weight loss. Weight loss occurs primarily through a calorie deficit, not by reducing workout frequency.\n\n2. **Response:** Bill's weight loss must be slowing down because he is eating unhealthy foods that he wasn't aware of.\n   - **Why it\u2019s wrong:** The question states that Bill maintains the same level of calorie intake and exercise. If he is consistent with his diet, the type of foods he consumes shouldn't affect his weight loss rate, assuming he remains in a calorie deficit. It also overlooks the body's adaptive responses to weight loss, which is the actual reason for the slowing weight loss.\n\n3. **Response:** As Bill loses weight, his clothes are fitting him better, so he probably feels encouraged to treat himself more often with snacks.\n   - **Why it\u2019s wrong:** This response misinterprets the situation. While feeling good about weight loss may lead some to indulge, it doesn't account for the physiological aspect of why the body adapts to weight loss. Therefore, it ignores the inherent biological mechanisms that slow metabolism and does not address the question about metabolism changes.\n\n4. **Response:** Bill is probably gaining muscle while he loses fat, which is why his weight loss is slowing.\n   - **Why it\u2019s wrong:** While it's true that muscle gain can occur from resistance training, it doesn't explain the slowing rate of weight loss in this scenario. Muscle weighs more than fat, so if Bill is gaining muscle while losing fat, he may actually not see a drop in weight, but the question implies he is still losing weight, just at a slower rate, due to metabolic changes as he becomes leaner.\n\n5. **Response:** Bill\u2019s age has nothing to do with his weight loss; it\u2019s all about changing his exercise routine to something more intense.\n   - **Why it\u2019s wrong:** This response overlooks the fact that age can affect basal metabolic rate and how the body responds to weight loss. While exercise has a role in weight management, the question specifically asks about the slowing weight loss despite consistent exercise and calorie intake, linking it to changes in metabolism rather than just exercise intensity."
+ }
+
+ {
+  "Unit":"_u830_metabolism",
+  "Module":"_m3_pathways_and_regulation",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/_u830_metabolism\/_m3_pathways_and_regulation\/x-oli-inline-assessment\/_m3_low_cal_diet_LBD.xml",
+  "Problem Name":"_m3_low_cal_diet_LBD",
+  "Question":"As Bill continues to lose body fat, his circulating leptin level declines. What do you predict will happen to Bill\u2019s hunger and food cravings as a result?",
+  "Question ID":50226070027.0,
+  "Step ID":"_m3_low_cal_diet_LBDq3",
+  "Explanation":"Bill will experience more intense food cravings and hunger due to the decline in leptin. It may be a good idea for Bill to slow down his weight loss, very gradually working down toward his goal weight.",
+  "extracted_qid":"q3",
+  "Step Name":"_m3_low_cal_diet_LBDq3_A UpdateShortAnswer",
+  "Selection":"_m3_low_cal_diet_LBDq3_A",
+  "Level (Unit)":"Metabolism",
+  "Level (Module)":"Pathways and Regulation",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"learnbydoing",
+  "step_index":2,
+  "gpt-4o-mini_gen_wrong_ans":"1. **Response:** Bill will feel more energetic as he loses body fat, which will decrease his hunger and cravings. \n\n   **Explanation:** This response is incorrect because although some individuals may feel more energetic due to weight loss, the physiological effect of declining leptin levels is an increase in hunger and cravings. Leptin is a hormone that signals satiety; lower levels can lead to increased appetite and cravings, not energy.\n\n2. **Response:** Since Bill is losing fat, his insulin levels will decrease significantly, leading to no hunger at all.\n\n   **Explanation:** This response demonstrates a misunderstanding of the relationship between leptin, insulin, and hunger. While insulin sensitivity may change with fat loss, it does not directly correlate with leptin levels or hunger. In fact, lower leptin can lead to increased hunger despite changes in insulin levels.\n\n3. **Response:** Bill should eat more processed foods like chips and cookies to satisfy his cravings without gaining weight.\n\n   **Explanation:** This response is misleading because while processed foods might temporarily satisfy cravings, they are often high in calories, sugar, and unhealthy fats, and can lead to weight gain. Eating such foods would likely exacerbate Bill's cravings and not help him manage his hunger due to the lack of nutritional value.\n\n4. **Response:** Bill\u2019s metabolism will speed up as he loses body fat, so he won't feel hungry because his body will burn calories faster.\n\n   **Explanation:** While some individuals may experience a small boost in metabolic rate when losing weight, the primary issue here is that decreasing leptin levels lead to increased hunger. Higher metabolism does not negate the hunger signals caused by low leptin; in fact, the body often compensates for weight loss by increasing appetite.\n\n5. **Response:** Bill should stop exercising altogether since exercise makes you hungrier, and his leptin levels are already low.\n\n   **Explanation:** This response overlooks the broader benefits of exercise, which can include regulation of appetite, improved mood, and increased calorie expenditure, among other benefits. While exercise can indeed increase appetite temporarily, it is important for Bill's overall health and weight loss journey. Reducing exercise is not a solution to manage hunger resulting from low leptin levels."
+ }
+
+ {
+  "Unit":"_u830_metabolism",
+  "Module":"_m3_pathways_and_regulation",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/_u830_metabolism\/_m3_pathways_and_regulation\/x-oli-inline-assessment\/_m3_meta_pathways_regulate_DIGT.xml",
+  "Problem Name":"_m3_meta_pathways_regulate_DIGT",
+  "Question":"How can inheriting altered versions of a gene lead to a loss of normal metabolic regulation?",
+  "Question ID":41357813289.0,
+  "Step ID":"_m3_meta_pathways_regulate_DIGT_q3",
+  "Explanation":"Genes code for enzyme proteins. When enzymes do not function normally, metabolic regulation is disrupted and health problems result.",
+  "extracted_qid":"q3",
+  "Step Name":"_m3_meta_pathways_regulate_DIGT_q3_ans UpdateShortAnswer",
+  "Selection":"_m3_meta_pathways_regulate_DIGT_q3_ans",
+  "Level (Unit)":"Metabolism",
+  "Level (Module)":"Pathways and Regulation",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"didigetthis",
+  "step_index":0,
+  "gpt-4o-mini_gen_wrong_ans":"1. **Response: Altered genes always produce more enzymes, which helps with metabolic regulation.**  \n   **Explanation:** This response misunderstands the concept of gene alteration. While some mutations can lead to the overproduction of enzymes, many altered genes cause enzymes to malfunction or be produced in insufficient quantities, leading to disrupted metabolic regulation rather than improving it.\n\n2. **Response: Enzymes are only present in plants, so altered genes in humans wouldn't affect metabolism at all.**  \n   **Explanation:** This statement is incorrect because enzymes are present in all living organisms, including humans. They are essential for various metabolic processes, and enzyme dysfunction due to altered genes can severely impact human metabolism.\n\n3. **Response: Inheriting altered genes will immediately make a person faster and stronger.**  \n   **Explanation:** This response reflects a misunderstanding of the effects of gene alteration. Altered genes can lead to dysfunctional enzymes, which can actually hinder metabolic processes. While some genetic variations may enhance physical traits, many alterations can cause health issues or metabolic disorders.\n\n4. **Response: Genetic alterations can only occur from environmental factors, not inherited ones.**  \n   **Explanation:** This statement is inaccurate because genetic alterations can be inherited from parents. Certain mutations in genes can be passed down through generations, leading to metabolic regulation issues. Environmental factors can also cause mutations, but inheritance is a key factor as well.\n\n5. **Response: If a gene is altered, it means that a new trait will be expressed, regardless of its effect on metabolism.**  \n   **Explanation:** This response is misleading. Not all gene alterations lead to the expression of a visible trait; some may cause dysfunction that results in metabolic problems without any physical traits being altered. Moreover, the relationship between genes and metabolic regulation is complex and doesn't always result in observable traits."
+ }
+
+ {
+  "Unit":"_u830_metabolism",
+  "Module":"_m3_pathways_and_regulation",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/_u830_metabolism\/_m3_pathways_and_regulation\/x-oli-inline-assessment\/_m3_stand_upright_LBD.xml",
+  "Problem Name":"_m3_stand_upright_LBD",
+  "Question":"Did you notice your body doing any work to keep you upright on one foot?",
+  "Question ID":21834218612.0,
+  "Step ID":"_m3_stand_upright_LBD_q1",
+  "Explanation":"Yes, even for such a seemingly simple activity, constant work is required. You probably felt movements in your foot, in your leg muscles, and perhaps in your body as a whole.",
+  "extracted_qid":"q1",
+  "Step Name":"_m3_stand_upright_LBD_q1_A UpdateShortAnswer",
+  "Selection":"_m3_stand_upright_LBD_q1_A",
+  "Level (Unit)":"Metabolism",
+  "Level (Module)":"Pathways and Regulation",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"learnbydoing",
+  "step_index":0,
+  "gpt-4o-mini_gen_wrong_ans":"1. **Response: No, my body didn't do any work because I just stood there.**\n   - **Why it\u2019s wrong:** This response misunderstands the nature of balance and stability. Even when appearing to stand still, the body engages various muscles to maintain posture and prevent falling. Balance requires continuous adjustments, which involve the nervous and muscular systems\u2014this is indeed work, even if it's subtle.\n\n2. **Response: I didn't have to do anything; it was all my bones holding me up.**\n   - **Why it\u2019s wrong:** While bones provide structure, they do not actively work to keep you upright. Muscles do the actual work of adjusting position and maintaining balance. Bones alone cannot prevent falling; muscle contractions and neurological coordination are crucial for stability.\n\n3. **Response: It felt easy, so I guess I didn't use any energy.**\n   - **Why it\u2019s wrong:** This response implies a misunderstanding of biomechanics. Even seemingly easy tasks like balancing require energy expenditure by the muscles. The body is constantly using energy to engage core and stabilizing muscles to maintain an upright position, regardless of how effortless it may feel.\n\n4. **Response: Balancing on one foot only involves the arm muscles, because they're the ones that help us keep steady.**\n   - **Why it\u2019s wrong:** This statement misrepresents how balance works. While arm movement can aid in maintaining balance, the primary muscles engaged in standing on one foot are in the legs and core. The arms play a supportive role, but they are not the main muscles responsible for balance.\n\n5. **Response: I thought only the brain did all the work for balance; the muscles don't play a big part.**\n   - **Why it\u2019s wrong:** This response demonstrates a significant misunderstanding of the role of muscles in balance. The brain sends signals, but the actual work of balancing is executed by the muscles. Muscles contract and relax in response to the brain's commands, allowing for adjustments that keep the body upright. Both components work together, making this explanation incomplete."
+ }
+
+ {
+  "Unit":"_u830_metabolism",
+  "Module":"_m3_pathways_and_regulation",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/_u830_metabolism\/_m3_pathways_and_regulation\/x-oli-inline-assessment\/_m3_stand_upright_LBD.xml",
+  "Problem Name":"_m3_stand_upright_LBD",
+  "Question":"Your ability to maintain your balance is similar to what kind of ability or tendency of cells and organisms? Identify and discuss this tendency below.",
+  "Question ID":17678352362.0,
+  "Step ID":"_m3_stand_upright_LBD_q2",
+  "Explanation":"Your \u201cbalancing act\u201d was similar to your body\u2019s ability or tendency to maintain stable internal conditions, also known as homeostasis. Your nerves monitored position and balance. When you drifted off-center, your muscles responded with corrective movements. Similarly, cells and organisms maintain homeostasis by monitoring and responding to internal changes.",
+  "extracted_qid":"q2",
+  "Step Name":"_m3_stand_upright_LBD_q2_A UpdateShortAnswer",
+  "Selection":"_m3_stand_upright_LBD_q2_A",
+  "Level (Unit)":"Metabolism",
+  "Level (Module)":"Pathways and Regulation",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"learnbydoing",
+  "step_index":1,
+  "gpt-4o-mini_gen_wrong_ans":"1. **Response:** \"Homeostasis is just about staying still and not moving in any way. Cells don't really do anything. They just hang out in place.\"\n   **Explanation:** This response misunderstands the concept of homeostasis. Homeostasis refers to the active processes that cells and organisms use to maintain a stable internal environment despite changes. Cells are highly dynamic and constantly engage in various activities to regulate conditions, such as nutrient uptake and waste removal. Simply \"hanging out\" does not capture the complexity of cellular functions.\n\n2. **Response:** \"The human body doesn't need balance because we already have bones and muscles for support. Homeostasis is just about being strong.\"\n   **Explanation:** This response conflates structural support with homeostasis. While bones and muscles provide physical support, homeostasis is about maintaining stable internal conditions, such as temperature, pH, and ion concentrations. Strong muscles are beneficial for physical stability but do not relate directly to the process of maintaining homeostasis.\n\n3. **Response:** \"If cells can only maintain homeostasis when they\u2019re healthy, then sick cells just can\u2019t do anything at all.\"\n   **Explanation:** This response implies that sick cells are completely non-functional. While it's true that illness can disrupt homeostasis, sick cells can still perform some functions, albeit often ineffectively or at a reduced capacity. Additionally, certain mechanisms may be activated in sick cells as a response, showing that they can still attempt to achieve homeostasis.\n\n4. **Response:** \"Homeostasis prevents any changes in the body's environment. If your temperature changes, your body fails at homeostasis.\"\n   **Explanation:** This statement shows a misunderstanding of homeostasis. Homeostasis does not prevent changes; instead, it refers to the body's ability to respond to such changes to bring conditions back to a stable state. Fluctuations in temperature are normal, and the body's systems actively work to adjust and maintain balance.\n\n5. **Response:** \"Homeostasis is about how organisms adapt to different environments, like growing fur in winter. That's why cats are so good at balancing!\"\n   **Explanation:** Although the adaptation to environmental changes can be related to survival, homeostasis specifically focuses on the regulation of internal conditions, not just external adaptations. While growing fur might help with temperature regulation, it does not directly relate to the mechanisms involved in maintaining homeostasis at the cellular or physiological level. Balancing, in this context, is more about physical coordination and less about adaptive traits."
+ }
+
+ {
+  "Unit":"_u810_BioChemistry",
+  "Module":"_m4_amino_acids_proteins",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/_u810_BioChemistry\/_m4_amino_acids_proteins\/x-oli-inline-assessment\/_m4_antacid_DIGT.xml",
+  "Problem Name":"_m4_antacid_DIGT",
+  "Question":"In the human stomach, proteins are digested by pepsin, an enzyme that requires an acidic pH for its optimal function. Antacids are medications that increase stomach pH. Examples include Alka-Seltzer, Tums, and Rolaids. If a person overuses antacids, how do you think this might affect that person's digestive process?",
+  "Question ID":1744831834.0,
+  "Step ID":"q1",
+  "Explanation":"When the pH is raised or increased, the activity of pepsin will decrease, which in turn decreases protein digestion.",
+  "extracted_qid":"q1",
+  "Step Name":"q1_A UpdateShortAnswer",
+  "Selection":"q1_A",
+  "Level (Unit)":"Biological Macromolecules",
+  "Level (Module)":"Proteins",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"didigetthis",
+  "step_index":0,
+  "gpt-4o-mini_gen_wrong_ans":"1. **Response:** \"Using antacids will actually help digest proteins better because they neutralize stomach acid, making it safer for the stomach lining.\"\n   - **Why it is wrong:** This response misunderstands the role of stomach acid in protein digestion. While it is true that antacids help soothe the stomach lining by neutralizing excess acid, they do not enhance protein digestion. In fact, pepsin, the enzyme responsible for protein digestion, requires an acidic environment to function effectively.\n\n2. **Response:** \"If antacids increase pH, food won't digest at all because the stomach will just get too full.\"\n   - **Why it is wrong:** This response conflates the effects of increased pH and bloating or fullness. Increasing pH affects enzyme function but does not prevent food from being digested altogether. The digestion process may slow down or be less effective, but it does not stop completely. \n\n3. **Response:** \"Taking antacids will help absorb more vitamins and minerals from food because higher pH allows for better nutrient absorption.\"\n   - **Why it is wrong:** This statement misrepresents how nutrient absorption works. While some nutrients do require an acidic environment for optimal absorption (like vitamin B12 and certain minerals), raising the pH with antacids can actually hinder the absorption of several key nutrients, not enhance it.\n\n4. **Response:** \"Pepsin works best with a neutral pH, so taking antacids won\u2019t affect protein digestion negatively.\"\n   - **Why it is wrong:** This response shows a misunderstanding of enzyme functionality. Pepsin is most active in acidic conditions (optimal pH around 1.5-3.5), and a neutral pH would severely limit its ability to cleave proteins into smaller peptides. Thus, antacids would inhibit, not support, pepsin's activity.\n\n5. **Response:** \"Antacids can replace the need for digestive enzymes because they change the stomach's environment to a more alkaline one.\"\n   - **Why it is wrong:** This response indicates a lack of understanding of the role of digestive enzymes in the digestive process. Antacids do not provide digestive enzymes; they merely alter the acidity in the stomach. Enzymatic activity is critical for digestion and cannot be substituted or replaced by antacids."
+ }
+
+ {
+  "Unit":"_u810_BioChemistry",
+  "Module":"_m4_amino_acids_proteins",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/_u810_BioChemistry\/_m4_amino_acids_proteins\/x-oli-inline-assessment\/_m4_peptide_denature_LBD.xml",
+  "Problem Name":"_m4_peptide_denature_LBD",
+  "Question":"Can you think of an example of protein denaturation that often occurs when making breakfast?",
+  "Question ID":73799428376.0,
+  "Step ID":"q2",
+  "Explanation":"When you cook an egg, the proteins in the egg white denature and aggregate. This transforms the transparent egg fluid into a white solid.",
+  "extracted_qid":"q2",
+  "Step Name":"q2_A UpdateShortAnswer",
+  "Selection":"q2_A",
+  "Level (Unit)":"Biological Macromolecules",
+  "Level (Module)":"Proteins",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"learnbydoing",
+  "step_index":0,
+  "gpt-4o-mini_gen_wrong_ans":"1. **Response:** When you toast bread, the proteins in the flour denature and turn the bread into toast.  \n   **Explanation:** While toasting bread does involve chemical changes, it primarily focuses on the Maillard reaction and the caramelization of sugars, not the denaturation of proteins. Denaturation specifically refers to the structural change of proteins due to heat or chemical processes, which isn't the primary reaction happening in toast-making.\n\n2. **Response:** When you boil pasta, the starches denature and it becomes soft and edible.  \n   **Explanation:** This response wrongly identifies the role of starch in pasta. While boiling pasta does involve the gelatinization of starch, this process is different from protein denaturation. Proteins and starches behave differently under heat, and this misunderstanding conflates two distinct biochemical processes.\n\n3. **Response:** When you stir pancake mix too much, the proteins in the flour denature and make the pancakes chewy.  \n   **Explanation:** The chewiness of pancakes is mainly due to gluten development rather than protein denaturation. Over-mixing can lead to gluten formation, making the pancake tough, but it doesn't directly relate to the denaturation of proteins in the same way that cooking eggs does.\n\n4. **Response:** When making an omelette, the fats in the butter denature and create a fluffy texture.  \n   **Explanation:** This response confuses the roles of fats and proteins. Fats do not denature; instead, they melt and contribute to the cooking process. The fluffiness of an omelette arises from air being incorporated into the egg proteins rather than the denaturation of fats.\n\n5. **Response:** When you cut vegetables for a salad, the proteins in the vegetables denature and make them unappetizing.  \n   **Explanation:** This response misinterprets the impact of cutting vegetables. Cutting vegetables does not cause protein denaturation in a significant way; instead, it can lead to cellular breakdown and enzymatic reactions that may affect freshness. Denaturation is a process that requires heat or specific chemical actions, which do not occur simply through cutting."
+ }
+
+ {
+  "Unit":"No Unit",
+  "Module":"No Module",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/x-oli-inline-assessment\/activetransport1_response.xml",
+  "Problem Name":"activetransport1_response",
+  "Question":"To make the lumen of the lysosome (the part enclosed by the lysosomal membrane) more acidic than the cytoplasm, in which direction would protons need to flow? Why?",
+  "Question ID":38547917300.0,
+  "Step ID":"activetransport1_q1",
+  "Explanation":"Protons would have to flow inwards, since a more acidic environment indicates a higher proton (hydrogen ion) concentration.",
+  "extracted_qid":"q1",
+  "Step Name":"activetransport1_q1_activetransport1_a1 UpdateShortAnswer",
+  "Selection":"activetransport1_q1_activetransport1_a1",
+  "Level (Unit)":"The Cell",
+  "Level (Module)":"Membrane Transport",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"didigetthis",
+  "step_index":0,
+  "gpt-4o-mini_gen_wrong_ans":"1. **Response:** Protons would need to flow outwards because the cytoplasm is already acidic, and we need to make the lysosome less acidic than the cytoplasm.  \n   **Explanation:** This response shows a misunderstanding of the concept of acidity. Acidity is defined by the concentration of protons; therefore, to make the lysosome more acidic, protons must flow into the lysosome, not outwards. This response incorrectly assumes that already existing acidity in the cytoplasm means protons need to be removed, rather than added to the lysosome.\n\n2. **Response:** Protons would flow in both directions equally because they are charged particles and can move freely across membranes without affecting pH.  \n   **Explanation:** This statement is incorrect because while protons are charged, their movement is not free and is regulated by transport proteins. The pH of different compartments is affected by the net movement of protons, and allowing equal flow in both directions would not create the desired difference in acidity.\n\n3. **Response:** To make the lysosome more acidic, calcium ions should flow in instead of protons.  \n   **Explanation:** This response confuses the role of calcium ions with that of protons. Calcium does play important roles in cellular signaling, but it does not directly contribute to the acidity (pH) of a solution. The acidity is determined by hydrogen ion (proton) concentration, not calcium ion concentration.\n\n4. **Response:** Protons would flow into the lysosome to neutralize its acidity, making it more basic.  \n   **Explanation:** This statement misunderstands what it means for a solution to become acidic or basic. Adding protons (H^+) will increase the acidity of the lysosomal interior, not neutralize it. To make the lysosome more basic, protons would have to be removed, which is the opposite of what is required in this context.\n\n5. **Response:** The lysosome receives protons from the Golgi apparatus, which sends them directly into the nucleus to control acidity.  \n   **Explanation:** This response shows a fundamental misunderstanding of cellular processes. The Golgi apparatus is involved in modifying, sorting, and packaging proteins and lipids but does not directly supply protons to lysosomes. The nucleus is not involved in regulating the pH of lysosomes; rather, pH regulation in organelles occurs through specific proton pumps and transport mechanisms embedded in their membranes."
+ }
+
+ {
+  "Unit":"No Unit",
+  "Module":"No Module",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/x-oli-inline-assessment\/activetransport2_response.xml",
+  "Problem Name":"activetransport2_response",
+  "Question":"Why does the process described in the last question need to be a continuous process? Why doesn\u2019t the process just stop once the correct pH in the lumen is reached?",
+  "Question ID":3367905386.0,
+  "Step ID":"activetransport2_q1",
+  "Explanation":"Protons, although charged, can leak back through the membrane. In addition, negatively charged molecules in the lumen can become protonated and shuttle the protons across the membrane in their neutral form.",
+  "extracted_qid":"q1",
+  "Step Name":"activetransport2_q1_activetransport2_a1 UpdateShortAnswer",
+  "Selection":"activetransport2_q1_activetransport2_a1",
+  "Level (Unit)":"The Cell",
+  "Level (Module)":"Membrane Transport",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"didigetthis",
+  "step_index":0,
+  "gpt-4o-mini_gen_wrong_ans":"1. Response: The process doesn\u2019t need to be continuous because once the pH reaches the right level, the protons will stay in the lumen and will not move back across the membrane.\n   - Explanation: This response misunderstands the dynamic nature of proton concentration and pH balance. Protons do not simply stay in one place; they can move across membranes due to concentration gradients and electrochemical forces. Moreover, pH balance relies on continuous regulation, not a static state.\n\n2. Response: The process can stop because enzymes that require a specific pH level will become inactive if the pH is too acidic or alkaline, so they only need to be active part of the time.\n   - Explanation: The understanding of enzymes in this context is incorrect. While enzymes do have specific pH requirements, the need for maintaining correct pH is crucial for cellular function and to avoid harmful conditions. Some cellular processes must be continuously active to prevent damage rather than being turned on and off based on enzyme activity.\n\n3. Response: Once the correct pH is reached, the protons just turn into water and are no longer a concern, so the process can stop.\n   - Explanation: This response misinterprets the behavior of protons in a biological context. Although protons can combine with hydroxide ions to form water, the process in question is about maintaining the right balance of protons in the lumen. The necessity for continuous proton regulation remains regardless of their existence as water.\n\n4. Response: The membrane only allows protons to pass one way, so once the correct pH is achieved, they can\u2019t go back across anyway.\n   - Explanation: This response shows a fundamental misunderstanding of the membrane\u2019s properties. While membranes can have selective permeability, they can allow protons to pass back across under certain conditions, especially if the concentration gradient changes. Therefore, a continual process is needed to maintain the pH balance effectively.\n\n5. Response: The continuous process is only required in the stomach for digestion; in other organs, the pH only matters when food is present.\n   - Explanation: This response reflects a misunderstanding of homeostasis and the importance of pH balance in all biological systems, not just during digestion. Various processes in different organs continuously require precise pH regulation to function properly, regardless of the presence of food. Maintaining the correct environment is vital for cellular processes all the time."
+ }
+
+ {
+  "Unit":"_u810_BioChemistry",
+  "Module":"_m1_Atoms_Bonding_and_Water",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/_u810_BioChemistry\/_m1_Atoms_Bonding_and_Water\/x-oli-inline-assessment\/biochem_bonding_saltwater_submit_DIGT.xml",
+  "Problem Name":"biochem_bonding_saltwater_submit_DIGT",
+  "Question":"Ionic compounds dissolve and ionic bonds are broken in water. Why do you think water can separate ions and break ionic bonds?",
+  "Question ID":19070469491.0,
+  "Step ID":"q1",
+  "Explanation":"Ionic bonds involve charges interacting with each other. If water is added to an ionic compound (such as NaCl), the positively charged Na atoms are surrounded by water molecules with the oxygen (which have a slight negative charge) closest to the Na + . The negatively charged Cl is also surrounded by water molecules. In this case, the hydrogen atoms (which have a slight positive charge) are closest to the Cl - The water molecules surround each ion and disrupt the ionic bonds in this way.",
+  "extracted_qid":"q1",
+  "Step Name":"q1_a1 UpdateShortAnswer",
+  "Selection":"q1_a1",
+  "Level (Unit)":"Introduction to Chemistry",
+  "Level (Module)":"Chemical Bonds",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"didigetthis",
+  "step_index":0,
+  "gpt-4o-mini_gen_wrong_ans":"1. **Response**: \"Ionic compounds dissolve in water because they melt into a liquid form, and that's why they can separate into ions.\"  \n   **Explanation**: This response misunderstands the nature of ionic compounds and their dissolution process. Ionic compounds do not melt into a liquid when they are dissolved; instead, they break apart at the molecular level due to the interaction with water molecules without changing to a liquid state first. The dissolution is a physical process where the solid ionic lattice is disrupted by the solvent, not a melting process.\n\n2. **Response**: \"Water is made up of positive ions, which is why it can break ionic bonds easily.\"  \n   **Explanation**: This response is incorrect because water (H2O) is a neutral molecule, not made up of positive ions. In reality, the polar nature of water allows it to interact with and surround the charged ions, but it is not inherently made of positive ions itself. The assumption that water consists of positive ions is a fundamental misunderstanding of chemical structures.\n\n3. **Response**: \"Ionic bonds can only be broken at very high temperatures, and that's why water can't dissolve all ionic compounds.\"  \n   **Explanation**: This response wrongly implies that ionic bonds require high temperatures for their disruption, which is not true when discussing dissolution in water. Many ionic compounds dissolve at room temperature because water can effectively surround and solvate the ions without the need for heat. While some compounds may be less soluble, the presence of water effectively disrupts ionic bonds due to strong interactions at ambient conditions.\n\n4. **Response**: \"Ionic compounds are always soluble in water, so when they dissolve, it doesn\u2019t matter how they break apart.\"  \n   **Explanation**: This response demonstrates a misunderstanding of solubility. Not all ionic compounds are soluble in water; some, like barium sulfate (BaSO4), are insoluble. The dissolution depends on the specific interactions between the ionic compound and water molecules, and this response overlooks that fundamental characteristic by asserting that all ionic compounds will dissolve.\n\n5. **Response**: \"Water's ability to break ionic bonds is because it has a higher density than the ions.\"  \n   **Explanation**: This explanation is incorrect as it confuses physical properties with chemical interactions. The ability of water to separate ions from an ionic compound is due to its polar nature and hydrogen bonding, not because it has a higher density than the ions themselves. In fact, water's density does not affect its ability to interact with and break ionic bonds; it is the solvent-solute interactions that are key to dissolving ionic compounds."
+ }
+
+ {
+  "Unit":"_u810_BioChemistry",
+  "Module":"_m3_carbohydrates",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/_u810_BioChemistry\/_m3_carbohydrates\/x-oli-inline-assessment\/biochem_org_intro_properties_DIGT.xml",
+  "Problem Name":"biochem_org_intro_properties_DIGT",
+  "Question":"Examine the molecule below. It is found in scorpion venom. Is it organic? How do you know?",
+  "Question ID":42585494889.0,
+  "Step ID":"q3",
+  "Explanation":"Yes, it is organic. There are many rings and chains of carbon atoms and there are dozens of C-H bonds. The smaller repeated units (rings, chains) are strung together to make a large, complex molecule. Also, the fact that this molecule is made by a living thing (a scorpion) is another clue that it is an organic molecule. Keep in mind, however, that not all organic molecules are produced by living things.",
+  "extracted_qid":"q3",
+  "Step Name":"q3_a1 UpdateShortAnswer",
+  "Selection":"q3_a1",
+  "Level (Unit)":"Biological Macromolecules",
+  "Level (Module)":"Introduction to Organic Molecules",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"learnbydoing",
+  "step_index":0,
+  "gpt-4o-mini_gen_wrong_ans":"1. Response: No, it cannot be organic because it comes from a scorpion, which is an insect, and insects are not considered living organisms. \n   - Explanation: This response is incorrect because insects are indeed living organisms, specifically a class of arthropods. The fact that scorpions produce venom categorized as organic does not depend on their classification as insects or any living organism. \n\n2. Response: Yes, it must be organic, but it can't have carbon because organic molecules do not have carbon unless they are solid at room temperature. \n   - Explanation: This response shows a fundamental misunderstanding of organic chemistry; organic molecules are defined by the presence of carbon atoms regardless of their physical state at room temperature. Many organic compounds exist as liquids or gases, contradicting the assertion in this response.\n\n3. Response: No, it can't be organic because molecules from animals are always inorganic and only plants can create organic molecules. \n   - Explanation: This response is incorrect because both animals and plants can produce organic molecules. Organic chemistry includes compounds from all living organisms, not just those from plants. The origin of the molecule does not limit its classification to organic or inorganic.\n\n4. Response: Yes, it's organic, which means it has nutrients like proteins and carbohydrates that are essential for diet. \n   - Explanation: This is a misunderstanding of terminology. While many organic molecules can be nutrients (like carbohydrates and proteins), the term \"organic\" in chemistry refers to the presence of carbon and hydrogen in a molecule. It does not necessarily imply that the molecule has dietary value or is a nutrient.\n\n5. Response: No, scorpion venom is a chemical and chemicals are always inorganic no matter the source. \n   - Explanation: This response confuses chemical classifications. While some chemicals are inorganic, organic compounds specifically refer to any molecule that contains carbon atoms. Scorpion venom can contain organic molecules as it is produced biologically and consists of various carbon-containing compounds."
+ }
+
+ {
+  "Unit":"_u810_BioChemistry",
+  "Module":"_m2_equilib_pH",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/_u810_BioChemistry\/_m2_equilib_pH\/x-oli-inline-assessment\/biochem_ph_why_buffers_submit_DIGT.xml",
+  "Problem Name":"biochem_ph_why_buffers_submit_DIGT",
+  "Question":"Are buffers an unlimited guarantee that the pH of a solution will remain in a narrow range?",
+  "Question ID":96105449322.0,
+  "Step ID":"q1",
+  "Explanation":"No, they only can deal with a limited quantity of acid or base. If acid or base is continuously added to a buffered solution, eventually the buffering capacity will be used up. The buffer will not be able to absorb or donate any more hydrogen ions, and the solution\u2019s pH will start to change quickly if even more acid or base is added.",
+  "extracted_qid":"q1",
+  "Step Name":"q1_a1 UpdateShortAnswer",
+  "Selection":"q1_a1",
+  "Level (Unit)":"Introduction to Chemistry",
+  "Level (Module)":"Acids and Bases",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"didigetthis",
+  "step_index":0,
+  "gpt-4o-mini_gen_wrong_ans":"1. **Response: Yes, buffers can completely prevent any changes in pH, no matter the amount of acid or base added.**\n   - **Explanation:** This response is incorrect because it misrepresents the function of buffers. While buffers do help maintain pH levels within a certain range, they have a finite capacity and cannot completely prevent pH changes. Over time, the addition of enough acid or base will lead to exhaustion of the buffer's capacity.\n\n2. **Response: Buffers are only effective at neutral pH (7) and lose their properties below or above this level.**\n   - **Explanation:** This response is wrong because it wrongly assumes that buffers can only operate effectively at a neutral pH. In reality, buffers can function across a range of pH levels, depending on their composition. For example, a buffer made with acetic acid and sodium acetate can effectively stabilize pH levels around 4.75, which is far from neutral.\n\n3. **Response: Adding water to a buffered solution will always maintain the pH at the original level.**\n   - **Explanation:** This is incorrect as adding water dilutes the solution, which can reduce the concentration of the buffer components and ultimately alter the pH. While water can temporarily stabilize a pH, it doesn't guarantee that the pH will remain unchanged, especially if the buffering capacity becomes compromised.\n\n4. **Response: Buffers work by absorbing oxygen from the solution, which keeps the pH stable.**\n   - **Explanation:** This response is fundamentally incorrect as it confuses the mechanism of pH stability with concepts of oxidation. Buffers stabilize pH by maintaining the balance of hydrogen ions (H\u207a) and their conjugate base, not by removing oxygen. The presence of oxygen does not directly influence the pH stabilization that buffers provide.\n\n5. **Response: All chemical solutions that mix two liquids are buffers and can resist pH changes automatically.**\n   - **Explanation:** This response reveals a misunderstanding of what a buffer is. Not all mixtures of two liquids form a buffer; a true buffer requires a specific combination of a weak acid and its conjugate base or a weak base and its conjugate acid in appropriate concentrations. Simply mixing two liquids does not guarantee buffering action or stability against pH changes."
+ }
+
+ {
+  "Unit":"_u810_BioChemistry",
+  "Module":"_m2_equilib_pH",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/_u810_BioChemistry\/_m2_equilib_pH\/x-oli-inline-assessment\/biochem_whypH_acid_DIGT.xml",
+  "Problem Name":"biochem_whypH_acid_DIGT",
+  "Question":"Why is pH regulated in your body? How is the pH of your blood regulated?",
+  "Question ID":15433190526.0,
+  "Step ID":"q3",
+  "Explanation":"Cells and living organisms can only function and survive in a very limited pH range. If pH is disrupted, the chemical reactions that enable life stop working. It is therefore an essential part of homeostasis to maintain the appropriate pH balance within a cell\/organism. In diabetic ketoacidosis, a wide range of health problems and even death can result due to disruption of the body\u2019s pH. In healthy people, blood pH is regulated partly through the action of a buffer (bicarbonate).",
+  "extracted_qid":"q3",
+  "Step Name":"q3_a3 UpdateShortAnswer",
+  "Selection":"q3_a3",
+  "Level (Unit)":"Introduction to Chemistry",
+  "Level (Module)":"Acids and Bases",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"didigetthis",
+  "step_index":0,
+  "gpt-4o-mini_gen_wrong_ans":"1. **Response:** \"pH is not important because all organisms can live in any pH environment, like how some animals can live in the ocean with varying pH levels.\"   \n   **Explanation:** This response shows a misunderstanding of biological functions. While some organisms can tolerate different pH levels, most cells require specific pH ranges for biochemical processes. Extreme deviations from these ranges can be harmful or lethal, which contradicts the claim that all organisms can live in any pH.\n\n2. **Response:** \"Since humans are mostly water, the pH of blood is regulated by periodic drinking of water to balance it out.\"  \n   **Explanation:** This response misunderstands blood pH regulation. While water consumption affects overall hydration, blood pH is primarily controlled through biological buffering systems and cellular metabolism, not just by drinking water. Simply drinking water cannot maintain specific pH levels needed for proper metabolic function.\n\n3. **Response:** \"The body employs hormones to change pH levels, so when the pH is too low, it releases insulin to raise it.\"  \n   **Explanation:** This response incorrectly links insulin, a hormone involved in glucose metabolism, with pH regulation. The body does use hormones for many functions, but pH regulation is mostly managed by bicarbonate buffering and respiration control, not insulin, which has no direct role in altering blood pH.\n\n4. **Response:** \"Animals that live in acidic environments evolve to have higher blood pH levels to get used to the acidity around them.\"  \n   **Explanation:** This response suggests a misunderstanding of evolutionary adaptation and homeostasis. While some animals may adapt to survive in acidic environments, their internal pH must still remain stable within a limited range for enzyme function and survival. A higher blood pH would contradict the physiological needs of these species.\n\n5. **Response:** \"The immune system is responsible for regulating blood pH by fighting off bacteria that cause acidosis.\"  \n   **Explanation:** This response confuses immune function with metabolic regulation. While the immune system does respond to infections and diseases, blood pH regulation is mainly a function of respiratory and renal systems, which manage acid-base balance, rather than the immune response directly handling pH changes caused by metabolic or environmental factors."
+ }
+
+ {
+  "Unit":"_u870_classical_genetics",
+  "Module":"_m1_Heredity",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/_u870_classical_genetics\/_m1_Heredity\/x-oli-inline-assessment\/genetics_heredity_mendells_contribution_SC.xml",
+  "Problem Name":"genetics_heredity_mendells_contribution_SC",
+  "Question":"What did Mendel do that led him to be called the \u201cFather of Modern Genetics?\"",
+  "Question ID":46365453285.0,
+  "Step ID":"g1",
+  "Explanation":"Mendel was the first person to use \u201ctrue breeding\u201d plants, manually mate them, and follow the outcomes of offspring. What made Mendel\u2019s experiments successful where others failed, was that he used only plants with true breeding traits, he looked at a limited number of traits, and each trait he studied only has two forms or phenotypes (purple or white flowers, smooth or wrinkles peas, etc.). By counting the number of offspring plants from his crosses that expressed each trait, he was able to determine which trait pair was stronger (dominant) and which was weaker (recessive). After repeated matings and evaluating his data he was then able to predict the outcomes of matings between plants. Because he was the first scientist to really understand how specific traits were inherited from one generation to the next, he has been dubbed the \u201cFather of Modern Genetics\u201d. He laid the ground work for the field of genetics as we know it today.",
+  "extracted_qid":null,
+  "Step Name":"g1_qsub_0 UpdateShortAnswer",
+  "Selection":"g1_qsub_0",
+  "Level (Unit)":"Classical Genetics",
+  "Level (Module)":"Heredity",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"didigetthis",
+  "step_index":0,
+  "gpt-4o-mini_gen_wrong_ans":"1. Response: Mendel used animals like dogs and cats to study inheritance patterns, which is why he's called the Father of Modern Genetics.  \n   Explanation: This response is incorrect because Mendel exclusively conducted his experiments on pea plants, not animals. His work with true breeding plants allowed him to observe predictable patterns of inheritance, which would not have been as clear or controlled if he had worked with animals, given their more complex genetic backgrounds.\n\n2. Response: Mendel discovered that all traits are inherited equally and that there is no dominant or recessive traits.  \n   Explanation: This answer misinterprets Mendel's findings. Mendel's key contributions were the concepts of dominant and recessive traits, where certain traits (dominant) mask the expression of others (recessive). He showed that traits are not inherited equally, as some traits can overpower others in the phenotype.\n\n3. Response: Mendel's work was primarily about the color variations in animals and how they adapt to their environments.  \n   Explanation: This response is wrong as it confuses Mendel's focus on genetic inheritance with evolutionary adaptations. Mendel's work was specifically on pea plants and their traits, such as flower color and seed shape, rather than on animal colors or adaptation.\n\n4. Response: Mendel invented the microscope, which allowed him to see the genetic material in plant cells.  \n   Explanation: This answer is incorrect because Mendel did not invent the microscope; it was invented long before he started his experiments. While microscopes certainly aid in studying cells, Mendel's methodology involved careful observation and statistical analysis of plant traits rather than the direct observation of genetic material through microscopy.\n\n5. Response: Mendel was the first to propose the theory of evolution, which is why he is known as the Father of Modern Genetics.  \n   Explanation: This response is a misunderstanding of Mendel's contributions. Although his work laid the groundwork for genetics, Mendel did not propose the theory of evolution; that credit goes to Charles Darwin and Alfred Russel Wallace. Mendel's work focused on inheritance mechanisms rather than the broader concept of evolution."
+ }
+
+ {
+  "Unit":"_u870_classical_genetics",
+  "Module":"_m2_Human_Inheritance",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/_u870_classical_genetics\/_m2_Human_Inheritance\/x-oli-inline-assessment\/genetics_human_fruit_fly_experiment.xml",
+  "Problem Name":"genetics_human_fruit_fly_experiment",
+  "Question":"To practice the concept of sex-linked traits, let's call the normal X chromosome, X How can you figure out whether a red-eyed female is homozygous or heterozygous for the red allele? +; and, let's indicate the sex chromosome with the white-eyed phenotype, XW. A true-bred red-eyed female will have the genotype, X+X+. A white-eyed male would have the genotype, XWY.",
+  "Question ID":57295617583.0,
+  "Step ID":"q1",
+  "Explanation":"Look at the results of a cross between a red-eyed female and a white-eyed male, and then work backward to determine their original genotypes. Use the options X + , X W , and Y to form gametes and the resulting genotypes that match the phenotype.",
+  "extracted_qid":"q1",
+  "Step Name":"q1_A UpdateShortAnswer",
+  "Selection":"q1_A",
+  "Level (Unit)":"Classical Genetics",
+  "Level (Module)":"Human Inheritance",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"learnbydoing",
+  "step_index":0,
+  "gpt-4o-mini_gen_wrong_ans":"1. **Response:** You can just look at the female's eye color; if she's red-eyed, she must be homozygous because red is a dominant trait.\n\n   **Explanation:** This response is incorrect because dominance does not guarantee homozygosity. The red-eyed female could be heterozygous (X+XW), meaning she has one normal allele and one allele for the red eye color. Both homozygous (X+X+) and heterozygous (X+XW) females can exhibit the red-eyed phenotype due to the dominance of the normal allele.\n\n2. **Response:** You can tell if she\u2019s homozygous or heterozygous by examining the offspring of her unlinked traits.\n\n   **Explanation:** This response is misleading because linked traits (like those on sex chromosomes) must be analyzed through direct crosses and inheritance patterns rather than looking at unlinked traits. The determination of the red-eyed female's genotype relates directly to her sex-linked traits, not to unrelated traits.\n\n3. **Response:** If she has red eyes and the male has white eyes, it's guaranteed that she inherited the X chromosome from her mother.\n\n   **Explanation:** This response demonstrates misunderstanding because the inheritance of sex chromosomes does not follow typical Mendelian rules for maternal inheritance. A female inherits one X chromosome from her mother and one from her father, thus her X chromosome could come from either parent. The male's phenotype doesn\u2019t determine the maternal inheritance patterns for females.\n\n4. **Response:** You can just breed her with another red-eyed female; if they produce white-eyed offspring, she must be heterozygous.\n\n   **Explanation:** This response is incorrect because breeding two red-eyed females (X+X+ and X+XW) could yield only red-eyed offspring (assuming true-breeding for the first female). A heterozygous female could contribute to a white-eyed offspring only if mated with a male that carries the corresponding recessive allele (XWY). Therefore, the offspring's phenomenology does not directly confirm the homozygosity or heterozygosity of either female parent.\n\n5. **Response:** Since all males are XY, they can only pass on the Y chromosome, so it doesn\u2019t matter what the red-eyed female genotype is.\n\n   **Explanation:** This is a misunderstanding of basic genetics. While it is true that males carry XY chromosomes and pass on either the X or Y chromosome to offspring, the female's genotype (X+X+ or X+XW) is crucial for determining the traits of the offspring. The red-eyed female\u2019s genotype directly affects whether the offspring can be red or white-eyed, as the alleles on her X chromosomes will be passed down, not just the male's sex chromosome."
+ }
+
+ {
+  "Unit":"_u870_classical_genetics",
+  "Module":"_m2_Human_Inheritance",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/_u870_classical_genetics\/_m2_Human_Inheritance\/x-oli-inline-assessment\/genetics_inheritance_huntington.xml",
+  "Problem Name":"genetics_inheritance_huntington",
+  "Question":"Symptoms of Huntington\u2019s disease generally begin manifesting during an individual's mid-30's and result in a slow deterioration. How can a lethal dominant gene be passed to the next generation?",
+  "Question ID":17202883323.0,
+  "Step ID":"q2",
+  "Explanation":"This gene is passed to the next generation because it does not affect the individual until after reproductive age.",
+  "extracted_qid":"q2",
+  "Step Name":"q2_A UpdateShortAnswer",
+  "Selection":"q2_A",
+  "Level (Unit)":"Classical Genetics",
+  "Level (Module)":"Human Inheritance",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"didigetthis",
+  "step_index":0,
+  "gpt-4o-mini_gen_wrong_ans":"1. **Response: The gene is only passed if both parents have the disease, otherwise it cannot be inherited.**  \n   **Explanation:** This response is incorrect because Huntington\u2019s disease is caused by a dominant allele. A person only needs to inherit one copy of the mutated gene from either parent to potentially develop the disease, regardless of whether the other parent has it or not. Thus, even if one parent is unaffected, they can still pass the gene to their offspring.\n\n2. **Response: Huntington\u2019s disease symptoms occur immediately after birth, so it doesn't need to be inherited.**  \n   **Explanation:** This misunderstanding betrays a fundamental aspect of the condition. Symptoms of Huntington\u2019s disease generally emerge during a person\u2019s mid-30s to 40s, not immediately after birth. It can be passed down without expressing symptoms until later in life, which is crucial to understanding its inheritance.\n\n3. **Response: Dominant genes cannot be passed on unless the individual is diagnosed with the disease.**  \n   **Explanation:** This response is flawed because the diagnosis of a genetic disorder does not determine whether a gene can be inherited. A dominant gene associated with a disease can still be passed on to offspring even if the individual does not yet show symptoms or has not been officially diagnosed.\n\n4. **Response: If a person carries the dominant gene, they will die before they can have children, so the gene won't be passed.**  \n   **Explanation:** This is incorrect because while Huntington\u2019s disease is a lethal condition, individuals may live for many years after the onset of symptoms and may have children before displaying significant symptoms. Therefore, it is possible for them to pass on the gene despite facing health challenges later in life.\n\n5. **Response: Huntington\u2019s disease can be prevented if both parents do genetic testing before having children, so the gene cannot be passed on.**  \n   **Explanation:** This response reflects a common misconception about genetic predispositions. While genetic testing can identify carriers of the Huntington gene, it cannot prevent the passing of the gene if the individuals choose to have children. Moreover, if one parent is a carrier, there is still a 50% chance the child will inherit the gene, regardless of testing."
+ }
+
+ {
+  "Unit":"No Unit",
+  "Module":"No Module",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/x-oli-inline-assessment\/inline_anabolic_reactions_energy_source_SC.xml",
+  "Problem Name":"inline_anabolic_reactions_energy_source_SC",
+  "Question":"Anabolic reactions require ATP. But it takes energy to make ATP. Where does the energy for ATP synthesis come from?",
+  "Question ID":81983833515.0,
+  "Step ID":"q1_atp_energy_source",
+  "Explanation":"Energy is often harvested from a catabolic reactions to make ATP. Cellular respiration is the most common and important pathway for ATP production. Energy stored in the bonds of glucose is harvested when sugar is broken down and that energy is used to make ATP.",
+  "extracted_qid":"q1",
+  "Step Name":"q1_atp_energy_source_A UpdateShortAnswer",
+  "Selection":"q1_atp_energy_source_A",
+  "Level (Unit)":"Metabolism",
+  "Level (Module)":"Energy",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"didigetthis",
+  "step_index":0,
+  "gpt-4o-mini_gen_wrong_ans":"1. **Response:** The energy for ATP synthesis comes directly from sunlight, just like how plants perform photosynthesis.\n\n   **Why it's wrong:** While sunlight is crucial for plants in photosynthesis to produce glucose (which can then be used in cellular respiration), ATP synthesis in cells is primarily derived from the breakdown of organic molecules like glucose in catabolic pathways. In animals and many other organisms that don't perform photosynthesis, sunlight does not directly contribute to ATP synthesis.\n\n2. **Response:** ATP is produced constantly without the need for any energy input, so there is no need to worry about sourcing energy for ATP synthesis.\n\n   **Why it's wrong:** This response misrepresents how ATP production occurs. ATP synthesis requires energy input, which is often derived from catabolic reactions such as glycolysis and the Krebs cycle. ATP molecules are not produced spontaneously; they are synthesized through energy-dependent processes.\n\n3. **Response:** The energy for ATP synthesis comes from the mitochondria creating ATP out of thin air when energy levels are low.\n\n   **Why it's wrong:** Mitochondria do not create ATP from nothing; they process nutrients derived from food (like glucose) through cellular respiration to release energy. This energy is then used to convert ADP and inorganic phosphate into ATP. This misunderstanding overlooks the need for a substrate to drive ATP synthesis.\n\n4. **Response:** Anabolic reactions don't require any energy; they actually produce energy, which can then be used for ATP synthesis.\n\n   **Why it's wrong:** Anabolic reactions are those that build complex molecules from simpler ones and require energy, often in the form of ATP. They do not produce energy; rather, they consume energy to form bonds. This response confuses anabolic with catabolic reactions, which break down molecules and release energy.\n\n5. **Response:** The breakdown of proteins directly releases enough energy to make ATP without needing glucose or fats.\n\n   **Why it's wrong:** While proteins can be broken down to contribute to ATP production, typically, they undergo a lengthy process where they are converted into intermediates that enter the pathways of cellular respiration. Carbohydrates (like glucose) and fats are more commonly utilized for producing ATP efficiently compared to amino acids from proteins, which is not the primary source of energy."
+ }
+
+ {
+  "Unit":"_u800_Bio_Intro",
+  "Module":"_m1_intro-to-biology",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/_u800_Bio_Intro\/_m1_intro-to-biology\/x-oli-inline-assessment\/inline_bio_intro_virus_abiotic_DIGT.xml",
+  "Problem Name":"inline_bio_intro_virus_abiotic_DIGT",
+  "Question":"Are viruses alive? Explain why you think viruses are alive or not.",
+  "Question ID":19780966377.0,
+  "Step ID":"q1_are_viruses_alive",
+  "Explanation":"Viruses lack some of the characteristics of life. For example, they do not directly use raw materials to replicate, and they don\u2019t grow at all. They also are not composed of cells. Because there are some characteristics of life they don\u2019t possess, viruses are generally not considered to be alive.",
+  "extracted_qid":"q1",
+  "Step Name":"q1_are_viruses_alive_A UpdateShortAnswer",
+  "Selection":"q1_are_viruses_alive_A",
+  "Level (Unit)":"Biology: The Science of Life",
+  "Level (Module)":"Introduction to Biology",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"didigetthis",
+  "step_index":0,
+  "gpt-4o-mini_gen_wrong_ans":"1. **Response:** \"Viruses are definitely alive because they can infect living cells and cause disease, just like bacteria.\"\n   - **Explanation:** This response incorrectly equates the ability to infect cells with being alive. While viruses can infect living organisms and cause diseases, this does not meet the criteria for life as they cannot carry out metabolic processes independently and do not have cellular structures.\n\n2. **Response:** \"Viruses are considered alive because they have DNA and RNA.\"\n   - **Explanation:** This misunderstanding stems from conflating the presence of genetic material with the characteristics of life. While viruses can contain DNA or RNA, they lack the cellular machinery to replicate and carry out life processes on their own, which is crucial for being classified as alive.\n\n3. **Response:** \"Since viruses can mutate and evolve, they must be alive.\"\n   - **Explanation:** Although viruses can mutate and evolve, these processes do not define life. Evolution can occur in non-living entities like crystals through external influences. The ability to change does not imply that something is alive; it's the mechanisms through which entities grow, reproduce, and maintain homeostasis that matter.\n\n4. **Response:** \"Viruses are not alive because they don't have a respiratory system to breathe.\"\n   - **Explanation:** This response demonstrates a misunderstanding of what defines life. While most living organisms have respiratory systems, viruses are not classified based on such criteria because they do not need respiration; they rely on host cells for replication and do not perform any metabolic activities independently.\n\n5. **Response:** \"Since viruses can be destroyed by antibiotics, they must be living organisms.\"\n   - **Explanation:** This statement confuses the treatment of infections with the nature of the organisms involved. Antibiotics target bacteria, which are living organisms, and do not work on viruses. The ability to be destroyed or treated does not determine whether an entity is alive, especially considering that viruses are fundamentally different from bacteria in their biological characteristics."
+ }
+
+ {
+  "Unit":"_u820_the_cell",
+  "Module":"_m3_cell_replication",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/_u820_the_cell\/_m3_cell_replication\/x-oli-inline-assessment\/inline_cell_repl_mitosis_function.xml",
+  "Problem Name":"inline_cell_repl_mitosis_function",
+  "Question":"What role does mitosis play in the overall cell cycle?",
+  "Question ID":91470037043.0,
+  "Step ID":"q1",
+  "Explanation":"Mitosis is the process of dividing a parent cell into two genetically identical daughter cells. DNA in the nucleus, which contains the genetic information, is first duplicated and condensed into tightly packed thread-like structures called chromosomes. During the four phases of mitosis, the nucleus is separated and divided into two identical daughter nuclei. Each daughter nuclei contains the same genetic material as the parental cell.",
+  "extracted_qid":"q1",
+  "Step Name":"q1_A UpdateShortAnswer",
+  "Selection":"q1_A",
+  "Level (Unit)":"Cell Division",
+  "Level (Module)":"Mitosis",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"learnbydoing",
+  "step_index":0,
+  "gpt-4o-mini_gen_wrong_ans":"1. **Response: Mitosis is when cells are born and grow to their full size.**\n   * **Why it's wrong:** This response misunderstands the purpose of mitosis. Mitosis is specifically about the division of a cell, not about growth. The growth of a cell occurs during the interphase of the cell cycle, particularly during the G1 phase, when the cell grows before it prepares to divide.\n\n2. **Response: Mitosis only happens in prokaryotic cells because they don't have nuclei.**\n   * **Why it's wrong:** This response confuses cellular processes between eukaryotic and prokaryotic cells. Mitosis is a process specific to eukaryotic cells that have a defined nucleus. Prokaryotic cells divide through a process called binary fission, not mitosis.\n\n3. **Response: Mitosis creates cells with different genetic makeup by scrambling the DNA.**\n   * **Why it's wrong:** This response inaccurately represents mitosis. Mitosis results in genetically identical daughter cells, not cells with different genetic makeups. Genetic variation and rearrangement typically occur during meiosis, not mitosis.\n\n4. **Response: Mitosis is the same as cytokinesis, so they happen at the same time.**\n   * **Why it's wrong:** Mitosis and cytokinesis are related but distinct processes. Mitosis refers to the division of the nucleus and the genetic material, while cytokinesis is the division of the cytoplasm and other cell components into two separate daughter cells. They are sequential processes, with mitosis occurring first and cytokinesis following.\n\n5. **Response: Mitosis happens in plants only, and it\u2019s how they produce flowers.**\n   * **Why it's wrong:** This statement inaccurately restricts mitosis to plants. Mitosis occurs in both plant and animal cells as part of the cell cycle for growth and tissue repair. Additionally, flower production involves complex developmental processes, including meiosis for reproduction, rather than solely relying on mitosis."
+ }
+
+ {
+  "Unit":"_u800_Bio_Intro",
+  "Module":"_m2_science_method",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/_u800_Bio_Intro\/_m2_science_method\/x-oli-inline-assessment\/inline_experiment_results_significance_DIGT.xml",
+  "Problem Name":"inline_experiment_results_significance_DIGT",
+  "Question":"Researchers reported significant results from the HPV vaccine experiment. If the results had NOT been significant, what would this mean?",
+  "Question ID":87351504126.0,
+  "Step ID":"q1",
+  "Explanation":"If the results from this experiment were not significant, it would mean that the number of women who did not get HPV after being vaccinated was the same number that would be seen just from random chance.",
+  "extracted_qid":"q1",
+  "Step Name":"q1_A UpdateShortAnswer",
+  "Selection":"q1_A",
+  "Level (Unit)":"Biology: The Science of Life",
+  "Level (Module)":"Scientific Inquiry",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"didigetthis",
+  "step_index":0,
+  "gpt-4o-mini_gen_wrong_ans":"1. **Response: If the results were not significant, it would mean that the HPV vaccine was ineffective for everyone.**\n   - **Why it's wrong:** Lack of significance does not imply that the vaccine is entirely ineffective for everyone. It means that in this particular study, the results did not show a meaningful difference compared to what could occur by random chance. There may still be individuals who benefit from the vaccine, but the study did not produce strong enough evidence to support that conclusion.\n\n2. **Response: Not significant results would suggest that HPV does not exist or is harmless.**\n   - **Why it's wrong:** The significance of study results pertains to the effectiveness of the vaccine, not the existence or harmfulness of HPV itself. HPV is a well-established virus that can lead to various health issues, regardless of the significance found in a particular vaccine study.\n\n3. **Response: If the results were not significant, it could mean that the sample size was too small.**\n   - **Why it's wrong:** While a small sample size can affect the power of a study and potentially lead to nonsignificant results, the question did not specify anything about sample size. Furthermore, not all nonsignificant results are due to small sample sizes; they can also occur if there truly is no effect or if variability is high.\n\n4. **Response: Non-significant results indicate that the vaccine is worse than having no vaccine at all.**\n   - **Why it's wrong:** Non-significant results imply that the data do not provide sufficient evidence to support a conclusion about the efficacy of the vaccine compared to control, but it does not imply that the vaccine is actively harmful or worse than no vaccine. The vaccine may still lead to some protection, but the evidence wasn't strong enough to demonstrate that in the study.\n\n5. **Response: If results are not significant, it means everyone in the study got vaccinated.**\n   - **Why it's wrong:** Significance of results relates to the statistical effects observed between the vaccinated and non-vaccinated groups in the study. Whether everyone got vaccinated or not does not affect the interpretation of the significance but rather reflects on the design and implementation of the study. The statement confuses the concepts of efficacy evaluation and study design."
+ }
+
+ {
+  "Unit":"No Unit",
+  "Module":"No Module",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/x-oli-inline-assessment\/inline_janes_cholesterol_levels_sc.xml",
+  "Problem Name":"inline_janes_cholesterol_levels_sc",
+  "Question":"Jane has a family history of heart disease and decides to have her cholesterol levels checked. Her levels are 157 for LDL and 47 for HDL. Based on this chart and information from this module, what would you recommend Jane do?",
+  "Question ID":40104325859.0,
+  "Step ID":"q1_cholesterol_levels_findings",
+  "Explanation":"Jane\u2019s LDL is \u201cborderline high,\u201d but is VERY close to being \u201chigh.\u201d In addition, her HDL levels are \u201cpoor.\u201d Jane should reduce her intake of saturated and trans fats and increase her intake of unsaturated fats. She may also benefit from eating more dietary fiber and exercising more.",
+  "extracted_qid":"q1",
+  "Step Name":"q1_cholesterol_levels_findings_A UpdateShortAnswer",
+  "Selection":"q1_cholesterol_levels_findings_A",
+  "Level (Unit)":"Biological Macromolecules",
+  "Level (Module)":"Lipids",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"learnbydoing",
+  "step_index":0,
+  "gpt-4o-mini_gen_wrong_ans":"1. **Response: Jane should ignore her cholesterol levels since she is already active and exercises regularly.**\n   - **Explanation:** This response is incorrect because cholesterol levels can still be problematic regardless of exercise levels. Physical activity is beneficial for heart health, but it does not automatically negate the need to manage cholesterol levels. Additionally, genetics can play a significant role in cholesterol levels, and being active does not mean one can disregard dietary considerations.\n\n2. **Response: Jane should start taking cholesterol-lowering medication immediately, even without consulting a doctor.**\n   - **Explanation:** This statement is wrong because it suggests that medication should be the first course of action without proper medical evaluation. Medications should be prescribed by healthcare professionals based on a comprehensive assessment of an individual's health status. Lifestyle changes are often recommended as a first step before considering medication.\n\n3. **Response: Jane's HDL level is low, so she should only eat foods high in saturated fats to balance it out.**\n   - **Explanation:** This is a misunderstanding of how fats interact with cholesterol levels. Consuming more saturated fats would likely raise her LDL (the \"bad\" cholesterol) and could worsen her cholesterol profile. Instead, she should focus on foods rich in unsaturated fats, which can help raise HDL levels.\n\n4. **Response: Cholesterol levels are measured with a single test, so Jane only needs to check them once every few years.**\n   - **Explanation:** This response is incorrect because cholesterol levels can fluctuate over time and are influenced by diet, lifestyle, and overall health. Regular monitoring may be necessary, especially for individuals with a family history of heart disease like Jane. It is generally recommended to have cholesterol checked more frequently based on personal health risks.\n\n5. **Response: Since Jane's cholesterol levels are close to the recommended range, she can eat whatever she wants as long as she works out.**\n   - **Explanation:** This misinterpretation fails to recognize that diet plays a significant role in managing cholesterol. Even if one\u2019s levels are close to normal, unhealthy eating habits can quickly lead to increased cholesterol levels. A balanced diet should always complement physical activity to maintain heart health."
+ }
+
+ {
+  "Unit":"_u820_the_cell",
+  "Module":"_m3_cell_replication",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/_u820_the_cell\/_m3_cell_replication\/x-oli-inline-assessment\/inline_m1_prophase_LBD.xml",
+  "Problem Name":"inline_m1_prophase_LBD",
+  "Question":"Explain what happens to the cell during the prophase of cell division.",
+  "Question ID":73583453575.0,
+  "Step ID":"q1",
+  "Explanation":"The DNA condenses and the nuclear membrane begins to breakdown.",
+  "extracted_qid":"q1",
+  "Step Name":"q1_A UpdateShortAnswer",
+  "Selection":"q1_A",
+  "Level (Unit)":"Cell Division",
+  "Level (Module)":"Mitosis",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"learnbydoing",
+  "step_index":0,
+  "gpt-4o-mini_gen_wrong_ans":"1. **Response:** During prophase, the cell actually begins to split into two separate cells.\n   **Explanation:** This response is incorrect because the splitting of the cell occurs during a later phase of cell division known as cytokinesis, not prophase. Prophase is when the chromosomes condense and the nuclear membrane starts to disintegrate, but no cell division occurs yet.\n\n2. **Response:** In prophase, the cell's DNA replicates to create more copies of itself.\n   **Explanation:** This statement is incorrect as DNA replication occurs during the S phase of the cell cycle, prior to prophase. Prophase focuses on the condensation of already replicated chromosomes, not on creating additional copies of DNA.\n\n3. **Response:** Prophase is when the cells get bigger in preparation for division.\n   **Explanation:** This misunderstanding arises from confusion about the nature of cell growth. While cells do grow during certain phases of the cell cycle, particularly in the G1 phase, prophase does not involve growth. It primarily involves changes in chromosomal structure and the disintegration of the nuclear membrane.\n\n4. **Response:** During prophase, the cell creates RNA to be used for energy production.\n   **Explanation:** This is incorrect because RNA production is generally associated with gene expression, and while transcription can occur during the cell cycle, it is not a hallmark of prophase. The primary events of prophase are the condensation of DNA and breakdown of the nuclear envelope, not RNA synthesis.\n\n5. **Response:** In prophase, the chromosomes align at the equatorial plane of the cell.\n   **Explanation:** This response confuses prophase with metaphase. In metaphase, chromosomes do align at the equatorial plane, but during prophase, they are still condensing and becoming visible, not yet aligned. Thus, this phase is focused on the preparation of chromosomes, not their alignment."
+ }
+
+ {
+  "Unit":"No Unit",
+  "Module":"No Module",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/x-oli-inline-assessment\/inline_metab_high_energy_molecules.xml",
+  "Problem Name":"inline_metab_high_energy_molecules",
+  "Question":"What is ATP?",
+  "Question ID":41435991723.0,
+  "Step ID":"q3_atp",
+  "Explanation":"ATP (adenosine triphosphate) is a molecule that contains high-energy phosphate bonds, is present in all living cells, and provides energy for many cellular activities.",
+  "extracted_qid":"q3",
+  "Step Name":"q3_atp_A UpdateShortAnswer",
+  "Selection":"q3_atp_A",
+  "Level (Unit)":"Metabolism",
+  "Level (Module)":"Energy",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"didigetthis",
+  "step_index":0,
+  "gpt-4o-mini_gen_wrong_ans":"1. **Response:** ATP is a type of carbohydrate that provides energy for cells.\n   - **Why it's wrong:** ATP is not a carbohydrate; it is a nucleotide. Carbohydrates are organic compounds made up of carbon, hydrogen, and oxygen, typically with structures like sugars or starches. ATP does not fall into this category, as it consists of adenine, ribose (a sugar), and three phosphate groups.\n\n2. **Response:** ATP is made in the nucleus of the cell and is used to store genetic information.\n   - **Why it's wrong:** ATP is not produced in the nucleus and does not store genetic information. ATP is synthesized in the mitochondria through cellular respiration and is primarily involved in energy transfer within the cell, not in the storage of DNA or RNA, which is the function of nucleic acids found in the nucleus.\n\n3. **Response:** ATP is the same as DNA because both are involved in energy transfer in cells.\n   - **Why it's wrong:** ATP and DNA are entirely different molecules with very different functions. DNA is a molecule that stores genetic information necessary for the growth and reproduction of living organisms, while ATP is an energy carrier used to fuel various cellular processes. They do not serve the same roles in the cell.\n\n4. **Response:** ATP can only be found in animals, not in plants or bacteria.\n   - **Why it's wrong:** ATP is found in all living cells\u2014both eukaryotic (like plants and animals) and prokaryotic (like bacteria). All organisms require a means to store and transfer energy, which is why ATP is a universal energy currency across life forms.\n\n5. **Response:** Once ATP is used by the cell, it becomes a waste product that the cell discards.\n   - **Why it's wrong:** While ATP does lose a phosphate group to become ADP (adenosine diphosphate) after it releases energy, it is not discarded by the cell. Cells often recycle ADP back into ATP through metabolic processes, such as cellular respiration, showing that the molecule can be reused rather than wasted."
+ }
+
+ {
+  "Unit":"No Unit",
+  "Module":"No Module",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/x-oli-inline-assessment\/inline_why_hydrolysis_releases_energy.xml",
+  "Problem Name":"inline_why_hydrolysis_releases_energy",
+  "Question":"ATP is continuously built to replace what is consumed by the activities of the cell. What can you predict about a reaction that would build ATP from ADP and P? Would it release or require energy?",
+  "Question ID":14427262060.0,
+  "Step ID":"q2_reaction_to_build_ATP",
+  "Explanation":"It would require energy, because you are establishing a bond that holds two like charges close together.",
+  "extracted_qid":"q2",
+  "Step Name":"q2_reaction_to_build_ATP_A UpdateShortAnswer",
+  "Selection":"q2_reaction_to_build_ATP_A",
+  "Level (Unit)":"Metabolism",
+  "Level (Module)":"Energy",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"didigetthis",
+  "step_index":0,
+  "gpt-4o-mini_gen_wrong_ans":"1. Response: It would release energy because ATP is being broken down into ADP and P when a bond is formed.  \n   Explanation: This response is incorrect because it confuses the processes of ATP synthesis and degradation. Building ATP from ADP and inorganic phosphate (P) actually requires energy, not releases it. The breakdown of ATP into ADP and phosphate releases energy for cellular activities.\n\n2. Response: Building ATP doesn\u2019t require any energy because it happens spontaneously in the cell.  \n   Explanation: This statement is wrong because while some reactions in a cell occur spontaneously, the synthesis of ATP from ADP and P does not fall under that category. This reaction is endergonic, meaning it requires an input of energy, such as from cellular respiration or photosynthesis, to proceed.\n\n3. Response: ATP can be built from ADP and P without any inputs because the cell can create it out of nothing.  \n   Explanation: This response shows a misunderstanding of the law of conservation of mass. ATP cannot be created out of nothing; it requires specific reactants (ADP and phosphate) and energy inputs to form ATP. All chemical reactions require a balance of mass.\n\n4. Response: Building ATP from ADP and P produces heat energy, which is the main form of energy the cell uses.  \n   Explanation: This is incorrect because the process of synthesizing ATP actually involves using energy to form chemical bonds, rather than producing heat. While some reactions do generate heat, ATP is mainly a form of stored chemical energy that cells utilize to perform work, not heat energy.\n\n5. Response: The reaction to build ATP is similar to photosynthesis, which primarily generates heat and light instead of ATP.  \n   Explanation: This response mixes up the processes of photosynthesis and ATP formation. While photosynthesis does produce ATP through the light-dependent reactions, the key point is that building ATP from ADP and phosphate specifically requires energy, which is derived from the light captured during photosynthesis rather than being a direct output of heat and light."
+ }
+
+ {
+  "Unit":"_u830_metabolism",
+  "Module":"_m2_photosyn_and_cell-resp",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/_u830_metabolism\/_m2_photosyn_and_cell-resp\/x-oli-inline-assessment\/photo_chloro_sandc.xml",
+  "Problem Name":"photo_chloro_sandc",
+  "Question":"Plants, algae, and cyanobacteria use pigments (such as chlorophyll) to absorb light needed for photosynthesis. Why does the presence of chlorophyll make photosynthetic producers look green?",
+  "Question ID":46137197581.0,
+  "Step ID":"compare_chlorophyll_q1",
+  "Explanation":"Chlorophyll is green because it absorbs red and blue light and reflects green light. This green light is what we see.",
+  "extracted_qid":"q1",
+  "Step Name":"compare_chlorophyll_q1_compare_chlorophyll_a1 UpdateShortAnswer",
+  "Selection":"compare_chlorophyll_q1_compare_chlorophyll_a1",
+  "Level (Unit)":"Metabolism",
+  "Level (Module)":"Photosynthesis and Cellular Respiration",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"didigetthis",
+  "step_index":0,
+  "gpt-4o-mini_gen_wrong_ans":"1. **Response:** Chlorophyll is actually yellow, which is why plants look yellow. \n   **Explanation:** This response is incorrect because chlorophyll itself is green, not yellow. The misunderstanding arises from a confusion over leaf colors in different conditions; while leaves can appear yellow in fall due to the breakdown of chlorophyll, chlorophyll specifically is green due to its light-absorbing properties.\n\n2. **Response:** Plants look green because they emit light, not because of reflection.\n   **Explanation:** This answer misunderstands how color perception works. Plants do not emit light; they reflect specific wavelengths of light. Chlorophyll absorbs certain wavelengths and reflects others. The green light that reaches our eyes makes the plants appear green.\n\n3. **Response:** Photosynthesis makes chlorophyll through a chemical process that only happens in red light. \n   **Explanation:** This is incorrect because chlorophyll synthesis does not solely depend on red light. While light is essential for photosynthesis, the process of chlorophyll production in plants occurs throughout a range of light conditions, and plants can utilize various light wavelengths to aid in their growth and pigment production.\n\n4. **Response:** All plants appear green because they can only use green light for photosynthesis; they can\u2019t use red or blue light.\n   **Explanation:** This response indicates a fundamental misunderstanding of photosynthesis. Plants actually absorb red and blue light very effectively and reflect green light. If they could only use green light, they would be less efficient at photosynthesis.\n\n5. **Response:** Chlorophyll is produced by the plant's roots and doesn't have any relation to light absorption.\n   **Explanation:** This answer is misleading because chlorophyll is primarily produced in the leaves, where it is most needed for photosynthesis. While roots play a role in nutrient uptake, they are not directly responsible for chlorophyll production or its role in light absorption."
+ }
+
+ {
+  "Unit":"_u830_metabolism",
+  "Module":"_m2_photosyn_and_cell-resp",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/_u830_metabolism\/_m2_photosyn_and_cell-resp\/x-oli-inline-assessment\/photo_chloro_sandc.xml",
+  "Problem Name":"photo_chloro_sandc",
+  "Question":"In addition to chlorophyll, plants produce other pigments. Some of them act as \u201chelpers\u201d to chlorophyll: they absorb different wavelengths of light and pass some of the energy to chlorophyll. For example, many plants contain orange and yellow pigments in their leaves. They are normally masked by the green chlorophyll, which is much more abundant in leaf tissues. When do we see these pigments in many plant leaves?",
+  "Question ID":73371837851.0,
+  "Step ID":"compare_pigments_q2",
+  "Explanation":"In the fall, deciduous broadleaved tree leaves turn orange or yellow because chlorophyll levels in the leaves decline. Additional red and purple pigments may also be actively produced by the plant in autumn.",
+  "extracted_qid":"q2",
+  "Step Name":"compare_pigments_q2_compare_pigments_a2 UpdateShortAnswer",
+  "Selection":"compare_pigments_q2_compare_pigments_a2",
+  "Level (Unit)":"Metabolism",
+  "Level (Module)":"Photosynthesis and Cellular Respiration",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"didigetthis",
+  "step_index":1,
+  "gpt-4o-mini_gen_wrong_ans":"1. Response: \"The orange and yellow pigments are found in the leaves all year round and are always visible, they just turn green when chlorophyll is present.\"\n   Explanation: This response is incorrect because it misunderstands the concept of pigment masking. The orange and yellow pigments (carotenoids) are indeed present in leaves year-round, but they are usually overshadowed by the green chlorophyll during the growing season. They become visible only when chlorophyll degrades in the fall.\n\n2. Response: \"Plants use pigments to photosynthesize at night when there's no sunlight.\"\n   Explanation: This statement is incorrect because photosynthesis primarily requires light, specifically sunlight, to convert carbon dioxide and water into glucose and oxygen. While some plants have adaptations for low light, they do not use pigments in the same way at night as they do during the day.\n\n3. Response: \"The decline of chlorophyll in autumn makes the leaves turn brown because they absorb all wavelengths equally.\"\n   Explanation: This response misinterprets the role of pigments in color change. While chlorophyll degradation does result in the loss of green color, the pigments responsible for yellow and orange hues (carotenoids) become more dominant, not a brown color. Brown leaves often indicate the presence of other processes such as cell death and the formation of tannins, not an increase in absorption of all wavelengths.\n\n4. Response: \"Deciduous trees produce green pigments during winter as a way to photosynthesize in the cold.\"\n   Explanation: This claim is incorrect because deciduous trees typically lose their leaves in winter and go dormant. They do not produce green pigments during this time; instead, they conserve energy and resources. Instead, evergreens maintain their leaves and continue photosynthesis but also contain different retention of pigments.\n\n5. Response: \"Flowers are another type of pigment that helps chlorophyll by attracting pollinators and absorbing sunlight.\"\n   Explanation: This misunderstanding conflates the roles of pigments in different plant parts. While flowers can contain pigments that attract pollinators, their role is not to assist chlorophyll in photosynthesis. Instead, chlorophyll specifically aids in capturing light energy for photosynthesis, while flower pigments serve a different function related to reproduction."
+ }
+
+ {
+  "Unit":"_u870_classical_genetics",
+  "Module":"_m2_Human_Inheritance",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/_u870_classical_genetics\/_m2_Human_Inheritance\/x-oli-inline-assessment\/sex_chromo_digt.xml",
+  "Problem Name":"sex_chromo_digt",
+  "Question":"The king of LaLa Land wanted a male heir, but kept having female offsprings. Why was it biologically wrong to blame the queen for the lack of male heir?",
+  "Question ID":79034559717.0,
+  "Step ID":"q2",
+  "Explanation":"The queen, being female has a pair of X chromosomes as her 23rd, sex determining pair of chromosomes. The gametes she produces will all contain an X chromosome. The king however, being male, contains one X and one Y chromosome as this 23rd pair or chromosomes. Therefore, the gametes he produces will either contain an X or a Y chromosome. Because the queen only produces X gametes, but the king produces X and Y gametes, the gender of their children is determined by which chromosome (X or Y) is found on the sperm which fertilizes the queen\u2019s X containing gamete (her egg). Gender in humans is always determined by the father.",
+  "extracted_qid":"q2",
+  "Step Name":"q2_A UpdateShortAnswer",
+  "Selection":"q2_A",
+  "Level (Unit)":"Classical Genetics",
+  "Level (Module)":"Human Inheritance",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"didigetthis",
+  "step_index":0,
+  "gpt-4o-mini_gen_wrong_ans":"1. **Response:** \"It\u2019s actually the queen\u2019s fault because she has to provide half of the chromosomes for the offspring, and if she had more Y chromosomes, they'd have more chances of having male babies.\"\n\n   **Explanation:** This response is incorrect because the queen only contributes X chromosomes in her eggs. She cannot provide Y chromosomes since females do not possess them. Consequently, it is not within her biological capacity to influence the sex of their children toward male offspring.\n\n2. **Response:** \"I heard that if the queen eats certain foods, she can influence the sex of her children. So it\u2019s her diet that causes the lack of male heirs.\"\n\n   **Explanation:** This statement misrepresents biological principles. While certain factors can affect fertilization and overall health, the sex of the offspring is determined by the genetic contributions of the parents, specifically the chromosomes in the sperm (from the king) and egg (from the queen). The dietary choices of the queen do not affect the sex chromosomes that she provides.\n\n3. **Response:** \"The king could have just asked the queen to try harder to have boys, since it\u2019s more about their determination than biology!\"\n\n   **Explanation:** This response reflects a misunderstanding of how genetics works. The probability of having male or female offspring is not determined by the queen's effort or determination. Instead, it is purely based on the combination of the X and Y chromosomes contributed by both parents; that is, it's a question of genetics and chance, not willpower or effort.\n\n4. **Response:** \"It\u2019s common knowledge that female embryos are less likely to survive, so it must be the queen's fault for not producing strong enough genes for males.\"\n\n   **Explanation:** This assertion is misleading because the survival rates of embryos are not tied to gender in a simplistic way. Both male and female embryos have similar survival probabilities, and there are numerous factors influencing embryo health, including genetics and environmental conditions\u2014not merely the influence of one parent's genes determining the sex.\n\n5. **Response:** \"The king must have a genetic defect causing him to produce only X chromosomes, so it\u2019s actually his problem, not the queen's.\"\n\n   **Explanation:** This response misunderstands basic human genetics. Males traditionally have one X and one Y chromosome; they can produce both X and Y gametes. The claim that the king produces only X chromosomes would imply a rare genetic disorder, and while it\u2019s theoretically possible, it is not the typical case. In most contexts, the father\u2019s contribution is what determines the offspring's sex, thus making it incorrect to blame the queen without recognizing the king\u2019s role."
+ }
+
+ {
+  "Unit":"_u800_Bio_Intro",
+  "Module":"_m1-1_Themes",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/_u800_Bio_Intro\/_m1-1_Themes\/x-oli-inline-assessment\/u1_themes_dandelion_LBD.xml",
+  "Problem Name":"u1_themes_dandelion_LBD",
+  "Question":"After several more generations, the heavy-seeded dandelions may be hard to find. The group as a whole has changed because of differences in reproduction among its members. This is an outcome of a process of ___________ ____________. What words belong in the blank?",
+  "Question ID":26133541312.0,
+  "Step ID":"q3",
+  "Explanation":"natural selection",
+  "extracted_qid":"q3",
+  "Step Name":"q3_a1 UpdateShortAnswer",
+  "Selection":"q3_a1",
+  "Level (Unit)":"Biology: The Science of Life",
+  "Level (Module)":"Themes in Biology",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"learnbydoing",
+  "step_index":0,
+  "gpt-4o-mini_gen_wrong_ans":"1. **\"artificial selection\"**\n   - **Why it is wrong:** Artificial selection involves humans choosing specific traits in organisms for breeding, such as in agriculture or dog breeding. This process is not relevant to the dandelions' evolution described in the question, which occurred naturally without human intervention.\n\n2. **\"mutation\"**\n   - **Why it is wrong:** Mutation refers to random changes in genetic material that can produce variation among individuals. While mutations can contribute to diversity, they do not explain the overall change in a population due to differential reproductive success, which is the central point of natural selection.\n\n3. **\"gene flow\"**\n   - **Why it is wrong:** Gene flow describes the transfer of genes or alleles between populations through migration. While this can affect genetic diversity, it does not account for the selective pressures that lead to the decline of heavy-seeded dandelions within a specific environment, as implied by the context of natural selection.\n\n4. **\"cloning\"**\n   - **Why it is wrong:** Cloning is a process that produces genetically identical copies of organisms. This concept does not apply to the divergent evolution that occurs in natural populations over generations through selection processes, where variation and survival are pivotal.\n\n5. **\"extinction\"**\n   - **Why it is wrong:** Extinction refers to the complete disappearance of a species or group of organisms. While a population may decline, the focus of the question is on evolution and the mechanisms driving changes in traits, not the elimination of the population as a whole, which is a different ecological concept."
+ }
+
+ {
+  "Unit":"_u800_Bio_Intro",
+  "Module":"_m1-1_Themes",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/_u800_Bio_Intro\/_m1-1_Themes\/x-oli-inline-assessment\/u1_themes_evolution_DIGT.xml",
+  "Problem Name":"u1_themes_evolution_DIGT",
+  "Question":"Provide a definition of evolution, in your own words.",
+  "Question ID":536019852.0,
+  "Step ID":"q5",
+  "Explanation":"Evolution is a theory that describes how life changes over time. It is about populations or species (not individuals) changing over generations of time (not within single lifetimes). Inheritance ties one generation to the next and helps explain why organisms are similar. Natural selection is a process that helps explain how groups of organisms evolve and adapt to their surroundings. Both of these are part of the overall theory of evolution.",
+  "extracted_qid":"q5",
+  "Step Name":"q5_a1 UpdateShortAnswer",
+  "Selection":"q5_a1",
+  "Level (Unit)":"Biology: The Science of Life",
+  "Level (Module)":"Themes in Biology",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"didigetthis",
+  "step_index":0,
+  "gpt-4o-mini_gen_wrong_ans":"1. **Response: Evolution means that organisms can choose to become better suited to their environment in their lifetime.**\n   - **Why it is wrong:** This response misunderstands the concept of natural selection. Evolution does not occur because individuals actively choose to adapt; rather, it is a gradual process that happens over generations through genetic variation and natural selection. Individuals do not change their traits during their lifetimes based on their needs.\n\n2. **Response: Evolution is when one species turns into a completely different species overnight.**\n   - **Why it is wrong:** This statement suggests a misunderstanding of the timeframe involved in evolution. Evolution is a slow process that requires many generations for significant changes to occur within a population, leading to the emergence of new species. It does not happen suddenly or overnight.\n\n3. **Response: Evolution means that all living things will eventually become humans.**\n   - **Why it is wrong:** This response reflects a misunderstanding of evolutionary theory. Evolution does not have a predetermined direction, and it does not imply that all species will evolve into humans. Instead, it indicates that different species adapt to their environments in various ways, leading to diverse forms of life.\n\n4. **Response: Evolution only happens with animals, not plants or microorganisms.**\n   - **Why it is wrong:** This response incorrectly limits evolution to animals. In reality, evolution applies to all forms of life, including plants, fungi, and microorganisms. All organisms can change over time through evolutionary processes.\n\n5. **Response: Evolution is a way for organisms to improve themselves and become more complex over time.**\n   - **Why it is wrong:** This response implies a misunderstanding of the concept of \"improvement\" in evolution. Evolution does not necessarily lead to more complex organisms; rather, it leads to adaptations that increase an organism's fitness in a specific environment. Sometimes, this can result in simpler or less complex organisms thriving in certain conditions."
+ }
+
+ {
+  "Unit":"_u800_Bio_Intro",
+  "Module":"_m1-1_Themes",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/_u800_Bio_Intro\/_m1-1_Themes\/x-oli-inline-assessment\/u1_themes_evolution_LBD.xml",
+  "Problem Name":"u1_themes_evolution_LBD",
+  "Question":"In medical science, the goal is often to figure out how a disease works or to test out a therapy. Ideally, experiments should be done on humans. Yet the most informative experiments might also involve some pretty rough stuff: deliberately disabling a gene to see if it causes a disorder, testing a potentially dangerous drug, and so on. We cannot ethically do such experiments on humans. How do biomedical researchers get the needed research done without harming human subjects?",
+  "Question ID":34972375689.0,
+  "Step ID":"q1",
+  "Explanation":"They work with animal models. \u201cLab rats\u201d and other organisms are used for experiments that wouldn\u2019t be practical or ethical with human subjects.",
+  "extracted_qid":"q1",
+  "Step Name":"q1_a1 UpdateShortAnswer",
+  "Selection":"q1_a1",
+  "Level (Unit)":"Biology: The Science of Life",
+  "Level (Module)":"Themes in Biology",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"learnbydoing",
+  "step_index":0,
+  "gpt-4o-mini_gen_wrong_ans":"1. **Response**: Researchers perform all their experiments directly on human subjects, but they have to get their consent.\n   - **Why it\u2019s wrong**: This response misunderstands the ethical considerations in biomedical research. While consent is important, it does not mean researchers can conduct any type of experiment on humans, especially those that could cause harm. Ethical guidelines prohibit harmful or potentially dangerous experiments on human subjects that haven't been tested in safer models.\n\n2. **Response**: Animals are used in biomedical research, but only for cosmetic testing and not for any medical-related studies.\n   - **Why it\u2019s wrong**: This response incorrectly focuses on cosmetic testing instead of acknowledging that animal models are crucial for medical research. Animals are utilized to understand diseases, develop therapies, and ensure the safety of new treatments before they are tested on humans.\n\n3. **Response**: Animal models are not effective because their biology is too different from humans to give any useful results.\n   - **Why it\u2019s wrong**: This response fails to recognize that many biological and physiological processes are similar across species, particularly mammals. Animal models, especially those genetically modified to develop conditions similar to human diseases, provide valuable insights that can translate to human health.\n\n4. **Response**: Biomedical researchers can only test drugs on plants since they don't have ethical concerns.\n   - **Why it\u2019s wrong**: This response misunderstands the purpose of research and the nature of drug testing. Researchers aim to understand the effects of drugs on living systems that share similar physiological responses to humans, which plants cannot provide, making them unsuitable models for clinical drug testing.\n\n5. **Response**: Experiments on humans are considered ethical as long as they are not sponsored by large pharmaceutical companies.\n   - **Why it\u2019s wrong**: This response incorrectly suggests that corporate sponsorship influences the ethical status of human experimentation. Ethical guidelines established by authorities, not funding sources, dictate when and how human subjects can be involved in research. These guidelines are in place to protect participants from harm, regardless of the sponsors."
+ }
+
+ {
+  "Unit":"_u800_Bio_Intro",
+  "Module":"_m1-1_Themes",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/_u800_Bio_Intro\/_m1-1_Themes\/x-oli-inline-assessment\/u1_themes_evolution_LBD.xml",
+  "Problem Name":"u1_themes_evolution_LBD",
+  "Question":"Scientists turn to model organisms \u2014 species that are easy to keep in the lab and have been studied extensively \u2014 and use them as study subjects. Rats and mice, for example, are key to medical research. Dozens of mouse and rat strains have been specifically maintained as research subjects because they reliably develop problems like obesity, diabetes, or behavioral disorders such as addiction. How could research on mice or rats help answer our medical research questions \u2014 questions that are, after all, about humans?",
+  "Question ID":113028892.0,
+  "Step ID":"q2",
+  "Explanation":"We can test out medicines, for example, by giving them to diabetic mice. Or we can figure out what causes a health problem by doing experiments on mice that wouldn\u2019t be possible with people. Such research is useful because mice and people are related by ancestry. We have similar organs, cells, and molecules. Something we learn in mice might apply directly to people, or it might at least point us in the right direction for further study. To learn more: Genetic Science Learning Center",
+  "extracted_qid":"q2",
+  "Step Name":"q2_a2 UpdateShortAnswer",
+  "Selection":"q2_a2",
+  "Level (Unit)":"Biology: The Science of Life",
+  "Level (Module)":"Themes in Biology",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"learnbydoing",
+  "step_index":1,
+  "gpt-4o-mini_gen_wrong_ans":"1. **Response**: Research on mice and rats is useless because they have a completely different diet than humans, so their health problems won't relate to us at all.\n   - **Why it's wrong**: While it is true that diet can vary greatly between species, many fundamental biological processes, including metabolism and disease mechanisms, are conserved across species. Mice and humans share many similarities in their genetic and physiological make-up, meaning that insights gained from rodent studies can often provide valuable information relevant to human health.\n\n2. **Response**: Scientists should only study primates because they are closer to humans than mice or rats, so their results would be more applicable.\n   - **Why it's wrong**: Primates are indeed closer relatives to humans, but ethical considerations and the complexity of keeping them in a lab environment make them less practical for certain types of research. Mice and rats can be studied in ways that allow for detailed genetic manipulation and high-throughput screenings that would be much more difficult with primates. Furthermore, many findings from mouse studies have successfully translated to human medicine.\n\n3. **Response**: Research on mice is all about finding out how to make them look more like humans by changing their physical appearances.\n   - **Why it's wrong**: The goal of using mice as model organisms is not to alter their physical appearance but to understand biological mechanisms that may relate to human health and diseases. Researchers use genetic modifications to replicate specific human conditions or diseases, which helps in testing possible treatments or understanding disease pathways.\n\n4. **Response**: Mice and rats can be used to cure human diseases immediately since they are so genetically similar to humans.\n   - **Why it's wrong**: While mice and rats can provide important insights into human health and diseases, the process of translating findings from rodent models to effective human treatments is complex and requires extensive validation through clinical trials. It is not a direct process, and results seen in mice do not guarantee the same results in humans.\n\n5. **Response**: Scientists only use mice because they are cheaper to house than humans in a laboratory setting, regardless of the research goals.\n   - **Why it's wrong**: While cost is a factor, the primary reason for using mice and rats is their suitability as model organisms for studying disease mechanisms. They offer a controlled environment where researchers can conduct experiments that may not be ethical or feasible with human subjects. The choice of model organism is based on scientific reasoning and the need for specific traits rather than simply economic factors."
+ }
+
+ {
+  "Unit":"_u800_Bio_Intro",
+  "Module":"_m1-1_Themes",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/_u800_Bio_Intro\/_m1-1_Themes\/x-oli-inline-assessment\/u1_themes_interdependence_DIGT.xml",
+  "Problem Name":"u1_themes_interdependence_DIGT",
+  "Question":"Describe an example of interdependence among cells within your body.",
+  "Question ID":60889039369.0,
+  "Step ID":"q1",
+  "Explanation":"There are many good answers. Your brain cells depend on freshly oxygenated blood flow, so if your lungs or heart stop functioning, your brain cells will die within several minutes. On the other hand, your lungs and heart work partly under the control of signals from your brain. You cannot digest food properly or make certain vitamins without help from bacteria in your gut, and these in turn depend on your body as a warm, nutrient-rich place to grow. Whatever example you came up with should have this sense of a two-way interaction: the cells are mutually dependent on one another. This is the core of the \u201cinterdependence\u201d concept.",
+  "extracted_qid":"q1",
+  "Step Name":"q1_A UpdateShortAnswer",
+  "Selection":"q1_A",
+  "Level (Unit)":"Biology: The Science of Life",
+  "Level (Module)":"Themes in Biology",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"didigetthis",
+  "step_index":0,
+  "gpt-4o-mini_gen_wrong_ans":"1. **Response:** \"Interdependence is when one cell can survive entirely on its own without needing anything from other cells, like a plant cell photosynthesizing on its own.\"\n   - **Explanation:** This response misinterprets interdependence by suggesting that it involves independence instead. Interdependence refers to mutual reliance between cells, while a plant cell\u2019s ability to photosynthesize independently highlights a self-sufficient process that does not require interaction with other cells for that specific function.\n\n2. **Response:** \"Interdependence among cells means that all cells have to communicate via hormones, and if they don\u2019t, they can\u2019t function at all.\"\n   - **Explanation:** While communication via hormones is one aspect of cellular interaction, it is not the only means by which cells can demonstrate interdependence. There are numerous forms of interdependence that do not require hormonal signaling, such as nutrient uptake or direct cell-to-cell contact.\n\n3. **Response:** \"Interdependence means that all cells need to be identical in function and structure. If they aren\u2019t the same, they cannot rely on each other.\"\n   - **Explanation:** This response misunderstands the concept of interdependence. In fact, interdependence often arises from diversity among cells, where different types of cells have specialized roles. For example, red blood cells and neurons perform vastly different functions but rely on one another for the proper functioning of the body.\n\n4. **Response:** \"Since the immune system cells attack foreign invaders in the body, they don\u2019t rely on other cells, which means they are completely independent.\"\n   - **Explanation:** This response neglects the fact that immune cells work in concert with other cells, such as signaling from helper T cells, and are dependent on various signals from other body systems to function properly. The immune system's interdependence on other cells is crucial for it to respond effectively to pathogens.\n\n5. **Response:** \"The cells in our body are interdependent only when we are sick; when we are healthy, they don\u2019t really need each other.\"\n   - **Explanation:** This response suggests that interdependence is only relevant during illness, which is incorrect. In a healthy state, cells operate in a coordinated manner, relying on each other for processes like metabolism, growth, and repair, regardless of the presence of disease. Interdependence is a constant feature of cellular life, not restricted to periods of illness."
+ }
+
+ {
+  "Unit":"_u800_Bio_Intro",
+  "Module":"_m1-1_Themes",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/_u800_Bio_Intro\/_m1-1_Themes\/x-oli-inline-assessment\/u1_themes_interdependence_DIGT.xml",
+  "Problem Name":"u1_themes_interdependence_DIGT",
+  "Question":"Identify and briefly explain an example of interdependence between humans and other species in an ecosystem.",
+  "Question ID":55585690502.0,
+  "Step ID":"q2",
+  "Explanation":"Once again, there are lots of possible answers. We humans are dependent on algae and plants that produce food and oxygen gas, animals we harvest as food, and decomposers that get rid of wastes. They, in turn, may be dependent on us for cultivation (in the case of crop plants), protection, or a supply of food (the helpful bacteria in our sewage treatment plants would starve without us!). You probably came up with your own answer. Did the answer specifically describe how humans depend on the other species AND how the other species depends on us? If so, you\u2019ve got a good grasp of interdependence.",
+  "extracted_qid":"q2",
+  "Step Name":"q2_A UpdateShortAnswer",
+  "Selection":"q2_A",
+  "Level (Unit)":"Biology: The Science of Life",
+  "Level (Module)":"Themes in Biology",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"didigetthis",
+  "step_index":1,
+  "gpt-4o-mini_gen_wrong_ans":"1. **Response: Humans are independent of all other species because we can create synthetic food and oxygen in labs.**\n   - **Why it is wrong:** This response misunderstands the fundamental concept of ecosystems. While technology allows for the creation of synthetic products, humans still rely on natural ecosystems for food and oxygen production. In reality, most of the food we consume comes directly from plants, and oxygen is generated by algae and trees through photosynthesis. The idea of complete independence from other species is a misconception.\n\n2. **Response: Humans and other species only interact during food chains, where humans are always at the top.**\n   - **Why it is wrong:** This response demonstrates a misunderstanding of interdependence. While humans can be at the top of some food chains, it is incorrect to suggest we do not depend on other species for our survival. Interdependence involves mutual reliance, and humans are part of a complex food web that includes numerous species, including plants and decomposers, which are vital for our ecosystem\u2019s health.\n\n3. **Response: Humans affect other species only when they hunt them for food, but otherwise they live in harmony with the environment.**\n   - **Why it is wrong:** This answer ignores the broader impact humans have on ecosystems beyond hunting. Human activities such as urbanization, pollution, and deforestation significantly disrupt habitats and influence the survival of many species. The idea that humans only affect species during hunting misrepresents the reality of our significant ecological footprint.\n\n4. **Response: Interdependence means that humans need to be cared for by animals, such as having cats and dogs take care of us.**\n   - **Why it is wrong:** This response reflects a misunderstanding of the term \u201cinterdependence.\u201d While pets can provide companionship and emotional support to humans, this relationship does not exemplify ecological interdependence. True interdependence in ecosystems involves mutual benefit between different species, where humans rely on plants and wild animals, and these species depend on us for conservation efforts, not care.\n\n5. **Response: Humans and plants never affect each other because plants can grow anywhere without our help.**\n   - **Why it is wrong:** This response misinterprets the relationship between humans and plants. Although some plants can grow in various habitats, many crops cultivated by humans depend on careful agricultural practices for their growth and yield. Additionally, human activities such as land development and climate change can drastically affect plant biodiversity and distribution, illustrating a clear interdependence where both parties affect one another."
+ }
+
+ {
+  "Unit":"_u820_the_cell",
+  "Module":"_m2_cell_membranes",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/_u820_the_cell\/_m2_cell_membranes\/x-oli-inline-assessment\/u2m3_membrane_osmosis_LBD.xml",
+  "Problem Name":"u2m3_membrane_osmosis_LBD",
+  "Question":"Why are heavily salted or sugared foods less susceptible to mold?",
+  "Question ID":62911080711.0,
+  "Step ID":"q1",
+  "Explanation":"Salts and sugars are solutes. High solute concentrations outside the cell (hypertonic solutions) cause water to flow out of the cell. This causes the cell to shrivel. Because mold cells (bacteria and fungi) have a cell wall, the hypertonic solution results in the plasma membrane tearing as it shrivels. This kills the cells and retards mold growth.",
+  "extracted_qid":"q1",
+  "Step Name":"q1_A UpdateShortAnswer",
+  "Selection":"q1_A",
+  "Level (Unit)":"The Cell",
+  "Level (Module)":"Membrane Transport",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"learnbydoing",
+  "step_index":0,
+  "gpt-4o-mini_gen_wrong_ans":"1. **Response: Heavily salted or sugared foods do not mold because they have low moisture content.**  \n   **Why it's wrong:** While it\u2019s true that low moisture content can inhibit mold growth, the primary mechanism through which salt and sugar prevent mold growth is through osmosis and hypertonic solutions. Heavily salted or sugared foods can still have adequate moisture, but the high solute concentration is what actually causes mold cells to shrivel and die.\n\n2. **Response: Mold cannot grow on foods that are salted or sugared because they have a different pH level.**  \n   **Why it's wrong:** Though pH levels can affect mold growth, salt and sugar primarily inhibit mold growth through osmotic pressure, not via pH changes. The pH of the food isn't changed substantially by adding salt or sugar that would solely prevent mold growth; the high concentration of solutes is a more critical factor.\n\n3. **Response: Foods with a lot of salt or sugar do not mold because they are always preserved, and preservation kills all microbes.**  \n   **Why it's wrong:** While high salt or sugar content does preserve food and can kill some microbes, it does not kill all microorganisms. Instead, it creates an environment where certain types of cells (specifically mold and some bacteria) cannot survive due to osmotic pressure. Preservation is a broader concept that includes several techniques, not solely the effect of salt or sugar.\n\n4. **Response: Heavily salted foods are less likely to mold because salt directly fights against bacteria and fungi by poisoning them.**  \n   **Why it's wrong:** While certain compounds might act as antimicrobial agents, salt primarily acts through physical means by creating a hypertonic environment that causes cells to lose water. The salt does not kill microbes by \u201cpoisoning\u201d them; rather, it removes the water they need to thrive.\n\n5. **Response: The reason foods with high salt or sugar content last longer is that they are cooked at high temperatures.**  \n   **Why it's wrong:** Cooking can affect the shelf life of food, but the preservation effect of high salt or sugar content is due to the ability to create a hypertonic solution that retards microbial growth, not because they have been cooked. The preservation mechanism is specific to the solutes used, not the cooking process."
+ }
+
+ {
+  "Unit":"No Unit",
+  "Module":"No Module",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/x-oli-inline-assessment\/what_is_science_submit.xml",
+  "Problem Name":"what_is_science_submit",
+  "Question":"What is science?",
+  "Question ID":56261308271.0,
+  "Step ID":"q1",
+  "Explanation":"Science is a process that helps us to understand how the natural world works.",
+  "extracted_qid":"q1",
+  "Step Name":"q1_A UpdateShortAnswer",
+  "Selection":"q1_A",
+  "Level (Unit)":"Biology: The Science of Life",
+  "Level (Module)":"Scientific Inquiry",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"didigetthis",
+  "step_index":0,
+  "gpt-4o-mini_gen_wrong_ans":"1. **Response:** Science is a collection of facts that are always true no matter what.\n   **Explanation:** This response is incorrect because science is not merely a collection of unchanging facts. Instead, it is a dynamic process of inquiry that involves forming hypotheses, conducting experiments, and updating understandings based on new evidence. Scientific knowledge can evolve as new information emerges.\n\n2. **Response:** Science is about making things that can be sold in stores.\n   **Explanation:** While science can lead to the development of products and technologies, its primary goal is to understand and explain natural phenomena, not to create products for commerce. The application of scientific knowledge in commercial contexts is a separate aspect known as technology or applied science.\n\n3. **Response:** Science is synonymous with technology; they are the same thing.\n   **Explanation:** This response is misleading because science and technology are not the same. Science is the systematic study of the natural world through observation and experimentation, while technology is the application of scientific knowledge to create tools, processes, or systems to solve problems. They are interrelated but distinct fields.\n\n4. **Response:** Science is only concerned with studying living things, like plants and animals.\n   **Explanation:** This misunderstanding excludes many important areas of scientific inquiry. Science encompasses a wide range of fields, including physics, chemistry, geology, and astronomy, which may not directly involve living organisms. It studies everything in the universe, from microscopic particles to cosmic phenomena.\n\n5. **Response:** Scientists always know the answer before they start experiments; they just confirm it.\n   **Explanation:** This response reflects a misconception about the scientific method. Scientists often begin with questions or hypotheses based on observations, but the aim of experimentation is to test these ideas and discover the truth. The process is empirical, meaning that outcomes can be uncertain, and scientists may form new conclusions based on experimental data."
+ }
+

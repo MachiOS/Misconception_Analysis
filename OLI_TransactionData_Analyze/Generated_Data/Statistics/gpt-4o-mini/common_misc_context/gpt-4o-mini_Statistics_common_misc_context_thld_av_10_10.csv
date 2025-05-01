@@ -1,0 +1,2918 @@
+id,topic,gpt-4o-mini_common_misc_context
+1,Hypothesis Testing,"### Relevant Topics:
+1. Null Hypothesis
+2. Alternative Hypothesis
+3. Type I and Type II Errors
+4. Significance Level (Alpha)
+5. p-value
+
+---
+
+### Topics and Misconceptions
+
+#### 1. Null Hypothesis
+- **Misconception 1**: The null hypothesis implies no effect or no difference always means it is false.
+  - **Example Context**: 
+    - **Question**: ""When testing a new drug, what does establishing a null hypothesis mean for the drug's effect?""
+    - **Student Response**: ""It means the drug doesn't work, so it must be wrong.""
+
+- **Misconception 2**: The null hypothesis is a guess or an opinion.
+  - **Example Context**: 
+    - **Question**: ""How do researchers determine the null hypothesis before starting their study?""
+    - **Student Response**: ""They just predict what they think will happen, it's really their opinion about the outcome.""
+
+- **Misconception 3**: If the null hypothesis is not rejected, it is proven to be true.
+  - **Example Context**: 
+    - **Question**: ""What does it mean if you do not reject the null hypothesis in your study?""
+    - **Student Response**: ""It means that the null hypothesis is definitely true and has been proven.""
+
+- **Misconception 4**: The null hypothesis is always denoted by ""H1"".
+  - **Example Context**: 
+    - **Question**: ""In a research paper, how would you denote the hypothesis indicating no effect?""
+    - **Student Response**: ""You would write H1 since that represents the absence of any effect.""
+
+- **Misconception 5**: The null hypothesis is unimportant once a hypothesis test is performed.
+  - **Example Context**: 
+    - **Question**: ""Can you explain how the null hypothesis affects the results of your hypothesis test?""
+    - **Student Response**: ""Once you run the test, it doesn't matter what the null hypothesis was; the results are all that counts.""
+
+---
+
+#### 2. Alternative Hypothesis
+- **Misconception 1**: The alternative hypothesis always represents the researcher's desired outcome.
+  - **Example Context**: 
+    - **Question**: ""Why do researchers define an alternative hypothesis in their studies?""
+    - **Student Response**: ""Because it's what they want to prove is true, like showing that a new treatment works.""
+
+- **Misconception 2**: The alternative hypothesis cannot be true if the null hypothesis is accepted.
+  - **Example Context**: 
+    - **Question**: ""What can we conclude about the alternative hypothesis if we accepted the null hypothesis based on testing?""
+    - **Student Response**: ""That means the alternative hypothesis is wrong because the null was accepted.""
+
+- **Misconception 3**: The alternative hypothesis asks for a specific effect size.
+  - **Example Context**: 
+    - **Question**: ""Can the alternative hypothesis suggest a difference without quantifying it?""
+    - **Student Response**: ""No, it has to state exactly how much of a difference there is, like it has to be specific.""
+
+- **Misconception 4**: The alternative hypothesis applies only in the context of one-sample tests.
+  - **Example Context**: 
+    - **Question**: ""What adjustments might you need to make to your alternative hypothesis in multi-sample comparisons?""
+    - **Student Response**: ""You don't really need to adjust it; it should be fine just like in one-sample tests.""
+
+- **Misconception 5**: The alternative hypothesis can be discarded if the test result isn’t significant.
+  - **Example Context**: 
+    - **Question**: ""What happens to your alternative hypothesis if your p-value shows no significance?""
+    - **Student Response**: ""That means I could just ignore the alternative hypothesis; it’s no longer relevant.""
+
+---
+
+#### 3. Type I and Type II Errors
+- **Misconception 1**: Type I error means failing to reject the null hypothesis.
+  - **Example Context**: 
+    - **Question**: ""What is a Type I error in hypothesis testing?""
+    - **Student Response**: ""It happens when you don’t reject the null hypothesis when you should.""
+
+- **Misconception 2**: Type II error is more serious than Type I error in all contexts.
+  - **Example Context**: 
+    - **Question**: ""In a medical trial, which error might you consider more critical, Type I or Type II, and why?""
+    - **Student Response**: ""Type II, because it’s worse to miss a treatment that works than to claim one doesn’t work.""
+
+- **Misconception 3**: You can eliminate both Type I and Type II errors by increasing your sample size.
+  - **Example Context**: 
+    - **Question**: ""How does increasing the sample size help in reducing errors in hypothesis testing?""
+    - **Student Response**: ""It gets rid of both Type I and Type II errors completely; the results will always be accurate.""
+
+- **Misconception 4**: A Type I error occurs only when the effect exists.
+  - **Example Context**: 
+    - **Question**: ""Could you explain the implications if a Type I error occurred in your research findings?""
+    - **Student Response**: ""It only happens if there’s actually an effect present, leading to a false conclusion.""
+
+- **Misconception 5**: The probabilities of Type I and Type II errors are always equal.
+  - **Example Context**: 
+    - **Question**: ""Is the probability of committing a Type I error the same as that of committing a Type II error?""
+    - **Student Response**: ""Yes, they are always the same amount in any given statistical test.""
+
+---
+
+#### 4. Significance Level (Alpha)
+- **Misconception 1**: Alpha represents the probability that the null hypothesis is true.
+  - **Example Context**: 
+    - **Question**: ""What does a significance level of 0.05 indicate in hypothesis testing?""
+    - **Student Response**: ""It means there’s a 5% chance that the null hypothesis is actually true.""
+
+- **Misconception 2**: The significance level is the same across all research studies.
+  - **Example Context**: 
+    - **Question**: ""How do researchers decide what alpha level to use in their studies?""
+    - **Student Response**: ""It’s pretty standard for everyone to just use 0.05; it doesn’t change much.""
+
+- **Misconception 3**: A smaller alpha increases the chance of Type I errors.
+  - **Example Context**: 
+    - **Question**: ""If a researcher uses an alpha level of 0.01 instead of 0.05, how does it affect their Type I error rate?""
+    - **Student Response**: ""It actually increases the chances of making a Type I error because they are being stricter.""
+
+- **Misconception 4**: The alpha level is only relevant for one-tailed tests, not two-tailed tests.
+  - **Example Context**: 
+    - **Question**: ""In what ways does the significance level impact one-tailed and two-tailed tests differently?""
+    - **Student Response**: ""It doesn’t really; they only care about alpha in one-tailed tests since they're more straightforward.""
+
+- **Misconception 5**: Setting a higher alpha increases statistical power without consequences.
+  - **Example Context**: 
+    - **Question**: ""What could be a disadvantage of setting the alpha level to 0.10 instead of the conventional 0.05?""
+    - **Student Response**: ""There aren’t really any disadvantages; it just makes it easier to find significant results.""
+
+---
+
+#### 5. p-value
+- **Misconception 1**: The p-value indicates the probability that the null hypothesis is true.
+  - **Example Context**: 
+    - **Question**: ""How would you interpret a p-value of 0.03 in your results?""
+    - **Student Response**: ""It means there’s a 3% chance that the null hypothesis is actually true based on the data.""
+
+- **Misconception 2**: A low p-value guarantees the research hypothesis is valid.
+  - **Example Context**: 
+    - **Question**: ""If your p-value is less than 0.05, what does that mean for your hypothesis?""
+    - **Student Response**: ""It means my hypothesis must be correct, so the research is proven.""
+
+- **Misconception 3**: The p-value measures the size or importance of an effect.
+  - **Example Context**: 
+    - **Question**: ""Can you tell me how your study's p-value reflects the importance of the findings?""
+    - **Student Response**: ""A small p-value means a large effect; therefore, my findings are very important.""
+
+- **Misconception 4**: p-values can be interpreted in absolute terms without considering context.
+  - **Example Context**: 
+    - **Question**: ""Is a p-value of 0.04 concerning for all research questions equally?""
+    - **Student Response**: ""Yes, it always indicates significant results regardless of the context.""
+
+- **Misconception 5**: p-values do not change based on sample size.
+  - **Example Context**: 
+    - **Question**: ""If you repeat your study with a larger sample size, what can you expect about the p-value?""
+    - **Student Response**: ""The p-values would stay the same; they don't really depend on how many people you test."""
+2,T-test,"### Relevant Topics:
+1. Hypothesis Testing
+2. P-values
+3. Effect Size
+4. Sample Size
+5. Normal Distribution
+
+---
+
+### 1. Hypothesis Testing
+**Misconceptions:**
+1. The null hypothesis is always true until proven otherwise.
+   - **Example Context:** A teacher asks, ""What do we assume about the null hypothesis before conducting a test?""
+     - Student Response: ""We assume it's true until we find evidence to reject it.""
+  
+2. A statistically significant result means the alternative hypothesis is true.
+   - **Example Context:** The teacher says, ""If we reject the null hypothesis, what does that imply about the alternative hypothesis?""
+     - Student Response: ""It means the alternative hypothesis must be correct.""
+
+3. Hypothesis testing provides proof of a theory.
+   - **Example Context:** In a class discussion, a student states, ""Since we rejected the null hypothesis, it proves our theory is correct.""
+     - Student Response: ""Exactly! The evidence confirms our theory for sure.""
+
+4. The p-value indicates the probability that the null hypothesis is true.
+   - **Example Context:** The teacher asks, ""What does a p-value of 0.03 tell us about our hypothesis?""
+     - Student Response: ""It means there's a 3% chance the null hypothesis is true.""
+
+5. The significance level (alpha) can be changed after seeing the data.
+   - **Example Context:** During data analysis, the teacher says, ""Should we adjust our alpha level now that we see the results?""
+     - Student Response: ""Yes, to make our findings more significant!""
+
+---
+
+### 2. P-values
+**Misconceptions:**
+1. A lower p-value means a larger effect.
+   - **Example Context:** A student concludes, ""The p-value is 0.01, so the effect size must be really big.""
+     - Student Response: ""Right, since the p-value is low, the effect must be substantial.""
+
+2. It is a definitive measure of the evidence against the null hypothesis.
+   - **Example Context:** Reflecting on a study, a student says, ""A p-value of 0.05 proves there’s definite evidence against the null.""
+     - Student Response: ""Exactly, it’s clear evidence!""
+
+3. P-values can indicate the size of a sample.
+   - **Example Context:** In a group discussion, a student observes, ""All our p-values are under 0.05, so we probably have a big sample size.""
+     - Student Response: ""That makes sense if the p-values are low!""
+
+4. P-values are the only thing that matters in hypothesis testing.
+   - **Example Context:** During a test review, a student insists, ""As long as we have our p-value, the rest doesn't matter.""
+     - Student Response: ""Yes, if it's less than 0.05, we're good to go!""
+
+5. A p-value of exactly 0.05 indicates a definitive line between significance and non-significance.
+   - **Example Context:** A discussion arises about test results, and a student says, ""Our p-value is exactly 0.05; therefore, we have significant results.""
+     - Student Response: ""So, it's significant, right? There's no gray area.""
+
+---
+
+### 3. Effect Size
+**Misconceptions:**
+1. Effect size is the same as p-value.
+   - **Example Context:** A teacher asks, ""How does effect size relate to our results?""
+     - Student Response: ""It's just another way of showing the same thing as our p-value.""
+
+2. Small effect sizes are not worthwhile.
+   - **Example Context:** In a debate about research findings, a student claims, ""Since our effect size is small, it doesn't matter.""
+     - Student Response: ""I agree! Why would anyone care about a small effect size?""
+
+3. Effect size only matters in large samples.
+   - **Example Context:** After analyzing data, a student comments, ""Our sample is big, so now we can ignore effect size.""
+     - Student Response: ""Right, big samples mean effect size doesn't count!""
+
+4. Effect size provides information about statistical significance.
+   - **Example Context:** A class discussion leads a student to state, ""If the effect size is large, our results must also be statistically significant.""
+     - Student Response: ""Definitely! Big effect size means we have significance.""
+
+5. Effect sizes are not relevant in practical applications.
+   - **Example Context:** When discussing results, a student mentions, ""Even if we have a decent effect size, it won't affect real-world applications.""
+     - Student Response: ""True! What does effect size matter outside of tests?""
+
+---
+
+### 4. Sample Size
+**Misconceptions:**
+1. Larger sample sizes always produce more accurate results.
+   - **Example Context:** A student argues, ""The larger our sample, the more reliable our findings will be.""
+     - Student Response: ""It seems obvious! Big samples must lead to accuracy.""
+
+2. Sample size has no effect on effect size.
+   - **Example Context:** In a review session, a student claims, ""Whether our sample is large or small doesn't change the effect size measured.""
+     - Student Response: ""Exactly! Effect size is constant, no matter the size.""
+
+3. Sample size does not need to be justifiable for scientific studies.
+   - **Example Context:** During a project proposal, a student insists, ""We can pick any sample size without any reason; it won't matter.""
+     - Student Response: ""That sounds reasonable; it's just a number.""
+
+4. All samples must be representative for any sample size.
+   - **Example Context:** A student states in class, ""It doesn't matter how big our sample is, as long as we're randomly selecting.""
+     - Student Response: ""So we're good to go, right?""
+
+5. Increasing the sample size eliminates all biases.
+   - **Example Context:** While analyzing data, a student declares, ""Since we used such a large sample, there can't be any biases left.""
+     - Student Response: ""Exactly! A big sample solves bias issues!""
+
+---
+
+### 5. Normal Distribution
+**Misconceptions:**
+1. All data must fit perfectly into a normal distribution.
+   - **Example Context:** A student says, ""If our data isn't normal, we've done something wrong.""
+     - Student Response: ""Totally! It must fit perfectly or it's invalid.""
+
+2. Normal distributions are always symmetrical.
+   - **Example Context:** In analyzing graphs, a student notes, ""Since it looks normal, it should be symmetrical all around.""
+     - Student Response: ""Of course! That’s why they’re normal.""
+
+3. Central Limit Theorem states that any sample will result in a normal distribution.
+   - **Example Context:** During a class on sampling, a student states, ""As long as I take any sample, it will automatically be normally distributed.""
+     - Student Response: ""Exactly! That’s how it works!""
+
+4. If a distribution is not normal, it cannot be used for t-tests.
+   - **Example Context:** A discussion about data leads a student to argue, ""Since our data isn’t normally distributed, we can't use t-tests at all.""
+     - Student Response: ""You're right! No normal data means no t-tests!""
+
+5. Normal distribution parameters can be arbitrarily chosen.
+   - **Example Context:** While working on statistical simulations, a student suggests, ""We can just pick any mean and standard deviation; it'll still be normal.""
+     - Student Response: ""Absolutely! The parameters don’t matter if we want it normal."""
+3,Poplulation mean,"**Relevant Topics:**
+1. Sampling methods
+2. Variance
+3. Central Limit Theorem
+4. Confidence Intervals
+5. Hypothesis Testing
+
+---
+
+### 1. **Sampling Methods**
+- **Misconception 1:** All sampling methods produce equally reliable results.
+  - **Example Context:**
+    - **Question:** ""If you surveyed 10 people randomly selected from a town, how would that likely compare to surveying 100 people from the same town?""
+    - **Students' Responses:**  
+      - ""Both methods are random, so they'll probably both give accurate results.""  
+      - ""The smaller group can represent the whole just as well as the larger one.""
+
+- **Misconception 2:** Simple Random Sampling is the only way to get an unbiased sample.
+  - **Example Context:**
+    - **Question:** ""What are the advantages of using stratified sampling instead of just simple random sampling?""
+    - **Students' Responses:**  
+      - ""There’s really no difference; simple random is always the best way.""  
+      - ""I mean, as long as it's random, it doesn’t matter how you pick the sample.""
+
+- **Misconception 3:** Convenience sampling gives valid results as long as the sample size is large enough.
+  - **Example Context:**
+    - **Question:** ""What do you think about the reliability of survey data collected from only those who happened to walk by the mall?""
+    - **Students' Responses:**  
+      - ""If there are a lot of people surveyed, it will definitely give a good picture.""  
+      - ""As long as the number is high, it should work out fine.""
+
+- **Misconception 4:** A larger sample size always guarantees a more accurate representation of the population.
+  - **Example Context:**
+    - **Question:** ""How does the size of the sample relate to the accuracy of representing the student body opinion?""
+    - **Students' Responses:**  
+      - ""The bigger the sample, the better it always represents everyone.""  
+      - ""Size is everything; you just need to get enough people.""
+
+- **Misconception 5:** Nonresponse bias is not a significant issue in surveys.
+  - **Example Context:**
+    - **Question:** ""If many people did not respond to the survey, what effect might that have on our results?""
+    - **Students' Responses:**  
+      - ""It probably won’t matter too much if we had a high number of responses.""  
+      - ""They probably just don’t care about the survey anyway; it's still valid.""
+
+---
+
+### 2. **Variance**
+- **Misconception 1:** Variance only measures the average deviation from the mean.
+  - **Example Context:**
+    - **Question:** ""If the variance of a dataset is zero, what does that tell you about the data?""
+    - **Students' Responses:**  
+      - ""It means that all the numbers just average out to zero.""  
+      - ""It must have some sort of average or central value.""
+
+- **Misconception 2:** High variance always means that the data points are spread out evenly.
+  - **Example Context:**
+    - **Question:** ""What can you infer from a dataset with a high variance?""
+    - **Students' Responses:**  
+      - ""It means the values are evenly distributed around the mean.""  
+      - ""High variance means it’s a bell curve with wide spread.""
+
+- **Misconception 3:** Variance tells you about the direction of the data points.
+  - **Example Context:**
+    - **Question:** ""If a dataset has a positive variance, what does that mean about the data?""
+    - **Students' Responses:**  
+      - ""It means the numbers are mostly positive.""  
+      - ""There must be a trend where data increases.""
+
+- **Misconception 4:** Variance applies only to numerical data.
+  - **Example Context:**
+    - **Question:** ""Can we calculate variance for categorical data?""
+    - **Students' Responses:**  
+      - ""No, because you can't have variance without numbers.""  
+      - ""I believe it only works for things like scores or measurements.""
+
+- **Misconception 5:** Variance and standard deviation are fundamentally different concepts.
+  - **Example Context:**
+    - **Question:** ""How does standard deviation relate to variance?""
+    - **Students' Responses:**  
+      - ""They are completely unrelated; you can't use them interchangeably.""  
+      - ""Standard deviation is just another name for variance.""
+
+---
+
+### 3. **Central Limit Theorem**
+- **Misconception 1:** The Central Limit Theorem only applies to normally distributed populations.
+  - **Example Context:**
+    - **Question:** ""Why is the Central Limit Theorem important for understanding sampling distributions?""
+    - **Students' Responses:**  
+      - ""It doesn’t matter if the population isn’t normal; it has to start with normal data.""  
+      - ""Central Limit only describes normal populations, so we can't use it here.""
+
+- **Misconception 2:** The sample size must always be greater than 30 for the Central Limit Theorem to apply.
+  - **Example Context:**
+    - **Question:** ""What would happen if I took a sample of 20 from a non-normal distribution? Can I still apply CLT?""
+    - **Students' Responses:**  
+      - ""You can't, it has to be more than 30.""  
+      - ""I’m not sure, but it’s probably too small to work.""
+
+- **Misconception 3:** The sample mean will always equal the population mean according to the Central Limit Theorem.
+  - **Example Context:**
+    - **Question:** ""If I take several samples from a population, what can I expect about the relationship between their means and the population mean?""
+    - **Students' Responses:**  
+      - ""The sample means will always end up being exactly the same as the population mean.""  
+      - ""Every sample will match the actual population mean exactly.""
+
+- **Misconception 4:** The Central Limit Theorem doesn’t apply to non-random samples.
+  - **Example Context:**
+    - **Question:** ""Can we use the Central Limit Theorem for biased samples?""
+    - **Students' Responses:**  
+      - ""No, it must be a random sample; otherwise it won't work.""  
+      - ""I doubt it applies because it has to be ideal data.""
+
+- **Misconception 5:** The shape of the sampling distribution depends on the population's variance.
+  - **Example Context:**
+    - **Question:** ""How does the distribution of sample means compare to the original population distribution?""
+    - **Students' Responses:**  
+      - ""The sample will take on the same shape, depending on the population variance.""  
+      - ""If the variance is high in the population, the sample means will look similar as well.""
+
+---
+
+### 4. **Confidence Intervals**
+- **Misconception 1:** A confidence interval guarantees that the population parameter will fall within the calculated interval.
+  - **Example Context:**
+    - **Question:** ""What does a 95% confidence interval mean regarding our estimate?""
+    - **Students' Responses:**  
+      - ""It means there’s a 95% certainty the true value is in that range.""  
+      - ""You can expect the true mean to fall in this interval for sure.""
+
+- **Misconception 2:** Wider confidence intervals are always inferior to narrower ones.
+  - **Example Context:**
+    - **Question:** ""If we chose a higher confidence level, how would that affect the interval width?""
+    - **Students' Responses:**  
+      - ""Wider intervals are worse; a narrow one is always better.""  
+      - ""I guess we shouldn't want wider intervals at all.""
+
+- **Misconception 3:** The level of confidence affects the sample mean within the interval.
+  - **Example Context:**
+    - **Question:** ""How does changing the confidence level from 90% to 95% impact our point estimate?""
+    - **Students' Responses:**  
+      - ""It will shift the sample mean higher because of the confidence change.""  
+      - ""More confidence changes where the mean actually lies.""
+
+- **Misconception 4:** Confidence intervals are fixed and do not change with different samples.
+  - **Example Context:**
+    - **Question:** ""If I were to take several samples and calculate confidence intervals for each, how would they compare?""
+    - **Students' Responses:**  
+      - ""They should all be the same because confidence intervals stay constant.""  
+      - ""Once you compute it, it shouldn’t change with new data.""
+
+- **Misconception 5:** Attributes of the population affect the interpretation of a confidence interval.
+  - **Example Context:**
+    - **Question:** ""How does the nature of the population influence how we interpret the confidence interval?""
+    - **Students' Responses:**  
+      - ""It shouldn’t; it’s all about the sample you took.""  
+      - ""If the population is skewed, it’s irrelevant to the CI.""
+
+---
+
+### 5. **Hypothesis Testing**
+- **Misconception 1:** Rejecting the null hypothesis proves that the alternative hypothesis is true.
+  - **Example Context:**
+    - **Question:** ""If we reject the null hypothesis in our test, what conclusion can we draw about our alternative hypothesis?""
+    - **Students' Responses:**  
+      - ""It means that the alternative hypothesis has to be correct.""  
+      - ""Once we reject null, the alternative is confirmed.""
+
+- **Misconception 2:** A significance level (alpha) guarantees the validity of the test's results.
+  - **Example Context:**
+    - **Question:** ""Why is it important to set an alpha level before the experiment rather than after?""
+    - **Students' Responses:**  
+      - ""It’s okay; it just needs a threshold to make any conclusion work.""  
+      - ""The alpha gives a stamp of approval for any result.""
+
+- **Misconception 3:** Failing to reject the null hypothesis means the null hypothesis is true.
+  - **Example Context:**
+    - **Question:** ""What does it indicate when we fail to reject the null hypothesis?""
+    - **Students' Responses:**  
+      - ""It’s just evidence that the null is right.""  
+      - ""If we don’t reject it, then that's our correct assumption.""
+
+- **Misconception 4:** The p-value is the probability that the null hypothesis is true.
+  - **Example Context:**
+    - **Question:** ""What does a p-value of 0.03 indicate in the context of our statistical test?""
+    - **Students' Responses:**  
+      - ""It’s a 3% chance that our null hypothesis is actually right.""  
+      - ""Lower p-values mean it’s likely null is not true, but it’s still a possibility.""
+
+- **Misconception 5:** The method of collecting data does not affect the results of hypothesis testing.
+  - **Example Context:**
+    - **Question:** ""If my data was gathered through biased means, can I still trust my hypothesis test results?""
+    - **Students' Responses:**  
+      - ""As long as we conduct the test properly, the data gathering doesn’t make a difference.""  
+      - ""The test will correct for any kind of bias; it’s all about the analysis."" 
+
+--- 
+
+This structured guide should help in clarifying common misunderstandings across each related key term while providing context for how these misconceptions might surface in classroom discussions or assessments."
+4,Exploratory Data Analysis,"### Relevant Topics for Exploratory Data Analysis
+1. Data Visualization
+2. Descriptive Statistics
+3. Data Cleaning and Preparation
+4. Sampling Methods
+5. Correlation vs. Causation
+
+---
+
+### Topic 1: Data Visualization  
+
+**Misconceptions:**
+1. Data visualizations can convey all data types effectively.
+2. More complex visualizations are always better.
+3. Color choices in visualizations do not affect interpretation.
+4. Every visualization is suitable for every audience.
+5. Visualizations should always include all available data.
+
+**Example Context for Misconceptions:**
+1. **Question:** ""Why did you choose a pie chart for this dataset?""
+   - **Student Response:** ""Because it clearly displays the parts of a whole.""
+   - **Misconception:** Students may not understand that some data types (like continuous data) are not effectively conveyed using pie charts.
+
+2. **Question:** ""What do you think about the complexity of this treemap?""
+   - **Student Response:** ""The more complicated it is, the better it shows the data.""
+   - **Misconception:** Students may believe that complexity adds value instead of clarity.
+
+3. **Question:** ""Do you think the choice of colors in your heatmap matters?""
+   - **Student Response:** ""Not really; they’re just colors and do not change the data.""
+   - **Misconception:** Students may underestimate the impact of color choice on interpretation, especially for color-blind viewers.
+
+4. **Question:** ""Why did you include all your visualizations in the report?""
+   - **Student Response:** ""Because everything seems important for the audience.""
+   - **Misconception:** Students might think that incorporating all visualizations is better instead of tailoring them to the audience's needs.
+
+5. **Question:** ""What insights can you gather from this overview of your data throughout the year?""
+   - **Student Response:** “These graphs use all data, so we can derive insights from everything.”
+   - **Misconception:** Students might assume that showing every piece of data leads to better insights.
+
+---
+
+### Topic 2: Descriptive Statistics  
+
+**Misconceptions:**
+1. The mean is always the best measure of central tendency.
+2. Standard deviation and variance are interchangeable.
+3. Descriptive statistics completely summarize the data.
+4. Outliers do not affect the median.
+5. Statistics can be used without understanding the data distribution.
+
+**Example Context for Misconceptions:**
+1. **Question:** ""Which measure of central tendency would you report for this dataset?""
+   - **Student Response:** ""The mean, because it gives the average value.""
+   - **Misconception:** Students may not recognize situations where the mean is skewed by outliers and might overlook the median.
+
+2. **Question:** ""Can you compare standard deviation and variance for this dataset?""
+   - **Student Response:** ""They measure the same thing, just using different units.""
+   - **Misconception:** Students might confuse standard deviation (which is in the same units as data points) with variance (which is squared units).
+
+3. **Question:** ""How well does this summary capture your data?""
+   - **Student Response:** ""It captures everything; we don't need anything else.""
+   - **Misconception:** Students may believe that descriptive statistics alone can fully represent the characteristics and nuances of the data set.
+
+4. **Question:** ""What impact do the outliers have on your median?""
+   - **Student Response:** ""None, they don't matter since they aren’t part of the middle data.""
+   - **Misconception:** Students might think that outliers have no effect on the median value.
+
+5. **Question:** ""What distribution form does your data follow, and how will that affect your analysis?""
+   - **Student Response:** ""I don’t think it matters; once I get the stats, I’m done.""
+   - **Misconception:** Students may overlook the significance of understanding distribution in applying statistical methods.
+
+---
+
+### Topic 3: Data Cleaning and Preparation  
+
+**Misconceptions:**
+1. Data cleaning is a trivial step in data analysis.
+2. All missing values can be effectively filled.
+3. Data preparation is only necessary when using advanced analytics.
+4. Data formatting does not influence analysis results.
+5. Only erroneous data requires cleaning.
+
+**Example Context for Misconceptions:**
+1. **Question:** ""What steps did you take to clean your dataset?""
+   - **Student Response:** ""I just removed duplicates; cleaning is easy.""
+   - **Misconception:** Students might trivialize the importance and effort involved in thorough data cleaning.
+
+2. **Question:** ""How did you manage the missing values in your dataset?""
+   - **Student Response:** ""I just filled them in with the average values; it will work fine.""
+   - **Misconception:** Students might overestimate the reliability of simple imputation methods for handling missing data.
+
+3. **Question:** ""Do you think your dataset requires any preparation for this machine learning model?""
+   - **Student Response:** ""Not much; it's all about using the model correctly.""
+   - **Misconception:** Students might ignore the foundational importance of data preparation, thinking it’s unnecessary for basic analyses or models.
+
+4. **Question:** ""How does the format of categorical data impact your analysis?""
+   - **Student Response:** ""It doesn’t really matter as long as the data is there.""
+   - **Misconception:** Students could underestimate the consequences of improperly formatted data.
+
+5. **Question:** ""Do you think cleaning should only focus on inaccurate or corrupted data?""
+   - **Student Response:** ""Yes, that’s the only part that needs cleaning.""
+   - **Misconception:** Students may assume that data cleaning is only about fixing errors, ignoring the value of overall integrity.
+
+---
+
+### Topic 4: Sampling Methods  
+
+**Misconceptions:**
+1. Any sample can represent the population accurately.
+2. Larger samples are always better.
+3. Random samples eliminate bias entirely.
+4. Convenience samples are sufficient in most cases.
+5. Sampling error is negligible in small nuumbers.
+
+**Example Context for Misconceptions:**
+1. **Question:** ""How did you determine if your sample represents the population?""
+   - **Student Response:** ""I just took a few people; it’s a good representation.""
+   - **Misconception:** Students might believe that any sample size or selection method can suffice for accurate representation.
+
+2. **Question:** ""What advantages do you see in increasing your sample size?""
+   - **Student Response:** ""The bigger the sample, the better the results, no matter what.""
+   - **Misconception:** Students might think that increasing sample size alone will correct biases or inaccuracies without considering methodology.
+
+3. **Question:** ""How do you think random sampling influences the reliability of your results?""
+   - **Student Response:** ""It gets rid of all bias since everyone has a chance to be chosen.""
+   - **Misconception:** Students might overlook the fact that random sampling can still result in biased samples due to chance.
+
+4. **Question:** ""What’s your perspective on using convenience sampling for this research?""
+   - **Student Response:** ""It’s easier and usually works fine for getting quick insights.""
+   - **Misconception:** Students may underestimate the potential pitfalls of convenience sampling in representing a diverse population.
+
+5. **Question:** ""Do you think sampling error is something to worry about if you only take 10 samples?""
+   - **Student Response:** ""Not particularly; it’s such a small number, it won’t affect my findings.""
+   - **Misconception:** Students may assume that small samples result in negligible sampling error without fully understanding its implications.
+
+---
+
+### Topic 5: Correlation vs. Causation  
+
+**Misconceptions:**
+1. Correlation implies causation.
+2. A strong correlation always indicates a causal relationship.
+3. If two variables are correlated, they must be dependent.
+4. Causation can easily be inferred from observational data.
+5. Correlation coefficients measure the direction of the relationship but not the strength.
+
+**Example Context for Misconceptions:**
+1. **Question:** ""What can you infer from the high correlation between ice cream sales and drowning incidents?""
+   - **Student Response:** ""Ice cream sales must cause more drowning!""
+   - **Misconception:** Students may mistakenly view correlation as a direct cause-and-effect relationship without recognizing external factors.
+
+2. **Question:** ""How would you describe the relationship between study time and exam scores given the correlation?""
+   - **Student Response:** ""Because the correlation is strong, studying more must cause better scores.""
+   - **Misconception:** Students might think that strong correlations inherently imply a cause without considering other factors.
+
+3. **Question:** ""Given the data you've analyzed, do you think the two correlated variables are interdependent?""
+   - **Student Response:** ""Definitely, they must rely on each other.""
+   - **Misconception:** Students might misinterpret correlation as an indication of dependence rather than simply association.
+
+4. **Question:** ""How can you confirm causation from observational data?""
+   - **Student Response:** ""I can just find the correlation to show the cause!""
+   - **Misconception:** Students may incorrectly believe that observation alone or correlation can confirm a causal relationship without rigorous testing.
+
+5. **Question:** ""What does a correlation coefficient of 0.8 tell you?""
+   - **Student Response:** ""It shows a strong relationship in one direction, so we understand exactly how they relate.""
+   - **Misconception:** Students might confuse the coefficient’s strength with having clear implications about the relationship’s cause or influence. 
+
+--- 
+
+Feel free to adapt or expand upon these terms and misconceptions in any manner that suits your context!"
+5,Point Estimation,"### Relevant Topics:
+1. Confidence Intervals  
+2. Sample Size Calculation  
+3. Bias in Estimation  
+4. Statistical Significance  
+5. Central Limit Theorem  
+
+---
+
+### 1. Confidence Intervals  
+
+**Misconceptions:**
+
+1. **Misconception:** Confidence intervals can be interpreted as the probability that the parameter lies within the interval.
+   - **Context:** ""Given a confidence interval of (20, 30) for the mean, what can we say about the probability of the true mean?""
+     - **Student Response:** ""There’s a 95% chance that the true mean is between 20 and 30.""
+
+2. **Misconception:** A wider confidence interval is always better as it increases reliability.
+   - **Context:** ""Why might you choose a wide confidence interval over a narrow one in reporting your findings?""
+     - **Student Response:** ""Because wider intervals mean more certainty about the estimate being right.""
+
+3. **Misconception:** Confidence intervals can be calculated without considering variability or sample size.
+   - **Context:** ""You have data from only three samples. Can you calculate a reliable confidence interval?""
+     - **Student Response:** ""Sure, the confidence interval can be calculated with whatever data I have, it doesn’t rely on the number of samples.""
+
+4. **Misconception:** The confidence level (e.g., 95%) affects the mean estimate itself.
+   - **Context:** ""If I change my confidence level from 90% to 95%, how does that influence the point estimate?""
+     - **Student Response:** ""The point estimate will be higher because 95% is bigger than 90%.""
+
+5. **Misconception:** Confidence intervals are used to guarantee future observations.
+   - **Context:** ""What does it mean when we say the confidence interval for the mean is (10, 20)?""
+     - **Student Response:** ""It means any new data point will definitely fall between 10 and 20.”
+
+---
+
+### 2. Sample Size Calculation  
+
+**Misconceptions:**
+
+1. **Misconception:** Larger sample sizes always lead to more valid results.
+   - **Context:** ""If you double your sample size, what does that mean for the validity of your results?""
+     - **Student Response:** ""It automatically makes my results valid because I have more data.""
+
+2. **Misconception:** Sample size does not affect the width of the confidence interval.
+   - **Context:** ""How does increasing the sample size affect your confidence interval?""
+     - **Student Response:** ""It doesn’t really change the width of the interval; the estimate stays the same.""
+
+3. **Misconception:** Random sampling is unnecessary as long as the sample size is large.
+   - **Context:** ""Is it okay to just use a large sample from a biased or non-random source for your experiment?""
+     - **Student Response:** ""Yeah, because with a big enough sample, the results will be good regardless of how I select them.""
+
+4. **Misconception:** Calculating sample size is only necessary for larger-scale projects.
+   - **Context:** ""For a small study, is determining the sample size really necessary?""
+     - **Student Response:** ""Not really; it’s just important for big studies and surveys.""
+
+5. **Misconception:** The formula for sample size is the same regardless of the type of data or study.
+   - **Context:** ""How would you approach determining the sample size for a qualitative study versus a quantitative one?""
+     - **Student Response:** ""The process is the same; you just use the same formula in both cases.""
+
+---
+
+### 3. Bias in Estimation  
+
+**Misconceptions:**
+
+1. **Misconception:** Bias only refers to systematic errors in data collecting and not estimation.
+   - **Context:** ""When did bias play a role in affecting your estimate?""
+     - **Student Response:** ""Bias comes from how I collected the data, not from the estimation process itself.""
+
+2. **Misconception:** An unbiased estimator always produces correct estimates.
+   - **Context:** ""How would you explain an unbiased estimator yielding an estimate of 5 when the true mean is 10?""
+     - **Student Response:** ""That can't happen because unbiased means it always hits the right target.""
+
+3. **Misconception:** Reducing bias guarantees increased accuracy in estimates.
+   - **Context:** ""If we focus on reducing bias in our estimator, what can we expect for the precision of our estimates?""
+     - **Student Response:** ""That should make our estimates exactly right and very precise.""
+
+4. **Misconception:** Bias cannot be detected without external standards or comparisons.
+   - **Context:** ""If you're conducting your own study, how can you determine if your estimate is biased?""
+     - **Student Response:** ""You can’t tell without past data or other studies to compare against.""
+
+5. **Misconception:** All forms of bias are avoidable.
+   - **Context:** ""Given your study findings, do you think all types of bias can be eliminated?""
+     - **Student Response:** ""Definitely, with careful planning I can eliminate every form of bias.""
+
+---
+
+### 4. Statistical Significance  
+
+**Misconceptions:**
+
+1. **Misconception:** A statistically significant result is practically significant.
+   - **Context:** ""What do you conclude if your p-value is 0.03 in your study of drug efficacy?""
+     - **Student Response:** ""It means the drug works really well and has significant results.""
+
+2. **Misconception:** A result that is not statistically significant means there is no effect at all.
+   - **Context:** ""How do you interpret a p-value greater than 0.05 in your experiment?""
+     - **Student Response:** ""It means there is completely no effect, and nothing is happening.""
+
+3. **Misconception:** The p-value tells how true the hypothesis is.
+   - **Context:** ""What does a p-value of 0.01 imply about your null hypothesis?""
+     - **Student Response:** ""It means the null hypothesis has a 99% chance of being false.""
+
+4. **Misconception:** Statistical significance can be interpreted as proof of a theory.
+   - **Context:** ""In light of a statistically significant result, what can we say about the theory we are testing?""
+     - **Student Response:** ""It proves the theory is correct because we have statistical significance.""
+
+5. **Misconception:** Statistically significant results will always replicate in future studies.
+   - **Context:** ""Based on your significant findings this time, what do you expect in future trials?""
+     - **Student Response:** ""It should replicate and show the same significance every time.""
+
+---
+
+### 5. Central Limit Theorem  
+
+**Misconceptions:**
+
+1. **Misconception:** The Central Limit Theorem applies only to normal distributions.
+   - **Context:** ""Can you explain how the Central Limit Theorem works when sampling from a skewed distribution?""
+     - **Student Response:** ""It only works if the original data is normal; it doesn’t apply otherwise.""
+
+2. **Misconception:** You need a large sample size for the Central Limit Theorem to be valid.
+   - **Context:** ""If a sample size is small, how would you adjust for the Central Limit Theorem?""
+     - **Student Response:** ""You can’t apply it to small samples, so you have to do something else.""
+
+3. **Misconception:** The Central Limit Theorem guarantees that sample means will be normally distributed.
+   - **Context:** ""What happens to the distribution shape of sample means as you increase sample size according to the Central Limit Theorem?""
+     - **Student Response:** ""It means they'll eventually be perfectly normal, regardless of the original data shape.""
+
+4. **Misconception:** The Central Limit Theorem is only relevant for means, not other statistics.
+   - **Context:** ""In terms of other statistics like medians or modes, how does the Central Limit Theorem apply?""
+     - **Student Response:** ""It doesn’t apply; it only tells us about the behavior of means.""
+
+5. **Misconception:** The Central Limit Theorem applies to all samples in the same way.
+   - **Context:** ""If I take different samples from a population, will their means always converge to a single distribution according to the Central Limit Theorem?""
+     - **Student Response:** ""Yes, all samples will show the same distribution if they are from the same population."""
+6,Interval Estimation,"### Relevant Topics:
+1. Confidence Intervals
+2. Point Estimation
+3. Sampling Distribution
+4. Margin of Error
+5. Hypothesis Testing
+
+---
+
+#### 1. Confidence Intervals
+**Misconceptions:**
+1. The confidence interval guarantees that the population parameter lies within it.
+   - **Example Context:** 
+     - **Question:** ""If you calculate a 95% confidence interval for the mean, what does that mean regarding the population mean?""
+     - **Student Response:** ""It means there's a 95% chance the true mean is in this interval.""
+   
+2. A wider confidence interval always indicates more variability in data.
+   - **Example Context:**
+     - **Question:** ""If the interval is broader, does that reflect more variability in your sample?""
+     - **Student Response:** ""Yes, a wider interval must mean the data is more spread out.""
+
+3. The confidence level changes the data collected.
+   - **Example Context:**
+     - **Question:** ""How does choosing a 95% vs a 99% confidence level affect the data you collect?""
+     - **Student Response:** ""Choosing a higher confidence level means I need to collect more varied data.""
+
+4. Confidence intervals can be calculated without regard to sample size.
+   - **Example Context:**
+     - **Question:** ""Does the sample size impact the width of a confidence interval?""
+     - **Student Response:** ""Not really; you can calculate them the same way regardless of how many samples you have.""
+
+5. A confidence interval can be interpreted as multiple trials of a single experiment.
+   - **Example Context:**
+     - **Question:** ""If I took multiple samples and found 95% of them include the true mean, what could I say about my interval?""
+     - **Student Response:** ""It shows that the confidence interval is accurate 95% of the time.""
+
+---
+
+#### 2. Point Estimation
+**Misconceptions:**
+1. A point estimate is always the true value of the parameter.
+   - **Example Context:**
+     - **Question:** ""How accurate do you think your point estimate is for the population mean?""
+     - **Student Response:** ""It should be exact since it's the calculated mean.""
+
+2. All point estimates have the same reliability regardless of the estimator used.
+   - **Example Context:**
+     - **Question:** ""Which would you trust more: the sample mean or the sample median as your point estimate?""
+     - **Student Response:** ""They're both the same; both are estimates.""
+
+3. A point estimate provides no information about uncertainty.
+   - **Example Context:**
+     - **Question:** ""What do you feel when using a point estimate to describe the population?""
+     - **Student Response:** ""I feel confident because it gives me the exact number I need.""
+
+4. The sample mean is always a better point estimate than the median.
+   - **Example Context:**
+     - **Question:** ""When should you prefer the mean over the median for estimating a population parameter?""
+     - **Student Response:** ""The mean is always better since it considers all data points.""
+
+5. The accuracy of a point estimate does not improve with larger samples.
+   - **Example Context:**
+     - **Question:** ""Would doubling your sample size improve your estimate of the population mean?""
+     - **Student Response:** ""No, the point estimate is fixed regardless of how many samples you take.""
+
+---
+
+#### 3. Sampling Distribution
+**Misconceptions:**
+1. The sampling distribution is the same as the population distribution.
+   - **Example Context:**
+     - **Question:** ""How does the shape of the sampling distribution compare with the shape of the original population distribution?""
+     - **Student Response:** ""They are exactly the same; if the population is normal, so is the sampling distribution.""
+
+2. A larger sample size does not affect the sampling distribution's mean.
+   - **Example Context:**
+     - **Question:** ""What happens to the mean of your sampling distribution if you increase the sample size?""
+     - **Student Response:** ""It stays the same; the mean is determined solely by the population.""
+
+3. The variation in the sampling distribution decreases as sample size increases.
+   - **Example Context:**
+     - **Question:** ""What happens to the spread of the sampling distribution when you align your sample sizes?""
+     - **Student Response:** ""It stays constant no matter what my sample size is.""
+
+4. The Central Limit Theorem doesn't apply to non-normally distributed populations.
+   - **Example Context:**
+     - **Question:** ""How can you determine if the Central Limit Theorem applies to your data?""
+     - **Student Response:** ""Only if my data is normally distributed.""
+
+5. All types of estimators will yield the same sampling distribution regardless of the method used.
+   - **Example Context:**
+     - **Question:** ""Can different averaging methods, like the mean and the trimmed mean, produce different sampling distributions?""
+     - **Student Response:** ""No, they will all produce the same distribution since they're both averages.""
+
+---
+
+#### 4. Margin of Error
+**Misconceptions:**
+1. The margin of error accounts for all sources of error in estimation.
+   - **Example Context:**
+     - **Question:** ""What factors do you think the margin of error covers when calculating an estimate?""
+     - **Student Response:** ""It includes everything. So, it guarantees that our estimate is perfect.""
+
+2. A smaller margin of error indicates a more accurate point estimate.
+   - **Example Context:**
+     - **Question:** ""If your margin of error is very small, can you definitively say your estimate is true?""
+     - **Student Response:** ""Yes, a smaller margin means it's definitely correct.""
+
+3. The margin of error is a fixed number regardless of sample size.
+   - **Example Context:**
+     - **Question:** ""Does increasing your sample size affect the margin of error in your estimation?""
+     - **Student Response:** ""No, the margin of error does not change based on how many samples I take.""
+
+4. The margin of error is only relevant in political polls.
+   - **Example Context:**
+     - **Question:** ""Where else do you think the margin of error can be applied, outside of surveys?""
+     - **Student Response:** ""It’s mainly for polls; the margin of error doesn’t really matter for other studies.""
+
+5. The margin of error can be calculated without a predetermined confidence level.
+   - **Example Context:**
+     - **Question:** ""Which confidence level do you normally consider when calculating margin of error?""
+     - **Student Response:** ""I just calculate it without choosing a confidence level first; it’s just a number.""
+
+---
+
+#### 5. Hypothesis Testing
+**Misconceptions:**
+1. Failing to reject the null hypothesis means that the null hypothesis is true.
+   - **Example Context:**
+     - **Question:** ""If you fail to reject the null hypothesis, what can you conclude about it?""
+     - **Student Response:** ""It means the null hypothesis is true, so my initial assumption was right.""
+
+2. A p-value indicates the probability that the null hypothesis is true.
+   - **Example Context:**
+     - **Question:** ""What does a p-value of 0.03 suggest about your null hypothesis?""
+     - **Student Response:** ""It means there’s a 3% chance that the null is true.""
+
+3. A significant result means that the observed effect is practically important.
+   - **Example Context:**
+     - **Question:** ""If you find a statistically significant result, what does that mean for the real-world application?""
+     - **Student Response:** ""It means the effect is definitely important and should be acted upon.""
+
+4. Type I error and Type II error have the same implications.
+   - **Example Context:**
+     - **Question:** ""Can you explain the difference between Type I and Type II errors?""
+     - **Student Response:** ""They’re basically the same; both just mean we made a mistake in our hypothesis testing.""
+
+5. Increasing the sample size always leads to a significant result.
+   - **Example Context:**
+     - **Question:** ""What happens to your test result when you greatly increase your sample size?""
+     - **Student Response:** ""It almost always turns significant because I have more data to support my hypothesis.""
+
+--- 
+
+These topics and misconceptions shed light on foundational misunderstandings students often encounter in the realm of interval estimation and related statistical concepts."
+7,Confidence interval,"### Relevant Topics:
+1. **Statistical Significance**
+2. **Hypothesis Testing**
+3. **Sampling Distributions**
+4. **Margin of Error**
+5. **Normal Distribution**
+
+---
+
+### 1. Statistical Significance
+
+**Misconceptions:**
+1. Statistical significance implies practical significance.
+   - **Context:** ""In a recent study, we found a statistically significant difference in test scores between two groups. What does this mean for the effectiveness of the teaching method?""
+     - **Student Response:** ""It means the method is definitely better; the difference is important in real-world applications.""
+
+2. A significant p-value guarantees that the null hypothesis is false.
+   - **Context:** ""After running a hypothesis test, we obtained a p-value of 0.03. Can we conclude that the null hypothesis is incorrect?""
+     - **Student Response:** ""Yes, we can reject the null hypothesis for sure since the p-value is low.""
+
+3. If a test is significant, it means the results will be the same in future studies.
+   - **Context:** ""Our team's results were significant. Can we expect that future studies will find the same outcome?""
+     - **Student Response:** ""Yes, since it showed significance, every future study will have the same results.""
+
+4. Only a p-value less than 0.05 is significant.
+   - **Context:** ""In our analysis, we found a p-value of 0.07. What does this tell us about our results?""
+     - **Student Response:** ""It means we have no significant results since it’s above 0.05.""
+
+5. Statistical significance is the only criterion for a good study.
+   - **Context:** ""What should we prioritize when interpreting the study's results?""
+     - **Student Response:** ""We should mainly focus on whether we achieved statistical significance.""
+
+---
+
+### 2. Hypothesis Testing
+
+**Misconceptions:**
+1. The null hypothesis is always the hypothesis we believe to be true.
+   - **Context:** ""When conducting a hypothesis test, what can you tell me about the null hypothesis?""
+     - **Student Response:** ""It's the current theory we think is true until proven otherwise.""
+
+2. Failing to reject the null hypothesis means it’s true.
+   - **Context:** ""After conducting our test, we failed to reject the null hypothesis. What can we conclude about it?""
+     - **Student Response:** ""That must mean the null hypothesis is correct.""
+
+3. The p-value tells us the probability that the null hypothesis is true.
+   - **Context:** ""What does a p-value of 0.01 indicate about our hypothesis test?""
+     - **Student Response:** ""It means there's only a 1% chance the null hypothesis is true.""
+
+4. The p-value can tell us how large the effect is.
+   - **Context:** ""Our p-value is very small. Does this indicate the effect size is large?""
+     - **Student Response:** ""Yes, small p-values mean a larger result or effect size.""
+
+5. A hypothesis test provides a definitive conclusion about the research question.
+   - **Context:** ""After analyzing our data, how confident can we be about our hypothesis test results?""
+     - **Student Response:** ""We can be absolutely certain of our conclusions now.""
+
+---
+
+### 3. Sampling Distributions
+
+**Misconceptions:**
+1. The sample mean is always equal to the population mean.
+   - **Context:** ""If I take several samples, how can I expect the sample means to relate to the population mean?""
+     - **Student Response:** ""The sample mean should always match perfectly with the population mean.""
+
+2. Larger sample sizes do not affect the shape of the sampling distribution.
+   - **Context:** ""If I increase my sample size significantly, how will that affect the sampling distribution?""
+     - **Student Response:** ""It won’t change the way the distribution looks at all.""
+
+3. The variability of the sample means is equal to the variability of the population.
+   - **Context:** ""How would you describe the variability of sampling distributions versus the population?""
+     - **Student Response:** ""They are the same; the sample means will vary just like individual population data points.""
+
+4. All samples will yield similar means if they are drawn from the same population.
+   - **Context:** ""What can I expect when drawing samples from a population?""
+     - **Student Response:** ""All samples should give almost exactly the same mean since they come from the same population.""
+
+5. The Central Limit Theorem only applies to large samples from a normal population.
+   - **Context:** ""Why should we consider sample size when discussing the Central Limit Theorem?""
+     - **Student Response:** ""It only matters if the population is normal; it doesn't matter how large the sample is otherwise.""
+
+---
+
+### 4. Margin of Error
+
+**Misconceptions:**
+1. Margin of error indicates the most that the results can be wrong.
+   - **Context:** ""How do you interpret the margin of error reported in our survey results?""
+     - **Student Response:** ""It means we can be completely sure our results are within that range.""
+
+2. A larger sample size always increases the margin of error.
+   - **Context:** ""If I double my sample size, how will that affect the margin of error?""
+     - **Student Response:** ""It will likely increase because having more data usually adds variability.""
+
+3. The margin of error applies to the individual responses, not the aggregate results.
+   - **Context:** ""Why is the margin of error important when discussing overall survey results?""
+     - **Student Response:** ""It only applies to how much each person's response could differ.""
+
+4. Reducing the margin of error will not impact the level of confidence.
+   - **Context:** ""If I reduce the margin of error, what does that say about my confidence level?""
+     - **Student Response:** ""I don't think it affects confidence at all; it just shrinks the range a bit.""
+
+5. Margin of error applies uniformly across all types of estimates.
+   - **Context:** ""Can you explain how the margin of error is relevant to our proportion estimates?""
+     - **Student Response:** ""It’s the same for means, proportions, and everything else, just a set number.""
+
+---
+
+### 5. Normal Distribution
+
+**Misconceptions:**
+1. All distributions of data are approximately normal if the sample size is large enough.
+   - **Context:** ""Why are we assuming the data will follow a normal distribution due to the sample size?""
+     - **Student Response:** ""Because large samples can make any distribution normal regardless of the original shape.""
+
+2. A normal distribution has an equal number of observations on either side of the mean.
+   - **Context:** ""What should we notice about the number of data points in a normal distribution?""
+     - **Student Response:** ""It should be perfectly symmetrical with the same count on both sides of the mean.""
+
+3. If data is normally distributed, all the data points are within one standard deviation of the mean.
+   - **Context:** ""What does it mean if our data fits a normal distribution?""
+     - **Student Response:** ""It means every data point is close to the mean, all within one standard deviation.""
+
+4. The mean, median, and mode of a normal distribution can be different values.
+   - **Context:** ""When looking at our normal distribution, how should we expect the mean, median, and mode to relate?""
+     - **Student Response:** ""They can be different; they don’t have to be the same in a normal distribution.""
+
+5. A bell curve is synonymous with normal distribution regardless of parameters.
+   - **Context:** ""How can you confirm that a distribution is normal if it looks like a bell curve?""
+     - **Student Response:** ""If it has that shape, it’s normal, no matter the scale or spread."""
+8,Sample size,"### Relevant Topics for Sample Size
+1. Statistical Power
+2. Margin of Error
+3. Representation in Sampling
+4. Confidence Intervals
+5. Types of Sampling Methods
+
+### Misconceptions and Example Context
+
+---
+
+#### 1. **Statistical Power**
+
+- **Misconception 1:** Higher sample size always increases statistical power.
+  - **Context:** 
+    - **Question:** How does increasing the sample size affect the potential to detect true effects in your study?
+    - **Student Response:** ""If I just keep increasing my sample size, I will always be more likely to find significant results.""
+
+- **Misconception 2:** Statistical power is only about sample size; the effect size is irrelevant.
+  - **Context:** 
+    - **Question:** When you're planning your research, what factors do you consider for ensuring that your study has enough power?
+    - **Student Response:** ""I just need a really large sample size to make sure I have power; effect size doesn’t matter as long as I have enough participants.""
+
+- **Misconception 3:** Once desired statistical power is achieved, you should stop recruiting participants.
+  - **Context:** 
+    - **Question:** If your study has met the threshold for statistical power during recruitment, what's your next step?
+    - **Student Response:** ""I can just stop now because I have enough power; recruiting more won’t change anything.""
+
+- **Misconception 4:** Statistical power is the probability of making a Type I error.
+  - **Context:** 
+    - **Question:** Can you explain what statistical power represents in the context of hypothesis testing?
+    - **Student Response:** ""Power is just how likely I am to incorrectly reject the null hypothesis.""
+
+- **Misconception 5:** Power is only an issue in experimental studies, not in observational studies.
+  - **Context:** 
+    - **Question:** How do you think aspects of study design influence your analysis for observational studies?
+    - **Student Response:** ""Power only matters for experiments because we need to control conditions, not for observational studies.""
+
+---
+
+#### 2. **Margin of Error**
+
+- **Misconception 1:** A smaller margin of error provides a better representation of the population regardless of sample size.
+  - **Context:** 
+    - **Question:** How do you decide the acceptable margin of error when interpreting survey results?
+    - **Student Response:** ""As long as the margin of error is small enough, it doesn’t matter how many people I ask.""
+
+- **Misconception 2:** Margin of error can be eliminated by increasing sample size.
+  - **Context:**
+    - **Question:** What are the implications of the margin of error in relation to your sample size?
+    - **Student Response:** ""If I just keep adding more people to my sample, I won't have any margin of error at all.""
+
+- **Misconception 3:** The margin of error indicates the total error in predictions.
+  - **Context:** 
+    - **Question:** How do you interpret your margin of error in this survey?
+    - **Student Response:** ""The margin of error tells me exactly how far off my predictions might be from the actual results.""
+
+- **Misconception 4:** All types of surveys have the same margin of error.
+  - **Context:** 
+    - **Question:** What would you consider when comparing survey methodologies and their accuracy?
+    - **Student Response:** ""All surveys have a margin of error that’s just based on the number of people surveyed, regardless of how it was conducted.""
+
+- **Misconception 5:** The margin of error applies only to point estimates, not to confidence intervals.
+  - **Context:** 
+    - **Question:** When constructing a confidence interval, why is the margin of error an important consideration?
+    - **Student Response:** ""Margin of error is irrelevant for confidence intervals since they are about ranges.""
+
+---
+
+#### 3. **Representation in Sampling**
+
+- **Misconception 1:** Any sample size will be representative if it includes diverse individuals.
+  - **Context:** 
+    - **Question:** How do you ensure that your sample reflects the population you’re studying?
+    - **Student Response:** ""As long as I ask a few people from different backgrounds, my sample will represent the entire population.""
+
+- **Misconception 2:** Random sampling guarantees that all groups will be represented in the sample.
+  - **Context:** 
+    - **Question:** How does random sampling affect the validity of your study's conclusions?
+    - **Student Response:** ""Random sampling makes sure every group is included equally, so I don’t have to worry about representation.""
+
+- **Misconception 3:** A larger sample size compensates for a biased sampling method.
+  - **Context:** 
+    - **Question:** What considerations do you take when selecting your sample approach?
+    - **Student Response:** ""Even if I have a biased method, it’s OK because I have a large sample size, which will correct any bias.""
+
+- **Misconception 4:** Convenience samples can be just as reliable as random samples for representation.
+  - **Context:** 
+    - **Question:** Why might you choose convenience sampling over random sampling in your study?
+    - **Student Response:** ""Convenience samples are easier and can give reliable data just like random samples.""
+
+- **Misconception 5:** The representativeness of a sample doesn't depend on the underlying population characteristics.
+  - **Context:** 
+    - **Question:** Discuss how you select your subjects for the study and how the population characteristics play a role.
+    - **Student Response:** ""The population characteristics don’t affect representativeness much; it’s about having enough people.""
+
+---
+
+#### 4. **Confidence Intervals**
+
+- **Misconception 1:** A 95% confidence interval means that 95% of the data falls within that range.
+  - **Context:**
+    - **Question:** How would you explain what a 95% confidence interval indicates about your estimate?
+    - **Student Response:** ""It means that 95% of my data points will be inside that range.""
+
+- **Misconception 2:** Wider confidence intervals are always less accurate.
+  - **Context:**
+    - **Question:** What does the width of your confidence interval suggest about the reliability of your estimate?
+    - **Student Response:** ""A wider interval means my estimate must be wrong or inaccurate.""
+
+- **Misconception 3:** Confidence intervals provide definitive proof about the population parameter.
+  - **Context:**
+    - **Question:** How do you use confidence intervals in the context of making decisions about your findings?
+    - **Student Response:** ""If my confidence interval says a number, that’s definitely where the true population parameter lies.""
+
+- **Misconception 4:** Confidence intervals can be used interchangeably with prediction intervals.
+  - **Context:**
+    - **Question:** What’s the difference in interpretation between confidence intervals and prediction intervals?
+    - **Student Response:** ""I can use confidence intervals to predict where future data points will fall; they serve the same purpose.""
+
+- **Misconception 5:** Confidence levels (like 90%, 95%, 99%) indicate how much confidence you have in the results.
+  - **Context:**
+    - **Question:** What does a 99% confidence level tell you about the certainty of your interval estimate?
+    - **Student Response:** ""It means I’m 99% sure that this is the correct answer to the question I was asking.""
+
+---
+
+#### 5. **Types of Sampling Methods**
+
+- **Misconception 1:** All sampling methods yield equally valid data.
+  - **Context:**
+    - **Question:** What considerations do you have when choosing between different sampling methods for your research?
+    - **Student Response:** ""It doesn’t matter which method I use, they all give me valid data since they are just different ways of asking people.""
+
+- **Misconception 2:** Stratified sampling always leads to more accurate results than systematic sampling.
+  - **Context:**
+    - **Question:** Explain how the choice between stratified and systematic sampling impacts your research findings.
+    - **Student Response:** ""Stratified is better because it sounds more complicated, so it must give more accurate results than systematic.""
+
+- **Misconception 3:** Convenience sampling is almost always a poor choice for research.
+  - **Context:**
+    - **Question:** When might you justify using convenience sampling for a study?
+    - **Student Response:** ""You should avoid it because it's always bad and gives unreliable results.""
+
+- **Misconception 4:** Cluster sampling and random sampling are the same methodology.
+  - **Context:**
+    - **Question:** What are the differences between cluster and random sampling when you're designing your survey?
+    - **Student Response:** ""They’re pretty much the same; both just mean you randomly select people from a big group.""
+
+- **Misconception 5:** Sampling methods are unrelated to the overall findings of the research.
+  - **Context:** 
+    - **Question:** What role does your sampling method play in determining the generalizability of your study’s results?
+    - **Student Response:** ""The sampling method doesn’t affect the findings much; it’s just about what I find in the data.""
+
+--- 
+
+This list showcases misconceptions related to sample size and associated topics, illustrating how misconceptions can manifest in student responses to questions about research methods and statistics."
+9,confidence interval,"### Relevant Topics
+1. **Statistical Inference**
+2. **Sample Size**
+3. **Margin of Error**
+4. **Normal Distribution**
+5. **Hypothesis Testing**
+
+---
+
+### 1. Statistical Inference
+**Misconceptions:**
+- **Misconception 1:** Statistical inference provides certainty about population parameters.  
+  **Example Context:**  
+  **Question:** ""How confident can we be about the population mean when using a sample mean?""  
+  **Students' Responses:** ""We are 100% sure about the population mean if the sample means are close together.""
+
+- **Misconception 2:** Statistical inference can only be performed using a normal distribution.  
+  **Example Context:**  
+  **Question:** ""What distribution can be used to estimate the confidence interval if our sample size is small?""  
+  **Students' Responses:** ""We can only use the normal distribution; since that's the only way to do it.""
+
+- **Misconception 3:** The results of statistical inference always apply to the entire population without qualification.  
+  **Example Context:**  
+  **Question:** ""If our sample indicates a certain trend, how should we interpret it for the population?""  
+  **Students' Responses:** ""We can just say that the entire population behaves in the same way.""
+
+- **Misconception 4:** Statistical inference is not necessary if there is complete data from the population.  
+  **Example Context:**  
+  **Question:** ""Since we collected data from every individual, do we need to conduct inference?""  
+  **Students' Responses:** ""No, we can just report the data we have; there's no need to infer anything more.""
+
+- **Misconception 5:** Statistical inference doesn't require assumptions about the data.  
+  **Example Context:**  
+  **Question:** ""What do we need to consider when making inferences from our sample data?""  
+  **Students' Responses:** ""We don't really need to think about the data assumptions; we can just analyze whatever data we collected.""
+
+---
+
+### 2. Sample Size
+**Misconceptions:**
+- **Misconception 1:** Larger sample sizes always yield more accurate results.  
+  **Example Context:**  
+  **Question:** ""How does increasing the sample size affect our confidence interval?""  
+  **Students' Responses:** ""By making the sample much larger, we'll get the exact population value for sure.""
+
+- **Misconception 2:** Sample size has no effect on the width of the confidence interval.  
+  **Example Context:**  
+  **Question:** ""What happens to the width of the confidence interval if we double our sample size?""  
+  **Students' Responses:** ""It stays the same because the width depends only on the population parameters.""
+
+- **Misconception 3:** A sample size of 30 is always sufficient for accurate results.  
+  **Example Context:**  
+  **Question:** ""Is it true that a sample of 30 is enough for most analyses?""  
+  **Students' Responses:** ""Yes, because I've heard that 30 is always the magic number for statistics.""
+
+- **Misconception 4:** The sample size needed is constant, regardless of the specific population or variability.  
+  **Example Context:**  
+  **Question:** ""How do we determine the right sample size for different studies?""  
+  **Students' Responses:** ""It’s usually the same; you just need 100 people, no matter the context.""
+
+- **Misconception 5:** Increasing sample size reduces bias in the results.  
+  **Example Context:**  
+  **Question:** ""If we increase our sample size, should we expect our results to be less biased?""  
+  **Students' Responses:** ""Yes, more data means less bias; as long as we survey enough people, it will reflect everyone's opinion accurately.""
+
+---
+
+### 3. Margin of Error
+**Misconceptions:**
+- **Misconception 1:** The margin of error indicates the maximum error possible.  
+  **Example Context:**  
+  **Question:** ""How should we interpret the margin of error in our survey results?""  
+  **Students' Responses:** ""It means that we could be off by that amount, so we absolutely won't be more wrong than that.""
+
+- **Misconception 2:** The margin of error applies to each individual response in a survey.  
+  **Example Context:**  
+  **Question:** ""If we have a margin of error of ±3%, how does it relate to individual scores?""  
+  **Students' Responses:** ""It means every single person could vary by 3% from what we found.""
+
+- **Misconception 3:** A lower margin of error guarantees more reliable data.  
+  **Example Context:**  
+  **Question:** ""What does it mean if our margin of error decreases?""  
+  **Students' Responses:** ""It means our data is definitely more reliable; we can trust our analysis completely now.""
+
+- **Misconception 4:** The margin of error is unaffected by sample size.  
+  **Example Context:**  
+  **Question:** ""If we take twice as many samples, will our margin of error change?""  
+  **Students' Responses:** ""No, the margin of error will remain the same regardless of how many we sample.""
+
+- **Misconception 5:** The margin of error is irrelevant if the sample is representative of the population.  
+  **Example Context:**  
+  **Question:** ""What is the importance of the margin of error in a well-conducted survey?""  
+  **Students' Responses:** ""If we have a good representative sample, we don't need to worry about the margin of error.""
+
+---
+
+### 4. Normal Distribution
+**Misconceptions:**
+- **Misconception 1:** All datasets follow a normal distribution.  
+  **Example Context:**  
+  **Question:** ""Based on our data, what can we assume about its distribution?""  
+  **Students' Responses:** ""It should be normal because most data tends to fit that pattern.""
+
+- **Misconception 2:** Outliers do not affect the normal distribution.  
+  **Example Context:**  
+  **Question:** ""If we notice outliers in our data, how do they impact our results?""  
+  **Students' Responses:** ""They don't really change anything; the normal distribution is set, regardless of outliers.""
+
+- **Misconception 3:** A normal distribution requires equal variance for all sections of the data.  
+  **Example Context:**  
+  **Question:** ""What can you tell me about the variance of a normal distribution?""  
+  **Students' Responses:** ""It has to be the same across the distribution, or it can't be normal.""
+
+- **Misconception 4:** The central limit theorem does not apply to skewed data.  
+  **Example Context:**  
+  **Question:** ""Does the central limit theorem apply if our original dataset is obviously skewed?""  
+  **Students' Responses:** ""No, it only works for normal data; that's why our results are invalid.""
+
+- **Misconception 5:** The mean, median, and mode are always equal in a normal distribution.  
+  **Example Context:**  
+  **Question:** ""What is true about the measures of central tendency in a normal distribution?""  
+  **Students' Responses:** ""They can be different; but for a normal distribution, they are always the same by definition.""
+
+---
+
+### 5. Hypothesis Testing
+**Misconceptions:**
+- **Misconception 1:** A hypothesis test proves that a hypothesis is true.  
+  **Example Context:**  
+  **Question:** ""What does it mean when we reject the null hypothesis?""  
+  **Students' Responses:** ""It proves that our alternative hypothesis is correct.""
+
+- **Misconception 2:** A p-value of 0.05 guarantees a significant difference.  
+  **Example Context:**  
+  **Question:** ""How should we interpret a p-value of 0.05 in our analysis?""  
+  **Students' Responses:** ""It means we found conclusive evidence that our hypothesis is definitely true.""
+
+- **Misconception 3:** Failing to reject the null hypothesis means it is true.  
+  **Example Context:**  
+  **Question:** ""If we did not reject the null hypothesis, what does that tell us about our assumptions?""  
+  **Students' Responses:** ""It means our assumption was correct all along; we can be confident it's true.""
+
+- **Misconception 4:** Hypothesis testing cannot be performed if the sample size is small.  
+  **Example Context:**  
+  **Question:** ""Is it valid to conduct hypothesis tests with a small sample size?""  
+  **Students' Responses:** ""No, it's not possible; we need a large sample to do hypothesis testing reliably.""
+
+- **Misconception 5:** A statistically significant result always has practical importance.  
+  **Example Context:**  
+  **Question:** ""What does it mean if we find a statistically significant result?""  
+  **Students' Responses:** ""It means that the result is practically important and we should definitely act upon it."""
+10,conditional probability,"### Relevant Topics
+
+1. **Bayes' Theorem**
+2. **Independence of Events**
+3. **Joint Probability**
+4. **Law of Total Probability**
+5. **Marginal Probability**
+
+---
+
+### 1. Bayes' Theorem
+
+#### Misconceptions:
+1. Bayes' theorem can only be used for medical testing scenarios.
+   - **Example Context**: 
+     - **Question**: ""How can Bayes' theorem be applied in legal decision making?""
+     - **Student Response**: ""It's not really applicable because it's mostly about medical tests for probabilities.""
+
+2. Bayes' theorem does not require prior probabilities.
+   - **Example Context**:
+     - **Question**: ""What information do you need to apply Bayes' theorem in your analysis?""
+     - **Student Response**: ""Only the likelihoods of the outcomes; prior probabilities are not necessary.""
+
+3. The theorem provides exact probabilities without uncertainty.
+   - **Example Context**:
+     - **Question**: ""How accurate is the conclusion derived from Bayes' theorem?""
+     - **Student Response**: ""It gives you the exact probability, so there's no room for uncertainty.""
+
+4. Bayes' theorem only works with discrete events.
+   - **Example Context**: 
+     - **Question**: ""Can Bayes' theorem be applied to continuous distributions?""
+     - **Student Response**: ""No, I think it only works if the events are distinct and countable.""
+
+5. The theorem is too complex for practical use and not helpful in everyday situations.
+   - **Example Context**:
+     - **Question**: ""Do you think Bayes' theorem has any practical relevance outside of academia?""
+     - **Student Response**: ""Not really, it's too complex for everyday people to use effectively.""
+
+---
+
+### 2. Independence of Events
+
+#### Misconceptions:
+1. Independence means that outcomes are always equally likely.
+   - **Example Context**:
+     - **Question**: ""What does it mean for two events to be independent of each other?""
+     - **Student Response**: ""It means they have the same likelihood of happening, like flipping a coin.""
+
+2. If two events are independent, the occurrence of one does not change the probability of the other happening at all.
+   - **Example Context**:
+     - **Question**: ""If I know it rained yesterday, how does that change the probability of it raining today if it’s independent?""
+     - **Student Response**: ""It doesn’t change anything. Yesterday's rain has no impact.""
+
+3. Independence implies no correlation between two events.
+   - **Example Context**:
+     - **Question**: ""Could you give an example of independent events that might still seem related?""
+     - **Student Response**: ""No, if they are truly independent, there cannot be any apparent relationship at all.""
+
+4. Two dependent events can't be mistaken for independence if they happen frequently together.
+   - **Example Context**:
+     - **Question**: ""If two events occur together most of the time, are they likely dependent?""
+     - **Student Response**: ""Not necessarily, they can still be independent because they just happen to coincide.""
+
+5. Independence is the same as mutual exclusivity.
+   - **Example Context**:
+     - **Question**: ""Can independent events happen at the same time?""
+     - **Student Response**: ""No, if they are independent, they can’t happen together; that’s what mutual exclusivity means.""
+
+---
+
+### 3. Joint Probability
+
+#### Misconceptions:
+1. Joint probability can only be calculated for two events at a time.
+   - **Example Context**: 
+     - **Question**: ""How do we determine the joint probability of multiple events occurring together?""
+     - **Student Response**: ""You can only do it for two events; beyond that, it gets too complicated.""
+
+2. Joint probability is simply the sum of individual probabilities.
+   - **Example Context**:
+     - **Question**: ""If Event A and Event B happen, how do you combine their probabilities?""
+     - **Student Response**: ""You just add the probabilities of A and B together.""
+
+3. If events A and B are independent, their joint probability is simply the probability of A.
+   - **Example Context**:
+     - **Question**: ""What about the joint probability of independent events?""
+     - **Student Response**: ""If they’re independent, the joint probability is just the probability of the first event.""
+
+4. Joint probability cannot be greater than the individual probabilities.
+   - **Example Context**:
+     - **Question**: ""If the probability of A is 0.6 and B is 0.7, what can we say about their joint probability?""
+     - **Student Response**: ""It must be less than or equal to both, so it can't exceed 0.6.""
+
+5. Joint probabilities imply causal relationships between events.
+   - **Example Context**:
+     - **Question**: ""What does it indicate when we calculate the joint probability of two events?""
+     - **Student Response**: ""It shows that one event causes the other, otherwise the joint probability would be really low.""
+
+---
+
+### 4. Law of Total Probability
+
+#### Misconceptions:
+1. The law of total probability only applies to mutually exclusive events.
+   - **Example Context**:
+     - **Question**: ""Can you apply the law of total probability to events that overlap slightly?""
+     - **Student Response**: ""No, it only works if they are mutually exclusive.""
+
+2. It's unnecessary if you already have complete knowledge of the probabilities involved.
+   - **Example Context**:
+     - **Question**: ""Why might you still use the law of total probability even if you know the outcomes?""
+     - **Student Response**: ""If I know everything, there's no need to calculate it again with the total law.""
+
+3. The law cannot incorporate conditional probabilities.
+   - **Example Context**:
+     - **Question**: ""Is it possible to use conditional probabilities within the law of total probability calculations?""
+     - **Student Response**: ""No, you can’t mix the two concepts; they’re separate methods.""
+
+4. The law of total probability applies only in situations with a finite number of events.
+   - **Example Context**:
+     - **Question**: ""How do we approach infinite outcomes with the law of total probability?""
+     - **Student Response**: ""You can't, it only works for a limited set of events.""
+
+5. It’s entirely computational and has little conceptual importance.
+   - **Example Context**:
+     - **Question**: ""What conceptual understanding do you gain from learning the law of total probability?""
+     - **Student Response**: ""It's just a formula; there’s no deeper meaning behind it.""
+
+---
+
+### 5. Marginal Probability
+
+#### Misconceptions:
+1. Marginal probability is the same as conditional probability.
+   - **Example Context**:
+     - **Question**: ""How would you explain the difference between marginal and conditional probabilities?""
+     - **Student Response**: ""They're the same; marginal just looks at the probabilities conditioned on other factors.""
+
+2. Marginal probability can't be calculated if events are dependent.
+   - **Example Context**:
+     - **Question**: ""What if events A and B are dependent, can we still calculate their marginal probabilities?""
+     - **Student Response**: ""No, marginal probabilities are only applicable if events are independent.""
+
+3. Marginal probability accounts for joint occurrences, thus is always higher than any individual probability.
+   - **Example Context**:
+     - **Question**: ""If we have the joint probability of A and B, how does it relate to their marginal probabilities?""
+     - **Student Response**: ""The marginal must be higher since it includes the combined situation of A and B.""
+
+4. You can't derive marginal probabilities from a joint probability table.
+   - **Example Context**:
+     - **Question**: ""How can you find the marginal probability of Event A from a joint distribution?""
+     - **Student Response**: ""I don't think that works; joint probabilities are not used for finding marginals.""
+
+5. Marginal probability is only relevant for single events and has no implications for multiple events.
+   - **Example Context**:
+     - **Question**: ""How do marginals help in understanding the relationships between several events in a network?""
+     - **Student Response**: ""They don’t really help; marginals are just for looking at one event at a time."""
+11,Anova,"### Relevant Topics:
+1. **Statistical Significance**
+2. **Post-hoc Tests**
+3. **Assumptions of ANOVA**
+4. **Effect Size**
+5. **Factorial ANOVA**
+
+---
+
+### 1. Statistical Significance
+
+**Possible Misconceptions:**
+- **Misconception 1:** A statistically significant result means the effect size is large.
+  - **Example Context:** 
+    - **Question:** ""How would you interpret a p-value of 0.02 in the context of your results?""
+    - **Student Response:** ""That means the difference is really big and important since the p-value is so small.""
+
+- **Misconception 2:** Statistical significance implies practical significance.
+  - **Example Context:**
+    - **Question:** ""What does a statistically significant result mean for real-world applications of your research?""
+    - **Student Response:** ""It means that the findings are important and should be implemented immediately in practice.""
+
+- **Misconception 3:** If a result is not statistically significant, it has no effect.
+  - **Example Context:**
+    - **Question:** ""Can you summarize what a non-significant result suggests about your experimental treatment?""
+    - **Student Response:** ""It suggests that the treatment doesn't work at all.""
+
+- **Misconception 4:** Statistical significance depends on the sample size.
+  - **Example Context:**
+    - **Question:** ""Why do you think the p-value changed so much when you increased your sample size?""
+    - **Student Response:** ""Because the larger sample makes everything statistically significant no matter what.""
+
+- **Misconception 5:** A p-value below 0.05 always confirms a hypothesis.
+  - **Example Context:**
+    - **Question:** ""How does a p-value of 0.03 affect your hypothesis about the treatment?""
+    - **Student Response:** ""It proves my hypothesis to be true since it's below 0.05.""
+
+---
+
+### 2. Post-hoc Tests
+
+**Possible Misconceptions:**
+- **Misconception 1:** Post-hoc tests should always be conducted regardless of ANOVA results.
+  - **Example Context:**
+    - **Question:** ""What steps will you take after running your ANOVA and finding a non-significant result?""
+    - **Student Response:** ""I will still run post-hoc tests to see where the differences lie.""
+
+- **Misconception 2:** All post-hoc tests are the same and yield the same results.
+  - **Example Context:**
+    - **Question:** ""What can you tell me about the differences between Tukey's and Bonferroni tests?""
+    - **Student Response:** ""I think they are basically the same; they both just compare groups.""
+
+- **Misconception 3:** Post-hoc tests can confirm initial hypotheses.
+  - **Example Context:**
+    - **Question:** ""What do you expect to find from your post-hoc testing following the ANOVA?""
+    - **Student Response:** ""I expect to find evidence that supports my hypothesis clearly since it will show which groups are different.""
+
+- **Misconception 4:** You can only conduct post-hoc tests if there is a significant finding in ANOVA.
+  - **Example Context:**
+    - **Question:** ""How would you respond if your ANOVA results were significant or not regarding post-hoc testing?""
+    - **Student Response:** ""If it's not significant, I wouldn't bother with post-hoc tests since they wouldn’t be helpful.""
+
+- **Misconception 5:** Adjustments for multiple comparisons are not necessary in post-hoc tests.
+  - **Example Context:**
+    - **Question:** ""Why would you choose a specific post-hoc method over others?""
+    - **Student Response:** ""I don't think adjustments matter as long as I just run all the tests and see the differences.""
+
+---
+
+### 3. Assumptions of ANOVA
+
+**Possible Misconceptions:**
+- **Misconception 1:** The normality of data can be overlooked if sample sizes are large.
+  - **Example Context:**
+    - **Question:** ""How did you check the assumptions for your ANOVA?""
+    - **Student Response:** ""I didn’t check for normality because my sample size was large enough.""
+
+- **Misconception 2:** Homogeneity of variance means all treatment groups must have the same mean.
+  - **Example Context:**
+    - **Question:** ""What do you understand by the term 'homogeneity of variances'?""
+    - **Student Response:** ""It means that all groups must have the same average score.""
+
+- **Misconception 3:** ANOVA can be performed without checking assumptions, and results will still be valid.
+  - **Example Context:**
+    - **Question:** ""Why did you skip the assumptions testing before running your ANOVA?""
+    - **Student Response:** ""It doesn’t matter; the ANOVA will still give me results regardless.""
+
+- **Misconception 4:** ANOVA is valid with any type of data distribution.
+  - **Example Context:**
+    - **Question:** ""What types of data can you analyze with ANOVA?""
+    - **Student Response:** ""You can use it for any data source regardless of how it’s distributed.""
+
+- **Misconception 5:** Independent observations imply that sample sizes should be equal across all groups.
+  - **Example Context:**
+    - **Question:** ""What do you think about the sample sizes in your groups?""
+    - **Student Response:** ""They should be the same because all observations need to be independent.""
+
+---
+
+### 4. Effect Size
+
+**Possible Misconceptions:**
+- **Misconception 1:** Effect size is the same thing as p-value.
+  - **Example Context:**
+    - **Question:** ""How would you differentiate between effect size and statistical significance in your analysis?""
+    - **Student Response:** ""They’re basically the same; both tell you if your results are important.""
+
+- **Misconception 2:** A larger effect size will always guarantee a statistically significant result.
+  - **Example Context:**
+    - **Question:** ""What conclusions can you draw if your effect size is large but your p-value is above 0.05?""
+    - **Student Response:** ""It doesn’t matter; the large effect size means I must have significant results.""
+
+- **Misconception 3:** Effect size is only relevant if the p-value is significant.
+  - **Example Context:**
+    - **Question:** ""Why is effect size important even when there are non-significant results?""
+    - **Student Response:** ""It’s not; effect size only matters if my p-value is low.""
+
+- **Misconception 4:** Different effect size measures (e.g., Cohen's d, η²) can be directly compared without consideration.
+  - **Example Context:**
+    - **Question:** ""What did you find when comparing effect sizes across various tests?""
+    - **Student Response:** ""The numbers are just sizes, so you can just compare them directly without worrying.""
+
+- **Misconception 5:** Effect size can determine the success of an intervention alone.
+  - **Example Context:**
+    - **Question:** ""How will you use effect size to assess the effectiveness of your treatment?""
+    - **Student Response:** ""If the effect size is large, it means the treatment works, so I’ll focus only on that.""
+
+---
+
+### 5. Factorial ANOVA
+
+**Possible Misconceptions:**
+- **Misconception 1:** Factorial ANOVA can only be used when there are equal numbers of observations per group.
+  - **Example Context:**
+    - **Question:** ""What is your sample size across the combinations of factors in your factorial ANOVA?""
+    - **Student Response:** ""They should all be equal; that’s the only way to run a factorial ANOVA.""
+
+- **Misconception 2:** The interaction effect can be ignored if main effects are significant.
+  - **Example Context:**
+    - **Question:** ""How do you interpret the results of your factorial ANOVA with significant main effects?""
+    - **Student Response:** ""I would only focus on main effects since they’re significant, and the interaction isn’t necessary.""
+
+- **Misconception 3:** Factorial ANOVA can be conducted without considering the levels of each factor.
+  - **Example Context:**
+    - **Question:** ""Can you explain your choice of factors and their levels in this ANOVA?""
+    - **Student Response:** ""I didn’t really consider the levels, as long as I have two factors, I can run the ANOVA.""
+
+- **Misconception 4:** Factorial ANOVA requires assumptions to be met separately for each factor.
+  - **Example Context:**
+    - **Question:** ""What assumptions do you need to check for your factorial ANOVA analysis?""
+    - **Student Response:** ""I need to check the assumptions for each factor independently, they don't relate.""
+
+- **Misconception 5:** The interpretation of factorial ANOVA is identical to a one-way ANOVA.
+  - **Example Context:**
+    - **Question:** ""How would you explain the differences between one-way ANOVA and factorial ANOVA to a peer?""
+    - **Student Response:** ""They’re the same; all we do is have more groups in factorial ANOVA.""
+
+--- 
+
+This structure identifies relevant topics, outlines common misconceptions, and reinforces them with contextually relevant scenarios, enhancing the depth of understanding of ANOVA complexities."
+12,Repeated Measure,"### Relevant Topics to ""Repeated Measure"":
+1. **Experimental Design**
+2. **Statistical Analysis**
+3. **Within-Subjects Design**
+4. **Learning Effects**
+5. **Cross-Over Trials**
+
+---
+
+### 1. Experimental Design
+
+**Possible Misconceptions:**
+- **Misconception 1:** Repeated measures designs cannot be used for tests with more than two conditions.
+    - **Example Context:** ""In our study, we want to compare the effects of three different diets on weight loss using the same group of participants. Is this approach potentially flawed?""
+    - **Student Response:** ""Yes, because repeated measures can only handle two conditions; we should have different groups for each diet.""
+
+- **Misconception 2:** All participants need to go through each condition in a repeated measures design.
+    - **Example Context:** ""In your proposal, how do you plan to assign participants to the diet conditions?""
+    - **Student Response:** ""I will assign each participant to each diet and measure results several times since they need to experience all conditions.""
+
+- **Misconception 3:** Randomization is less important in repeated measures than in between-subjects designs.
+    - **Example Context:** ""What considerations did you make to control for the order of conditions in your experiment?""
+    - **Student Response:** ""I didn’t worry about it too much because repeated measures are more flexible, so randomization isn’t that critical.""
+
+- **Misconception 4:** A repeated measures design is less powerful than a between-subjects design.
+    - **Example Context:** ""Why do you think you'd achieve significant results in a within-subjects study versus a between-subjects study?""
+    - **Student Response:** ""Because between-subjects designs are better at isolating effects, repeated measures are likely to show less significant results.""
+
+- **Misconception 5:** All types of repeated measures studies provide the same level of reliability.
+    - **Example Context:** ""How would you evaluate the reliability of your measures in the repeated measures design?""
+    - **Student Response:** ""All repeated measures designs should yield equally reliable results, so I wouldn’t have to test for reliability among different designs.""
+
+---
+
+### 2. Statistical Analysis
+
+**Possible Misconceptions:**
+- **Misconception 1:** ANOVA is only applicable to between-subjects designs.
+    - **Example Context:** ""What statistical tests will you use to analyze your data which is obtained through repeated measures?""
+    - **Student Response:** ""I’ll probably use t-tests because ANOVA can't be applied to my repeated measures design.""
+
+- **Misconception 2:** Repeated measures data can be analyzed using linear regression directly without any adjustments.
+    - **Example Context:** ""Can we treat our participants' scores as independent for a linear regression analysis?""
+    - **Student Response:** ""Yes, since we collected data from repeated measures, we can just input it into regression since it’s about relationships.""
+
+- **Misconception 3:** Violation of sphericity assumptions has no effect on the results of repeated measures ANOVA.
+    - **Example Context:** ""What do you plan to do if your tests reveal that the sphericity assumption has been violated?""
+    - **Student Response:** ""It won’t matter a lot because the repeated measures ANOVA is robust, and it should still yield correct results.""
+
+- **Misconception 4:** All repeated measures need to be analyzed using specific non-parametric tests given the factors are categorical.
+    - **Example Context:** ""What’s your reason for choosing a non-parametric test for your repeated measures data?""
+    - **Student Response:** ""Since my data isn’t normally distributed, I believe non-parametric tests are always best for repeated measures.""
+
+- **Misconception 5:** Mixed models are unnecessary if a simple repeated measures ANOVA can be performed.
+    - **Example Context:** ""In a complex design with multiple interactions, do you think a mixed model is warranted?""
+    - **Student Response:** ""Probably not, because repeated measure ANOVA is sufficient for most cases and I don’t think a mixed model is necessary.""
+
+---
+
+### 3. Within-Subjects Design
+
+**Possible Misconceptions:**
+- **Misconception 1:** Within-subjects designs eliminate all sources of variability.
+    - **Example Context:** ""What factors do you think could still influence the results even when using a within-subjects design?""
+    - **Student Response:** ""I don’t think there are any, because every participant acts as their own control in this design, so variability should be zero.""
+
+- **Misconception 2:** The same participants should also be replicating the same task multiple times in each condition.
+    - **Example Context:** ""How often do you expect your subjects to repeat the task for different conditions?""
+    - **Student Response:** ""I think they should repeat the task at least three times in each condition; that’s how to collect valid data in a within-subjects design.""
+
+- **Misconception 3:** Carryover effects can be completely eliminated with counterbalancing.
+    - **Example Context:** ""How will you manage the potential carryover effects between different conditions in your experiment?""
+    - **Student Response:** ""Counterbalancing will solve all my carryover issues, so I don’t need to worry much about their influence on outcomes.""
+
+- **Misconception 4:** The same level of sensitivity is achieved regardless of the order of treatment in a within-subjects design.
+    - **Example Context:** ""In what ways do you believe the order of treatments might impact participant performance?""
+    - **Student Response:** ""It doesn't really matter; the order doesn’t impact sensitivity in a within-subjects design since we’re measuring changes.""
+
+- **Misconception 5:** Within-subjects designs cannot accommodate more than two conditions effectively.
+    - **Example Context:** ""How do you plan to incorporate your three experimental treatments into a within-subjects design?""
+    - **Student Response:** ""You can’t use more than two treatments in a within-subjects design; I need to split the treatments into separate groups instead.""
+
+---
+
+### 4. Learning Effects
+
+**Possible Misconceptions:**
+- **Misconception 1:** Learning effects are always linear and consistent across all trials or conditions.
+    - **Example Context:** ""How might learning effects manifest throughout repeated testing with the same group of participants?""
+    - **Student Response:** ""Learning will happen in a straight line; they’ll get better and better at each trial consistently.""
+
+- **Misconception 2:** All participants will experience the same degree of learning effects irrespective of their background or skill level.
+    - **Example Context:** ""When discussing the results, how important do you think individual differences are in relation to learning effects?""
+    - **Student Response:** ""It’s not really an issue; all participants should show similar learning patterns regardless of their prior experience.""
+
+- **Misconception 3:** The only way to account for learning effects is to use a control group.
+    - **Example Context:** ""What strategies might you consider to mitigate learning effects in your experiment?""
+    - **Student Response:** ""I’ll need to create a completely separate control group because that’s the only way to deal with learning.""
+
+- **Misconception 4:** Learning effects have no impact on the validity of the results from a within-subjects design.
+    - **Example Context:** ""In the interpretation of your results, how might learning effects play into your conclusions?""
+    - **Student Response:** ""Learning isn’t a concern with validity, since using the same participants means they won't affect each other much.""
+
+- **Misconception 5:** Learning effects become negligible the more times a task is repeated.
+    - **Example Context:** ""At what point do you feel learning effects will be completely overcome after multiple repetitions?""
+    - **Student Response:** ""After the first few trials, learning will fade to almost nothing, so it won’t matter how many more times they perform the task.""
+
+---
+
+### 5. Cross-Over Trials
+
+**Possible Misconceptions:**
+- **Misconception 1:** Cross-over trials require a fixed time period between interventions to eliminate all interaction effects.
+    - **Example Context:** ""What duration should we allow between cross-over phases to ensure no interference from the first treatment?""
+    - **Student Response:** ""A fixed period of at least one month should be safe, as it erases any interaction effects completely.""
+
+- **Misconception 2:** Participants in cross-over trials should receive all treatments in the same order.
+    - **Example Context:** ""What randomization technique will you employ in your cross-over study?""
+    - **Student Response:** ""I’ll just give them treatments in the same order. It’s simpler and ensures familiarity with each.""
+
+- **Misconception 3:** Cross-over trials are not suitable for studying chronic conditions that might require long-term exposure.
+    - **Example Context:** ""Could a cross-over trial be a valid design for assessing treatments for chronic pain?""
+    - **Student Response:** ""No, because chronic conditions need consistent treatment, not the switching method used in cross-over trials.""
+
+- **Misconception 4:** The washout period is unnecessary if the effects of a treatment are short-lived.
+    - **Example Context:** ""How did you determine the duration needed for the washout between treatment phases?""
+    - **Student Response:** ""The effects are short-lived; a washout is unnecessary because participants won’t feel anything after just a day.""
+
+- **Misconception 5:** Every participant must participate in every treatment to properly assess the effects in cross-over trials.
+    - **Example Context:** ""Given the constraints of your study, how did you decide on the participation requirements for your cross-over trial?""
+    - **Student Response:** ""All participants need to try every treatment to be valid; there's no way to accurately assess if they don’t.""
+
+--- 
+
+This structured approach not only identifies key terms and their misconceptions but also illustrates teaching contexts where these misconceptions can arise in student dialogues."
+13,Chi-square Test,"### Relevant Topics Related to Chi-square Test
+
+1. **Hypothesis Testing**
+2. **Statistical Significance**
+3. **Contingency Tables**
+4. **Degrees of Freedom**
+5. **Normal Distribution**
+
+### Misconceptions and Context for Each Topic
+
+#### 1. Hypothesis Testing
+
+**Misconceptions:**
+- **M1:** The null hypothesis always states that there is no effect or relationship.
+- **M2:** P-values provide absolute proof of the null hypothesis being wrong.
+- **M3:** Rejecting the null hypothesis means the alternative hypothesis is true.
+- **M4:** A high p-value means that the alternative hypothesis is unlikely.
+- **M5:** You can only conduct hypothesis tests with large sample sizes.
+
+**Example Contexts:**
+- **M1 Context:**  
+  **Question:** “If we have a null hypothesis stating that there’s no relationship, what does it imply in our study?”  
+  **Student Response:** “It just means that something isn’t happening as I suspected, but it doesn’t really mean that nothing is going on.”
+
+- **M2 Context:**  
+  **Question:** “In our experiment, we found a very low p-value. What can we conclude about the null hypothesis?”  
+  **Student Response:** “That means the null hypothesis must be completely wrong. We can totally dismiss it.”
+
+- **M3 Context:**  
+  **Question:** “What does it mean if we reject the null hypothesis in our findings?”  
+  **Student Response:** “It proves that my alternative hypothesis is definitely correct!”
+
+- **M4 Context:**  
+  **Question:** “What insight does a high p-value give in our analysis?”  
+  **Student Response:** “It shows that the alternative hypothesis is basically impossible.”
+
+- **M5 Context:**  
+  **Question:** “Can we apply hypothesis testing for our small sample of 10 participants?”  
+  **Student Response:** “No, we need at least 30 people for it to count as a proper hypothesis test.”
+
+#### 2. Statistical Significance
+
+**Misconceptions:**
+- **M1:** Statistical significance implies practical significance.
+- **M2:** A result is statistically significant only if it is below 0.05.
+- **M3:** If results are significant in one study, they will be significant in all similar studies.
+- **M4:** Statistical significance accounts for all potential biases in the study.
+- **M5:** Confirming statistical significance is enough to conclude a study is successful.
+
+**Example Contexts:**
+- **M1 Context:**  
+  **Question:** “So, our results are statistically significant; what does that mean for the real-world application?”  
+  **Student Response:** “It means our findings are very important and should definitely impact practice.”
+
+- **M2 Context:**  
+  **Question:** “Our p-value is 0.06; how should we interpret this?”  
+  **Student Response:** “That’s not significant, so we can just discard everything we found.”
+
+- **M3 Context:**  
+  **Question:** “We found significance in our experiment; can we expect the same in future studies?”  
+  **Student Response:** “Yes, it will probably show the same results every time since we have proven it works this time.”
+
+- **M4 Context:**  
+  **Question:** “What should we consider beyond statistical significance in our findings?”  
+  **Student Response:** “Nothing else matters; if it’s significant, we’re clear from biases.”
+
+- **M5 Context:**  
+  **Question:** “Is any further analysis needed after confirming statistical significance?”  
+  **Student Response:** “No, if it’s significant, then we did everything right, and the study is good to go.”
+
+#### 3. Contingency Tables
+
+**Misconceptions:**
+- **M1:** Contingency tables can only be used for categorical data.
+- **M2:** The total counts in a contingency table always need to equal the total sample size.
+- **M3:** Each cell in a contingency table can be treated as an independent observation.
+- **M4:** The chi-square test is appropriate regardless of the expected cell counts.
+- **M5:** A contingency table provides an analysis of causation.
+
+**Example Contexts:**
+- **M1 Context:**  
+  **Question:** “Can we use a contingency table to analyze the relationship between age and weight?”  
+  **Student Response:** “Sure, as long as we categorize age into groups and list weight as well.”
+
+- **M2 Context:**  
+  **Question:** “After creating our contingency table, I noticed the total doesn’t match the sample size. What’s the implication?”  
+  **Student Response:** “That’s fine; as long as we get a good number in each category, the total doesn’t matter.”
+
+- **M3 Context:**  
+  **Question:** “How should we interpret the counts from each cell in the table?”  
+  **Student Response:** “Each cell represents an individual, so I can treat them like separate samples.”
+
+- **M4 Context:**  
+  **Question:** “Are there any limitations regarding the expected values in cells for our chi-square test?”  
+  **Student Response:** “Nah, as long as the overall table looks good, it doesn’t really matter.”
+
+- **M5 Context:**  
+  **Question:** “What conclusions can we draw from the contingency table results?”  
+  **Student Response:** “We found strong correlations, which means one factor must be causing the other.”
+
+#### 4. Degrees of Freedom
+
+**Misconceptions:**
+- **M1:** Degrees of freedom can be calculated by just subtracting one from the sample size.
+- **M2:** The concept of degrees of freedom only applies to chi-square tests.
+- **M3:** A higher degrees of freedom always means more power in a statistical test.
+- **M4:** Degrees of freedom are irrelevant as long as the test statistic is calculated.
+- **M5:** Degrees of freedom can help determine p-values but do not affect the test outcome.
+
+**Example Contexts:**
+- **M1 Context:**  
+  **Question:** “As we prepare for our chi-square test, how do we find the degrees of freedom?”  
+  **Student Response:** “We just take the sample size and subtract one; that’s all we need to know.”
+
+- **M2 Context:**  
+  **Question:** “Can we ignore degrees of freedom when running tests other than chi-square?”  
+  **Student Response:** “Yes, I think it only matters for chi-square tests, not for regression or ANOVA.”
+
+- **M3 Context:**  
+  **Question:** “What should we understand about the degrees of freedom related to our test’s reliability?”  
+  **Student Response:** “More degrees of freedom mean we can trust our results a lot more; it’s all about bigger being better.”
+
+- **M4 Context:**  
+  **Question:** “What role do degrees of freedom play in our chi-square analysis?”  
+  **Student Response:** “I don't think they matter much; we just need the test statistic to be significant.”
+
+- **M5 Context:**  
+  **Question:** “How do degrees of freedom relate to the outcomes of our hypothesis test?”  
+  **Student Response:** “They help us find p-values, but they don’t change what we find overall.”
+
+#### 5. Normal Distribution
+
+**Misconceptions:**
+- **M1:** All data sets will eventually form a normal distribution if enough data points are collected.
+- **M2:** Normal distribution implies that the data is perfectly symmetrical.
+- **M3:** Outliers are not important when data follows a normal distribution.
+- **M4:** The mean and median will always be equal in any data set.
+- **M5:** A normal distribution means that all values are equally likely.
+
+**Example Contexts:**
+- **M1 Context:**  
+  **Question:** “Why is our sample data showing a skewed distribution instead of normal?”  
+  **Student Response:** “It just takes more data points; eventually, it will look normal if we keep collecting.”
+
+- **M2 Context:**  
+  **Question:** “How can we confirm that our data follows a normal distribution?”  
+  **Student Response:** “It must look symmetrical; if it’s not symmetrical, then it’s definitely not normal.”
+
+- **M3 Context:**  
+  **Question:** “What should we do about the outliers in our data set?”  
+  **Student Response:** “They don’t really matter since our data is normal; we can just ignore them.”
+
+- **M4 Context:**  
+  **Question:** “Is the equality of mean and median a necessary condition for normal distribution?”  
+  **Student Response:** “Yes, as long as that holds true, we’re in the clear for normality.”
+
+- **M5 Context:**  
+  **Question:** “In the context of a bell curve, how would you describe the likelihood of different outcomes?”  
+  **Student Response:** “It means every value happens with the same frequency, so no value is better than another.”
+
+This comprehensive structure helps clarify potential misconceptions students might have around these key statistical topics while providing illustrative contexts where these misunderstandings might emerge."
+14,Probability Density Functions,"### Relevant Topics to Probability Density Functions
+1. Continuous Random Variables
+2. Areas under Curves
+3. Normal Distribution
+4. Expectation and Variance
+5. Cumulative Distribution Functions
+
+---
+
+### Continuous Random Variables
+
+**Misconceptions:**
+1. A continuous random variable can take on any value within a given range.
+   - **Context:** ""A continuous random variable X can take values between 0 and 1. If I say that X takes the value of 0.5, does that mean there are no other values in between?"" 
+   - **Students' Responses:** ""No, because it can take on just so many values infinitely in between, like 0.1, 0.2, 0.3, etc.""
+
+2. The probabilities of continuous random variables can be calculated directly.
+   - **Context:** ""For a continuous random variable, I want to find the probability that X equals a specific number, say 4. How should I approach this?""
+   - **Students' Responses:** ""You compute it like any normal probability. I would just see how often 4 shows up in the data.""
+
+3. Each probability in a continuous random variable must total 1.
+   - **Context:** ""If I list several probabilities for a continuous variable, I found they total to 0.9. Is this acceptable?"" 
+   - **Students’ Responses:** ""Yes, because the total can be less than 1; it's just the area under the curve.""
+
+4. Continuous random variables do not have a finite number of outcomes.
+   - **Context:** ""Explaining the outcomes, can you tell me how many times the continuous variable can land on a precise value like 3?""
+   - **Students' Responses:** “It can only land on 3 once because there are infinitely many outcomes.”
+
+5. Graphical interpretation of continuous variables is not necessary.
+   - **Context:** ""When you're trying to understand the distribution of a continuous random variable, do you really need to see the graph?"" 
+   - **Students' Responses:** ""No, understanding the values is enough; the graph doesn't really provide anything extra.""
+
+---
+
+### Areas under Curves
+
+**Misconceptions:**
+1. The area under the curve represents the probability of a specific event.
+   - **Context:** ""If I say the area under the curve from 1 to 2 is 0.3, what does that tell you about the specific outcome at X=1.5?""
+   - **Students' Responses:** ""That means there's a 30% probability that X equals 1.5.""
+
+2. Area calculations can be ignored when interpreting distributions.
+   - **Context:** ""When analyzing a probability distribution, is it even necessary to consider the area under the curves at all?""
+   - **Students' Responses:** ""Not really, we can just focus on the general shape and not worry about numbers.""
+
+3. The area of the entire curve must equal 0.
+   - **Context:** ""What does it mean if the area of the entire density function equals 0?""
+   - **Students' Responses:** ""It means that there are no possible outcomes, so the density doesn't really matter.""
+
+4. A higher area corresponds to lower probabilities.
+   - **Context:** ""In looking at two different areas under the probability density function curves, how would you explain why one has a larger area than the other?""
+   - **Students' Responses:** ""It probably has a smaller probability since it takes up more space.""
+
+5. The area above the curve can represent outcomes too.
+   - **Context:** ""If I were to look above the curve of the probability density function, does that area mean anything in terms of potential outcomes?""
+   - **Students' Responses:** ""Of course, it could indicate possible outcomes that are likely to happen.""
+
+---
+
+### Normal Distribution
+
+**Misconceptions:**
+1. All normal distributions have the same shape irrespective of their parameters.
+   - **Context:** ""If I plot two normal distributions, one with a mean of 0 and standard deviation of 1, and another with a mean of 5 and standard deviation of 2, how would they relate to each other?""
+   - **Students' Responses:** ""They look the same because they are both normal distributions.""
+
+2. Normal distributions can only occur with integer data.
+   - **Context:** ""Can a normal distribution be utilized for data that includes decimals, like weights or heights?""
+   - **Students' Responses:** ""No, because normal distributions only work with whole numbers.""
+
+3. The probability of extreme values in a normal distribution is always zero.
+   - **Context:** ""When dealing with extreme outliers in a normal distribution, do they have any probability of occurring?""
+   - **Students' Responses:** ""No, they can't happen at all since they are way too far out.""
+
+4. You need to know the exact mean and standard deviation to work with normal distributions.
+   - **Context:** ""Is it necessary to have the precise values of the mean and standard deviation to apply normal distribution in real-world problems?""
+   - **Students’ Responses:** ""Yes, you can’t use it without those exact figures.""
+
+5. Normal distributions are always symmetric and can never be skewed.
+   - **Context:** ""What can you tell me about the nature of a distribution that doesn’t match the normal bell curve?""
+   - **Students' Responses:** ""It’s not a normal distribution then; normal ones cannot be skewed at all.""
+
+---
+
+### Expectation and Variance
+
+**Misconceptions:**
+1. Expectation gives a deterministic outcome.
+   - **Context:** ""When we calculate the expected value of a random variable, what does that tell you about the outcome?""
+   - **Students' Responses:** ""It tells me exactly what the next outcome will be.""
+
+2. Variance indicates the average outcome.
+   - **Context:** ""If I tell you that variance is 4, can you explain what that means about the expected value?""
+   - **Students' Responses:** ""It means the average value will be 4 since variance tells about average like that.""
+
+3. A lower variance indicates a broader range of data.
+   - **Context:** ""In comparing two data sets, one with a variance of 2 and another with 10, which data set has a wider spread?""
+   - **Students’ Responses:** ""The one with 2 must have the broadest range because it’s lower.""
+
+4. Expectation and variance are interchangeable terms.
+   - **Context:** ""When we talk about expected value and variance, are they essentially describing the same concept?""
+   - **Students' Responses:** ""Yes, they both show how we can expect our data to behave.""
+
+5. Expectation can be negative.
+   - **Context:** ""If I calculate the expected value for a set of positive outcomes, what should I expect about its value?""
+   - **Students' Responses:** ""It should always be positive since we are dealing only with positive numbers.""
+
+---
+
+### Cumulative Distribution Functions (CDF)
+
+**Misconceptions:**
+1. CDFs represent probabilities for specific outcomes.
+   - **Context:** ""If I say the CDF at 7 is 0.8, what does that tell me about the probability exactly at 7?""
+   - **Students' Responses:** ""It tells me there's an 80% chance that the outcome is exactly 7.""
+
+2. CDFs always start from 0 and end at 1.
+   - **Context:** ""Looking at a CDF graph, is it okay if it starts somewhere above 0?""
+   - **Students' Responses:** ""No, because it has to start exactly at 0 and end at 1.""
+
+3. CDF can be used to calculate probabilities for ranges.
+   - **Context:** ""How can I use the CDF if I want the probability between 3 and 5?""
+   - **Students' Responses:** ""You can't really, because it gives just a single value, not a range.""
+
+4. A CDF is the same as a probability density function.
+   - **Context:** ""Can you differentiate between the probability density function and the cumulative distribution function?""
+   - **Students' Responses:** ""They’re the same since both show how likely outcomes occur.""
+
+5. CDFs can decrease in value.
+   - **Context:** ""What would happen if a CDF ever dips down after a certain point? Is that normal?""
+   - **Students' Responses:** ""No, that can't happen. It's supposed to be increasing all the time.""
+
+--- 
+
+These misconceptions highlight common misunderstandings that students might have regarding the concepts associated with probability density functions and related topics. The context provided aims to show how these misconceptions can manifest during classroom discussions or assessments."
+15,Expected Values,"### Relevant Topics
+1. Probability Distributions
+2. Risk Assessment
+3. Decision Theory
+4. Statistical Averages
+5. Game Theory
+
+### Key Terms and Misconceptions
+
+#### 1. Probability Distributions
+- **Misconception 1:** The mean of a probability distribution always equals the most likely value.
+  - **Context:**
+    - **Question:** ""In a skewed distribution, how would you describe the relationship between the mean and the mode?""
+    - **Student Response:** ""They are always the same because the mean is where most of the data is clustered.""
+
+- **Misconception 2:** Probabilities must always add up to one across different distributions.
+  - **Context:**
+    - **Question:** ""If a distribution shows that only a fraction of the total outcomes are favorable, what can we infer about the unfavored outcomes?""
+    - **Student Response:** ""We can just sum the favorable and unfavorable probabilities, and they'll add up to one in every case, regardless of the total number of distributions involved.""
+
+- **Misconception 3:** All distributions are symmetrical by default.
+  - **Context:**
+    - **Question:** ""Can you describe what a normal distribution looks like compared to other types of distributions?""
+    - **Student Response:** ""A normal distribution is how all distributions are; they all perfectly balance around the center.""
+
+- **Misconception 4:** Independent events have no impact on each other's probabilities.
+  - **Context:**
+    - **Question:** ""How do independent events affect the calculation of combined probabilities, like in a game where you roll a die and flip a coin?""
+    - **Student Response:** ""Since they're independent, I can just treat each event as if the other didn't happen at all and use either's outcomes.""
+
+- **Misconception 5:** A uniform distribution is always the best model for data with no apparent pattern.
+  - **Context:**
+    - **Question:** ""If we have a data set without distinct peaks, what kind of distribution should we use?""
+    - **Student Response:** ""Uniform has no peaks, so that’s definitely the distribution we should apply here.”
+
+#### 2. Risk Assessment
+- **Misconception 1:** All risks can be quantified precisely using expected values.
+  - **Context:**
+    - **Question:** ""When considering potential risks in a project, how should you approach the imprecision of some factors?""
+    - **Student Response:** ""As long as we have expected values calculated, we can quantify every risk exactly and make firm decisions.""
+
+- **Misconception 2:** Risk is solely determined by the probabilities of adverse outcomes.
+  - **Context:**
+    - **Question:** ""What factors should be considered when evaluating the risk of a new investment?""
+    - **Student Response:** ""Only the likelihood of losing money is important; you can't consider other factors like potential gains.""
+
+- **Misconception 3:** Only negative outcomes are considered in risk assessments.
+  - **Context:**
+    - **Question:** ""When assessing the risks and benefits of different career paths, what would you prioritize?""
+    - **Student Response:** ""I’d just assess how bad the worst case scenarios could be since risks are about avoiding failures.""
+
+- **Misconception 4:** High expected value guarantees positive outcomes.
+  - **Context:**
+    - **Question:** ""How could you interpret a scenario where the expected value of a project is high but results vary significantly?""
+    - **Student Response:** ""If the expected value is high enough, it guarantees success even if the outcomes could be quite different.""
+
+- **Misconception 5:** Risk aversion is always the best strategy when facing uncertainty.
+  - **Context:**
+    - **Question:** ""If you were advising someone on a new business venture, how would you approach their attitude towards risk?""
+    - **Student Response:** ""They should avoid risks entirely; a risk-averse approach is definitely the safest way to go.""
+
+#### 3. Decision Theory
+- **Misconception 1:** All decision-making can be boiled down to maximizing expected utility without regard for context.
+  - **Context:**
+    - **Question:** ""When choosing between multiple business strategies, should personal values influence your decision?""
+    - **Student Response:** ""No, you just need to go with the strategy that has the highest expected value; values don't matter.""
+
+- **Misconception 2:** More options always lead to better decision-making outcomes.
+  - **Context:**
+    - **Question:** ""How do you feel about the number of options available in selecting a college major?""
+    - **Student Response:** ""The more majors I have to choose from, the better decision I can make since I can pick the one with the highest expected value.""
+
+- **Misconception 3:** All stakeholders prioritize outcomes in the same way.
+  - **Context:**
+    - **Question:** ""In decision-making involving multiple parties, how should their preferences be assessed?""
+    - **Student Response:** ""Everyone thinks about outcomes the same way; we should just add up their preferences based on expected value.""
+
+- **Misconception 4:** Decisions based on expected values have no emotional components.
+  - **Context:**
+    - **Question:** ""In a high-stakes decision-making situation, should you factor in emotions?""
+    - **Student Response:** ""Emotions just complicate things; we should solely focus on the expected values.""
+
+- **Misconception 5:** The rational choice is always to avoid risk.
+  - **Context:**
+    - **Question:** ""What should you consider when a business opportunity involves significant risks but could yield high rewards?""
+    - **Student Response:** ""You should always play it safe and avoid risk, even if there’s a potential high reward.""
+
+#### 4. Statistical Averages
+- **Misconception 1:** The mean is the most informative average in all cases.
+  - **Context:**
+    - **Question:** ""When comparing test scores from different classes, which measure of average would be the best to report?""
+    - **Student Response:** ""The mean, obviously, because it gives the best overall picture of how students performed.""
+
+- **Misconception 2:** Negative values cannot impact the average.
+  - **Context:**
+    - **Question:** ""If a firm’s revenues are sometimes negative, how would this affect their average profit when reporting?""
+    - **Student Response:** ""Negative numbers don't count towards the average; they just drag the number down.""
+
+- **Misconception 3:** Averages are not affected significantly by outliers.
+  - **Context:**
+    - **Question:** ""How would extremely high or low values influence the average salary of a small company?""
+    - **Student Response:** ""They shouldn't really change the average much; averages are stable no matter what extremes you have.""
+
+- **Misconception 4:** The median is always close to the mean.
+  - **Context:**
+    - **Question:** ""How would you inform a client about the average incomes of a community with a few ultra-rich individuals?""
+    - **Student Response:** ""The median should also be about the same as the mean in this case, giving us a solid understanding of the community’s wealth.""
+
+- **Misconception 5:** Averages can be computed meaningfully with non-homogeneous data sets.
+  - **Context:**
+    - **Question:** ""If a classroom consists of students of various ages and backgrounds, what type of average would you compute to understand their performance?""
+    - **Student Response:** ""It doesn't really matter; we could just find the average for everyone together because an average applies to all types.""
+
+#### 5. Game Theory
+- **Misconception 1:** All players in a game will act rationally and always seek to maximize their expected utility.
+  - **Context:**
+    - **Question:** ""In a competitive market scenario, how should firms behave to outmaneuver each other?""
+    - **Student Response:** ""They'll always make the most rationally expected choice to gain the highest profit without making any irrational decisions.""
+
+- **Misconception 2:** Breaching agreements in cooperative games always leads to better outcomes.
+  - **Context:**
+    - **Question:** ""If your partner in a business venture tries to cheat you, what should your reaction be to maximize your gains?""
+    - **Student Response:** ""Cheating back is a smart move; it ensures the other party knows they can't get away with anything.""
+
+- **Misconception 3:** Zero-sum games are the most common application of game theory.
+  - **Context:**
+    - **Question:** ""What kinds of scenarios can best utilize game theory principles beyond competitive sports?""
+    - **Student Response:** ""Mostly just competitions where one person's gain is another’s loss; that’s pretty much all game theory is about.""
+
+- **Misconception 4:** Nash equilibrium indicates a perfect outcome for all players.
+  - **Context:**
+    - **Question:** ""How would you evaluate the effectiveness of strategies in a Nash equilibrium?""
+    - **Student Response:** ""It indicates the best outcome for everyone involved, so all players are better off than in any other strategy.""
+
+- **Misconception 5:** More complex games always yield better strategic insights.
+  - **Context:**
+    - **Question:** ""In analyzing market competition, should we always focus on the most complex game structures?""
+    - **Student Response:** ""Yes, because complexity will show us better strategies and clearer paths to victory.""
+
+These contextual examples illustrate how misconceptions can emerge in discussions about expected values and related topics, showing how students might misunderstand nuanced concepts."
+16,Wilcoxon Signed-Rank Test,"### Relevant Topics:
+1. Non-parametric statistics
+2. Paired samples
+3. Rank-based methods
+4. Statistical hypothesis testing
+5. Effect size measurement
+
+---
+
+### 1. Non-parametric statistics
+
+**Misconceptions:**
+1. Non-parametric tests are always less powerful than parametric tests.
+   - **Context:** ""In what situations would you prefer to use a non-parametric test over a parametric test?""
+     - Student Response: ""Non-parametric tests are for weak analyses, so I would only use them if I have no other choice.""
+
+2. Non-parametric tests cannot handle large datasets.
+   - **Context:** ""How does the size of your data affect the choice of statistical tests?""
+     - Student Response: ""I think if my data gets too large, I have to switch to parametric tests because non-parametric ones can’t handle that volume.""
+
+3. Non-parametric tests are only for ordinal data.
+   - **Context:** ""What types of data are suitable for non-parametric tests?""
+     - Student Response: ""Non-parametric tests are just for rankings or ordinal data; they can’t deal with continuous data.""
+
+4. Non-parametric tests do not provide p-values.
+   - **Context:** ""Can you explain the results you obtained from your non-parametric analysis?""
+     - Student Response: ""I don’t think there are p-values since it’s non-parametric; those tests just tell you if there’s a difference qualitatively.""
+
+5. Non-parametric tests do not assume normality because they are not concerned with distributions at all.
+   - **Context:** ""What assumption do you need to check before using non-parametric tests?""
+     - Student Response: ""You don’t need to check anything about distributions for non-parametric tests because they don’t consider distributions at all.""
+
+---
+
+### 2. Paired samples
+
+**Misconceptions:**
+1. Paired samples must be identical.
+   - **Context:** ""Why do we analyze paired samples rather than independent samples?""
+     - Student Response: ""It's because the two samples should be the same, otherwise we wouldn't know how they relate.""
+
+2. The Wilcoxon Signed-Rank Test can only be used for two samples collected at the same time.
+   - **Context:** ""How should you approach experimental design for conducting a paired sample test?""
+     - Student Response: ""I'm not sure, but I think both samples need to be collected at the exact same time for it to count as paired.""
+
+3. Any difference between paired samples invalidates the use of the Wilcoxon test.
+   - **Context:** ""What would you conclude if the differences between pairs are not consistent?""
+     - Student Response: ""If they are too different, the test isn't valid anymore and we need another method entirely.""
+
+4. There must be a clear directional hypothesis when using paired samples.
+   - **Context:** ""What is the importance of hypothesis direction in paired testing?""
+     - Student Response: ""I believe you have to have a specific direction since paired samples are only useful if you expect one to be greater than the other.""
+
+5. Paired samples can only be analyzed when they contain evenly matched subjects.
+   - **Context:** ""What factors would you consider when selecting subjects for a paired study?""
+     - Student Response: ""The subjects have to be exactly matched in every aspect; if they’re not equal, it compromises the whole analysis.""
+
+---
+
+### 3. Rank-based methods
+
+**Misconceptions:**
+1. Ranking data discards valuable information.
+   - **Context:** ""Why do we use ranked data in non-parametric tests?""
+     - Student Response: ""Using ranks loses all the actual values, so it’s not really looking at the true data anymore.""
+
+2. Rank-based methods do not correspond to any actual distribution.
+   - **Context:** ""What are the benefits of using rank-based methods in statistical tests?""
+     - Student Response: ""They don’t relate to distributions; they just use ranks, so they don't really follow any statistical properties.""
+
+3. Tied ranks can’t be handled in rank-based methods.
+   - **Context:** ""What challenges might you encounter when ranking your data?""
+     - Student Response: ""I’m worried that if there are ties, it will ruin the tests because rank-based methods don’t deal with that well.""
+
+4. Rank transformations can be applied to any type of data without consideration.
+   - **Context:** ""What precautions should you take when using rank-based transformations?""
+     - Student Response: ""There’s no need for precautions; you can just rank anything regardless of the data type.""
+
+5. All assumptions about ranks come from using the mean of the ranks.
+   - **Context:** ""How do you compute test statistics when using ranks?""
+     - Student Response: ""You just find the mean of the ranks and that’s where all the assumptions come from.""
+
+---
+
+### 4. Statistical hypothesis testing
+
+**Misconceptions:**
+1. Hypothesis testing proves or disproves a hypothesis definitively.
+   - **Context:** ""What can you infer from the p-value you obtained in your hypothesis test?""
+     - Student Response: ""It proves that my hypothesis is true since the p-value is low.""
+
+2. A non-significant result means there is no effect.
+   - **Context:** ""What does a non-significant result indicate regarding your research question?""
+     - Student Response: ""It means that there’s no effect at all; my hypothesis is definitely incorrect.""
+
+3. The null hypothesis is always the opposite of the research hypothesis.
+   - **Context:** ""Can you describe the relationship between the null hypothesis and alternative hypothesis?""
+     - Student Response: ""The null is the exact opposite of what I think will happen; it has to contradict my theory in every way.""
+
+4. Increasing sample size guarantees significance.
+   - **Context:** ""Given a non-significant result, how would increasing your sample size affect your findings?""
+     - Student Response: ""If I just collect more data, it will definitely turn significant because larger samples always show effects.""
+
+5. Statistical tests can be influenced by subjective bias.
+   - **Context:** ""When performing hypothesis testing, what factors do you think might impact the outcome?""
+     - Student Response: ""The tests are purely objective; bias doesn’t matter because the numbers tell the truth, no matter what I think about them.""
+
+---
+
+### 5. Effect size measurement
+
+**Misconceptions:**
+1. Effect size is irrelevant if significance is achieved.
+   - **Context:** ""What role does effect size play in interpreting your statistical results?""
+     - Student Response: ""If the result is significant, I don’t need to worry about effect size because the significance is what matters.""
+
+2. The larger the sample, the smaller the effect size needs to be to be significant.
+   - **Context:** ""How would you interpret a small effect size in a large sample study?""
+     - Student Response: ""The sample size means I can get away with a really tiny effect size and still claim significance.""
+
+3. Effect sizes provide no additional information than p-values.
+   - **Context:** ""Why might researchers report effect sizes along with p-values?""
+     - Student Response: ""Effect sizes are just a repeat of what p-values say; they tell the same story about whether or not something is significant.""
+
+4. There’s only one way to calculate effect size.
+   - **Context:** ""What types of effect sizes might you consider for your analysis?""
+     - Student Response: ""I think there’s just one standard calculation for effect size; it’s the same across all tests.""
+
+5. Effect sizes only apply to differences between means.
+   - **Context:** ""In what scenarios might you report effect sizes other than for group comparisons?""
+     - Student Response: ""Effect sizes don’t apply to things like correlation or regression; they really only measure how different groups are."""
+17,Maximum likelihood Estimation,"### Relevant Topics:
+1. Statistical Inference
+2. Probability Distributions
+3. Bayesian Methods
+4. Loss Functions
+5. Overfitting in Machine Learning
+
+---
+
+### 1. Statistical Inference
+
+**Misconceptions:**
+- M1: Maximum likelihood estimation (MLE) gives the true parameter with certainty.
+- M2: MLE is the only method for parameter estimation.
+- M3: MLE can only be applied to large sample sizes.
+- M4: MLE is not sensitive to outliers.
+- M5: The likelihood function is a probability distribution.
+
+**Example Context:**
+- **Question:** ""How confident should we be that MLE provides the exact parameters of our model?""
+  - **Students' Responses:**
+    - Student A: ""We should be completely confident, it gives us the true parameters.""
+    - Student B: ""MLE provides the true parameters in every case, it is foolproof.""
+  
+---
+
+### 2. Probability Distributions
+
+**Misconceptions:**
+- M1: MLE can only be applied to normal distributions.
+- M2: The shape of the likelihood function always resembles the actual data distribution.
+- M3: MLE is the best method for all types of distributions.
+- M4: MLE does not adapt well to different types of data distributions.
+- M5: Using MLE requires knowing the distribution beforehand.
+
+**Example Context:**
+- **Question:** ""Can we use MLE for distributions that are not symmetrical?""
+  - **Students' Responses:**
+    - Student A: ""No, MLE only works on symmetrical distributions like normal.""
+    - Student B: ""It wouldn’t work at all unless we define the distribution first.""
+
+---
+
+### 3. Bayesian Methods
+
+**Misconceptions:**
+- M1: MLE is equivalent to Bayesian estimation.
+- M2: Bayesian methods don't use likelihood at all.
+- M3: MLE can replace the prior in Bayesian methods.
+- M4: MLE and Bayesian methods lead to the same conclusions in all cases.
+- M5: There is no room for subjective priors in MLE.
+
+**Example Context:**
+- **Question:** ""How does the likelihood function relate to Bayesian estimation?""
+  - **Students' Responses:**
+    - Student A: ""The likelihood function isn’t considered in Bayesian methods.""
+    - Student B: ""Bayesian estimation doesn’t need MLE, they’re completely different.""
+
+---
+
+### 4. Loss Functions
+
+**Misconceptions:**
+- M1: MLE minimizes the loss function at all times.
+- M2: Any loss function can be used interchangeably with MLE.
+- M3: MLE inherently accounts for the cost of errors in predictions.
+- M4: Understanding loss functions is irrelevant to MLE.
+- M5: The concept of loss functions is only relevant in machine learning, not in MLE.
+
+**Example Context:**
+- **Question:** ""What role do loss functions play when we apply MLE in our models?""
+  - **Students' Responses:**
+    - Student A: ""MLE always minimizes loss functions, that’s its main purpose.""
+    - Student B: ""We don’t need to worry about loss functions with MLE, they don’t relate.""
+
+---
+
+### 5. Overfitting in Machine Learning
+
+**Misconceptions:**
+- M1: MLE will always overfit the data.
+- M2: Overfitting can’t be identified through likelihood values.
+- M3: MLE can't be used if overfitting is a concern at all.
+- M4: Regularization isn’t compatible with MLE.
+- M5: More complex models always benefit from MLE without the risk of overfitting.
+
+**Example Context:**
+- **Question:** ""Why is it important to check for overfitting when using MLE in model building?""
+  - **Students' Responses:**
+    - Student A: ""Using MLE is risky; it will likely overfit every model.""
+    - Student B: ""MLE doesn’t care about complexity, it doesn’t cause overfitting."""
+18,Generalized linear models,"### Relevant Topics:
+1. Logistic Regression
+2. Poisson Regression
+3. Error Structures
+4. Link Functions
+5. Model Interpretation
+
+---
+
+### 1. Logistic Regression
+
+#### Misconceptions:
+1. Logistic regression cannot handle continuous predictors.
+   - **Context**: 
+     - Question: ""When we apply logistic regression, how do we treat variables that are measured on a scale?""
+     - Student Response: ""All predictors should be categorical because logistic regression is for binary outcomes.""
+
+2. Logistic regression models can only predict binary outcomes directly.
+   - **Context**: 
+     - Question: ""What type of outcomes can we predict using logistic regression?""
+     - Student Response: ""It only tells us the probability of one outcome versus another.""
+
+3. The coefficients in logistic regression represent the actual change in the outcome variable.
+   - **Context**: 
+     - Question: ""How do we interpret the coefficients of a logistic regression model?""
+     - Student Response: ""They tell us how much the predicted outcome increases for each unit increase in the predictor.""
+
+4. The performance of logistic regression is always improved by adding more predictors.
+   - **Context**: 
+     - Question: ""If our model isn’t performing well, should we just keep adding more predictors?""
+     - Student Response: ""Yes, because more predictors will always give us a better model.""
+
+5. Logistic regression assumes a linear relationship between the predictor and the probability of success.
+   - **Context**: 
+     - Question: ""What kind of relationship does logistic regression assume between predictors and the outcome?""
+     - Student Response: ""It assumes a straight line relationship.""
+
+---
+
+### 2. Poisson Regression
+
+#### Misconceptions:
+1. Poisson regression can only model count data with equal variance.
+   - **Context**: 
+     - Question: ""What type of data is most suitable for Poisson regression?""
+     - Student Response: ""Only count data where the mean equals the variance is appropriate.""
+
+2. The coefficients in Poisson regression represent changes in raw counts.
+   - **Context**: 
+     - Question: ""How do we interpret the exponentiated coefficients from a Poisson regression?""
+     - Student Response: ""They tell us how much the expected counts increase for each additional predictor.""
+
+3. Poisson regression is appropriate even when the response variable has overdispersion.
+   - **Context**: 
+     - Question: ""What should we consider when our count data doesn’t fit the Poisson assumptions?""
+     - Student Response: ""We can always use Poisson regression regardless of variance issues.""
+
+4. Poisson regression only works with integer counts.
+   - **Context**: 
+     - Question: ""Can we include non-integer data in a Poisson regression model?""
+     - Student Response: ""No, Poisson regression is strictly for whole numbers only.""
+
+5. Poisson regression does not allow for zeros in the response variable.
+   - **Context**: 
+     - Question: ""In our data, we have many instances where the count is zero. Should we remove these cases?""
+     - Student Response: ""Yes, because Poisson regression can't handle zero counts.""
+
+---
+
+### 3. Error Structures
+
+#### Misconceptions:
+1. All generalized linear models assume normally distributed errors.
+   - **Context**: 
+     - Question: ""What is a common assumption about the residuals in generalized linear models?""
+     - Student Response: ""They should all be normally distributed, like in linear regression.""
+
+2. The choice of error structure is irrelevant as long as the model fits well.
+   - **Context**: 
+     - Question: ""If our model has a good fit, does it matter what error structure we use?""
+     - Student Response: ""No, if it fits the data, that’s all that matters.""
+
+3. Changing the error structure does not impact parameter estimates.
+   - **Context**: 
+     - Question: ""What effect does changing the distribution of errors have on the model?""
+     - Student Response: ""It doesn’t really change the estimates; they stay the same.""
+
+4. Non-constant variance cannot be modeled in generalized linear models.
+   - **Context**: 
+     - Question: ""Can generalized linear models handle situations where variance changes with the mean?""
+     - Student Response: ""No, they only work with constant variance.""
+
+5. Error structures are the same in all types of generalized linear models.
+   - **Context**: 
+     - Question: ""Are the assumptions about errors consistent across all types of generalized linear models?""
+     - Student Response: ""Yes, every GLM assumes the same error structure.""
+
+---
+
+### 4. Link Functions
+
+#### Misconceptions:
+1. Link functions merely transform the outcome variable.
+   - **Context**: 
+     - Question: ""How do link functions affect our model?""
+     - Student Response: ""They just change the scale of the outcome variable so we can interpret it better.""
+
+2. The choice of link function has no impact on predicted probabilities.
+   - **Context**: 
+     - Question: ""What happens to the predicted probabilities if we switch link functions?""
+     - Student Response: ""It shouldn’t change much; the prediction remains pretty much the same.""
+
+3. All generalized linear models require a log link function.
+   - **Context**: 
+     - Question: ""Is the log link function universally appropriate for all GLMs?""
+     - Student Response: ""Yes, it’s the only link function we should use for generalized linear models.""
+
+4. The linear predictor is based solely on the link function.
+   - **Context**: 
+     - Question: ""What comprises the linear predictor in a GLM?""
+     - Student Response: ""It’s just the link function that determines the linear predictor.""
+
+5. Link functions cannot be interpretable or have a meaningful context.
+   - **Context**: 
+     - Question: ""Can you explain some link functions in layman’s terms?""
+     - Student Response: ""They’re just mathematical tools that don’t relate to real-world scenarios.""
+
+---
+
+### 5. Model Interpretation 
+
+#### Misconceptions:
+1. The significance of the model parameters can be determined solely based on p-values.
+   - **Context**: 
+     - Question: ""When assessing the significance of predictors in our model, what metric should we rely on?""
+     - Student Response: ""P-values are the only thing that tells us if predictors matter.""
+
+2. A higher R-squared value indicates a better model for all GLMs.
+   - **Context**: 
+     - Question: ""How can we tell if our model is performing better than another?""
+     - Student Response: ""We should choose the one with the higher R-squared value, just like in linear regression.""
+
+3. Model coefficients offer direct interpretations of changes in the response variable.
+   - **Context**: 
+     - Question: ""How do we understand the effect of a predictor in our generalized linear model?""
+     - Student Response: ""The coefficients directly tell us how much the response changes with each unit increase in the predictor.""
+
+4. All models with low Akaike Information Criterion (AIC) are equally effective.
+   - **Context**: 
+     - Question: ""If we have several models with low AIC, how do we choose the best one?""
+     - Student Response: ""They’re all equally good as long as their AIC values are lower.""
+
+5. The context of the variables is irrelevant to their interpretation in the model.
+   - **Context**: 
+     - Question: ""How do we interpret the coefficients from our model to communicate results effectively?""
+     - Student Response: ""It doesn’t really matter what the variables represent; just read off the coefficients."""
+19,Average,"### Relevant Topics to ""Average""
+
+1. **Mean**
+2. **Median**
+3. **Mode**
+4. **Statistical Distributions**
+5. **Outliers**
+
+---
+
+### 1. Mean
+
+**Misconceptions:**
+- **Misconception 1:** Mean is always the most representative measure of a dataset.
+  - **Context:** “In a class of students, if the average test score is 60, what can you conclude about the overall performance of the students?”
+    - **Student Response:** “Since the average is 60, that means most students performed around that score.”
+
+- **Misconception 2:** The mean can be calculated with any set of numbers, regardless of their type.
+  - **Context:** “How can the average age of students in the class give us a good understanding of their experiences?”
+    - **Student Response:** “We can just add up ages and use negative numbers or fractions; it should be fine for calculating the mean age.”
+
+- **Misconception 3:** The mean is not influenced by extreme values.
+  - **Context:** “If one student scores 100 and everyone else scores 40, what effect does this have on the class's average score?”
+    - **Student Response:** “It probably doesn't change much, since the majority scored around 40.”
+
+- **Misconception 4:** The mean is always a value present in the data set.
+  - **Context:** “If you have the scores of 5 students, can the average score be higher than all of the scores?”
+    - **Student Response:** “No, because the average has to be one of the scores, right?”
+
+- **Misconception 5:** The mean can represent data that is not numerical.
+  - **Context:** “If we average the opinions on a survey that were given on a scale of agree to disagree, can we use that average directly?”
+    - **Student Response:** “Yes, we just convert agree and disagree to numbers and find the mean.”
+
+---
+
+### 2. Median
+
+**Misconceptions:**
+- **Misconception 1:** The median is the average of the highest and lowest values.
+  - **Context:** “In a tight-knit group, if we want to know the typical income, how do we find the median?”
+    - **Student Response:** “You add the highest and lowest incomes together and divide by two, right?”
+
+- **Misconception 2:** The median is always one of the data points in the set.
+  - **Context:** “Can you give me the median height of a group of students whose heights are 5'2"", 5'5"", 5'7"", and 6'0""?”
+    - **Student Response:** “The median has to be one of those heights, so it must be 5'5"" or 5'7"".”
+
+- **Misconception 3:** The presence of outliers does not affect the median.
+  - **Context:** “What would happen to the median if we added an extremely tall student to a group of average-height students?”
+    - **Student Response:** “It shouldn't change, because we just find the middle value for the list.”
+
+- **Misconception 4:** The median can only be found with an odd number of values in a dataset.
+  - **Context:** “If I have eight test scores, can I still find the median?”
+    - **Student Response:** “No, you can't get a median with an even number; it doesn't work that way.”
+
+- **Misconception 5:** The median reflects the most common value in the data set.
+  - **Context:** “How do we determine which student is typical based on test scores using the median?”
+    - **Student Response:** “We just look for the score that appears the most frequently; that's what the median means.”
+
+---
+
+### 3. Mode
+
+**Misconceptions:**
+- **Misconception 1:** Every set of data has a mode.
+  - **Context:** “What is the mode if I have the set of numbers 1, 2, 3, 4, 5?”
+    - **Student Response:** “There isn’t one because none of the numbers repeats; every number is unique!”
+
+- **Misconception 2:** The mode is the average of the most frequently occurring values.
+  - **Context:** “How do we summarize the data collected from the student survey on favorite colors if several colors were chosen?”
+    - **Student Response:** “We add the most picked colors together and then divide by how many there are to get the average.”
+
+- **Misconception 3:** The mode provides a measure of central tendency.
+  - **Context:** “If we want to present the most typical score of students, should we just focus on the mode?”
+    - **Student Response:** “Yes, it tells us what score is most common.”
+
+- **Misconception 4:** There can be only one mode in any dataset.
+  - **Context:** “Considering the list of hobbies from students, if two hobbies are equally popular, how do we find the mode?”
+    - **Student Response:** “You just take the most popular one since a dataset can only have one mode.”
+
+- **Misconception 5:** The mode can never be a number outside the range of data.
+  - **Context:** “When looking at ages of students in a club, if 10 students are aged 18 or younger and 5 are 60, what can we conclude about the mode?”
+    - **Student Response:** “The mode can't be 60, since that's older than everyone else in the group.”
+
+---
+
+### 4. Statistical Distributions
+
+**Misconceptions:**
+- **Misconception 1:** All distributions have a symmetrical shape.
+  - **Context:** “When analyzing test scores, what conclusion can we draw if the distribution is very skewed?”
+    - **Student Response:** “It must not be a valid distribution since it looks all lopsided.”
+
+- **Misconception 2:** Every dataset can be perfectly modeled using a normal distribution.
+  - **Context:** “When using statistical methods to analyze survey data, what distribution should we assume if we want it to reflect all kinds of responses?”
+    - **Student Response:** “We can make everything fit a normal distribution, since most data naturally falls into that shape.”
+
+- **Misconception 3:** The shape of the distribution does not affect data interpretation.
+  - **Context:** “If a distribution shows that most scores are higher than the average, how does that impact your conclusions?”
+    - **Student Response:** “It doesn’t; we just look at the average score regardless of how the rest falls.”
+
+- **Misconception 4:** A narrow distribution indicates a high spread of data.
+  - **Context:** “When you see a distribution where most scores are bunched closely together, what can you infer about variability?”
+    - **Student Response:** “It must have a lot of variability because the scores are all different.”
+
+- **Misconception 5:** Percentiles and quartiles provide the same information as a distribution shape.
+  - **Context:** “If we find the 75th percentile, how does that compare to understanding the overall distribution of scores?”
+    - **Student Response:** “They’re the same; the percentile tells you everything you need about the distribution.”
+
+---
+
+### 5. Outliers
+
+**Misconceptions:**
+- **Misconception 1:** Outliers have no impact on the data set.
+  - **Context:** “If you find that one point in your data is significantly higher than the others, should you ignore it when calculating the average?”
+    - **Student Response:** “Yes, we can just leave it out; it doesn’t affect anything else.”
+
+- **Misconception 2:** Outliers are always mistakes or errors in data collection.
+  - **Context:** “Why do you think an individual score is so much higher than all the others in the class?”
+    - **Student Response:** “It must be because it was recorded incorrectly; it can’t be a real score.”
+
+- **Misconception 3:** All data sets with outliers are unreliable.
+  - **Context:** “Looking at the results from several exam scores, what does it mean if there are several outliers?”
+    - **Student Response:** “It probably means the data collected was bad or flawed.”
+
+- **Misconception 4:** Outliers are statistically insignificant and can be discarded whenever necessary.
+  - **Context:** “If you notice an outlier in your experiment, how should you handle it when reporting results?”
+    - **Student Response:** “Just remove it; it won’t make a big difference anyway.”
+
+- **Misconception 5:** Outliers always skew data towards higher values.
+  - **Context:** “If we identify a very low score among a group of high scores, how does it affect the average?”
+    - **Student Response:** “It doesn’t really affect our average; it’s likely not even taken seriously since it’s too low.”
+
+---
+
+This structured approach captures the complexities of understanding the concept of ""average"" and related statistical terms, addressing common misconceptions students may have."
+20,Goodness-of-Fit Test,"### Relevant Topics
+1. Chi-square Test
+2. Null Hypothesis
+3. Expected Frequencies
+4. Degrees of Freedom
+5. Distribution
+
+### 1. Chi-square Test
+**Misconceptions:**
+1. The Chi-square test can only be used with large sample sizes.  
+   - **Example Context:**  
+     **Question:** ""What considerations should we keep in mind when choosing a test for categorical data?""  
+     **Student Response:** ""We should use the Chi-square test only if we have a really big dataset, like over 100 samples, otherwise it's just not valid.""
+
+2. Chi-square tests can determine the strength of a relationship between variables.  
+   - **Example Context:**  
+     **Question:** ""If we find a significant Chi-square result, what does that say about the relationship between the variables?""  
+     **Student Response:** ""It means that the relationship is strong, almost like passing a certain value makes them strongly related.""
+
+3. The Chi-square test can be used for paired or dependent samples.  
+   - **Example Context:**  
+     **Question:** ""Can we apply the Chi-square test to data from the same group tested at different times?""  
+     **Student Response:** ""Sure, it's the same groups; the Chi-square can handle that since it tests for associations.""
+
+4. Chi-square tests can only be applied to nominal data.  
+   - **Example Context:**  
+     **Question:** ""What types of data are appropriate for Chi-square analysis?""  
+     **Student Response:** ""Only nominal data works, like gender or yes/no questions, nothing else fits.""
+
+5. A significant Chi-square result proves causation.  
+   - **Example Context:**  
+     **Question:** ""How can we interpret a significant result from our Chi-square analysis?""  
+     **Student Response:** ""It shows that one variable is definitely causing changes in the other; that's what the significance means.""
+
+### 2. Null Hypothesis
+**Misconceptions:**
+1. The null hypothesis is the same as the alternative hypothesis.  
+   - **Example Context:**  
+     **Question:** ""Can you explain the difference between the null and alternative hypotheses in testing?""  
+     **Student Response:** ""They're basically the same; both just state that there’s no effect and also that there's an effect, what's the difference?""
+
+2. A null hypothesis always assumes that there is no effect or no difference.  
+   - **Example Context:**  
+     **Question:** ""Why do we test the null hypothesis?""  
+     **Student Response:** ""Because it assumes there's always something happening, like a difference; it makes us test for effects.""
+
+3. Accepting the null hypothesis means proving it to be true.  
+   - **Example Context:**  
+     **Question:** ""After running your test, you accepted the null hypothesis. What does that mean?""  
+     **Student Response:** ""It means we've shown that the null hypothesis is correct, which means it must be true now.""
+
+4. The null hypothesis only applies to experiments, not observational studies.  
+   - **Example Context:**  
+     **Question:** ""Can the null hypothesis be tested in observational research?""  
+     **Student Response:** ""No, it's only for experiments where we manipulate something; observational data doesn’t use nulls.""
+
+5. The null hypothesis and hypothesis testing are steps that can be skipped in data analysis.  
+   - **Example Context:**  
+     **Question:** ""When analyzing data, do we need to formulate a hypothesis?""  
+     **Student Response:** ""Not really, we can just look at the data and draw conclusions without really stating a null hypothesis.""
+
+### 3. Expected Frequencies
+**Misconceptions:**
+1. Expected frequencies should always be equal across categories.  
+   - **Example Context:**  
+     **Question:** ""When calculating expected frequencies, how should we approach different categories?""  
+     **Student Response:** ""We just divide the total by the number of categories, so they should all be the same.""
+
+2. Expected frequencies are based solely on the observed data.  
+   - **Example Context:**  
+     **Question:** ""How do we determine the expected frequencies for our Chi-square test?""  
+     **Student Response:** ""We take a look at the observed counts; more counts mean that’s what we should expect.""
+
+3. It is acceptable for expected frequencies to be less than one.  
+   - **Example Context:**  
+     **Question:** ""Is it fine if some expected frequencies turn out to be smaller than one?""  
+     **Student Response:** ""Yes, that’s normal; even less than one is fine if the data supports it.""
+
+4. There’s no need to worry about expected frequencies if the sample size is large.  
+   - **Example Context:**  
+     **Question:** ""Do we still need to check expected frequencies when we have a large sample size?""  
+     **Student Response:** ""Not really, with lots of data, it doesn’t matter as much what the expectations are.""
+
+5. Expected frequencies can be directly calculated from theoretical distributions alone.  
+   - **Example Context:**  
+     **Question:** ""How do we compute expected frequencies in our study?""  
+     **Student Response:** ""We just use the theoretical distribution calculations; observed data isn't really necessary for this.""
+
+### 4. Degrees of Freedom
+**Misconceptions:**
+1. Degrees of freedom are a fixed number and do not change based on sample size.  
+   - **Example Context:**  
+     **Question:** ""How do you determine the degrees of freedom for a Chi-square test?""  
+     **Student Response:** ""It's always the same; there's a standard number for the test and it doesn’t change with sample size.""
+
+2. Adding more categories to a dataset will always increase the degrees of freedom.  
+   - **Example Context:**  
+     **Question:** ""If we add additional groups to our analysis, how will that affect our degrees of freedom?""  
+     **Student Response:** ""It definitely increases them; more categories always mean more degrees of freedom.""
+
+3. Degrees of freedom only apply to Chi-square tests, not to other types of tests.  
+   - **Example Context:**  
+     **Question:** ""What role do degrees of freedom play in different statistical tests?""  
+     **Student Response:** ""They're just for Chi-square; other tests do not care about degrees of freedom at all.""
+
+4. Degrees of freedom represent the total number of observations in the dataset.  
+   - **Example Context:**  
+     **Question:** ""Can you explain what degrees of freedom represent in terms of data observations?""  
+     **Student Response:** ""They just count the total number of observations; that's what degrees of freedom are about.""
+
+5. The formula for calculating degrees of freedom is the same in every statistical test.  
+   - **Example Context:**  
+     **Question:** ""How do we generally calculate degrees of freedom, can we apply the same formula universally?""  
+     **Student Response:** ""Yes, the formula works the same for all tests; we just plug in the numbers without worrying about differences.""
+
+### 5. Distribution
+**Misconceptions:**
+1. All distributions are symmetric.  
+   - **Example Context:**  
+     **Question:** ""How can we characterize the shape of a distribution for analysis?""  
+     **Student Response:** ""Most distributions look similar and are symmetric; it's a standard shape we usually see.""
+
+2. Distributions describe only the average of the data.  
+   - **Example Context:**  
+     **Question:** ""What information does a distribution provide about a dataset?""  
+     **Student Response:** ""It mainly tells us the average value; that's all we need to know about how the data behaves.""
+
+3. The normal distribution is the only important distribution in statistics.  
+   - **Example Context:**  
+     **Question:** ""What are some different types of distributions we might encounter?""  
+     **Student Response:** ""Well, everything falls under the normal curve because that's the only one that matters in statistics.""
+
+4. A wider distribution always implies greater variability in the data.  
+   - **Example Context:**  
+     **Question:** ""What does a wider bell shape in a distribution indicate?""  
+     **Student Response:** ""It means the data is much more consistent since the width shows fewer differences between values.""
+
+5. The shape of a distribution has no effect on the analysis outcome.  
+   - **Example Context:**  
+     **Question:** ""How does the shape of your data's distribution influence your statistical tests?""  
+     **Student Response:** ""It doesn't really matter; as long as we have numbers, we can analyze them without concerning ourselves about shape."""

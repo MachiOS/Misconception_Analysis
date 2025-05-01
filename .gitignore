@@ -38,4 +38,8 @@ env/
 # Temporary files
 *~
 
+# Generated Data
+*.pkl
+
+OLI_TransactionData_Analyze/annotation/
 

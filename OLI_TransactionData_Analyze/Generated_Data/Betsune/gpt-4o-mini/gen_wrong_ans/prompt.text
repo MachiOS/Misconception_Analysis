@@ -1,0 +1,195 @@
+ID:0 ====================================	
+    Question: What are enzymes, substrate, and product?
+    Answer: Enzymes are proteins that act as catalysts (make it easier for chemical reactions to occur). Substrates are molecules that bind to an enzyme. For any given enzyme, one or more specific substrate molecules will bind to that enzyme. Substrates are then converted to product(s) by the reaction catalyzed by the enzyme.
+    Expected incorrect responses: [Generate 5 responses that shows incorrect understanding on any related concept to the question, and describe why it is wrong.]
+    
+ID:1 ====================================	
+    Question: What is the active site of an enzyme?
+    Answer: It is the site in the enzyme to which substrate binds.
+    Expected incorrect responses: [Generate 5 responses that shows incorrect understanding on any related concept to the question, and describe why it is wrong.]
+    
+ID:2 ====================================	
+    Question: You may have seen television programs that make weight loss into a contest, with the prize going to the contestant who takes off pounds the fastest. You may even have similar incentive programs in your own school, church, or workplace. Are these contests or incentives a good idea?
+    Answer: Yes and no. It is a good idea for obese or overweight people to lose weight. Excess body fat can harm their health or interfere with their daily activities. However, weight loss should occur slowly in the context of permanent changes to a person’s lifestyle. Very rapid weight loss can be counterproductive, because the pounds are likely to pile back on as the person’s metabolism slows and hunger increases.
+    Expected incorrect responses: [Generate 5 responses that shows incorrect understanding on any related concept to the question, and describe why it is wrong.]
+    
+ID:3 ====================================	
+    Question: Bill, an overweight man in his twenties, goes on a very low calorie diet. He is determined to lose weight and keep it off. Within a few days, Bill has already lost four pounds! How or why was Bill able to lose those first few pounds so quickly?
+    Answer: Most of the weight lost was probably water weight. Bill catabolized his glycogen and the resulting water was excreted in the urine.
+    Expected incorrect responses: [Generate 5 responses that shows incorrect understanding on any related concept to the question, and describe why it is wrong.]
+    
+ID:4 ====================================	
+    Question: Over time, Bill continues to lose weight. At first he is averaging about one pound per week of weight loss. Gradually the rate of weight loss slows down, even though he sticks to the exact same level of calorie intake and exercise each day. Why, with the same calorie intake and activity level, would Bill’s weight loss slow down as he gets thinner?
+    Answer: Bill’s basal metabolic rate (BMR) — the number of calories used just to stay alive — is probably slowing down, partly as a result of weight loss itself, and partly as his body’s response to the loss of body fat. This reduces Bill’s total calorie expenditure, even though his activity level is the same. Bill will have to cut his calorie intake even more if he wants to continue losing weight.
+    Expected incorrect responses: [Generate 5 responses that shows incorrect understanding on any related concept to the question, and describe why it is wrong.]
+    
+ID:5 ====================================	
+    Question: As Bill continues to lose body fat, his circulating leptin level declines. What do you predict will happen to Bill’s hunger and food cravings as a result?
+    Answer: Bill will experience more intense food cravings and hunger due to the decline in leptin. It may be a good idea for Bill to slow down his weight loss, very gradually working down toward his goal weight.
+    Expected incorrect responses: [Generate 5 responses that shows incorrect understanding on any related concept to the question, and describe why it is wrong.]
+    
+ID:6 ====================================	
+    Question: How can inheriting altered versions of a gene lead to a loss of normal metabolic regulation?
+    Answer: Genes code for enzyme proteins. When enzymes do not function normally, metabolic regulation is disrupted and health problems result.
+    Expected incorrect responses: [Generate 5 responses that shows incorrect understanding on any related concept to the question, and describe why it is wrong.]
+    
+ID:7 ====================================	
+    Question: Did you notice your body doing any work to keep you upright on one foot?
+    Answer: Yes, even for such a seemingly simple activity, constant work is required. You probably felt movements in your foot, in your leg muscles, and perhaps in your body as a whole.
+    Expected incorrect responses: [Generate 5 responses that shows incorrect understanding on any related concept to the question, and describe why it is wrong.]
+    
+ID:8 ====================================	
+    Question: Your ability to maintain your balance is similar to what kind of ability or tendency of cells and organisms? Identify and discuss this tendency below.
+    Answer: Your “balancing act” was similar to your body’s ability or tendency to maintain stable internal conditions, also known as homeostasis. Your nerves monitored position and balance. When you drifted off-center, your muscles responded with corrective movements. Similarly, cells and organisms maintain homeostasis by monitoring and responding to internal changes.
+    Expected incorrect responses: [Generate 5 responses that shows incorrect understanding on any related concept to the question, and describe why it is wrong.]
+    
+ID:9 ====================================	
+    Question: In the human stomach, proteins are digested by pepsin, an enzyme that requires an acidic pH for its optimal function. Antacids are medications that increase stomach pH. Examples include Alka-Seltzer, Tums, and Rolaids. If a person overuses antacids, how do you think this might affect that person's digestive process?
+    Answer: When the pH is raised or increased, the activity of pepsin will decrease, which in turn decreases protein digestion.
+    Expected incorrect responses: [Generate 5 responses that shows incorrect understanding on any related concept to the question, and describe why it is wrong.]
+    
+ID:10 ====================================	
+    Question: Can you think of an example of protein denaturation that often occurs when making breakfast?
+    Answer: When you cook an egg, the proteins in the egg white denature and aggregate. This transforms the transparent egg fluid into a white solid.
+    Expected incorrect responses: [Generate 5 responses that shows incorrect understanding on any related concept to the question, and describe why it is wrong.]
+    
+ID:11 ====================================	
+    Question: To make the lumen of the lysosome (the part enclosed by the lysosomal membrane) more acidic than the cytoplasm, in which direction would protons need to flow? Why?
+    Answer: Protons would have to flow inwards, since a more acidic environment indicates a higher proton (hydrogen ion) concentration.
+    Expected incorrect responses: [Generate 5 responses that shows incorrect understanding on any related concept to the question, and describe why it is wrong.]
+    
+ID:12 ====================================	
+    Question: Why does the process described in the last question need to be a continuous process? Why doesn’t the process just stop once the correct pH in the lumen is reached?
+    Answer: Protons, although charged, can leak back through the membrane. In addition, negatively charged molecules in the lumen can become protonated and shuttle the protons across the membrane in their neutral form.
+    Expected incorrect responses: [Generate 5 responses that shows incorrect understanding on any related concept to the question, and describe why it is wrong.]
+    
+ID:13 ====================================	
+    Question: Ionic compounds dissolve and ionic bonds are broken in water. Why do you think water can separate ions and break ionic bonds?
+    Answer: Ionic bonds involve charges interacting with each other. If water is added to an ionic compound (such as NaCl), the positively charged Na atoms are surrounded by water molecules with the oxygen (which have a slight negative charge) closest to the Na + . The negatively charged Cl is also surrounded by water molecules. In this case, the hydrogen atoms (which have a slight positive charge) are closest to the Cl - The water molecules surround each ion and disrupt the ionic bonds in this way.
+    Expected incorrect responses: [Generate 5 responses that shows incorrect understanding on any related concept to the question, and describe why it is wrong.]
+    
+ID:14 ====================================	
+    Question: Examine the molecule below. It is found in scorpion venom. Is it organic? How do you know?
+    Answer: Yes, it is organic. There are many rings and chains of carbon atoms and there are dozens of C-H bonds. The smaller repeated units (rings, chains) are strung together to make a large, complex molecule. Also, the fact that this molecule is made by a living thing (a scorpion) is another clue that it is an organic molecule. Keep in mind, however, that not all organic molecules are produced by living things.
+    Expected incorrect responses: [Generate 5 responses that shows incorrect understanding on any related concept to the question, and describe why it is wrong.]
+    
+ID:15 ====================================	
+    Question: Are buffers an unlimited guarantee that the pH of a solution will remain in a narrow range?
+    Answer: No, they only can deal with a limited quantity of acid or base. If acid or base is continuously added to a buffered solution, eventually the buffering capacity will be used up. The buffer will not be able to absorb or donate any more hydrogen ions, and the solution’s pH will start to change quickly if even more acid or base is added.
+    Expected incorrect responses: [Generate 5 responses that shows incorrect understanding on any related concept to the question, and describe why it is wrong.]
+    
+ID:16 ====================================	
+    Question: Why is pH regulated in your body? How is the pH of your blood regulated?
+    Answer: Cells and living organisms can only function and survive in a very limited pH range. If pH is disrupted, the chemical reactions that enable life stop working. It is therefore an essential part of homeostasis to maintain the appropriate pH balance within a cell/organism. In diabetic ketoacidosis, a wide range of health problems and even death can result due to disruption of the body’s pH. In healthy people, blood pH is regulated partly through the action of a buffer (bicarbonate).
+    Expected incorrect responses: [Generate 5 responses that shows incorrect understanding on any related concept to the question, and describe why it is wrong.]
+    
+ID:17 ====================================	
+    Question: What did Mendel do that led him to be called the “Father of Modern Genetics?"
+    Answer: Mendel was the first person to use “true breeding” plants, manually mate them, and follow the outcomes of offspring. What made Mendel’s experiments successful where others failed, was that he used only plants with true breeding traits, he looked at a limited number of traits, and each trait he studied only has two forms or phenotypes (purple or white flowers, smooth or wrinkles peas, etc.). By counting the number of offspring plants from his crosses that expressed each trait, he was able to determine which trait pair was stronger (dominant) and which was weaker (recessive). After repeated matings and evaluating his data he was then able to predict the outcomes of matings between plants. Because he was the first scientist to really understand how specific traits were inherited from one generation to the next, he has been dubbed the “Father of Modern Genetics”. He laid the ground work for the field of genetics as we know it today.
+    Expected incorrect responses: [Generate 5 responses that shows incorrect understanding on any related concept to the question, and describe why it is wrong.]
+    
+ID:18 ====================================	
+    Question: To practice the concept of sex-linked traits, let's call the normal X chromosome, X How can you figure out whether a red-eyed female is homozygous or heterozygous for the red allele? +; and, let's indicate the sex chromosome with the white-eyed phenotype, XW. A true-bred red-eyed female will have the genotype, X+X+. A white-eyed male would have the genotype, XWY.
+    Answer: Look at the results of a cross between a red-eyed female and a white-eyed male, and then work backward to determine their original genotypes. Use the options X + , X W , and Y to form gametes and the resulting genotypes that match the phenotype.
+    Expected incorrect responses: [Generate 5 responses that shows incorrect understanding on any related concept to the question, and describe why it is wrong.]
+    
+ID:19 ====================================	
+    Question: Symptoms of Huntington’s disease generally begin manifesting during an individual's mid-30's and result in a slow deterioration. How can a lethal dominant gene be passed to the next generation?
+    Answer: This gene is passed to the next generation because it does not affect the individual until after reproductive age.
+    Expected incorrect responses: [Generate 5 responses that shows incorrect understanding on any related concept to the question, and describe why it is wrong.]
+    
+ID:20 ====================================	
+    Question: Anabolic reactions require ATP. But it takes energy to make ATP. Where does the energy for ATP synthesis come from?
+    Answer: Energy is often harvested from a catabolic reactions to make ATP. Cellular respiration is the most common and important pathway for ATP production. Energy stored in the bonds of glucose is harvested when sugar is broken down and that energy is used to make ATP.
+    Expected incorrect responses: [Generate 5 responses that shows incorrect understanding on any related concept to the question, and describe why it is wrong.]
+    
+ID:21 ====================================	
+    Question: Are viruses alive? Explain why you think viruses are alive or not.
+    Answer: Viruses lack some of the characteristics of life. For example, they do not directly use raw materials to replicate, and they don’t grow at all. They also are not composed of cells. Because there are some characteristics of life they don’t possess, viruses are generally not considered to be alive.
+    Expected incorrect responses: [Generate 5 responses that shows incorrect understanding on any related concept to the question, and describe why it is wrong.]
+    
+ID:22 ====================================	
+    Question: What role does mitosis play in the overall cell cycle?
+    Answer: Mitosis is the process of dividing a parent cell into two genetically identical daughter cells. DNA in the nucleus, which contains the genetic information, is first duplicated and condensed into tightly packed thread-like structures called chromosomes. During the four phases of mitosis, the nucleus is separated and divided into two identical daughter nuclei. Each daughter nuclei contains the same genetic material as the parental cell.
+    Expected incorrect responses: [Generate 5 responses that shows incorrect understanding on any related concept to the question, and describe why it is wrong.]
+    
+ID:23 ====================================	
+    Question: Researchers reported significant results from the HPV vaccine experiment. If the results had NOT been significant, what would this mean?
+    Answer: If the results from this experiment were not significant, it would mean that the number of women who did not get HPV after being vaccinated was the same number that would be seen just from random chance.
+    Expected incorrect responses: [Generate 5 responses that shows incorrect understanding on any related concept to the question, and describe why it is wrong.]
+    
+ID:24 ====================================	
+    Question: Jane has a family history of heart disease and decides to have her cholesterol levels checked. Her levels are 157 for LDL and 47 for HDL. Based on this chart and information from this module, what would you recommend Jane do?
+    Answer: Jane’s LDL is “borderline high,” but is VERY close to being “high.” In addition, her HDL levels are “poor.” Jane should reduce her intake of saturated and trans fats and increase her intake of unsaturated fats. She may also benefit from eating more dietary fiber and exercising more.
+    Expected incorrect responses: [Generate 5 responses that shows incorrect understanding on any related concept to the question, and describe why it is wrong.]
+    
+ID:25 ====================================	
+    Question: Explain what happens to the cell during the prophase of cell division.
+    Answer: The DNA condenses and the nuclear membrane begins to breakdown.
+    Expected incorrect responses: [Generate 5 responses that shows incorrect understanding on any related concept to the question, and describe why it is wrong.]
+    
+ID:26 ====================================	
+    Question: What is ATP?
+    Answer: ATP (adenosine triphosphate) is a molecule that contains high-energy phosphate bonds, is present in all living cells, and provides energy for many cellular activities.
+    Expected incorrect responses: [Generate 5 responses that shows incorrect understanding on any related concept to the question, and describe why it is wrong.]
+    
+ID:27 ====================================	
+    Question: ATP is continuously built to replace what is consumed by the activities of the cell. What can you predict about a reaction that would build ATP from ADP and P? Would it release or require energy?
+    Answer: It would require energy, because you are establishing a bond that holds two like charges close together.
+    Expected incorrect responses: [Generate 5 responses that shows incorrect understanding on any related concept to the question, and describe why it is wrong.]
+    
+ID:28 ====================================	
+    Question: Plants, algae, and cyanobacteria use pigments (such as chlorophyll) to absorb light needed for photosynthesis. Why does the presence of chlorophyll make photosynthetic producers look green?
+    Answer: Chlorophyll is green because it absorbs red and blue light and reflects green light. This green light is what we see.
+    Expected incorrect responses: [Generate 5 responses that shows incorrect understanding on any related concept to the question, and describe why it is wrong.]
+    
+ID:29 ====================================	
+    Question: In addition to chlorophyll, plants produce other pigments. Some of them act as “helpers” to chlorophyll: they absorb different wavelengths of light and pass some of the energy to chlorophyll. For example, many plants contain orange and yellow pigments in their leaves. They are normally masked by the green chlorophyll, which is much more abundant in leaf tissues. When do we see these pigments in many plant leaves?
+    Answer: In the fall, deciduous broadleaved tree leaves turn orange or yellow because chlorophyll levels in the leaves decline. Additional red and purple pigments may also be actively produced by the plant in autumn.
+    Expected incorrect responses: [Generate 5 responses that shows incorrect understanding on any related concept to the question, and describe why it is wrong.]
+    
+ID:30 ====================================	
+    Question: The king of LaLa Land wanted a male heir, but kept having female offsprings. Why was it biologically wrong to blame the queen for the lack of male heir?
+    Answer: The queen, being female has a pair of X chromosomes as her 23rd, sex determining pair of chromosomes. The gametes she produces will all contain an X chromosome. The king however, being male, contains one X and one Y chromosome as this 23rd pair or chromosomes. Therefore, the gametes he produces will either contain an X or a Y chromosome. Because the queen only produces X gametes, but the king produces X and Y gametes, the gender of their children is determined by which chromosome (X or Y) is found on the sperm which fertilizes the queen’s X containing gamete (her egg). Gender in humans is always determined by the father.
+    Expected incorrect responses: [Generate 5 responses that shows incorrect understanding on any related concept to the question, and describe why it is wrong.]
+    
+ID:31 ====================================	
+    Question: After several more generations, the heavy-seeded dandelions may be hard to find. The group as a whole has changed because of differences in reproduction among its members. This is an outcome of a process of ___________ ____________. What words belong in the blank?
+    Answer: natural selection
+    Expected incorrect responses: [Generate 5 responses that shows incorrect understanding on any related concept to the question, and describe why it is wrong.]
+    
+ID:32 ====================================	
+    Question: Provide a definition of evolution, in your own words.
+    Answer: Evolution is a theory that describes how life changes over time. It is about populations or species (not individuals) changing over generations of time (not within single lifetimes). Inheritance ties one generation to the next and helps explain why organisms are similar. Natural selection is a process that helps explain how groups of organisms evolve and adapt to their surroundings. Both of these are part of the overall theory of evolution.
+    Expected incorrect responses: [Generate 5 responses that shows incorrect understanding on any related concept to the question, and describe why it is wrong.]
+    
+ID:33 ====================================	
+    Question: In medical science, the goal is often to figure out how a disease works or to test out a therapy. Ideally, experiments should be done on humans. Yet the most informative experiments might also involve some pretty rough stuff: deliberately disabling a gene to see if it causes a disorder, testing a potentially dangerous drug, and so on. We cannot ethically do such experiments on humans. How do biomedical researchers get the needed research done without harming human subjects?
+    Answer: They work with animal models. “Lab rats” and other organisms are used for experiments that wouldn’t be practical or ethical with human subjects.
+    Expected incorrect responses: [Generate 5 responses that shows incorrect understanding on any related concept to the question, and describe why it is wrong.]
+    
+ID:34 ====================================	
+    Question: Scientists turn to model organisms — species that are easy to keep in the lab and have been studied extensively — and use them as study subjects. Rats and mice, for example, are key to medical research. Dozens of mouse and rat strains have been specifically maintained as research subjects because they reliably develop problems like obesity, diabetes, or behavioral disorders such as addiction. How could research on mice or rats help answer our medical research questions — questions that are, after all, about humans?
+    Answer: We can test out medicines, for example, by giving them to diabetic mice. Or we can figure out what causes a health problem by doing experiments on mice that wouldn’t be possible with people. Such research is useful because mice and people are related by ancestry. We have similar organs, cells, and molecules. Something we learn in mice might apply directly to people, or it might at least point us in the right direction for further study. To learn more: Genetic Science Learning Center
+    Expected incorrect responses: [Generate 5 responses that shows incorrect understanding on any related concept to the question, and describe why it is wrong.]
+    
+ID:35 ====================================	
+    Question: Describe an example of interdependence among cells within your body.
+    Answer: There are many good answers. Your brain cells depend on freshly oxygenated blood flow, so if your lungs or heart stop functioning, your brain cells will die within several minutes. On the other hand, your lungs and heart work partly under the control of signals from your brain. You cannot digest food properly or make certain vitamins without help from bacteria in your gut, and these in turn depend on your body as a warm, nutrient-rich place to grow. Whatever example you came up with should have this sense of a two-way interaction: the cells are mutually dependent on one another. This is the core of the “interdependence” concept.
+    Expected incorrect responses: [Generate 5 responses that shows incorrect understanding on any related concept to the question, and describe why it is wrong.]
+    
+ID:36 ====================================	
+    Question: Identify and briefly explain an example of interdependence between humans and other species in an ecosystem.
+    Answer: Once again, there are lots of possible answers. We humans are dependent on algae and plants that produce food and oxygen gas, animals we harvest as food, and decomposers that get rid of wastes. They, in turn, may be dependent on us for cultivation (in the case of crop plants), protection, or a supply of food (the helpful bacteria in our sewage treatment plants would starve without us!). You probably came up with your own answer. Did the answer specifically describe how humans depend on the other species AND how the other species depends on us? If so, you’ve got a good grasp of interdependence.
+    Expected incorrect responses: [Generate 5 responses that shows incorrect understanding on any related concept to the question, and describe why it is wrong.]
+    
+ID:37 ====================================	
+    Question: Why are heavily salted or sugared foods less susceptible to mold?
+    Answer: Salts and sugars are solutes. High solute concentrations outside the cell (hypertonic solutions) cause water to flow out of the cell. This causes the cell to shrivel. Because mold cells (bacteria and fungi) have a cell wall, the hypertonic solution results in the plasma membrane tearing as it shrivels. This kills the cells and retards mold growth.
+    Expected incorrect responses: [Generate 5 responses that shows incorrect understanding on any related concept to the question, and describe why it is wrong.]
+    
+ID:38 ====================================	
+    Question: What is science?
+    Answer: Science is a process that helps us to understand how the natural world works.
+    Expected incorrect responses: [Generate 5 responses that shows incorrect understanding on any related concept to the question, and describe why it is wrong.]
+    

@@ -12,11 +12,15 @@ import json
 import os
 import collections
 
+import sys
+
 
 from dotenv import load_dotenv, dotenv_values 
-load_dotenv()
+load_dotenv(override=True)
 
-
+'''
+Access students responses to short answer questions.
+'''
 
 client_async = AsyncOpenAI(
     
@@ -29,12 +33,31 @@ Given a question and answer, you need to assess a student's input to the questio
 If it is not correct, specify which part of the student input is wrong.
 '''
 
-async def get_async_gpt4(task_instruction,text, model):
+task_instruction_pprim = '''
+P-prims are fundamental elements of intuitive knowledge that originate in the learner's intuitive interpretations experience. 
+In Physics, for example, when experiencing physical phenomena, a student might develop P-prims like: 'Increased efforts generate greater results' or 'Force is exerted only on objects being pushed by an agent whether or not the object is moving.'
+P-prims is basically a misconception but could be sometimes true depending on the context. Students learn correct concepts by refining their P-prims.
+Given a question, gold answer, and a student's input, the goal is to identify what kind of P-prims the student might have regarding the topic of the question.
+If the student's input is correct, just say "correct input". If it is partially correct or incorrect, list the P-prims.
+'''
+
+task_instruction_gen_wrong_response = '''
+Given a question and answer, generate five wrong responses to the question that show misunderstandings the students could have. 
+It doesn't always have to be directly related to the concept asked in the question. It can be about any related topic. 
+For each response, explain why it is wrong.
+'''
+
+task_instruction_meta_knowledge = '''
+Given a question about a concept(s), list 5 common misconceptions that students might have about various related concepts.
+'''
+
+async def get_async_gpt4(instruction,text, model):
+
     response = await client_async.chat.completions.create(
             model=model,
             messages=[
-               
-                {"role": "system", "content":  task_instruction},
+            
+                {"role": "system", "content":  instruction},
                 {"role": "user", "content": text}
             ]
             )
@@ -42,22 +65,29 @@ async def get_async_gpt4(task_instruction,text, model):
     return response.choices[0].message.content
 
 
-def apply_async_get_embedding_gpt4(lst, model_name):
+def apply_async_get_embedding_gpt4(lst, model_name, version=None):
     loop = asyncio.get_event_loop()
-    tasks = [loop.create_task(get_async_gpt4(task_instruction, prompt, model_name)) for prompt in lst]
+    if version=='p-prim':
+        tasks = [loop.create_task(get_async_gpt4(task_instruction_pprim, prompt, model_name)) for prompt in lst]
+    
+    elif version=='gen_wrong_ans':
+        tasks = [loop.create_task(get_async_gpt4(task_instruction_gen_wrong_response, prompt, model_name)) for prompt in lst]
+    elif version=='meta_knowledge':
+        tasks = [loop.create_task(get_async_gpt4(task_instruction_meta_knowledge, prompt, model_name)) for prompt in lst]
+    elif version=='assess':
+        tasks = [loop.create_task(get_async_gpt4(task_instruction, prompt, model_name)) for prompt in lst]
+    
     return loop.run_until_complete(asyncio.gather(*tasks))
 
 
-
-
-def run_all_async(num_batches, batch_size, prompts_list, fname, model_name, path, max_tokens=None):
+def run_all_async(num_batches, batch_size, prompts_list, fname, model_name, path, max_tokens=None, version=None, ):
     all_text_set = []
     for i in range(math.ceil(num_batches)):
        
         gen_text_split =  prompts_list[batch_size*i:batch_size*i+batch_size]
         print("Starting_split: ", i)
         
-        cur_gen_text = apply_async_get_embedding_gpt4(gen_text_split, model_name)
+        cur_gen_text = apply_async_get_embedding_gpt4(gen_text_split, model_name, version)
             
         print("Done_split: ", i)
 
@@ -80,12 +110,49 @@ def format_input_output(question, answer, student_input, zero_shot=True):
     '''
 
     prompt = f'''
-    Question:{question}
-    Answer:{answer}
-    Student Input:{student_input}
-    Correctness:[Correct or Partially Correct or Incorrect]
-    Explanation:[Explain which part of the student input is wrong when it is not correcct.]
+    Question: {question}
+    Answer: {answer}
+    Student Input: {student_input}
+    Correctness: [Correct or Partially Correct or Incorrect]
+    Explanation: [Explain which part of the student input is wrong when it is not correct.]
     
+    '''
+    
+    return prompt
+
+
+def format_input_output_pprim(question, answer, student_input, zero_shot=True):
+    '''
+    format should be same as few shot examples
+    student_response_text = None when you don't use student response data
+    '''
+
+    prompt = f'''
+    Question: {question}
+    Answer: {answer}
+    Student Input: {student_input}
+    P-prims:[write P-prims that the student might have when Student Input is partically Correct or incorrect. P-prims must be separated by ";", If the Student Input is correct, just say correct.]
+    
+    '''
+    
+    return prompt
+
+
+def format_input_output_gen_wrong_ans(question, answer, zero_shot=True):
+    
+    prompt = f'''
+    Question: {question}
+    Answer: {answer}
+    Expected incorrect responses: [Generate 5 responses that shows incorrect understanding on any related concept to the question, and describe why it is wrong.]
+    '''
+    
+    return prompt
+
+def format_input_output_meta_knowledge(question, zero_shot=True):
+    
+    prompt = f'''
+    Question: {question}
+    Common Misconceptions: [List 5 common misconceptions students might have about related concepts to the given question.]
     '''
     
     return prompt
@@ -172,13 +239,7 @@ def mearge_input_and_sort_multi_course(problem_csv, student_input_csv, dataset_n
     
     problem_df = pd.read_csv(problem_csv)
     input_df = pd.read_csv(student_input_csv)
-    
-   
-    # Remove duplicates
-
-    
-    # problem_df = problem_df.drop_duplicates(subset=['Problem Name','Step Name', 'dataset'])
-    
+        
     df_with_input_sort_by_len_ans = pd.DataFrame(columns=['Row','Unit', 'Module', 'Question','Explanation','Problem Name','Step Name', 'dataset', 'Course_version', 'Input'])
     
     problem_sorted_df = sort_by_length_of_answer(problem_df)
@@ -219,6 +280,7 @@ def mearge_input_and_sort_multi_course(problem_csv, student_input_csv, dataset_n
     
     
     
+    
     sorted_data_path = './sorted_data/' + dataset_name +  '/' 
     if not os.path.exists(sorted_data_path):
         os.makedirs(sorted_data_path)
@@ -256,7 +318,6 @@ def mearge_input_and_sort(problem_csv, student_input_csv, dataset_name):
     
 
     for i, row in problem_sorted_df.iterrows():
-
         problem_name = row['Problem Name']
         step_name = row['Step Name']
         question = row['Question']
@@ -306,28 +367,44 @@ def mearge_input_and_sort(problem_csv, student_input_csv, dataset_name):
     return sorted_by_input_data_csv
     
 
-def run_model(data_for_assess_csv,model_name, dataset_name, prompt_version,ques_list_to_skip = [],prob_names_skip = [], av_input_len_thld = 0, input_len_thld = 0,
-                        max_tokens = None, min_num_words = 10, max_num_words = 300, max_num_words_in_all_responses = 100000, batch_size = 32):
+def run_model(source_data_to_read,model_name, dataset_name, prompt_version, ques_list_to_skip = [],prob_names_skip = [], av_input_len_thld = 0, input_len_thld = 0,
+                        max_tokens = None, min_num_words = 10, max_num_words = 300, max_num_words_in_all_responses = 100000, batch_size = 32, ):
     '''
     Run model
     '''
     
-    df = pd.read_csv(data_for_assess_csv)
+  
+    df = pd.read_csv(source_data_to_read)
+    
     output_df = pd.DataFrame(columns=df.columns)
     len_prompts_list = []
     prompts_list = []
+    
+    blank_pattern = r'^\s*$'
 
     for i, row in df.iterrows():
     
+        # if i > 2:break
         problem_name = row['Problem Name']
         question = row['Question']
         answer = row['Explanation']
-        input = row['Input']
         
-        average_input_len = row['Average Input Length']
-        input_len = row['Input Length']
+        if prompt_version == 'p-prim' or prompt_version == 'access':
+            input = row['Input']
+            '''
+            Skip some problems
+            '''
+            if average_input_len <= av_input_len_thld:
+                continue
         
-        if question == '':
+            if input_len <= input_len_thld:
+                continue
+        
+            average_input_len = row['Average Input Length']
+            input_len = row['Input Length']
+        
+            
+        if pd.isna(question) or re.match(blank_pattern, str(question)):
             continue
         
         '''
@@ -340,17 +417,20 @@ def run_model(data_for_assess_csv,model_name, dataset_name, prompt_version,ques_
         if problem_name in prob_names_skip:
             continue
         
-        if average_input_len <= av_input_len_thld:
-            continue
-        
-        if input_len <= input_len_thld:
-            continue
-            
         
         # output_df = output_df.append(row, ignore_index=True)
 
-        prompt = format_input_output(question, answer, input)
-        
+        if prompt_version == 'p-prim':
+            prompt = format_input_output_pprim(question, answer, input)
+        elif prompt_version == 'gen_wrong_ans':
+            prompt = format_input_output_gen_wrong_ans(question, answer)
+        elif prompt_version=='meta_knowledge':
+            prompt = format_input_output_meta_knowledge(question)
+        elif prompt_version=='access':
+            prompt = format_input_output(question, answer, input)
+        else:
+            print("Please specfiy the pre-defined Prompt Version")
+            sys.exit(0)
         # new_row = {'Row':row_indx,'Unit':unit, 'Module':module, 'Question':question,'Explanation': answer,'Problem Name':problem_name,'Step Name':step_name, 'Input':input, 'Input Length':input_length}
         
         output_df.loc[len(output_df)] = row
@@ -360,17 +440,26 @@ def run_model(data_for_assess_csv,model_name, dataset_name, prompt_version,ques_
         prompts_list.append(prompt)
         
             
-    eval_path = './eval/' + dataset_name +  '/' + model_name + '/' + prompt_version + '/'
+    eval_path = './Generated_Data/' + dataset_name +  '/' + model_name + '/' + prompt_version + '/'
     if not os.path.exists(eval_path):
         os.makedirs(eval_path) 
         
-    with open(eval_path + 'prompt.text','w') as f:
+    with open(eval_path + 'prompt_data.text','w') as f:
         for k, each_propmt in enumerate(prompts_list):
             f.write("ID:{0} ====================================\t{1}\n".format(k,each_propmt))
             # if k > 10: break 
     
-
-
+    with open( eval_path + 'prompt_instruction.text','w') as f:
+        if prompt_version=='p-prim':
+            f.write("Role: {0}\n".format(task_instruction_pprim))
+        elif prompt_version=='gen_wrong_ans':
+            f.write("Role: {0}\n".format(task_instruction_gen_wrong_response))
+        elif prompt_version=='meta_knowledge':
+            f.write("Role: {0}\n".format(task_instruction_meta_knowledge))
+        elif prompt_version=='assess':
+            f.write("Role: {0}\n".format(task_instruction))
+        
+        
     '''
     Call API
     '''
@@ -378,7 +467,7 @@ def run_model(data_for_assess_csv,model_name, dataset_name, prompt_version,ques_
     
     fname = dataset_name + '-' + model_name + '-' + prompt_version + '-thld-av-' + str(av_input_len_thld) + '-' + str(input_len_thld)
     
-    path  = './output/'+ dataset_name +  '/' + model_name + '/' + prompt_version + '/'
+    path  = './pkl_files/'+ dataset_name +  '/' + model_name + '/' + prompt_version + '/'
     
     if max_tokens is not None:
         path += 'max_token_' + str(max_tokens) + '/'
@@ -387,7 +476,7 @@ def run_model(data_for_assess_csv,model_name, dataset_name, prompt_version,ques_
         os.makedirs(path)
         
     nest_asyncio.apply()
-    all_generated_text = run_all_async(num_batches, batch_size, prompts_list,fname, model_name, path, max_tokens)
+    all_generated_text = run_all_async(num_batches, batch_size, prompts_list,fname, model_name, path, max_tokens, prompt_version)
     
     all_text_list = []
     for gen_text_list in all_generated_text:
@@ -400,8 +489,6 @@ def run_model(data_for_assess_csv,model_name, dataset_name, prompt_version,ques_
     
     output_df[outputs_col] = all_text_list          
      
-    
-    
     '''
     Output to csv
     '''
@@ -417,9 +504,6 @@ def run_model(data_for_assess_csv,model_name, dataset_name, prompt_version,ques_
     
     
     # show_output_nicely(eval_file +  ".csv",  eval_file + '.txt', outputs_col)
-    
-    # if has_student_responses:
-    #     show_output_nicely_with_shortans_response(eval_file +  ".csv",  eval_file + '_w_StudRes.txt', outputs_col, student_res_path, min_num_words, max_num_words, max_num_words_in_all_responses)
     
     return
 
@@ -451,10 +535,10 @@ def extract_info(row):
         
     return pd.Series([correctness, explanation])
 
-def show_output_nicely(df, out_csv):
+def show_output_nicely(df, out_csv,model_name, prompt_version):
     
     # Apply function to the 'Input' column and create new columns
-    df[['Correctness', 'Exp_for_correctness']] = df['gpt-4o-mini_zero_shots'].apply(extract_info)
+    df[['Correctness', 'Exp_for_correctness']] = df[model_name+'_'+ prompt_version].apply(extract_info)
 
     # Save the modified DataFrame with new columns back to a CSV file if needed
     df.to_csv(out_csv, index=False)   
@@ -488,7 +572,6 @@ def main():
     # student_input_csv = '/Users/machi/Desktop/OLI Biology Data _ALL/Heartland Community Colleage Engaging Biology/shortAns_filtered/Heartland_ShortAns_filtered.csv'
     # student_input_csv = '/Users/machi/Desktop/OLI Biology Data _ALL/OLI Biology/shortAns_filtered/OLI_ShortAns_filtered.csv'
 
-
     # student_input_with_coursever_csv = '/Users/machi/Desktop/OLI Biology Data _ALL/Heartland Community Colleage Engaging Biology/shortAns_filtered/Heartland_ShortAns_filtered_with_coursename.csv'
     # add_coursedata_to_input_data(mapping_course_csv, student_input_csv, student_input_with_coursever_csv)
     
@@ -499,28 +582,34 @@ def main():
     
     model_name = "gpt-4o-mini"
     # model_name = "gpt-4"
-    # dataset_name = 'Betsune'
+    dataset_name = 'Betsune'
     # dataset_name = 'Heartland'
-    dataset_name = 'OLI Biology'
-    prompt_version = 'zero_shots_qid_match'
+    # dataset_name = 'OLI Biology'
+    prompt_version = 'meta_knowledge'
+    # prompt_version = 'p-prim' if you want to generate p-prims for the topic or 'assess' if you want to access students responses, 'gen_wrong_ans' for generating wrong responses.
     
     
     # sorted_by_input_data_csv = mearge_input_and_sort(problem_csv, student_input_csv, dataset_name)
     # sorted_by_input_data_csv = mearge_input_and_sort_multi_course(problem_csv, student_input_with_coursever_csv, dataset_name)
-    # data_for_assess_csv = sorted_by_input_data_csv
+    # source_data_to_read = sorted_by_input_data_csv
     
-    # data_for_assess_csv = '/Users/machi/Desktop/OLI_TransactionData_Analyze/sorted_data/Betsune/Betsune_sorted_by_av_inputlen.csv'
-    # data_for_assess_csv = '/Users/machi/Desktop/OLI_TransactionData_Analyze/sorted_data/Betsune/Betsune_sorted_by_av_inputlen_Multi_Steps.csv'
-    data_for_assess_csv = '/Users/machi/Documents/GitHub/Misconception_Analysis/OLI_TransactionData_Analyze/sorted_data/OLI Biology/OLI Biology_sorted_by_av_inputlen_noblank.csv'
+    # source_data_to_read = '/Users/machi/Desktop/OLI_TransactionData_Analyze/sorted_data/Betsune/Betsune_sorted_by_av_inputlen.csv'
+    # source_data_to_read = '/Users/machi/Documents/GitHub/Misconception_Analysis/OLI_TransactionData_Analyze/sorted_data/Betsune/Betsune_qid_match_all_sorted_by_av_inputlen.csv'
+    # source_data_to_read = '/Users/machi/Desktop/OLI_TransactionData_Analyze/sorted_data/Betsune/Betsune_sorted_by_av_inputlen_Multi_Steps.csv'
+    # source_data_to_read = '/Users/machi/Documents/GitHub/Misconception_Analysis/OLI_TransactionData_Analyze/sorted_data/OLI Biology/OLI Biology_sorted_by_av_inputlen_noblank.csv'
     
+    # for gen_wrong_ans /  for meta_knowledge
+    source_data_to_read = '/Users/machi/Library/CloudStorage/GoogleDrive-machi.shimmei.e6@tohoku.ac.jp/My Drive/Misconception_Analysis/Misconception_OLI_Biology_Data/Student Transaction Data/OLI Biology Data _ALL/Betshune-Cookman INtro Biology/stat/problem_data_all_w_explanation_qid_match.csv'
     
-    # ques_list_to_skip = ['List several questions you have about the study of biology. What concepts do you hope to cover in this course? What are you most excited to learn about?',
-    #  'List three control variables other than age.']
+
     
-    # prob_names_skip = ['genetics_heredity_albino_digt', 'molecular_genes_mutation_lbd']
+    ques_list_to_skip = ['List several questions you have about the study of biology. What concepts do you hope to cover in this course? What are you most excited to learn about?',
+     'List three control variables other than age.']
     
-    # run_model(data_for_assess_csv,model_name, dataset_name, prompt_version, ques_list_to_skip,prob_names_skip,av_input_len_thld = 20, input_len_thld = 10,
-    #                     max_tokens = None, min_num_words = 10, max_num_words = 300, max_num_words_in_all_responses = 100000, batch_size = 32)
+    prob_names_skip = ['genetics_heredity_albino_digt', 'molecular_genes_mutation_lbd','intro_biology_intro_quiz','genetics_molecular_code_lbd']
+    
+    run_model(source_data_to_read,model_name, dataset_name, prompt_version, ques_list_to_skip,prob_names_skip,av_input_len_thld = 10, input_len_thld = 10,
+                        max_tokens = None, min_num_words = 10, max_num_words = 300, max_num_words_in_all_responses = 100000, batch_size = 32)
     
     
     '''
@@ -531,13 +620,13 @@ def main():
     '''
     
     # output_df = '/Users/machi/Desktop/OLI_TransactionData_Analyze/eval/Betsune/gpt-4o-mini/zero_shots/gpt-4o-mini_Betsune_zero_shots.csv'
-    output_df = '/Users/machi/Documents/GitHub/Misconception_Analysis/OLI_TransactionData_Analyze/eval/OLI Biology/gpt-4o-mini/zero_shots_qid_match/gpt-4o-mini_OLI Biology_zero_shots_qid_match_thld_av_20_10.csv'
-    # extracted_csv_name = '/Users/machi/Desktop/OLI_TransactionData_Analyze/eval/Betsune/gpt-4o-mini/zero_shots/gpt-4o-mini_Betsune_zero_shots_extracted.csv'
-    extracted_csv_name = '/Users/machi/Documents/GitHub/Misconception_Analysis/OLI_TransactionData_Analyze/eval/OLI Biology/gpt-4o-mini/zero_shots_qid_match/gpt-4o-mini_OLI Biology_zero_shots_qid_match_thld_av_20_10_extracted.csv'
+    # output_df = '/Users/machi/Documents/GitHub/Misconception_Analysis/OLI_TransactionData_Analyze/eval/OLI Biology/gpt-4o-mini/zero_shots_qid_match/gpt-4o-mini_OLI Biology_zero_shots_qid_match_thld_av_20_10.csv'
+    # # extracted_csv_name = '/Users/machi/Desktop/OLI_TransactionData_Analyze/eval/Betsune/gpt-4o-mini/zero_shots/gpt-4o-mini_Betsune_zero_shots_extracted.csv'
+    # extracted_csv_name = '/Users/machi/Documents/GitHub/Misconception_Analysis/OLI_TransactionData_Analyze/eval/OLI Biology/gpt-4o-mini/zero_shots_qid_match/gpt-4o-mini_OLI Biology_zero_shots_qid_match_thld_av_20_10_extracted.csv'
     
-    df = pd.read_csv(output_df)
+    # df = pd.read_csv(output_df)
     
-    show_output_nicely(df,extracted_csv_name)
+    # show_output_nicely(df,extracted_csv_name, model_name, prompt_version)
     
 
     

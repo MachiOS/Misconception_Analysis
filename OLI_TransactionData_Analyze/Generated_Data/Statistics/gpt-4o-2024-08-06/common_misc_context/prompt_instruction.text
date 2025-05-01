@@ -1,0 +1,5 @@
+Role: 
+Given a topic, list 5 related key terms, then list 5 possilbe misconceptions for each key term.
+Also, for each misconception, show an example of context where the misconception is likely to occur by providing a question and students'responses to it.
+The question should not be too simple that directly ask about the misconception.
+

@@ -1,0 +1,781 @@
+
+ {
+  "Unit":"_u830_metabolism",
+  "Module":"_m3_pathways_and_regulation",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/_u830_metabolism\/_m3_pathways_and_regulation\/x-oli-inline-assessment\/_m3_enzm_substrate_product_SC.xml",
+  "Problem Name":"_m3_enzm_substrate_product_SC",
+  "Question":"What are enzymes, substrate, and product?",
+  "Question ID":21663447718.0,
+  "Step ID":"_m3_enzm_substrate_product_SC-DIGTq1",
+  "Explanation":"Enzymes are proteins that act as catalysts (make it easier for chemical reactions to occur). Substrates are molecules that bind to an enzyme. For any given enzyme, one or more specific substrate molecules will bind to that enzyme. Substrates are then converted to product(s) by the reaction catalyzed by the enzyme.",
+  "extracted_qid":"q1",
+  "Step Name":"_m3_enzm_substrate_product_SC-DIGTq1_A UpdateShortAnswer",
+  "Selection":"_m3_enzm_substrate_product_SC-DIGTq1_A",
+  "Level (Unit)":"Metabolism",
+  "Level (Module)":"Pathways and Regulation",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"didigetthis",
+  "step_index":0,
+  "gpt-4o-mini_meta_knowledge":"1. **Enzymes are consumed in chemical reactions**: Many students believe that enzymes are used up during a reaction and cannot be reused. In reality, enzymes act as catalysts and remain unchanged after the reaction, allowing them to facilitate multiple reactions.\n\n2. **Substrates and products are the same**: Some students may think that substrates (the starting materials) and products (the end result) are the same once a reaction occurs. However, substrates are converted into different products through the action of enzymes.\n\n3. **Enzymes only work on one specific substrate**: While it is true that many enzymes have a specific substrate they act upon, students might not understand that some enzymes can act on a range of similar substrates or that enzymes can be designed or modified to work with different substrates.\n\n4. **Temperature and pH do not affect enzyme activity**: Students might overlook the fact that factors such as temperature and pH can significantly affect enzyme activity. High temperatures can denature enzymes, and each enzyme has an optimal pH at which it functions best.\n\n5. **All enzymes are proteins**: Some students may not realize that while most enzymes are proteins, there are also RNA molecules called ribozymes that can catalyze reactions. This misconception can lead to a narrow understanding of the range of biological catalysts."
+ }
+
+ {
+  "Unit":"_u830_metabolism",
+  "Module":"_m3_pathways_and_regulation",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/_u830_metabolism\/_m3_pathways_and_regulation\/x-oli-inline-assessment\/_m3_enzm_substrate_product_SC.xml",
+  "Problem Name":"_m3_enzm_substrate_product_SC",
+  "Question":"What is the active site of an enzyme?",
+  "Question ID":5974992642.0,
+  "Step ID":"_m3_enzm_substrate_product_SC-DIGTq2",
+  "Explanation":"It is the site in the enzyme to which substrate binds.",
+  "extracted_qid":"q2",
+  "Step Name":"_m3_enzm_substrate_product_SC-DIGTq2_A UpdateShortAnswer",
+  "Selection":"_m3_enzm_substrate_product_SC-DIGTq2_A",
+  "Level (Unit)":"Metabolism",
+  "Level (Module)":"Pathways and Regulation",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"didigetthis",
+  "step_index":1,
+  "gpt-4o-mini_meta_knowledge":"1. **Enzymes Are Consumed in Reactions**: Students often think that enzymes are used up during the chemical reactions they catalyze, while in reality, enzymes remain unchanged and can be used repeatedly.\n\n2. **The Active Site Is the Entire Enzyme**: Some students may believe that the active site encompasses the entire enzyme structure, not realizing that it is a specific region where substrate molecules bind.\n\n3. **All Enzymes Have the Same Active Site Shape**: There\u2019s a misconception that all enzymes have a similar structure and active site, while in fact, each enzyme is highly specific in shape and chemical properties, tailored for its specific substrate.\n\n4. **Substrates and Products Are the Same as Enzymes**: Students might confuse substrates and products with enzymes, thinking that enzymes get converted into products, when they are actually separate entities that facilitate the reaction.\n\n5. **Temperature and pH Have No Effect on Active Site Function**: Some learners may underestimate the impact of temperature and pH on enzyme activity and the shape of the active site, mistakenly believing that enzymes function optimally under all conditions."
+ }
+
+ {
+  "Unit":"_u830_metabolism",
+  "Module":"_m3_pathways_and_regulation",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/_u830_metabolism\/_m3_pathways_and_regulation\/x-oli-inline-assessment\/_m3_long_term_factors_weight_LBD.xml",
+  "Problem Name":"_m3_long_term_factors_weight_LBD",
+  "Question":"You may have seen television programs that make weight loss into a contest, with the prize going to the contestant who takes off pounds the fastest. You may even have similar incentive programs in your own school, church, or workplace. Are these contests or incentives a good idea?",
+  "Question ID":51795946593.0,
+  "Step ID":"m3_long_term_factors_weight_LBD_q5_SC",
+  "Explanation":"Yes and no. It is a good idea for obese or overweight people to lose weight. Excess body fat can harm their health or interfere with their daily activities. However, weight loss should occur slowly in the context of permanent changes to a person\u2019s lifestyle. Very rapid weight loss can be counterproductive, because the pounds are likely to pile back on as the person\u2019s metabolism slows and hunger increases.",
+  "extracted_qid":"q5",
+  "Step Name":"m3_long_term_factors_weight_LBD_q5_SC_A UpdateShortAnswer",
+  "Selection":"m3_long_term_factors_weight_LBD_q5_SC_A",
+  "Level (Unit)":"Metabolism",
+  "Level (Module)":"Pathways and Regulation",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"learnbydoing",
+  "step_index":0,
+  "gpt-4o-mini_meta_knowledge":"1. **Faster Weight Loss Always Means Better Results**: Many students may believe that losing weight quickly is a sign of success and leads to better long-term health outcomes. In reality, rapid weight loss can often result in muscle loss, nutritional deficiencies, and a higher likelihood of regaining the weight.\n\n2. **Caloric Restriction Is the Only Way to Lose Weight**: Some students might think that the only effective strategy for weight loss is to drastically reduce calories. However, a balanced approach involving physical activity, proper nutrition, and sustainable lifestyle changes is generally more effective for lasting results.\n\n3. **Weight Loss Equals Health**: Students may assume that losing weight automatically translates to improved health. However, individuals can be unhealthy at any weight, and health can be improved through factors other than weight, such as increased physical activity and better nutrition.\n\n4. **All Calories Are Created Equal**: There might be a misconception that as long as caloric intake is below a certain threshold, any food is acceptable. In reality, the quality of calories matters; nutrient-dense foods support better health and weight maintenance compared to highly processed, low-nutrient foods.\n\n5. **Contests Motivate Everyone in the Same Way**: Students might think that competitive weight loss contests universally motivate participants to achieve their goals. In truth, for many people, competitive environments can lead to unhealthy behaviors, shame, or stress, rather than positive motivation and sustainable changes."
+ }
+
+ {
+  "Unit":"_u830_metabolism",
+  "Module":"_m3_pathways_and_regulation",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/_u830_metabolism\/_m3_pathways_and_regulation\/x-oli-inline-assessment\/_m3_low_cal_diet_LBD.xml",
+  "Problem Name":"_m3_low_cal_diet_LBD",
+  "Question":"Bill, an overweight man in his twenties, goes on a very low calorie diet. He is determined to lose weight and keep it off. Within a few days, Bill has already lost four pounds! How or why was Bill able to lose those first few pounds so quickly?",
+  "Question ID":60422599195.0,
+  "Step ID":"_m3_low_cal_diet_LBDq1",
+  "Explanation":"Most of the weight lost was probably water weight. Bill catabolized his glycogen and the resulting water was excreted in the urine.",
+  "extracted_qid":"q1",
+  "Step Name":"_m3_low_cal_diet_LBDq1_A UpdateShortAnswer",
+  "Selection":"_m3_low_cal_diet_LBDq1_A",
+  "Level (Unit)":"Metabolism",
+  "Level (Module)":"Pathways and Regulation",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"learnbydoing",
+  "step_index":0,
+  "gpt-4o-mini_meta_knowledge":"1. **Weight Loss is Solely Due to Fat Loss**: Many students may believe that any weight lost on a diet is primarily fat loss. In reality, initial weight loss often includes water weight and glycogen depletion, not just fat loss.\n\n2. **Caloric Intake Has No Immediate Effect**: Some students might think that changes in caloric intake take a long time to affect weight. In fact, drastic reductions in calories can lead to rapid weight loss due to quick changes in bodily water levels and metabolic adaptations.\n\n3. **All Weight Loss is Healthy**: There is a misconception that any weight loss is beneficial. However, losing weight too quickly or through extreme dieting can lead to negative health consequences, including muscle loss, nutrient deficiencies, and metabolic imbalances.\n\n4. **Metabolism Works the Same for Everyone**: Students may believe that metabolic rate is constant across individuals. In reality, metabolic rates can vary significantly due to factors like genetics, muscle mass, and overall health, affecting how quickly weight is lost.\n\n5. **Very Low-Calorie Diets are Sustainable Long-Term**: Many might think that a very low-calorie diet is a viable long-term solution for weight loss. However, such diets are often unsustainable and can lead to rebound weight gain or \"yo-yo dieting,\" where the individual regains the weight once normal eating resumes."
+ }
+
+ {
+  "Unit":"_u830_metabolism",
+  "Module":"_m3_pathways_and_regulation",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/_u830_metabolism\/_m3_pathways_and_regulation\/x-oli-inline-assessment\/_m3_low_cal_diet_LBD.xml",
+  "Problem Name":"_m3_low_cal_diet_LBD",
+  "Question":"Over time, Bill continues to lose weight. At first he is averaging about one pound per week of weight loss. Gradually the rate of weight loss slows down, even though he sticks to the exact same level of calorie intake and exercise each day. Why, with the same calorie intake and activity level, would Bill\u2019s weight loss slow down as he gets thinner?",
+  "Question ID":39682824368.0,
+  "Step ID":"_m3_low_cal_diet_LBDq2",
+  "Explanation":"Bill\u2019s basal metabolic rate (BMR) \u2014 the number of calories used just to stay alive \u2014 is probably slowing down, partly as a result of weight loss itself, and partly as his body\u2019s response to the loss of body fat. This reduces Bill\u2019s total calorie expenditure, even though his activity level is the same. Bill will have to cut his calorie intake even more if he wants to continue losing weight.",
+  "extracted_qid":"q2",
+  "Step Name":"_m3_low_cal_diet_LBDq2_A UpdateShortAnswer",
+  "Selection":"_m3_low_cal_diet_LBDq2_A",
+  "Level (Unit)":"Metabolism",
+  "Level (Module)":"Pathways and Regulation",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"learnbydoing",
+  "step_index":1,
+  "gpt-4o-mini_meta_knowledge":"1. **Misconception about Basal Metabolic Rate (BMR)**: Students may believe that their metabolism remains constant regardless of weight loss. In reality, as Bill loses weight, his BMR decreases because he has less body mass to maintain, leading to fewer calories burned at rest.\n\n2. **Misconception about Energy Balance**: Some students might think that calorie intake is the only factor influencing weight loss. They may overlook the fact that as weight decreases, the body requires fewer calories for maintenance, which can lead to a plateau in weight loss despite the same caloric intake.\n\n3. **Misconception about Exercise and Weight Loss**: Students often think that exercise alone guarantees weight loss, while actually, muscle mass and body composition changes can affect how efficiently their body burns calories, especially as muscle tissue may be lost alongside fat.\n\n4. **Misconception regarding Fat Loss vs. Weight Loss**: Some might confuse weight loss with fat loss and not realize that initial weight loss includes water and muscle mass. As Bill loses weight, he might be losing muscle instead of fat, which can slow his overall weight loss progress.\n\n5. **Misconception about Willpower and Effort**: Students might believe that all weight loss is solely determined by willpower and effort. They may not consider physiological factors like metabolic adaptation, hormonal changes, and genetic predispositions that can influence weight loss, making it more complex than simply exerting effort."
+ }
+
+ {
+  "Unit":"_u830_metabolism",
+  "Module":"_m3_pathways_and_regulation",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/_u830_metabolism\/_m3_pathways_and_regulation\/x-oli-inline-assessment\/_m3_low_cal_diet_LBD.xml",
+  "Problem Name":"_m3_low_cal_diet_LBD",
+  "Question":"As Bill continues to lose body fat, his circulating leptin level declines. What do you predict will happen to Bill\u2019s hunger and food cravings as a result?",
+  "Question ID":50226070027.0,
+  "Step ID":"_m3_low_cal_diet_LBDq3",
+  "Explanation":"Bill will experience more intense food cravings and hunger due to the decline in leptin. It may be a good idea for Bill to slow down his weight loss, very gradually working down toward his goal weight.",
+  "extracted_qid":"q3",
+  "Step Name":"_m3_low_cal_diet_LBDq3_A UpdateShortAnswer",
+  "Selection":"_m3_low_cal_diet_LBDq3_A",
+  "Level (Unit)":"Metabolism",
+  "Level (Module)":"Pathways and Regulation",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"learnbydoing",
+  "step_index":2,
+  "gpt-4o-mini_meta_knowledge":"1. **Leptin is solely responsible for hunger regulation**: Many students mistakenly believe that leptin alone controls hunger and cravings, not recognizing that it is one of many hormones involved in appetite regulation, including ghrelin and insulin.\n\n2. **Higher leptin levels always suppress appetite**: Some students might assume that higher leptin levels universally lead to reduced hunger, overlooking the fact that leptin resistance can occur, where the body does not respond effectively to the hormone, often seen in individuals with obesity.\n\n3. **Body fat loss directly correlates with a linear decline in hunger**: A common misconception is that as body fat decreases, hunger will decrease in a predictable and linear manner, without acknowledging that individual variations and metabolic adaptations can lead to increased hunger despite lower fat levels.\n\n4. **Leptin only influences short-term hunger signals**: Students might think that leptin's effect on appetite is limited to immediate hunger cues, failing to recognize its role in long-term energy balance and metabolism.\n\n5. **Weight maintenance does not affect leptin levels**: Some may believe that leptin levels stabilize and remain unaffected after weight loss is achieved, ignoring the ongoing changes in leptin production in response to body composition and energy intake during weight maintenance."
+ }
+
+ {
+  "Unit":"_u830_metabolism",
+  "Module":"_m3_pathways_and_regulation",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/_u830_metabolism\/_m3_pathways_and_regulation\/x-oli-inline-assessment\/_m3_meta_pathways_regulate_DIGT.xml",
+  "Problem Name":"_m3_meta_pathways_regulate_DIGT",
+  "Question":"How can inheriting altered versions of a gene lead to a loss of normal metabolic regulation?",
+  "Question ID":41357813289.0,
+  "Step ID":"_m3_meta_pathways_regulate_DIGT_q3",
+  "Explanation":"Genes code for enzyme proteins. When enzymes do not function normally, metabolic regulation is disrupted and health problems result.",
+  "extracted_qid":"q3",
+  "Step Name":"_m3_meta_pathways_regulate_DIGT_q3_ans UpdateShortAnswer",
+  "Selection":"_m3_meta_pathways_regulate_DIGT_q3_ans",
+  "Level (Unit)":"Metabolism",
+  "Level (Module)":"Pathways and Regulation",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"didigetthis",
+  "step_index":0,
+  "gpt-4o-mini_meta_knowledge":"1. **All Gene Mutations Are Harmful**: Many students believe that any alteration in a gene is detrimental to the organism. In reality, while some mutations can disrupt normal metabolic regulation, others may have no effect or could even confer advantageous traits.\n\n2. **Gene Function Is Solely Determined by Its Sequence**: Students may think that the sequence of a gene is the only factor that determines its function. In truth, gene expression can also be influenced by environmental factors, regulatory elements, and interactions with other genes.\n\n3. **One Altered Gene Equals One Disease**: There's a common misconception that a single gene mutation directly leads to one specific disease or metabolic issue. However, many diseases result from complex interactions between multiple genes and environmental factors, leading to a variety of metabolic consequences.\n\n4. **Metabolic Regulation Is Static**: Some students may believe that metabolic regulation is a fixed process. In reality, metabolic pathways are dynamic and influenced by numerous signals, including hormonal regulation, nutrient availability, and cellular energy needs.\n\n5. **Inherited Traits Are Always Expressed in the Offspring**: Students often think that inherited altered versions of genes will always manifest as a phenotype (observable trait) in the offspring. However, expression can vary due to factors like incomplete dominance, epigenetics, and genetic background, leading to situations where altered genes do not always lead to noticeable metabolic changes."
+ }
+
+ {
+  "Unit":"_u830_metabolism",
+  "Module":"_m3_pathways_and_regulation",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/_u830_metabolism\/_m3_pathways_and_regulation\/x-oli-inline-assessment\/_m3_stand_upright_LBD.xml",
+  "Problem Name":"_m3_stand_upright_LBD",
+  "Question":"Did you notice your body doing any work to keep you upright on one foot?",
+  "Question ID":21834218612.0,
+  "Step ID":"_m3_stand_upright_LBD_q1",
+  "Explanation":"Yes, even for such a seemingly simple activity, constant work is required. You probably felt movements in your foot, in your leg muscles, and perhaps in your body as a whole.",
+  "extracted_qid":"q1",
+  "Step Name":"_m3_stand_upright_LBD_q1_A UpdateShortAnswer",
+  "Selection":"_m3_stand_upright_LBD_q1_A",
+  "Level (Unit)":"Metabolism",
+  "Level (Module)":"Pathways and Regulation",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"learnbydoing",
+  "step_index":0,
+  "gpt-4o-mini_meta_knowledge":"1. **Static Balance Equals No Movement**: Students may believe that when they are balancing on one foot, their body is completely still and not doing any movement, unaware that constant micro-adjustments are made by muscles and joints to maintain balance.\n\n2. **Only Leg Muscles Are Involved**: Many students might think that only the leg muscles are responsible for maintaining balance on one foot, neglecting the crucial role of core muscles, hip stabilizers, and even the neck in keeping the body upright.\n\n3. **Balance is a Simple Skill**: Some may underestimate the complexity of balance, assuming it's a straightforward task; in reality, it involves coordination, proprioception, and neurological processes that integrate sensory information.\n\n4. **Balance is Solely Muscle Strength**: A common misconception is that balance relies only on muscle strength; however, effective balance also depends significantly on factors like sensory feedback, coordination, and mental focus.\n\n5. **One Foot Balance is Unrelated to Other Activities**: Students might think that the skill of balancing on one foot has no relevance to other physical activities or sports, not recognizing that balance is foundational for a wide range of movements and athletic performance."
+ }
+
+ {
+  "Unit":"_u830_metabolism",
+  "Module":"_m3_pathways_and_regulation",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/_u830_metabolism\/_m3_pathways_and_regulation\/x-oli-inline-assessment\/_m3_stand_upright_LBD.xml",
+  "Problem Name":"_m3_stand_upright_LBD",
+  "Question":"Your ability to maintain your balance is similar to what kind of ability or tendency of cells and organisms? Identify and discuss this tendency below.",
+  "Question ID":17678352362.0,
+  "Step ID":"_m3_stand_upright_LBD_q2",
+  "Explanation":"Your \u201cbalancing act\u201d was similar to your body\u2019s ability or tendency to maintain stable internal conditions, also known as homeostasis. Your nerves monitored position and balance. When you drifted off-center, your muscles responded with corrective movements. Similarly, cells and organisms maintain homeostasis by monitoring and responding to internal changes.",
+  "extracted_qid":"q2",
+  "Step Name":"_m3_stand_upright_LBD_q2_A UpdateShortAnswer",
+  "Selection":"_m3_stand_upright_LBD_q2_A",
+  "Level (Unit)":"Metabolism",
+  "Level (Module)":"Pathways and Regulation",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"learnbydoing",
+  "step_index":1,
+  "gpt-4o-mini_meta_knowledge":"1. **Homeostasis is Only About Temperature**: Many students believe that homeostasis refers solely to the regulation of body temperature. They often overlook other critical factors such as pH balance, glucose levels, and hydration, as well as how these factors contribute to maintaining overall stability within organisms.\n\n2. **Cells Don\u2019t Interact With Their Environment**: Some students may think that cells exist in isolation and do not interact with their surrounding environment. In reality, cells constantly receive signals from their environment and adjust their behavior in response, much like how organisms adjust their balance in response to external forces.\n\n3. **Balance and Stability Are the Same**: Students may equate balance directly with stability, confusing the two concepts. While balance pertains to moment-to-moment adjustments that prevent falling or tipping over, stability refers to the overall ability of a system to maintain its state under various conditions.\n\n4. **All Organisms Maintain Balance in the Same Way**: There is a misconception that all organisms use the same methods or mechanisms to maintain balance or homeostasis. In truth, different organisms (e.g., plants, animals, and microorganisms) utilize a variety of strategies and structures to adapt to their environments and maintain equilibrium.\n\n5. **Cells Have a Static Shape**: Some students might think that the shape of a cell is constant and unchanging. In reality, cell shape can change in response to mechanical forces, signaling pathways, or interactions with other cells\u2014similar to how an organism may adjust its posture to maintain balance."
+ }
+
+ {
+  "Unit":"_u810_BioChemistry",
+  "Module":"_m4_amino_acids_proteins",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/_u810_BioChemistry\/_m4_amino_acids_proteins\/x-oli-inline-assessment\/_m4_antacid_DIGT.xml",
+  "Problem Name":"_m4_antacid_DIGT",
+  "Question":"In the human stomach, proteins are digested by pepsin, an enzyme that requires an acidic pH for its optimal function. Antacids are medications that increase stomach pH. Examples include Alka-Seltzer, Tums, and Rolaids. If a person overuses antacids, how do you think this might affect that person's digestive process?",
+  "Question ID":1744831834.0,
+  "Step ID":"q1",
+  "Explanation":"When the pH is raised or increased, the activity of pepsin will decrease, which in turn decreases protein digestion.",
+  "extracted_qid":"q1",
+  "Step Name":"q1_A UpdateShortAnswer",
+  "Selection":"q1_A",
+  "Level (Unit)":"Biological Macromolecules",
+  "Level (Module)":"Proteins",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"didigetthis",
+  "step_index":0,
+  "gpt-4o-mini_meta_knowledge":"1. **Digestive Enzymes Can Function at Any pH:** Students might believe that all digestive enzymes can function effectively at any pH level, not realizing that specific enzymes, such as pepsin, have optimal pH ranges. They may underestimate the importance of pH for enzyme activity in the stomach.\n\n2. **Antacids Neutralize Stomach Acid Completely:** Some students might think that antacids completely eliminate stomach acid, not understanding that they merely reduce acidity to a more neutral pH, which can still impact digestion but does not eliminate acid entirely.\n\n3. **Digestion Happens Only in the Stomach:** A common misconception is that digestion only occurs in the stomach. Students might be unaware that while the stomach plays a key role in protein digestion, significant digestion also occurs in the small intestine with different enzymes functioning optimally at different pH levels.\n\n4. **Overuse of Antacids Only Affects Acid-Related Symptoms:** Students might think that the overuse of antacids only leads to relief from heartburn or acidity but may not realize that it can disrupt the overall digestive process, affect nutrient absorption, and alter gut microbiota.\n\n5. **Increasing Stomach pH is Always Beneficial:** A misconception may be that increasing the pH of the stomach is always a good thing for digestion. In reality, it can hinder the breakdown of proteins and affect the proper functioning of the digestive system, leading to issues like malabsorption and bacterial overgrowth."
+ }
+
+ {
+  "Unit":"_u810_BioChemistry",
+  "Module":"_m4_amino_acids_proteins",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/_u810_BioChemistry\/_m4_amino_acids_proteins\/x-oli-inline-assessment\/_m4_peptide_denature_LBD.xml",
+  "Problem Name":"_m4_peptide_denature_LBD",
+  "Question":"Can you think of an example of protein denaturation that often occurs when making breakfast?",
+  "Question ID":73799428376.0,
+  "Step ID":"q2",
+  "Explanation":"When you cook an egg, the proteins in the egg white denature and aggregate. This transforms the transparent egg fluid into a white solid.",
+  "extracted_qid":"q2",
+  "Step Name":"q2_A UpdateShortAnswer",
+  "Selection":"q2_A",
+  "Level (Unit)":"Biological Macromolecules",
+  "Level (Module)":"Proteins",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"learnbydoing",
+  "step_index":0,
+  "gpt-4o-mini_meta_knowledge":"1. **All proteins denature at the same temperature**: Many students believe that all proteins will denature at the same temperature, but in reality, different proteins have varying thermal stability, and the temperature at which they denature can differ significantly.\n\n2. **Denaturation means the protein is destroyed**: Some students may think that when a protein denatures, it is permanently destroyed or can't be used again. However, denaturation can be reversible for some proteins under certain conditions, meaning they can refold into their functional form.\n\n3. **Denaturation only occurs with heat**: While heat is a common cause of denaturation, students might not realize that other factors like pH changes, salt concentration, or mechanical agitation can also lead to denaturation.\n\n4. **All denatured proteins have the same properties**: Students might assume that once proteins are denatured, they all exhibit the same physical and chemical properties (e.g., texture, solubility), when in fact different proteins have specific characteristics that change upon denaturation.\n\n5. **Denaturation is always harmful**: Some might think that protein denaturation is always negative, failing to recognize that it can be a necessary and beneficial process in cooking, such as when eggs firm up during cooking or when meat becomes tender."
+ }
+
+ {
+  "Unit":"No Unit",
+  "Module":"No Module",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/x-oli-inline-assessment\/activetransport1_response.xml",
+  "Problem Name":"activetransport1_response",
+  "Question":"To make the lumen of the lysosome (the part enclosed by the lysosomal membrane) more acidic than the cytoplasm, in which direction would protons need to flow? Why?",
+  "Question ID":38547917300.0,
+  "Step ID":"activetransport1_q1",
+  "Explanation":"Protons would have to flow inwards, since a more acidic environment indicates a higher proton (hydrogen ion) concentration.",
+  "extracted_qid":"q1",
+  "Step Name":"activetransport1_q1_activetransport1_a1 UpdateShortAnswer",
+  "Selection":"activetransport1_q1_activetransport1_a1",
+  "Level (Unit)":"The Cell",
+  "Level (Module)":"Membrane Transport",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"didigetthis",
+  "step_index":0,
+  "gpt-4o-mini_meta_knowledge":"1. **Misconception about Proton Flow Direction**: Students may believe that protons (H\u207a ions) flow into the cytoplasm from the lysosome to increase acidity, instead of understanding that protons must flow into the lysosome from the cytoplasm to lower the pH inside the lysosome.\n\n2. **Misunderstanding pH and Concentration**: Some students might think that a higher concentration of protons is synonymous with a higher pH, not realizing that increased proton concentration actually results in a lower (more acidic) pH.\n\n3. **Confusion about Membrane Permeability**: There may be a notion that protons can freely diffuse across the lysosomal membrane due to their small size, ignoring the fact that charged ions like protons require specific transport proteins to move across lipid membranes.\n\n4. **Assumption of Equal Proton Distribution**: Students may incorrectly assume that if a compartment is more acidic, it means that protons are evenly distributed throughout, rather than recognizing that the active transport of protons creates a concentration gradient.\n\n5. **Simplistic View of Acidic Environment**: Many students may think that acidity is merely the result of a fixed amount of protons and overlook the role of cellular mechanisms like the ATP-driven proton pumps that actively transport protons into the lysosome to maintain its acidic environment."
+ }
+
+ {
+  "Unit":"No Unit",
+  "Module":"No Module",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/x-oli-inline-assessment\/activetransport2_response.xml",
+  "Problem Name":"activetransport2_response",
+  "Question":"Why does the process described in the last question need to be a continuous process? Why doesn\u2019t the process just stop once the correct pH in the lumen is reached?",
+  "Question ID":3367905386.0,
+  "Step ID":"activetransport2_q1",
+  "Explanation":"Protons, although charged, can leak back through the membrane. In addition, negatively charged molecules in the lumen can become protonated and shuttle the protons across the membrane in their neutral form.",
+  "extracted_qid":"q1",
+  "Step Name":"activetransport2_q1_activetransport2_a1 UpdateShortAnswer",
+  "Selection":"activetransport2_q1_activetransport2_a1",
+  "Level (Unit)":"The Cell",
+  "Level (Module)":"Membrane Transport",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"didigetthis",
+  "step_index":0,
+  "gpt-4o-mini_meta_knowledge":"1. **Misconception about equilibrium**: Students may believe that once the correct pH is reached, the system will naturally remain in that state without further adjustments. They might think the process can simply \"maintain itself,\" not realizing that biological systems constantly face fluctuations and require continuous regulation.\n\n2. **Misconception about end-products**: Some students might think that reaching the desired pH means the process is complete, not understanding that maintaining this state is crucial for ongoing biochemical reactions that require constant adjustments in response to changes in the environment or metabolic activity.\n\n3. **Misconception about enzymatic activity**: Students may think that enzymes will function optimally forever once the ideal pH is achieved. They might not recognize that enzymes are sensitive to environmental changes and that continuous regulation of pH is necessary to ensure they remain active and functional.\n\n4. **Misconception about feedback mechanisms**: There is a tendency for students to overlook the importance of feedback mechanisms in biological systems. They might assume that processes can run without any interventions or adjustments and fail to understand that feedback plays a crucial role in maintaining homeostasis.\n\n5. **Misconception about single-point regulation**: Some students may believe that only one mechanism or component is responsible for regulating pH, leading them to think that once the correct pH is achieved, no further action is needed. They might not appreciate the complexity and interplay of multiple systems and factors that contribute to continuous pH regulation."
+ }
+
+ {
+  "Unit":"_u810_BioChemistry",
+  "Module":"_m1_Atoms_Bonding_and_Water",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/_u810_BioChemistry\/_m1_Atoms_Bonding_and_Water\/x-oli-inline-assessment\/biochem_bonding_saltwater_submit_DIGT.xml",
+  "Problem Name":"biochem_bonding_saltwater_submit_DIGT",
+  "Question":"Ionic compounds dissolve and ionic bonds are broken in water. Why do you think water can separate ions and break ionic bonds?",
+  "Question ID":19070469491.0,
+  "Step ID":"q1",
+  "Explanation":"Ionic bonds involve charges interacting with each other. If water is added to an ionic compound (such as NaCl), the positively charged Na atoms are surrounded by water molecules with the oxygen (which have a slight negative charge) closest to the Na + . The negatively charged Cl is also surrounded by water molecules. In this case, the hydrogen atoms (which have a slight positive charge) are closest to the Cl - The water molecules surround each ion and disrupt the ionic bonds in this way.",
+  "extracted_qid":"q1",
+  "Step Name":"q1_a1 UpdateShortAnswer",
+  "Selection":"q1_a1",
+  "Level (Unit)":"Introduction to Chemistry",
+  "Level (Module)":"Chemical Bonds",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"didigetthis",
+  "step_index":0,
+  "gpt-4o-mini_meta_knowledge":"1. **Ionic Bonds Are Weak in Water:** Students often believe that ionic bonds are inherently weak and break easily in water, failing to recognize that while water can separate ions, the ionic bonds themselves are quite strong in a dry state.\n\n2. **Water Reacts with Ions to Break Ionic Bonds:** Some students might think that water chemically reacts with the ions to break the ionic bonds, rather than understanding that water simply surrounds the ions and stabilizes them through electrostatic interactions.\n\n3. **Only Polar Solvents Can Dissolve Ionic Compounds:** There may be a misconception that only polar solvents can dissolve ionic compounds, neglecting the fact that other factors, like temperature and concentration, also play significant roles in solubility.\n\n4. **Dissolution Means Ionic Bonds Are Broken:** Students might confuse the process of dissolution with bond breaking, assuming that ionic bonds are completely \"broken\" in the sense that the ions no longer exist as individual entities, overlooking that the ions still retain their identity once separated. \n\n5. **All Ionic Compounds Dissolve in Water:** A common misunderstanding is that all ionic compounds are soluble in water, when in reality, some ionic compounds are insoluble or only sparingly soluble due to lattice energy and other interactions that outweigh the solvation energy provided by water molecules."
+ }
+
+ {
+  "Unit":"_u810_BioChemistry",
+  "Module":"_m3_carbohydrates",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/_u810_BioChemistry\/_m3_carbohydrates\/x-oli-inline-assessment\/biochem_org_intro_properties_DIGT.xml",
+  "Problem Name":"biochem_org_intro_properties_DIGT",
+  "Question":"Examine the molecule below. It is found in scorpion venom. Is it organic? How do you know?",
+  "Question ID":42585494889.0,
+  "Step ID":"q3",
+  "Explanation":"Yes, it is organic. There are many rings and chains of carbon atoms and there are dozens of C-H bonds. The smaller repeated units (rings, chains) are strung together to make a large, complex molecule. Also, the fact that this molecule is made by a living thing (a scorpion) is another clue that it is an organic molecule. Keep in mind, however, that not all organic molecules are produced by living things.",
+  "extracted_qid":"q3",
+  "Step Name":"q3_a1 UpdateShortAnswer",
+  "Selection":"q3_a1",
+  "Level (Unit)":"Biological Macromolecules",
+  "Level (Module)":"Introduction to Organic Molecules",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"learnbydoing",
+  "step_index":0,
+  "gpt-4o-mini_meta_knowledge":"1. **Organic vs. Inorganic**: A common misconception is that all substances containing carbon are organic. Students may not realize that organic molecules must also have hydrogen and that specific structural features are typically associated with organic compounds.\n\n2. **Venom Composition**: Some students might believe that all venoms are entirely made up of proteins or peptides. They may not realize that venoms can contain a variety of organic compounds including small molecules, lipids, and nucleic acids, in addition to proteins.\n\n3. **Definition of Organic Chemistry**: A misconception exists that organic chemistry only pertains to compounds derived from living organisms. Students may overlook the fact that synthetic organic compounds, which are not found in nature, are also included in the study of organic chemistry.\n\n4. **State of Matter**: Students may incorrectly associate organic compounds strictly with solids or liquids, failing to recognize that many organic substances can also be gases at room temperature, like certain hydrocarbons and alcohols.\n\n5. **Complexity**: There is a misunderstanding that all organic molecules must be large and complex. Many organic compounds can be small and relatively simple, such as methane (CH\u2084) or ethanol (C\u2082H\u2085OH), leading students to mistakenly categorize smaller organic molecules as inorganic."
+ }
+
+ {
+  "Unit":"_u810_BioChemistry",
+  "Module":"_m2_equilib_pH",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/_u810_BioChemistry\/_m2_equilib_pH\/x-oli-inline-assessment\/biochem_ph_why_buffers_submit_DIGT.xml",
+  "Problem Name":"biochem_ph_why_buffers_submit_DIGT",
+  "Question":"Are buffers an unlimited guarantee that the pH of a solution will remain in a narrow range?",
+  "Question ID":96105449322.0,
+  "Step ID":"q1",
+  "Explanation":"No, they only can deal with a limited quantity of acid or base. If acid or base is continuously added to a buffered solution, eventually the buffering capacity will be used up. The buffer will not be able to absorb or donate any more hydrogen ions, and the solution\u2019s pH will start to change quickly if even more acid or base is added.",
+  "extracted_qid":"q1",
+  "Step Name":"q1_a1 UpdateShortAnswer",
+  "Selection":"q1_a1",
+  "Level (Unit)":"Introduction to Chemistry",
+  "Level (Module)":"Acids and Bases",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"didigetthis",
+  "step_index":0,
+  "gpt-4o-mini_meta_knowledge":"1. **Buffers Can Completely Prevent pH Changes**: Many students believe that buffers can entirely prevent any change in pH, when in reality, buffers only resist changes and can be overwhelmed by strong acids or bases, leading to significant pH shifts.\n\n2. **All Buffers Have the Same Capacity**: There is a misconception that all buffers have the same ability to maintain a stable pH. In fact, different buffer systems have different capacities based on their concentrations and the specific acid-base pairs involved.\n\n3. **pH Can Never Exceed the Buffering Range**: Students often think that the pH of a buffered solution will always remain within the pH range of the buffer components. However, if the buffer is subjected to extreme levels of acids or bases, the pH can fall outside this range.\n\n4. **Buffers Only Work at Neutral pH**: Some students may think that buffers are only effective at or around a neutral pH (7), whereas buffers can be formulated to be effective at a wide range of pH levels depending on the acid and conjugate base they contain.\n\n5. **A Higher Buffer Concentration Always Means a Better Buffer**: There is a misunderstanding that increasing the concentration of a buffer will always enhance its ability to maintain pH. While higher concentrations can increase buffering capacity, it's also important to consider the specific pKa values of the buffering components in relation to the desired pH range."
+ }
+
+ {
+  "Unit":"_u810_BioChemistry",
+  "Module":"_m2_equilib_pH",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/_u810_BioChemistry\/_m2_equilib_pH\/x-oli-inline-assessment\/biochem_whypH_acid_DIGT.xml",
+  "Problem Name":"biochem_whypH_acid_DIGT",
+  "Question":"Why is pH regulated in your body? How is the pH of your blood regulated?",
+  "Question ID":15433190526.0,
+  "Step ID":"q3",
+  "Explanation":"Cells and living organisms can only function and survive in a very limited pH range. If pH is disrupted, the chemical reactions that enable life stop working. It is therefore an essential part of homeostasis to maintain the appropriate pH balance within a cell\/organism. In diabetic ketoacidosis, a wide range of health problems and even death can result due to disruption of the body\u2019s pH. In healthy people, blood pH is regulated partly through the action of a buffer (bicarbonate).",
+  "extracted_qid":"q3",
+  "Step Name":"q3_a3 UpdateShortAnswer",
+  "Selection":"q3_a3",
+  "Level (Unit)":"Introduction to Chemistry",
+  "Level (Module)":"Acids and Bases",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"didigetthis",
+  "step_index":0,
+  "gpt-4o-mini_meta_knowledge":"1. **Misconception about pH being solely related to acidity or alkalinity**: Many students might think that pH only indicates whether a solution is acidic or basic, without understanding that it is a measure of hydrogen ion concentration and its importance in maintaining biochemical processes and enzyme function.\n\n2. **Misconception that blood pH is static**: Students sometimes believe that blood pH remains constant and does not change. In reality, blood pH can fluctuate within a narrow range due to various physiological processes and environmental factors, and tight regulation is necessary for health.\n\n3. **Misconception that diet has no impact on blood pH**: Some students may think that what they eat doesn\u2019t affect their blood pH. However, diet can influence the body\u2019s acid-base balance and affect how the kidneys and lungs work in regulating pH.\n\n4. **Misconception that pH regulation is only managed by the kidneys**: Students might believe that the kidneys are the only organs responsible for regulating blood pH. In fact, both the lungs (through carbon dioxide levels) and the kidneys play essential roles in maintaining acid-base balance.\n\n5. **Misconception that a more basic pH is always better for health**: Some might assume that having a higher (more basic) pH is always healthier, not realizing that both acidosis (low pH) and alkalosis (high pH) can lead to serious health issues and that the body requires a very specific range for optimal function."
+ }
+
+ {
+  "Unit":"_u870_classical_genetics",
+  "Module":"_m1_Heredity",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/_u870_classical_genetics\/_m1_Heredity\/x-oli-inline-assessment\/genetics_heredity_mendells_contribution_SC.xml",
+  "Problem Name":"genetics_heredity_mendells_contribution_SC",
+  "Question":"What did Mendel do that led him to be called the \u201cFather of Modern Genetics?\"",
+  "Question ID":46365453285.0,
+  "Step ID":"g1",
+  "Explanation":"Mendel was the first person to use \u201ctrue breeding\u201d plants, manually mate them, and follow the outcomes of offspring. What made Mendel\u2019s experiments successful where others failed, was that he used only plants with true breeding traits, he looked at a limited number of traits, and each trait he studied only has two forms or phenotypes (purple or white flowers, smooth or wrinkles peas, etc.). By counting the number of offspring plants from his crosses that expressed each trait, he was able to determine which trait pair was stronger (dominant) and which was weaker (recessive). After repeated matings and evaluating his data he was then able to predict the outcomes of matings between plants. Because he was the first scientist to really understand how specific traits were inherited from one generation to the next, he has been dubbed the \u201cFather of Modern Genetics\u201d. He laid the ground work for the field of genetics as we know it today.",
+  "extracted_qid":null,
+  "Step Name":"g1_qsub_0 UpdateShortAnswer",
+  "Selection":"g1_qsub_0",
+  "Level (Unit)":"Classical Genetics",
+  "Level (Module)":"Heredity",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"didigetthis",
+  "step_index":0,
+  "gpt-4o-mini_meta_knowledge":"1. **Mendel discovered DNA**: Many students believe that Mendel was the first to discover DNA or understand its structure, when in fact his work focused on understanding inheritance patterns without contemporary knowledge of DNA.\n\n2. **Mendel\u2019s work applied only to pea plants**: While Mendel is famous for his experiments with pea plants, students may think his principles apply exclusively to this species and not to other organisms or traits, overlooking the broader implications of his findings.\n\n3. **Mendel believed in blending inheritance**: Some students might mistakenly think that Mendel supported the idea that offspring are a blend of parental traits, whereas his experiments demonstrated the concept of discrete inheritance through dominant and recessive alleles.\n\n4. **Genetics was well understood before Mendel\u2019s time**: There may be a misconception that genetics was a well-established field before Mendel, when in reality, he was pioneering in his methodical approach to studying inheritance.\n\n5. **Mendel\u2019s ideas were widely accepted during his lifetime**: Students might assume that Mendel's findings were recognized and accepted during his life. In reality, his work went largely unnoticed for decades until it was rediscovered and appreciated in the early 20th century."
+ }
+
+ {
+  "Unit":"_u870_classical_genetics",
+  "Module":"_m2_Human_Inheritance",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/_u870_classical_genetics\/_m2_Human_Inheritance\/x-oli-inline-assessment\/genetics_human_fruit_fly_experiment.xml",
+  "Problem Name":"genetics_human_fruit_fly_experiment",
+  "Question":"To practice the concept of sex-linked traits, let's call the normal X chromosome, X How can you figure out whether a red-eyed female is homozygous or heterozygous for the red allele? +; and, let's indicate the sex chromosome with the white-eyed phenotype, XW. A true-bred red-eyed female will have the genotype, X+X+. A white-eyed male would have the genotype, XWY.",
+  "Question ID":57295617583.0,
+  "Step ID":"q1",
+  "Explanation":"Look at the results of a cross between a red-eyed female and a white-eyed male, and then work backward to determine their original genotypes. Use the options X + , X W , and Y to form gametes and the resulting genotypes that match the phenotype.",
+  "extracted_qid":"q1",
+  "Step Name":"q1_A UpdateShortAnswer",
+  "Selection":"q1_A",
+  "Level (Unit)":"Classical Genetics",
+  "Level (Module)":"Human Inheritance",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"learnbydoing",
+  "step_index":0,
+  "gpt-4o-mini_meta_knowledge":"1. **Assuming that females can only express one allele**: Students may believe that females, having two X chromosomes, will only express the dominant allele and that they can't be heterozygous if they show a dominant phenotype.\n\n2. **Misunderstanding the role of X-linked genes in males**: Some students might mistakenly think that males can be homozygous for X-linked traits, not realizing they have only one X chromosome and hence can only express one allele.\n\n3. **Confusing dominant and recessive phenotypes**: Students may not fully understand that red eyes can be a dominant trait while white eyes are recessive, leading them to incorrectly infer the genotypes of different individuals based solely on phenotypes.\n\n4. **Overlooking the importance of the Y chromosome**: Some students might think the Y chromosome has a significant role in determining traits like eye color, despite it not carrying the genes for X-linked traits, leading to confusion about male genotypes.\n\n5. **Believing that all traits are autosomal**: Students might incorrectly assume that all traits are determined by autosomal chromosomes (non-sex chromosomes) and fail to recognize that some traits, like eye color in this case, are inherited through sex-linked mechanisms."
+ }
+
+ {
+  "Unit":"_u870_classical_genetics",
+  "Module":"_m2_Human_Inheritance",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/_u870_classical_genetics\/_m2_Human_Inheritance\/x-oli-inline-assessment\/genetics_inheritance_huntington.xml",
+  "Problem Name":"genetics_inheritance_huntington",
+  "Question":"Symptoms of Huntington\u2019s disease generally begin manifesting during an individual's mid-30's and result in a slow deterioration. How can a lethal dominant gene be passed to the next generation?",
+  "Question ID":17202883323.0,
+  "Step ID":"q2",
+  "Explanation":"This gene is passed to the next generation because it does not affect the individual until after reproductive age.",
+  "extracted_qid":"q2",
+  "Step Name":"q2_A UpdateShortAnswer",
+  "Selection":"q2_A",
+  "Level (Unit)":"Classical Genetics",
+  "Level (Module)":"Human Inheritance",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"didigetthis",
+  "step_index":0,
+  "gpt-4o-mini_meta_knowledge":"1. **Misconception about Dominance in Genetics**: Students might believe that dominant genes cannot be passed down if the individual showing the dominant trait is affected by a genetic disorder. However, a dominant gene, such as the one that causes Huntington\u2019s disease, can still be inherited by offspring even if the parent is symptomatic.\n\n2. **Misconception about Age of Onset**: Some students may think that if a parent does not show symptoms of a genetic disorder like Huntington's disease by a certain age, they cannot pass the gene to their children. In reality, many dominant genetic disorders have late onset, meaning symptoms may not appear until later in life, but the gene can still be inherited by the next generation.\n\n3. **Misconception about Genetic Disorders and Vitality**: Students might wrongly assume that individuals with lethal dominant genes cannot lead a normal life or reproduce. In the case of Huntington's disease, individuals often live for years without significant impairment and may have children before the onset of symptoms.\n\n4. **Misconception about Complete Penetrance**: Many students may believe that all individuals carrying a dominant allele will express the associated trait or disorder. However, some dominant traits exhibit incomplete penetrance, where not everyone who inherits the gene will develop the disease.\n\n5. **Misconception about Recessive Genes**: There is often a misunderstanding that dominant disorders are worse or more lethal than recessive disorders. While dominant disorders like Huntington's can lead to severe outcomes, this does not imply that all recessive disorders are less serious; many can cause significant health issues as well."
+ }
+
+ {
+  "Unit":"No Unit",
+  "Module":"No Module",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/x-oli-inline-assessment\/inline_anabolic_reactions_energy_source_SC.xml",
+  "Problem Name":"inline_anabolic_reactions_energy_source_SC",
+  "Question":"Anabolic reactions require ATP. But it takes energy to make ATP. Where does the energy for ATP synthesis come from?",
+  "Question ID":81983833515.0,
+  "Step ID":"q1_atp_energy_source",
+  "Explanation":"Energy is often harvested from a catabolic reactions to make ATP. Cellular respiration is the most common and important pathway for ATP production. Energy stored in the bonds of glucose is harvested when sugar is broken down and that energy is used to make ATP.",
+  "extracted_qid":"q1",
+  "Step Name":"q1_atp_energy_source_A UpdateShortAnswer",
+  "Selection":"q1_atp_energy_source_A",
+  "Level (Unit)":"Metabolism",
+  "Level (Module)":"Energy",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"didigetthis",
+  "step_index":0,
+  "gpt-4o-mini_meta_knowledge":"1. **Misconception: ATP is produced from the breakdown of carbohydrates only.**  \n   Many students believe that ATP can only be synthesized through the breakdown of carbohydrates, ignoring that lipids and proteins can also be used as energy sources in cellular respiration.\n\n2. **Misconception: Energy comes from ATP itself.**  \n   Some students may think that the energy for ATP synthesis comes directly from ATP molecules, rather than understanding that energy is obtained from the oxidation of food or the light in photosynthesis.\n\n3. **Misconception: ATP synthesis occurs only in the presence of oxygen.**  \n   Students often think that ATP can only be synthesized when oxygen is present, neglecting the fact that anaerobic processes also generate ATP, such as in fermentation.\n\n4. **Misconception: All energy needed for anabolic reactions comes from ATP directly.**  \n   Some may believe that all the energy for anabolic reactions is derived solely from ATP without recognizing other high-energy intermediates and electron carriers (like NADPH) involved in metabolic pathways.\n\n5. **Misconception: ATP is an energy storage molecule.**  \n   Many students might view ATP purely as a storage molecule for energy, without understanding that it is more accurately described as an energy currency that is quickly synthesized and consumed within the cell."
+ }
+
+ {
+  "Unit":"_u800_Bio_Intro",
+  "Module":"_m1_intro-to-biology",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/_u800_Bio_Intro\/_m1_intro-to-biology\/x-oli-inline-assessment\/inline_bio_intro_virus_abiotic_DIGT.xml",
+  "Problem Name":"inline_bio_intro_virus_abiotic_DIGT",
+  "Question":"Are viruses alive? Explain why you think viruses are alive or not.",
+  "Question ID":19780966377.0,
+  "Step ID":"q1_are_viruses_alive",
+  "Explanation":"Viruses lack some of the characteristics of life. For example, they do not directly use raw materials to replicate, and they don\u2019t grow at all. They also are not composed of cells. Because there are some characteristics of life they don\u2019t possess, viruses are generally not considered to be alive.",
+  "extracted_qid":"q1",
+  "Step Name":"q1_are_viruses_alive_A UpdateShortAnswer",
+  "Selection":"q1_are_viruses_alive_A",
+  "Level (Unit)":"Biology: The Science of Life",
+  "Level (Module)":"Introduction to Biology",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"didigetthis",
+  "step_index":0,
+  "gpt-4o-mini_meta_knowledge":"1. **Viruses are cells**: Many students may mistakenly believe that viruses are a type of cell. In reality, viruses are much simpler; they do not have cellular structures and cannot perform metabolic processes on their own.\n\n2. **Viruses can reproduce independently**: Some students might think that viruses can replicate on their own, just like living organisms. However, viruses can only reproduce by hijacking a host cell's machinery, which is a key factor in the debate about whether they are truly \"alive.\"\n\n3. **All biological entities are alive**: Students may assume that anything that interacts with biological systems, like viruses, must be considered alive. This misunderstanding overlooks the criteria of life, such as the ability to metabolize and self-reproduce without a host.\n\n4. **Viruses have a form of life**: Some students might believe that viruses have their own form of life or a unique type of metabolism. However, viruses lack the necessary components to carry out life processes independently, which leads to confusion about their status as living entities.\n\n5. **Bacteria and viruses are the same**: A common misconception is that viruses and bacteria are the same type of pathogens. In truth, bacteria are single-celled organisms that can live and reproduce independently, while viruses require a host cell for replication and are fundamentally different in structure and function."
+ }
+
+ {
+  "Unit":"_u820_the_cell",
+  "Module":"_m3_cell_replication",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/_u820_the_cell\/_m3_cell_replication\/x-oli-inline-assessment\/inline_cell_repl_mitosis_function.xml",
+  "Problem Name":"inline_cell_repl_mitosis_function",
+  "Question":"What role does mitosis play in the overall cell cycle?",
+  "Question ID":91470037043.0,
+  "Step ID":"q1",
+  "Explanation":"Mitosis is the process of dividing a parent cell into two genetically identical daughter cells. DNA in the nucleus, which contains the genetic information, is first duplicated and condensed into tightly packed thread-like structures called chromosomes. During the four phases of mitosis, the nucleus is separated and divided into two identical daughter nuclei. Each daughter nuclei contains the same genetic material as the parental cell.",
+  "extracted_qid":"q1",
+  "Step Name":"q1_A UpdateShortAnswer",
+  "Selection":"q1_A",
+  "Level (Unit)":"Cell Division",
+  "Level (Module)":"Mitosis",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"learnbydoing",
+  "step_index":0,
+  "gpt-4o-mini_meta_knowledge":"1. **Mitosis is the same as the cell cycle**: Many students mistakenly believe that mitosis is synonymous with the entire cell cycle, not realizing that it is just one phase (the M phase) that occurs within a larger sequence of events including interphase (G1, S, and G2 phases).\n\n2. **Mitosis occurs continuously**: Some students think that mitosis happens all the time in all cells. In reality, mitosis only occurs in specific types of cells and at certain times depending on the organism's growth and repair needs.\n\n3. **All cells divide by mitosis**: There is a misconception that all cells undergo mitosis. However, some cells, like neurons and certain muscle cells, may enter a terminal phase known as G0 where they do not divide.\n\n4. **Mitochondria are produced during mitosis**: Students may incorrectly believe that organelles like mitochondria are created during mitosis. In fact, mitochondria are replicated during the interphase before mitosis begins.\n\n5. **Mitosis is the only way cells reproduce**: Some students think that mitosis is the only method of cell reproduction. They may not understand that other processes, such as meiosis (which occurs in the production of gametes), exist and serve different purposes in the life cycle of organisms."
+ }
+
+ {
+  "Unit":"_u800_Bio_Intro",
+  "Module":"_m2_science_method",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/_u800_Bio_Intro\/_m2_science_method\/x-oli-inline-assessment\/inline_experiment_results_significance_DIGT.xml",
+  "Problem Name":"inline_experiment_results_significance_DIGT",
+  "Question":"Researchers reported significant results from the HPV vaccine experiment. If the results had NOT been significant, what would this mean?",
+  "Question ID":87351504126.0,
+  "Step ID":"q1",
+  "Explanation":"If the results from this experiment were not significant, it would mean that the number of women who did not get HPV after being vaccinated was the same number that would be seen just from random chance.",
+  "extracted_qid":"q1",
+  "Step Name":"q1_A UpdateShortAnswer",
+  "Selection":"q1_A",
+  "Level (Unit)":"Biology: The Science of Life",
+  "Level (Module)":"Scientific Inquiry",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"didigetthis",
+  "step_index":0,
+  "gpt-4o-mini_meta_knowledge":"1. **Misconception about Statistical Significance**: Students might mistakenly believe that \"not significant\" means that there is no effect at all, when in fact it just means that the study did not find strong enough evidence to conclude that there is a significant effect of the HPV vaccine.\n\n2. **Misconception about Sample Size**: Some students may think that a lack of significant results indicates the sample size was too small, while in truth, the results could still be non-significant even with an adequately powered sample if the actual effect is minimal or non-existent.\n\n3. **Misconception of Absolute Certainty**: Students might assume that significant results prove that the hypothesis is true, while non-significant results prove it is false. However, statistical testing only provides evidence for or against the null hypothesis, and this does not confirm absolute truths.\n\n4. **Misconception about P-values**: Many students confuse the p-value with the probability of the hypothesis being true or false. A non-significant p-value does not mean that the effect does not exist but indicates that the evidence was insufficient to reject the null hypothesis at the chosen significance level.\n\n5. **Misconception about Research Validity**: Students may think that if results are not significant, the research itself is flawed or untrustworthy. In reality, non-significant results are a valid outcome and often provide important information for future research directions or for understanding the complexities of real-world data."
+ }
+
+ {
+  "Unit":"No Unit",
+  "Module":"No Module",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/x-oli-inline-assessment\/inline_janes_cholesterol_levels_sc.xml",
+  "Problem Name":"inline_janes_cholesterol_levels_sc",
+  "Question":"Jane has a family history of heart disease and decides to have her cholesterol levels checked. Her levels are 157 for LDL and 47 for HDL. Based on this chart and information from this module, what would you recommend Jane do?",
+  "Question ID":40104325859.0,
+  "Step ID":"q1_cholesterol_levels_findings",
+  "Explanation":"Jane\u2019s LDL is \u201cborderline high,\u201d but is VERY close to being \u201chigh.\u201d In addition, her HDL levels are \u201cpoor.\u201d Jane should reduce her intake of saturated and trans fats and increase her intake of unsaturated fats. She may also benefit from eating more dietary fiber and exercising more.",
+  "extracted_qid":"q1",
+  "Step Name":"q1_cholesterol_levels_findings_A UpdateShortAnswer",
+  "Selection":"q1_cholesterol_levels_findings_A",
+  "Level (Unit)":"Biological Macromolecules",
+  "Level (Module)":"Lipids",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"learnbydoing",
+  "step_index":0,
+  "gpt-4o-mini_meta_knowledge":"1. **Lower LDL is Always Better**: Many students might think that any level of LDL is bad and should be as low as possible. They may not realize that there is an optimal range for LDL and that values should be interpreted in the context of individual risk factors and other cholesterol levels.\n\n2. **High HDL is Unconditionally Good**: Some students might believe that having high HDL (good cholesterol) means one is entirely protected from heart disease, not considering that the overall lifestyle and other factors like genetics and inflammation also play significant roles in heart health.\n\n3. **Cholesterol Levels Alone Determine Heart Health**: Students might assume that cholesterol levels are the sole indicators of heart health, ignoring other critical factors such as diet, exercise, blood pressure, smoking status, and family history.\n\n4. **Eating Foods High in Cholesterol Will Directly Raise Blood Cholesterol**: There is a misconception that consuming cholesterol-rich foods (like eggs) will directly raise LDL levels without considering that the body regulates cholesterol production and dietary impacts can vary from person to person.\n\n5. **Exercise Cannot Affect Cholesterol Levels**: Some students may think that no matter what their level of physical activity is, their cholesterol levels will remain the same. They might not understand that regular exercise can positively influence HDL levels and overall cardiovascular health."
+ }
+
+ {
+  "Unit":"_u820_the_cell",
+  "Module":"_m3_cell_replication",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/_u820_the_cell\/_m3_cell_replication\/x-oli-inline-assessment\/inline_m1_prophase_LBD.xml",
+  "Problem Name":"inline_m1_prophase_LBD",
+  "Question":"Explain what happens to the cell during the prophase of cell division.",
+  "Question ID":73583453575.0,
+  "Step ID":"q1",
+  "Explanation":"The DNA condenses and the nuclear membrane begins to breakdown.",
+  "extracted_qid":"q1",
+  "Step Name":"q1_A UpdateShortAnswer",
+  "Selection":"q1_A",
+  "Level (Unit)":"Cell Division",
+  "Level (Module)":"Mitosis",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"learnbydoing",
+  "step_index":0,
+  "gpt-4o-mini_meta_knowledge":"1. **Chromosomes Appear Only in Prophase**: Students may think that chromosomes are only formed during prophase. In reality, chromosomes are present in a less condensed form (chromatin) throughout interphase, but they become visible and organized during prophase.\n\n2. **The Nuclear Envelope Disappears Immediately in Prophase**: Many students believe that the nuclear envelope disappears right at the start of prophase. In actuality, it begins to disintegrate during prophase but may not be fully gone until late prophase.\n\n3. **Spindle Fibers Form from the Nucleus**: Some students might misunderstand where spindle fibers originate from, thinking they come from the nucleus. Instead, spindle fibers are formed from structures called centrosomes that move to opposite poles of the cell.\n\n4. **All Organelles Break Down During Prophase**: A common misconception is that all organelles disappear or break down during prophase. While some organelles, like the nuclear envelope, change form, many other organelles remain intact and functional throughout the process.\n\n5. **Prophase Occurs in Both Mitosis and Meiosis in the Same Way**: Students may assume that prophase is identical in both mitosis and meiosis. However, there are significant differences, particularly in meiosis (e.g., pairing of homologous chromosomes and crossing over), that can lead to confusion regarding the specific events occurring in each type of cell division."
+ }
+
+ {
+  "Unit":"No Unit",
+  "Module":"No Module",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/x-oli-inline-assessment\/inline_metab_high_energy_molecules.xml",
+  "Problem Name":"inline_metab_high_energy_molecules",
+  "Question":"What is ATP?",
+  "Question ID":41435991723.0,
+  "Step ID":"q3_atp",
+  "Explanation":"ATP (adenosine triphosphate) is a molecule that contains high-energy phosphate bonds, is present in all living cells, and provides energy for many cellular activities.",
+  "extracted_qid":"q3",
+  "Step Name":"q3_atp_A UpdateShortAnswer",
+  "Selection":"q3_atp_A",
+  "Level (Unit)":"Metabolism",
+  "Level (Module)":"Energy",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"didigetthis",
+  "step_index":0,
+  "gpt-4o-mini_meta_knowledge":"1. **ATP is a type of carbohydrate**: Students often confuse ATP with carbohydrates and believe it is a form of sugar, rather than understanding that ATP (adenosine triphosphate) is a nucleotide that stores and transfers energy in cells.\n\n2. **ATP is produced only during exercise**: Some learners may think that ATP is only produced when the body is engaging in physical activity, not realizing that ATP is continuously generated in cells through processes like cellular respiration and is necessary for all cellular functions.\n\n3. **All ATP is used immediately**: There's a misconception that ATP has to be used right away and cannot be stored. In reality, cells maintain pools of ATP that can be quickly mobilized for energy needs.\n\n4. **ATP directly powers muscle contraction**: While ATP is essential for muscle contraction, students might misunderstand that ATP does not directly cause contraction; instead, it provides the energy required for ATPase enzymes and other proteins involved in the contraction process.\n\n5. **ATP and ADP are the same**: Students may believe that ATP (adenosine triphosphate) and ADP (adenosine diphosphate) are identical or that they serve the same purpose, without grasping the crucial difference in their energy-carrying capacity and the role of ATP hydrolysis in energy transfer."
+ }
+
+ {
+  "Unit":"No Unit",
+  "Module":"No Module",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/x-oli-inline-assessment\/inline_why_hydrolysis_releases_energy.xml",
+  "Problem Name":"inline_why_hydrolysis_releases_energy",
+  "Question":"ATP is continuously built to replace what is consumed by the activities of the cell. What can you predict about a reaction that would build ATP from ADP and P? Would it release or require energy?",
+  "Question ID":14427262060.0,
+  "Step ID":"q2_reaction_to_build_ATP",
+  "Explanation":"It would require energy, because you are establishing a bond that holds two like charges close together.",
+  "extracted_qid":"q2",
+  "Step Name":"q2_reaction_to_build_ATP_A UpdateShortAnswer",
+  "Selection":"q2_reaction_to_build_ATP_A",
+  "Level (Unit)":"Metabolism",
+  "Level (Module)":"Energy",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"didigetthis",
+  "step_index":0,
+  "gpt-4o-mini_meta_knowledge":"1. **Misconception about ATP synthesis requiring no energy**: Some students may believe that ATP can be synthesized from ADP and inorganic phosphate (P) without any energy input. In reality, this process requires energy, typically from cellular respiration or other metabolic processes.\n\n2. **Misconception that ATP breakdown generates energy alone**: Students may think that the breakdown of ATP to ADP and P is the only step that releases energy. However, the process of synthesizing ATP also has an energy requirement that must be met before energy can be released later in the cell.\n\n3. **Misconception regarding the role of enzymes**: Some learners might think that enzymes are not necessary for the synthesis of ATP, overlooking that specific enzymes (like ATP synthase) are crucial for facilitating the reaction and enabling the energy required for ATP formation.\n\n4. **Misconception about energy sources**: Students may incorrectly assume that any type of energy can be used to produce ATP synthesis, instead of understanding that specific energy sources (like glucose oxidation) directly relate to ATP production.\n\n5. **Misconception about ATP being a permanent energy store**: Some students might believe that ATP acts as a long-term energy store for the cell, confusing it with other molecules like fats or carbohydrates that are used for longer-term energy storage rather than the transient and readily available energy form that ATP represents."
+ }
+
+ {
+  "Unit":"_u830_metabolism",
+  "Module":"_m2_photosyn_and_cell-resp",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/_u830_metabolism\/_m2_photosyn_and_cell-resp\/x-oli-inline-assessment\/photo_chloro_sandc.xml",
+  "Problem Name":"photo_chloro_sandc",
+  "Question":"Plants, algae, and cyanobacteria use pigments (such as chlorophyll) to absorb light needed for photosynthesis. Why does the presence of chlorophyll make photosynthetic producers look green?",
+  "Question ID":46137197581.0,
+  "Step ID":"compare_chlorophyll_q1",
+  "Explanation":"Chlorophyll is green because it absorbs red and blue light and reflects green light. This green light is what we see.",
+  "extracted_qid":"q1",
+  "Step Name":"compare_chlorophyll_q1_compare_chlorophyll_a1 UpdateShortAnswer",
+  "Selection":"compare_chlorophyll_q1_compare_chlorophyll_a1",
+  "Level (Unit)":"Metabolism",
+  "Level (Module)":"Photosynthesis and Cellular Respiration",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"didigetthis",
+  "step_index":0,
+  "gpt-4o-mini_meta_knowledge":"1. **All pigments absorb the same wavelengths of light**: Students might believe that all pigments absorb light evenly across the visible spectrum, when in fact, different pigments absorb specific wavelengths. Chlorophyll primarily absorbs red and blue light while reflecting green light, which is why plants appear green.\n\n2. **Photosynthesis only occurs in the presence of chlorophyll**: Some students may think that all plants and photosynthetic organisms must contain chlorophyll to perform photosynthesis, overlooking the fact that other pigments (such as carotenoids) can also contribute to photosynthesis and that some organisms without chlorophyll can perform photosynthesis in different ways.\n\n3. **The greenness of a plant is solely due to chlorophyll concentration**: Students could mistakenly assume that a plant\u2019s overall greenness is only a matter of the amount of chlorophyll present, not realizing that other factors (such as light conditions, health of the plant, or presence of other pigments) can also influence how green a plant appears.\n\n4. **Photosynthesis happens only during the day**: Many might think that photosynthesis only takes place when sunlight is available, not considering that processes like the conversion of stored energy and respiration continue during the night, aiding in the overall process of energy production in plants.\n\n5. **Chlorophyll is the only factor influencing plant color**: Some students may not understand that factors such as environmental conditions, nutrient availability, and genetic factors can influence the expression of chlorophyll and the visible color of plants, leading to a variety of colors beyond just green."
+ }
+
+ {
+  "Unit":"_u830_metabolism",
+  "Module":"_m2_photosyn_and_cell-resp",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/_u830_metabolism\/_m2_photosyn_and_cell-resp\/x-oli-inline-assessment\/photo_chloro_sandc.xml",
+  "Problem Name":"photo_chloro_sandc",
+  "Question":"In addition to chlorophyll, plants produce other pigments. Some of them act as \u201chelpers\u201d to chlorophyll: they absorb different wavelengths of light and pass some of the energy to chlorophyll. For example, many plants contain orange and yellow pigments in their leaves. They are normally masked by the green chlorophyll, which is much more abundant in leaf tissues. When do we see these pigments in many plant leaves?",
+  "Question ID":73371837851.0,
+  "Step ID":"compare_pigments_q2",
+  "Explanation":"In the fall, deciduous broadleaved tree leaves turn orange or yellow because chlorophyll levels in the leaves decline. Additional red and purple pigments may also be actively produced by the plant in autumn.",
+  "extracted_qid":"q2",
+  "Step Name":"compare_pigments_q2_compare_pigments_a2 UpdateShortAnswer",
+  "Selection":"compare_pigments_q2_compare_pigments_a2",
+  "Level (Unit)":"Metabolism",
+  "Level (Module)":"Photosynthesis and Cellular Respiration",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"didigetthis",
+  "step_index":1,
+  "gpt-4o-mini_meta_knowledge":"1. **Only Chlorophyll is Involved in Photosynthesis**: Many students believe that only chlorophyll is responsible for capturing light energy in the photosynthesis process, overlooking the role of accessory pigments like carotenoids, which also contribute to light absorption and energy transfer.\n\n2. **Pigments Are Only Present in Fall**: Some students may assume that the orange and yellow pigments are only present in leaves during autumn, forgetting that these pigments exist in the leaves throughout the growing season but are usually overshadowed by the dominant chlorophyll.\n\n3. **Chlorophyll is the Only Green Pigment**: There is a misconception that all green color in plants comes solely from chlorophyll, rather than recognizing that some plants can have other green pigments that may assist in photosynthesis, albeit to a lesser degree.\n\n4. **Temperature is the Only Factor for Pigment Visibility**: Students might think that cooler temperatures are the only factor that leads to the visibility of the orange and yellow pigments in fall, not considering that changes in light exposure and shorter day lengths also play crucial roles.\n\n5. **All Plants Exhibit Color Change in the Same Manner**: Some may assume that all plants change color similarly in autumn, while in reality, different species have varying levels of pigments and responses to environmental factors, leading to diverse color changes or lack thereof."
+ }
+
+ {
+  "Unit":"_u870_classical_genetics",
+  "Module":"_m2_Human_Inheritance",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/_u870_classical_genetics\/_m2_Human_Inheritance\/x-oli-inline-assessment\/sex_chromo_digt.xml",
+  "Problem Name":"sex_chromo_digt",
+  "Question":"The king of LaLa Land wanted a male heir, but kept having female offsprings. Why was it biologically wrong to blame the queen for the lack of male heir?",
+  "Question ID":79034559717.0,
+  "Step ID":"q2",
+  "Explanation":"The queen, being female has a pair of X chromosomes as her 23rd, sex determining pair of chromosomes. The gametes she produces will all contain an X chromosome. The king however, being male, contains one X and one Y chromosome as this 23rd pair or chromosomes. Therefore, the gametes he produces will either contain an X or a Y chromosome. Because the queen only produces X gametes, but the king produces X and Y gametes, the gender of their children is determined by which chromosome (X or Y) is found on the sperm which fertilizes the queen\u2019s X containing gamete (her egg). Gender in humans is always determined by the father.",
+  "extracted_qid":"q2",
+  "Step Name":"q2_A UpdateShortAnswer",
+  "Selection":"q2_A",
+  "Level (Unit)":"Classical Genetics",
+  "Level (Module)":"Human Inheritance",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"didigetthis",
+  "step_index":0,
+  "gpt-4o-mini_meta_knowledge":"1. **Only the Mother's Genetics Matter**: A common misconception is that the mother's genetics solely determine the sex of the offspring. In reality, it is the genetic contribution from both parents that determines the sex; specifically, the father's sperm carries either an X (female) or Y (male) chromosome.\n\n2. **Male Heirs Are Always a Necessity for Royalty**: Students might believe that the success of a royal lineage is entirely dependent on having male heirs. This misconception overlooks historical examples where female rulers have effectively governed, and many royal successes have come from strong female leadership.\n\n3. **Sex Determination is a Simple Process**: Many students may think that sex determination follows a simple rule where the presence of X or Y chromosomes directly dictates the sex of the offspring without considering other biological factors, such as environmental influences or chromosomal anomalies.\n\n4. **One Offspring Can Define Parental Fertility**: There is a misunderstanding that having multiple daughters means the parents are incapable of having a son. In reality, the sex of each child is random and independent of previous births, so one cannot make conclusions about fertility based solely on the sex of existing children.\n\n5. **All Cultures Prefer Male Offspring**: Students may erroneously assume that the preference for male heirs is universal across cultures. While some cultures may have historically favored male offspring, numerous cultures and societies hold different views regarding the importance and value of female heirs."
+ }
+
+ {
+  "Unit":"_u800_Bio_Intro",
+  "Module":"_m1-1_Themes",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/_u800_Bio_Intro\/_m1-1_Themes\/x-oli-inline-assessment\/u1_themes_dandelion_LBD.xml",
+  "Problem Name":"u1_themes_dandelion_LBD",
+  "Question":"After several more generations, the heavy-seeded dandelions may be hard to find. The group as a whole has changed because of differences in reproduction among its members. This is an outcome of a process of ___________ ____________. What words belong in the blank?",
+  "Question ID":26133541312.0,
+  "Step ID":"q3",
+  "Explanation":"natural selection",
+  "extracted_qid":"q3",
+  "Step Name":"q3_a1 UpdateShortAnswer",
+  "Selection":"q3_a1",
+  "Level (Unit)":"Biology: The Science of Life",
+  "Level (Module)":"Themes in Biology",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"learnbydoing",
+  "step_index":0,
+  "gpt-4o-mini_meta_knowledge":"1. **Evolution Equals Change in One Generation**: Many students believe that evolution occurs within a single generation, rather than over many generations due to cumulative changes in traits because of selection pressures.\n\n2. **Natural Selection Means Survival of the Strongest**: Students often think that natural selection favors the strongest individuals instead of favoring those who are best adapted to their environment, including traits that might not seem \"strong\" but provide advantages in specific contexts.\n\n3. **Evolution is a Goal-Oriented Process**: Some may think that evolution has a purpose or goal, leading to the misconception that species evolve because they 'want' to adapt or improve, rather than random genetic changes being selected for or against.\n\n4. **All Traits are Adaptive**: Students might assume that all traits in a population are beneficial and adaptive, not recognizing that some traits can be neutral or even detrimental, depending on environmental conditions.\n\n5. **Variation is Uniform**: Many learners may believe that all individuals within a species are identical or have minimal variation, not understanding that genetic variation is crucial for the process of natural selection and that it underpins evolutionary change."
+ }
+
+ {
+  "Unit":"_u800_Bio_Intro",
+  "Module":"_m1-1_Themes",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/_u800_Bio_Intro\/_m1-1_Themes\/x-oli-inline-assessment\/u1_themes_evolution_DIGT.xml",
+  "Problem Name":"u1_themes_evolution_DIGT",
+  "Question":"Provide a definition of evolution, in your own words.",
+  "Question ID":536019852.0,
+  "Step ID":"q5",
+  "Explanation":"Evolution is a theory that describes how life changes over time. It is about populations or species (not individuals) changing over generations of time (not within single lifetimes). Inheritance ties one generation to the next and helps explain why organisms are similar. Natural selection is a process that helps explain how groups of organisms evolve and adapt to their surroundings. Both of these are part of the overall theory of evolution.",
+  "extracted_qid":"q5",
+  "Step Name":"q5_a1 UpdateShortAnswer",
+  "Selection":"q5_a1",
+  "Level (Unit)":"Biology: The Science of Life",
+  "Level (Module)":"Themes in Biology",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"didigetthis",
+  "step_index":0,
+  "gpt-4o-mini_meta_knowledge":"1. **Natural Selection as a Goal-Oriented Process**: Many students believe that evolution is a process that aims towards making organisms \"better\" or more complex over time, rather than understanding that natural selection is a mechanism that favors traits that are advantageous in specific environments.\n\n2. **Individuals Evolve**: Some students misunderstand evolution as a change that occurs in individual organisms rather than in populations over generations. They may think that a single organism can adapt in its lifetime in response to environmental pressures.\n\n3. **Evolution Equals Progress**: There is a misconception that evolution represents a linear progression from simple organisms to more complex ones, overlooking the fact that evolution can lead to a wide variety of life forms that are equally \"successful\" in their own ecological niches.\n\n4. **All Traits are Adaptive**: Students may believe that every trait an organism possesses is an adaptation that has been selected for, ignoring the role of genetic drift, mutations, and other processes that can lead to the presence of traits that do not confer advantages.\n\n5. **Humans are the Pinnacle of Evolution**: Some students hold the belief that humans are the most evolved species or that we are at the top of the evolutionary ladder, failing to recognize that humans are simply one branch on the tree of life, and evolution does not imply a hierarchy of species."
+ }
+
+ {
+  "Unit":"_u800_Bio_Intro",
+  "Module":"_m1-1_Themes",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/_u800_Bio_Intro\/_m1-1_Themes\/x-oli-inline-assessment\/u1_themes_evolution_LBD.xml",
+  "Problem Name":"u1_themes_evolution_LBD",
+  "Question":"In medical science, the goal is often to figure out how a disease works or to test out a therapy. Ideally, experiments should be done on humans. Yet the most informative experiments might also involve some pretty rough stuff: deliberately disabling a gene to see if it causes a disorder, testing a potentially dangerous drug, and so on. We cannot ethically do such experiments on humans. How do biomedical researchers get the needed research done without harming human subjects?",
+  "Question ID":34972375689.0,
+  "Step ID":"q1",
+  "Explanation":"They work with animal models. \u201cLab rats\u201d and other organisms are used for experiments that wouldn\u2019t be practical or ethical with human subjects.",
+  "extracted_qid":"q1",
+  "Step Name":"q1_a1 UpdateShortAnswer",
+  "Selection":"q1_a1",
+  "Level (Unit)":"Biology: The Science of Life",
+  "Level (Module)":"Themes in Biology",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"learnbydoing",
+  "step_index":0,
+  "gpt-4o-mini_meta_knowledge":"1. **Misconception about Animal Testing**: Students may believe that animal testing is always cruel and unnecessary. In reality, animal models are often used because they can provide critical insights into human diseases and therapies while minimizing ethical concerns associated with direct experimentation on humans.\n\n2. **Misconception about In Vitro Studies**: Some students might think that experiments conducted in petri dishes (in vitro) do not provide valuable insights about human biology. However, in vitro studies can reveal fundamental biological processes and allow researchers to examine interactions at the cellular level before moving on to more complex systems.\n\n3. **Misconception about Genetic Modification**: There is a common belief that genetically modifying organisms (like creating knockout mice) is unethical or harmful without understanding that these methods often lead to significant scientific breakthroughs, including the development of treatments for human diseases.\n\n4. **Misconception about Clinical Trials**: A widespread misunderstanding is that all clinical trials are inherently risky and harmful to human subjects. In fact, clinical trials undergo rigorous ethical reviews and regulatory oversight to ensure the safety of participants and are designed to minimize risks.\n\n5. **Misconception about Human Subject Protection**: Some students may think that ethical considerations completely prevent any form of experimentation on humans, leading to the belief that no research can occur without exposing people to risk. In reality, ethical frameworks allow for research under strict protocols that prioritize participant safety, informed consent, and potential societal benefit."
+ }
+
+ {
+  "Unit":"_u800_Bio_Intro",
+  "Module":"_m1-1_Themes",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/_u800_Bio_Intro\/_m1-1_Themes\/x-oli-inline-assessment\/u1_themes_evolution_LBD.xml",
+  "Problem Name":"u1_themes_evolution_LBD",
+  "Question":"Scientists turn to model organisms \u2014 species that are easy to keep in the lab and have been studied extensively \u2014 and use them as study subjects. Rats and mice, for example, are key to medical research. Dozens of mouse and rat strains have been specifically maintained as research subjects because they reliably develop problems like obesity, diabetes, or behavioral disorders such as addiction. How could research on mice or rats help answer our medical research questions \u2014 questions that are, after all, about humans?",
+  "Question ID":113028892.0,
+  "Step ID":"q2",
+  "Explanation":"We can test out medicines, for example, by giving them to diabetic mice. Or we can figure out what causes a health problem by doing experiments on mice that wouldn\u2019t be possible with people. Such research is useful because mice and people are related by ancestry. We have similar organs, cells, and molecules. Something we learn in mice might apply directly to people, or it might at least point us in the right direction for further study. To learn more: Genetic Science Learning Center",
+  "extracted_qid":"q2",
+  "Step Name":"q2_a2 UpdateShortAnswer",
+  "Selection":"q2_a2",
+  "Level (Unit)":"Biology: The Science of Life",
+  "Level (Module)":"Themes in Biology",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"learnbydoing",
+  "step_index":1,
+  "gpt-4o-mini_meta_knowledge":"1. **Mice and Rats Are Exactly Like Humans**: Many students may believe that findings from studies on mice and rats can be directly applied to humans without considering the biological differences between species. While there are significant similarities, there are also important physiological and genetic differences that can affect the outcomes of research.\n\n2. **All Strains of Mice and Rats Are the Same**: Some students may not realize that mouse and rat strains can have different genetic backgrounds and traits. Specific strains are selected for their unique characteristics, which can lead to different responses in experiments. Understanding these differences is crucial for interpreting research findings accurately.\n\n3. **Research on Animals is Unethical and Offers No Ethical Value to Humans**: Students might perceive animal research as wholly unethical, overlooking the regulatory frameworks and ethical considerations that guide the use of model organisms. Many argue that such research is essential for advancing medical science and ultimately improves human and animal health.\n\n4. **Animal Studies Are Always Predictive of Human Outcomes**: A common misconception is that results from animal studies are guaranteed to predict human responses. While they can provide valuable insights and help identify potential pathways for human treatments, many drugs and therapies that are effective in animals fail in human trials.\n\n5. **Model Organisms Are Only Useful for Simple Phenomena**: Some students may think that the study of model organisms is limited to simple traits or diseases, failing to recognize that these organisms can model complex biological systems, behaviors, and multifactorial diseases. For example, studies on addiction, behavior, and neurological disorders in rats and mice can yield significant insights into similar human conditions."
+ }
+
+ {
+  "Unit":"_u800_Bio_Intro",
+  "Module":"_m1-1_Themes",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/_u800_Bio_Intro\/_m1-1_Themes\/x-oli-inline-assessment\/u1_themes_interdependence_DIGT.xml",
+  "Problem Name":"u1_themes_interdependence_DIGT",
+  "Question":"Describe an example of interdependence among cells within your body.",
+  "Question ID":60889039369.0,
+  "Step ID":"q1",
+  "Explanation":"There are many good answers. Your brain cells depend on freshly oxygenated blood flow, so if your lungs or heart stop functioning, your brain cells will die within several minutes. On the other hand, your lungs and heart work partly under the control of signals from your brain. You cannot digest food properly or make certain vitamins without help from bacteria in your gut, and these in turn depend on your body as a warm, nutrient-rich place to grow. Whatever example you came up with should have this sense of a two-way interaction: the cells are mutually dependent on one another. This is the core of the \u201cinterdependence\u201d concept.",
+  "extracted_qid":"q1",
+  "Step Name":"q1_A UpdateShortAnswer",
+  "Selection":"q1_A",
+  "Level (Unit)":"Biology: The Science of Life",
+  "Level (Module)":"Themes in Biology",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"didigetthis",
+  "step_index":0,
+  "gpt-4o-mini_meta_knowledge":"1. **All Cells are Identical:** Many students may believe that all cells in the body are identical and perform the same functions. In reality, cells are highly specialized for different roles, such as muscle cells, nerve cells, and red blood cells, which work together through interdependence.\n\n2. **Cells Function Independently:** Some students might think that cells operate in isolation and do not rely on each other. However, interdependence is crucial for maintaining homeostasis, as cells communicate and share resources with one another.\n\n3. **Tissues are Unrelated Groups of Cells:** A common misconception is that tissues, which are formed by similar cells, are simply random collections. In fact, tissues represent organized groups of specialized cells that work collectively to perform specific functions, exemplifying interdependence.\n\n4. **The Role of Stem Cells is Limited:** Students may misunderstand the role of stem cells, thinking they are only involved in repair processes. In actuality, stem cells are critical for development and the maintenance of various cell types, highlighting their interdependence with differentiated cells in the body.\n\n5. **Only One Type of Cell Regulates Body Processes:** Some students may believe that a single type of cell (such as neurons or hormones) is solely responsible for regulating body functions. In reality, multiple cell types often work together, forming a complex network that ensures proper functioning of bodily processes."
+ }
+
+ {
+  "Unit":"_u800_Bio_Intro",
+  "Module":"_m1-1_Themes",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/_u800_Bio_Intro\/_m1-1_Themes\/x-oli-inline-assessment\/u1_themes_interdependence_DIGT.xml",
+  "Problem Name":"u1_themes_interdependence_DIGT",
+  "Question":"Identify and briefly explain an example of interdependence between humans and other species in an ecosystem.",
+  "Question ID":55585690502.0,
+  "Step ID":"q2",
+  "Explanation":"Once again, there are lots of possible answers. We humans are dependent on algae and plants that produce food and oxygen gas, animals we harvest as food, and decomposers that get rid of wastes. They, in turn, may be dependent on us for cultivation (in the case of crop plants), protection, or a supply of food (the helpful bacteria in our sewage treatment plants would starve without us!). You probably came up with your own answer. Did the answer specifically describe how humans depend on the other species AND how the other species depends on us? If so, you\u2019ve got a good grasp of interdependence.",
+  "extracted_qid":"q2",
+  "Step Name":"q2_A UpdateShortAnswer",
+  "Selection":"q2_A",
+  "Level (Unit)":"Biology: The Science of Life",
+  "Level (Module)":"Themes in Biology",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"didigetthis",
+  "step_index":1,
+  "gpt-4o-mini_meta_knowledge":"Here are five common misconceptions students might have about interdependence in ecosystems and related concepts:\n\n1. **Misconception: Humans are separate from ecosystems.**\n   - Many students believe that humans exist outside of natural ecosystems and do not influence or depend on other species. In reality, humans are integral parts of ecosystems and are interconnected with other organisms through various processes such as food webs, pollination, and nutrient cycling.\n\n2. **Misconception: All species are equally dependent on one another.**\n   - Some students might think that all species within an ecosystem rely on each other to the same extent. However, certain species have more significant roles, such as keystone species which have a disproportionately large impact on their environment, compared to more niche or less dominant species.\n\n3. **Misconception: Interdependence only involves negative interactions.**\n   - Students often focus on harmful interactions like predation or competition when discussing interdependence. They may overlook positive interactions like mutualism, where two species benefit from one another, such as bees pollinating flowers while collecting nectar.\n\n4. **Misconception: Ecosystems are static and unchanging.**\n   - Some students may believe ecosystems are stable and do not change over time. In reality, ecosystems are dynamic and undergo continuous changes due to factors like climate change, species migration, and human activities, which can alter the interdependent relationships within them.\n\n5. **Misconception: Human actions do not impact other species significantly.**\n   - Students may underestimate the extent of human impact on other species and ecosystems. They might believe that localized actions or changes, such as pollution or habitat destruction, do not have wide-reaching effects, failing to recognize the interconnectedness of all organisms and the potential for cascading effects throughout an ecosystem."
+ }
+
+ {
+  "Unit":"_u820_the_cell",
+  "Module":"_m2_cell_membranes",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/_u820_the_cell\/_m2_cell_membranes\/x-oli-inline-assessment\/u2m3_membrane_osmosis_LBD.xml",
+  "Problem Name":"u2m3_membrane_osmosis_LBD",
+  "Question":"Why are heavily salted or sugared foods less susceptible to mold?",
+  "Question ID":62911080711.0,
+  "Step ID":"q1",
+  "Explanation":"Salts and sugars are solutes. High solute concentrations outside the cell (hypertonic solutions) cause water to flow out of the cell. This causes the cell to shrivel. Because mold cells (bacteria and fungi) have a cell wall, the hypertonic solution results in the plasma membrane tearing as it shrivels. This kills the cells and retards mold growth.",
+  "extracted_qid":"q1",
+  "Step Name":"q1_A UpdateShortAnswer",
+  "Selection":"q1_A",
+  "Level (Unit)":"The Cell",
+  "Level (Module)":"Membrane Transport",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"learnbydoing",
+  "step_index":0,
+  "gpt-4o-mini_meta_knowledge":"1. **Mold can grow on any food regardless of salt or sugar content**: Many students may believe that mold can grow on all foods equally, without recognizing that high salt or sugar concentrations create an inhospitable environment for mold growth.\n\n2. **Salt and sugar kill mold spores instantly**: Some might think that the presence of salt or sugar immediately eliminates mold spores, rather than understanding that these substances inhibit mold growth by drawing moisture out of the food.\n\n3. **Heavily salted or sugared foods are immune to all bacteria and fungi**: Students might assume that if a food is high in salt or sugar, it is protected from all forms of spoilage, when in reality, while growth is inhibited, it doesn\u2019t prevent all degradation.\n\n4. **Only sugar acts to preserve food**: There may be a misconception that only sugar has a preservative effect, overlooking the role of salt and its ability to draw moisture out and create a hostile environment for mold and other microorganisms.\n\n5. **Temperature and storage conditions don\u2019t matter if food is salted or sugared**: Some students may believe that once food is salted or sugared, it can be stored at any temperature without risk of spoilage, not recognizing the importance of proper storage conditions in preventing mold growth."
+ }
+
+ {
+  "Unit":"No Unit",
+  "Module":"No Module",
+  "Filename":"\/Users\/machi\/OLI_Biology_v_1_0\/svn.oli.cmu.edu\/svn\/content\/biology\/intro_biology\/branches\/v_1_0\/content\/x-oli-inline-assessment\/what_is_science_submit.xml",
+  "Problem Name":"what_is_science_submit",
+  "Question":"What is science?",
+  "Question ID":56261308271.0,
+  "Step ID":"q1",
+  "Explanation":"Science is a process that helps us to understand how the natural world works.",
+  "extracted_qid":"q1",
+  "Step Name":"q1_A UpdateShortAnswer",
+  "Selection":"q1_A",
+  "Level (Unit)":"Biology: The Science of Life",
+  "Level (Module)":"Scientific Inquiry",
+  "CF (oli:resourceType)":"x-oli-inline-assessment",
+  "CF (oli:purpose)":"didigetthis",
+  "step_index":0,
+  "gpt-4o-mini_meta_knowledge":"1. **Science is just a collection of facts**: Many students believe that science is merely a set of established facts and information to be memorized. In reality, science is a process of inquiry, involving questioning, experimentation, and the development of theories based on evidence.\n\n2. **Scientific theories are just guesses**: Some students confuse scientific theories with simple hypotheses or guesses. However, scientific theories are well-substantiated explanations based on a body of evidence, rigorous testing, and peer review.\n\n3. **Science is infallible and never changes**: A common misconception is that scientific conclusions are absolute and unchangeable. In truth, science is an evolving field where theories can be revised or discarded based on new evidence or perspectives.\n\n4. **Experiments are the only way to do science**: Many students may think that the scientific method only involves experimental procedures. However, many scientific disciplines rely on observational studies, fieldwork, and theoretical modeling, which also constitute valid scientific methods.\n\n5. **Science and technology are the same**: Some students may struggle to differentiate between science and technology, assuming they are synonymous. In actuality, science is primarily concerned with understanding natural phenomena, while technology applies scientific knowledge for practical purposes and inventions."
+ }
+
