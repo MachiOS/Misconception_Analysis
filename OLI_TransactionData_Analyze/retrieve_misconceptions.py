@@ -30,23 +30,62 @@ client_async = AsyncOpenAI(
 Ask GPT to list misconceptions.
 '''
 
-few_shots = '''
-Topic: Statistical Significance
-Relevant Topics:[List 5 relevant topics to the given topic.]
-Possible Misconceptions for each : [List 5 possible misconceptions for each relevant topics]
-    
-'''
 
 task_inst_list_terms =   '''
 Given a topic, list 5 related key terms, then list 5 possilbe misconceptions for each key term.
 '''
 
+# Ver1
+# task_inst_with_context =   '''
+# Given a topic, list 5 related key terms, then list 5 possilbe misconceptions for each key term.
+# Also, for each misconception, show an example of context where the misconception is likely to occur by providing a question and students'responses to it.
+# The question should not be too simple that directly ask about the misconception.
+# '''
 
-task_inst_with_example =   '''
-Given a topic, list 5 related key terms, then list 5 possilbe misconceptions for each key term.
-Also, for each misconception, show an example of context where the misconception is likely to occur by providing a question and students'responses to it.
-The question should not be too simple that directly ask about the misconception.
+# Ver2
+# task_inst_with_context = '''
+# Given a topic, identify five key related terms. For each key term, list five common misconceptions.
+# Then, for each misconception, provide a sample context where the misunderstanding is likely to emerge. This should include: (1) A question that might be posed to a student, and (2)A sample student response that reflects the misconception. 
+# The question should be thoughtfully designed—not overly simplistic or directly targeting the misconception (e.g., avoid questions like “Which is correct, A or B?” or “Which is more important, and why?”). Instead, ask questions that require students to explain or reason through their understanding, ideally producing a few sentences in response.
+# All content should be suitable for an introductory-level statistics course for first-year university students.
+# '''
+
+# Ver3
+task_inst_with_context = '''
+Given a topic, identify five key related terms. For each key term, list five common misconceptions.
+Then, for each misconception, provide a sample context where the misunderstanding is likely to emerge. This should include: (1) A question that might be posed to a student, and (2)A sample student response that reflects the misconception.
+The question should be based on an example case where some kind of statistical method is applied. The question should be thoughtfully designed—not overly simplistic or directly targeting the misconception (e.g., avoid questions like “Which is correct, A or B?” or “Which is more important, and why?”).  Instead, ask questions that require students to explain or reason through their understanding, ideally producing a few sentences in response.
+All content should be suitable for an introductory-level statistics course for first-year university students.
 '''
+
+
+few_shots_context = '''
+Topic: Hypothesis Testing
+Relevant Topics 1: Null Hypothesis
+Possible Misconceptions 1: The null hypothesis is what you want to prove true.
+Example Context: 
+-Question: Given the following case, what is the null hypothesis in this case? 
+According to the Centers for Disease Control and Prevention, the proportion of U.S. adults age 25 or older who smoke is .22. A researcher suspects that the rate is lower among U.S. adults 25 or older who have a bachelor's degree or higher education level.
+-Student Response: The null hypothesis of this case is “The proportion of smokers among U.S. adults 25 or older who have a bachelor's degree or higher is less than .22.” This is the hypothesis that researchers check if it is rejected by hypothesis testing.
+
+Topic: Interval Estimation
+Relevant Topics 1: Confidence Intervals
+Possible Misconceptions 1: Higher confidence levels mean more precise intervals.
+Example Context: 
+-Question: In a recent study, 1,115 males 25 to 35 years of age were randomly chosen and asked about their exercise habits. Based on the study results, the researchers estimated the mean time that a male 25 to 35 years of age spends exercising with 90%, 95%, and 99% confidence intervals. These were as follows: (3.4), (2.5, 4.5), (2,5). Which interval has the most precise estimation?
+-Student Response: (2,5) has the most precise estimation because it has the most confidence.  Higher confidence means it is more precise.
+
+Topic: Estimation
+Relevant Topics 1: Point Estimate
+Possible Misconceptions 1: Sampling a large number of data reduces the bias of the point estimate.
+Example Context: 
+-Question: A study estimates that the average number of children per family in Japan is 1.3. Do you think using a sample of 1,000 college students to obtain a point estimate is appropriate? Why or why not?
+-Student Response: No. If we get a point estimate by sampling from college students, we will get a biased estimate because it does not represent the population of Japan. But if the number of students sampled is significantly larger, it reduces the bias.
+'''
+
+
+
+
 async def get_async_gpt4(instruction,text, model):
 
     response = await client_async.chat.completions.create(
@@ -65,8 +104,8 @@ def apply_async_get_embedding_gpt4(lst, model_name, version=None):
     loop = asyncio.get_event_loop()
     if version=='common_misc':
         tasks = [loop.create_task(get_async_gpt4(task_inst_list_terms, prompt, model_name)) for prompt in lst]
-    elif version=='common_misc_context':
-        tasks = [loop.create_task(get_async_gpt4(task_inst_with_example, prompt, model_name)) for prompt in lst]
+    elif version=='common_misc_context' or version=='common_misc_context_few_shots':
+        tasks = [loop.create_task(get_async_gpt4(task_inst_with_context, prompt, model_name)) for prompt in lst]
     
     return loop.run_until_complete(asyncio.gather(*tasks))
 
@@ -105,12 +144,22 @@ def format_input_output(topic, zero_shot=True):
 
 def format_input_output_context(topic, zero_shot=True):
    
-    prompt = f'''
-    Topic: {topic}
-    Relevant Topics:[List 5 relevant topics to the given topic.]
-    Possible Misconceptions for each : [List 5 possible misconceptions for each relevant topics]
-    Example Context: [For each misconception, provide an example of context where the misconception is likely to occur by providing a question and students'responses to it. The question should not be too simple that directly ask about the misconception.]
-    '''
+    if zero_shot:
+        prompt = f'''
+        Topic: {topic}
+        Relevant Topics:[List 5 relevant topics to the given topic.]
+        Possible Misconceptions for each : [List 5 possible misconceptions for each relevant topic]
+        Example Context: [For each misconception, provide a sample context where the misunderstanding is likely to emerge by following the given instruction.]
+        '''
+    else:
+        prompt = f'''{few_shots_context}
+Topic: {topic}
+Relevant Topics:[List 5 relevant topics to the given topic.]
+Possible Misconceptions for each : [List 5 possible misconceptions for each relevant topic]
+Example Context: [For each misconception, provide a sample context where the misunderstanding is likely to emerge by following the given instruction.]
+        '''
+
+    
     return prompt
 
 def run_model(source_data_to_read,model_name, dataset_name, prompt_version, av_input_len_thld = 0, input_len_thld = 0,
@@ -129,7 +178,7 @@ def run_model(source_data_to_read,model_name, dataset_name, prompt_version, av_i
     # Suppose the source data is a list of topic
     for i, row in df.iterrows():
     
-        # if i > 2:break
+        # if i > 1:break
         topic = row['topic']
         
 
@@ -141,7 +190,10 @@ def run_model(source_data_to_read,model_name, dataset_name, prompt_version, av_i
 
         elif prompt_version == 'common_misc_context':
             prompt = format_input_output_context(topic)
-            task_instruction = task_inst_with_example
+            task_instruction = task_inst_with_context
+        elif prompt_version == 'common_misc_context_few_shots':
+            prompt = format_input_output_context(topic, zero_shot=False)
+            task_instruction = task_inst_with_context
         else:
             print("Please specfiy the pre-defined Prompt Version")
             sys.exit(0)
@@ -163,8 +215,8 @@ def run_model(source_data_to_read,model_name, dataset_name, prompt_version, av_i
             # if k > 10: break 
             
     with open( eval_path + 'prompt_instruction.text','w') as f:
-        f.write("Role: {0}\n".format(task_instruction))
-        
+        f.write("Role System: {0}\n".format(task_instruction))
+    
     
     '''
     Call API
@@ -220,7 +272,7 @@ def main():
     dataset_name = 'Statistics'
     # prompt_version = 'common_misc'
     
-    prompt_version = 'common_misc_context'
+    prompt_version = 'common_misc_context_few_shots'
     
     # source_data_to_read = '/Users/machi/Library/CloudStorage/GoogleDrive-machi.shimmei.e6@tohoku.ac.jp/My Drive/Misconception_Analysis/Statistics/'
     source_data_to_read = '/Users/machi/Documents/GitHub/Misconception_Analysis/OLI_TransactionData_Analyze/topics.csv'

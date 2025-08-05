@@ -1,0 +1,560 @@
+ID:0 ====================================	
+Topic: Hypothesis Testing
+Relevant Topics 1: Null Hypothesis
+Possible Misconceptions 1: The null hypothesis is what you want to prove true.
+Example Context: 
+-Question: Given the following case, what is the null hypothesis in this case? 
+According to the Centers for Disease Control and Prevention, the proportion of U.S. adults age 25 or older who smoke is .22. A researcher suspects that the rate is lower among U.S. adults 25 or older who have a bachelor's degree or higher education level.
+-Student Response: The null hypothesis of this case is “The proportion of smokers among U.S. adults 25 or older who have a bachelor's degree or higher is less than .22.” This is the hypothesis that researchers check if it is rejected by hypothesis testing.
+
+Topic: Interval Estimation
+Relevant Topics 1: Confidence Intervals
+Possible Misconceptions 1: Higher confidence levels mean more precise intervals.
+Example Context: 
+-Question: In a recent study, 1,115 males 25 to 35 years of age were randomly chosen and asked about their exercise habits. Based on the study results, the researchers estimated the mean time that a male 25 to 35 years of age spends exercising with 90%, 95%, and 99% confidence intervals. These were as follows: (3.4), (2.5, 4.5), (2,5). Which interval has the most precise estimation?
+-Student Response: (2,5) has the most precise estimation because it has the most confidence.  Higher confidence means it is more precise.
+
+Topic: Estimation
+Relevant Topics 1: Point Estimate
+Possible Misconceptions 1: Sampling a large number of data reduces the bias of the point estimate.
+Example Context: 
+-Question: A study estimates that the average number of children per family in Japan is 1.3. Do you think using a sample of 1,000 college students to obtain a point estimate is appropriate? Why or why not?
+-Student Response: No. If we get a point estimate by sampling from college students, we will get a biased estimate because it does not represent the population of Japan. But if the number of students sampled is significantly larger, it reduces the bias.
+
+Topic: Hypothesis Testing
+Relevant Topics:[List 5 relevant topics to the given topic.]
+Possible Misconceptions for each : [List 5 possible misconceptions for each relevant topic]
+Example Context: [For each misconception, provide a sample context where the misunderstanding is likely to emerge by following the given instruction.]
+        
+ID:1 ====================================	
+Topic: Hypothesis Testing
+Relevant Topics 1: Null Hypothesis
+Possible Misconceptions 1: The null hypothesis is what you want to prove true.
+Example Context: 
+-Question: Given the following case, what is the null hypothesis in this case? 
+According to the Centers for Disease Control and Prevention, the proportion of U.S. adults age 25 or older who smoke is .22. A researcher suspects that the rate is lower among U.S. adults 25 or older who have a bachelor's degree or higher education level.
+-Student Response: The null hypothesis of this case is “The proportion of smokers among U.S. adults 25 or older who have a bachelor's degree or higher is less than .22.” This is the hypothesis that researchers check if it is rejected by hypothesis testing.
+
+Topic: Interval Estimation
+Relevant Topics 1: Confidence Intervals
+Possible Misconceptions 1: Higher confidence levels mean more precise intervals.
+Example Context: 
+-Question: In a recent study, 1,115 males 25 to 35 years of age were randomly chosen and asked about their exercise habits. Based on the study results, the researchers estimated the mean time that a male 25 to 35 years of age spends exercising with 90%, 95%, and 99% confidence intervals. These were as follows: (3.4), (2.5, 4.5), (2,5). Which interval has the most precise estimation?
+-Student Response: (2,5) has the most precise estimation because it has the most confidence.  Higher confidence means it is more precise.
+
+Topic: Estimation
+Relevant Topics 1: Point Estimate
+Possible Misconceptions 1: Sampling a large number of data reduces the bias of the point estimate.
+Example Context: 
+-Question: A study estimates that the average number of children per family in Japan is 1.3. Do you think using a sample of 1,000 college students to obtain a point estimate is appropriate? Why or why not?
+-Student Response: No. If we get a point estimate by sampling from college students, we will get a biased estimate because it does not represent the population of Japan. But if the number of students sampled is significantly larger, it reduces the bias.
+
+Topic: T-test
+Relevant Topics:[List 5 relevant topics to the given topic.]
+Possible Misconceptions for each : [List 5 possible misconceptions for each relevant topic]
+Example Context: [For each misconception, provide a sample context where the misunderstanding is likely to emerge by following the given instruction.]
+        
+ID:2 ====================================	
+Topic: Hypothesis Testing
+Relevant Topics 1: Null Hypothesis
+Possible Misconceptions 1: The null hypothesis is what you want to prove true.
+Example Context: 
+-Question: Given the following case, what is the null hypothesis in this case? 
+According to the Centers for Disease Control and Prevention, the proportion of U.S. adults age 25 or older who smoke is .22. A researcher suspects that the rate is lower among U.S. adults 25 or older who have a bachelor's degree or higher education level.
+-Student Response: The null hypothesis of this case is “The proportion of smokers among U.S. adults 25 or older who have a bachelor's degree or higher is less than .22.” This is the hypothesis that researchers check if it is rejected by hypothesis testing.
+
+Topic: Interval Estimation
+Relevant Topics 1: Confidence Intervals
+Possible Misconceptions 1: Higher confidence levels mean more precise intervals.
+Example Context: 
+-Question: In a recent study, 1,115 males 25 to 35 years of age were randomly chosen and asked about their exercise habits. Based on the study results, the researchers estimated the mean time that a male 25 to 35 years of age spends exercising with 90%, 95%, and 99% confidence intervals. These were as follows: (3.4), (2.5, 4.5), (2,5). Which interval has the most precise estimation?
+-Student Response: (2,5) has the most precise estimation because it has the most confidence.  Higher confidence means it is more precise.
+
+Topic: Estimation
+Relevant Topics 1: Point Estimate
+Possible Misconceptions 1: Sampling a large number of data reduces the bias of the point estimate.
+Example Context: 
+-Question: A study estimates that the average number of children per family in Japan is 1.3. Do you think using a sample of 1,000 college students to obtain a point estimate is appropriate? Why or why not?
+-Student Response: No. If we get a point estimate by sampling from college students, we will get a biased estimate because it does not represent the population of Japan. But if the number of students sampled is significantly larger, it reduces the bias.
+
+Topic: Poplulation mean
+Relevant Topics:[List 5 relevant topics to the given topic.]
+Possible Misconceptions for each : [List 5 possible misconceptions for each relevant topic]
+Example Context: [For each misconception, provide a sample context where the misunderstanding is likely to emerge by following the given instruction.]
+        
+ID:3 ====================================	
+Topic: Hypothesis Testing
+Relevant Topics 1: Null Hypothesis
+Possible Misconceptions 1: The null hypothesis is what you want to prove true.
+Example Context: 
+-Question: Given the following case, what is the null hypothesis in this case? 
+According to the Centers for Disease Control and Prevention, the proportion of U.S. adults age 25 or older who smoke is .22. A researcher suspects that the rate is lower among U.S. adults 25 or older who have a bachelor's degree or higher education level.
+-Student Response: The null hypothesis of this case is “The proportion of smokers among U.S. adults 25 or older who have a bachelor's degree or higher is less than .22.” This is the hypothesis that researchers check if it is rejected by hypothesis testing.
+
+Topic: Interval Estimation
+Relevant Topics 1: Confidence Intervals
+Possible Misconceptions 1: Higher confidence levels mean more precise intervals.
+Example Context: 
+-Question: In a recent study, 1,115 males 25 to 35 years of age were randomly chosen and asked about their exercise habits. Based on the study results, the researchers estimated the mean time that a male 25 to 35 years of age spends exercising with 90%, 95%, and 99% confidence intervals. These were as follows: (3.4), (2.5, 4.5), (2,5). Which interval has the most precise estimation?
+-Student Response: (2,5) has the most precise estimation because it has the most confidence.  Higher confidence means it is more precise.
+
+Topic: Estimation
+Relevant Topics 1: Point Estimate
+Possible Misconceptions 1: Sampling a large number of data reduces the bias of the point estimate.
+Example Context: 
+-Question: A study estimates that the average number of children per family in Japan is 1.3. Do you think using a sample of 1,000 college students to obtain a point estimate is appropriate? Why or why not?
+-Student Response: No. If we get a point estimate by sampling from college students, we will get a biased estimate because it does not represent the population of Japan. But if the number of students sampled is significantly larger, it reduces the bias.
+
+Topic: Exploratory Data Analysis
+Relevant Topics:[List 5 relevant topics to the given topic.]
+Possible Misconceptions for each : [List 5 possible misconceptions for each relevant topic]
+Example Context: [For each misconception, provide a sample context where the misunderstanding is likely to emerge by following the given instruction.]
+        
+ID:4 ====================================	
+Topic: Hypothesis Testing
+Relevant Topics 1: Null Hypothesis
+Possible Misconceptions 1: The null hypothesis is what you want to prove true.
+Example Context: 
+-Question: Given the following case, what is the null hypothesis in this case? 
+According to the Centers for Disease Control and Prevention, the proportion of U.S. adults age 25 or older who smoke is .22. A researcher suspects that the rate is lower among U.S. adults 25 or older who have a bachelor's degree or higher education level.
+-Student Response: The null hypothesis of this case is “The proportion of smokers among U.S. adults 25 or older who have a bachelor's degree or higher is less than .22.” This is the hypothesis that researchers check if it is rejected by hypothesis testing.
+
+Topic: Interval Estimation
+Relevant Topics 1: Confidence Intervals
+Possible Misconceptions 1: Higher confidence levels mean more precise intervals.
+Example Context: 
+-Question: In a recent study, 1,115 males 25 to 35 years of age were randomly chosen and asked about their exercise habits. Based on the study results, the researchers estimated the mean time that a male 25 to 35 years of age spends exercising with 90%, 95%, and 99% confidence intervals. These were as follows: (3.4), (2.5, 4.5), (2,5). Which interval has the most precise estimation?
+-Student Response: (2,5) has the most precise estimation because it has the most confidence.  Higher confidence means it is more precise.
+
+Topic: Estimation
+Relevant Topics 1: Point Estimate
+Possible Misconceptions 1: Sampling a large number of data reduces the bias of the point estimate.
+Example Context: 
+-Question: A study estimates that the average number of children per family in Japan is 1.3. Do you think using a sample of 1,000 college students to obtain a point estimate is appropriate? Why or why not?
+-Student Response: No. If we get a point estimate by sampling from college students, we will get a biased estimate because it does not represent the population of Japan. But if the number of students sampled is significantly larger, it reduces the bias.
+
+Topic: Point Estimation
+Relevant Topics:[List 5 relevant topics to the given topic.]
+Possible Misconceptions for each : [List 5 possible misconceptions for each relevant topic]
+Example Context: [For each misconception, provide a sample context where the misunderstanding is likely to emerge by following the given instruction.]
+        
+ID:5 ====================================	
+Topic: Hypothesis Testing
+Relevant Topics 1: Null Hypothesis
+Possible Misconceptions 1: The null hypothesis is what you want to prove true.
+Example Context: 
+-Question: Given the following case, what is the null hypothesis in this case? 
+According to the Centers for Disease Control and Prevention, the proportion of U.S. adults age 25 or older who smoke is .22. A researcher suspects that the rate is lower among U.S. adults 25 or older who have a bachelor's degree or higher education level.
+-Student Response: The null hypothesis of this case is “The proportion of smokers among U.S. adults 25 or older who have a bachelor's degree or higher is less than .22.” This is the hypothesis that researchers check if it is rejected by hypothesis testing.
+
+Topic: Interval Estimation
+Relevant Topics 1: Confidence Intervals
+Possible Misconceptions 1: Higher confidence levels mean more precise intervals.
+Example Context: 
+-Question: In a recent study, 1,115 males 25 to 35 years of age were randomly chosen and asked about their exercise habits. Based on the study results, the researchers estimated the mean time that a male 25 to 35 years of age spends exercising with 90%, 95%, and 99% confidence intervals. These were as follows: (3.4), (2.5, 4.5), (2,5). Which interval has the most precise estimation?
+-Student Response: (2,5) has the most precise estimation because it has the most confidence.  Higher confidence means it is more precise.
+
+Topic: Estimation
+Relevant Topics 1: Point Estimate
+Possible Misconceptions 1: Sampling a large number of data reduces the bias of the point estimate.
+Example Context: 
+-Question: A study estimates that the average number of children per family in Japan is 1.3. Do you think using a sample of 1,000 college students to obtain a point estimate is appropriate? Why or why not?
+-Student Response: No. If we get a point estimate by sampling from college students, we will get a biased estimate because it does not represent the population of Japan. But if the number of students sampled is significantly larger, it reduces the bias.
+
+Topic: Interval Estimation
+Relevant Topics:[List 5 relevant topics to the given topic.]
+Possible Misconceptions for each : [List 5 possible misconceptions for each relevant topic]
+Example Context: [For each misconception, provide a sample context where the misunderstanding is likely to emerge by following the given instruction.]
+        
+ID:6 ====================================	
+Topic: Hypothesis Testing
+Relevant Topics 1: Null Hypothesis
+Possible Misconceptions 1: The null hypothesis is what you want to prove true.
+Example Context: 
+-Question: Given the following case, what is the null hypothesis in this case? 
+According to the Centers for Disease Control and Prevention, the proportion of U.S. adults age 25 or older who smoke is .22. A researcher suspects that the rate is lower among U.S. adults 25 or older who have a bachelor's degree or higher education level.
+-Student Response: The null hypothesis of this case is “The proportion of smokers among U.S. adults 25 or older who have a bachelor's degree or higher is less than .22.” This is the hypothesis that researchers check if it is rejected by hypothesis testing.
+
+Topic: Interval Estimation
+Relevant Topics 1: Confidence Intervals
+Possible Misconceptions 1: Higher confidence levels mean more precise intervals.
+Example Context: 
+-Question: In a recent study, 1,115 males 25 to 35 years of age were randomly chosen and asked about their exercise habits. Based on the study results, the researchers estimated the mean time that a male 25 to 35 years of age spends exercising with 90%, 95%, and 99% confidence intervals. These were as follows: (3.4), (2.5, 4.5), (2,5). Which interval has the most precise estimation?
+-Student Response: (2,5) has the most precise estimation because it has the most confidence.  Higher confidence means it is more precise.
+
+Topic: Estimation
+Relevant Topics 1: Point Estimate
+Possible Misconceptions 1: Sampling a large number of data reduces the bias of the point estimate.
+Example Context: 
+-Question: A study estimates that the average number of children per family in Japan is 1.3. Do you think using a sample of 1,000 college students to obtain a point estimate is appropriate? Why or why not?
+-Student Response: No. If we get a point estimate by sampling from college students, we will get a biased estimate because it does not represent the population of Japan. But if the number of students sampled is significantly larger, it reduces the bias.
+
+Topic: Confidence interval
+Relevant Topics:[List 5 relevant topics to the given topic.]
+Possible Misconceptions for each : [List 5 possible misconceptions for each relevant topic]
+Example Context: [For each misconception, provide a sample context where the misunderstanding is likely to emerge by following the given instruction.]
+        
+ID:7 ====================================	
+Topic: Hypothesis Testing
+Relevant Topics 1: Null Hypothesis
+Possible Misconceptions 1: The null hypothesis is what you want to prove true.
+Example Context: 
+-Question: Given the following case, what is the null hypothesis in this case? 
+According to the Centers for Disease Control and Prevention, the proportion of U.S. adults age 25 or older who smoke is .22. A researcher suspects that the rate is lower among U.S. adults 25 or older who have a bachelor's degree or higher education level.
+-Student Response: The null hypothesis of this case is “The proportion of smokers among U.S. adults 25 or older who have a bachelor's degree or higher is less than .22.” This is the hypothesis that researchers check if it is rejected by hypothesis testing.
+
+Topic: Interval Estimation
+Relevant Topics 1: Confidence Intervals
+Possible Misconceptions 1: Higher confidence levels mean more precise intervals.
+Example Context: 
+-Question: In a recent study, 1,115 males 25 to 35 years of age were randomly chosen and asked about their exercise habits. Based on the study results, the researchers estimated the mean time that a male 25 to 35 years of age spends exercising with 90%, 95%, and 99% confidence intervals. These were as follows: (3.4), (2.5, 4.5), (2,5). Which interval has the most precise estimation?
+-Student Response: (2,5) has the most precise estimation because it has the most confidence.  Higher confidence means it is more precise.
+
+Topic: Estimation
+Relevant Topics 1: Point Estimate
+Possible Misconceptions 1: Sampling a large number of data reduces the bias of the point estimate.
+Example Context: 
+-Question: A study estimates that the average number of children per family in Japan is 1.3. Do you think using a sample of 1,000 college students to obtain a point estimate is appropriate? Why or why not?
+-Student Response: No. If we get a point estimate by sampling from college students, we will get a biased estimate because it does not represent the population of Japan. But if the number of students sampled is significantly larger, it reduces the bias.
+
+Topic: Sample size
+Relevant Topics:[List 5 relevant topics to the given topic.]
+Possible Misconceptions for each : [List 5 possible misconceptions for each relevant topic]
+Example Context: [For each misconception, provide a sample context where the misunderstanding is likely to emerge by following the given instruction.]
+        
+ID:8 ====================================	
+Topic: Hypothesis Testing
+Relevant Topics 1: Null Hypothesis
+Possible Misconceptions 1: The null hypothesis is what you want to prove true.
+Example Context: 
+-Question: Given the following case, what is the null hypothesis in this case? 
+According to the Centers for Disease Control and Prevention, the proportion of U.S. adults age 25 or older who smoke is .22. A researcher suspects that the rate is lower among U.S. adults 25 or older who have a bachelor's degree or higher education level.
+-Student Response: The null hypothesis of this case is “The proportion of smokers among U.S. adults 25 or older who have a bachelor's degree or higher is less than .22.” This is the hypothesis that researchers check if it is rejected by hypothesis testing.
+
+Topic: Interval Estimation
+Relevant Topics 1: Confidence Intervals
+Possible Misconceptions 1: Higher confidence levels mean more precise intervals.
+Example Context: 
+-Question: In a recent study, 1,115 males 25 to 35 years of age were randomly chosen and asked about their exercise habits. Based on the study results, the researchers estimated the mean time that a male 25 to 35 years of age spends exercising with 90%, 95%, and 99% confidence intervals. These were as follows: (3.4), (2.5, 4.5), (2,5). Which interval has the most precise estimation?
+-Student Response: (2,5) has the most precise estimation because it has the most confidence.  Higher confidence means it is more precise.
+
+Topic: Estimation
+Relevant Topics 1: Point Estimate
+Possible Misconceptions 1: Sampling a large number of data reduces the bias of the point estimate.
+Example Context: 
+-Question: A study estimates that the average number of children per family in Japan is 1.3. Do you think using a sample of 1,000 college students to obtain a point estimate is appropriate? Why or why not?
+-Student Response: No. If we get a point estimate by sampling from college students, we will get a biased estimate because it does not represent the population of Japan. But if the number of students sampled is significantly larger, it reduces the bias.
+
+Topic: confidence interval
+Relevant Topics:[List 5 relevant topics to the given topic.]
+Possible Misconceptions for each : [List 5 possible misconceptions for each relevant topic]
+Example Context: [For each misconception, provide a sample context where the misunderstanding is likely to emerge by following the given instruction.]
+        
+ID:9 ====================================	
+Topic: Hypothesis Testing
+Relevant Topics 1: Null Hypothesis
+Possible Misconceptions 1: The null hypothesis is what you want to prove true.
+Example Context: 
+-Question: Given the following case, what is the null hypothesis in this case? 
+According to the Centers for Disease Control and Prevention, the proportion of U.S. adults age 25 or older who smoke is .22. A researcher suspects that the rate is lower among U.S. adults 25 or older who have a bachelor's degree or higher education level.
+-Student Response: The null hypothesis of this case is “The proportion of smokers among U.S. adults 25 or older who have a bachelor's degree or higher is less than .22.” This is the hypothesis that researchers check if it is rejected by hypothesis testing.
+
+Topic: Interval Estimation
+Relevant Topics 1: Confidence Intervals
+Possible Misconceptions 1: Higher confidence levels mean more precise intervals.
+Example Context: 
+-Question: In a recent study, 1,115 males 25 to 35 years of age were randomly chosen and asked about their exercise habits. Based on the study results, the researchers estimated the mean time that a male 25 to 35 years of age spends exercising with 90%, 95%, and 99% confidence intervals. These were as follows: (3.4), (2.5, 4.5), (2,5). Which interval has the most precise estimation?
+-Student Response: (2,5) has the most precise estimation because it has the most confidence.  Higher confidence means it is more precise.
+
+Topic: Estimation
+Relevant Topics 1: Point Estimate
+Possible Misconceptions 1: Sampling a large number of data reduces the bias of the point estimate.
+Example Context: 
+-Question: A study estimates that the average number of children per family in Japan is 1.3. Do you think using a sample of 1,000 college students to obtain a point estimate is appropriate? Why or why not?
+-Student Response: No. If we get a point estimate by sampling from college students, we will get a biased estimate because it does not represent the population of Japan. But if the number of students sampled is significantly larger, it reduces the bias.
+
+Topic: conditional probability
+Relevant Topics:[List 5 relevant topics to the given topic.]
+Possible Misconceptions for each : [List 5 possible misconceptions for each relevant topic]
+Example Context: [For each misconception, provide a sample context where the misunderstanding is likely to emerge by following the given instruction.]
+        
+ID:10 ====================================	
+Topic: Hypothesis Testing
+Relevant Topics 1: Null Hypothesis
+Possible Misconceptions 1: The null hypothesis is what you want to prove true.
+Example Context: 
+-Question: Given the following case, what is the null hypothesis in this case? 
+According to the Centers for Disease Control and Prevention, the proportion of U.S. adults age 25 or older who smoke is .22. A researcher suspects that the rate is lower among U.S. adults 25 or older who have a bachelor's degree or higher education level.
+-Student Response: The null hypothesis of this case is “The proportion of smokers among U.S. adults 25 or older who have a bachelor's degree or higher is less than .22.” This is the hypothesis that researchers check if it is rejected by hypothesis testing.
+
+Topic: Interval Estimation
+Relevant Topics 1: Confidence Intervals
+Possible Misconceptions 1: Higher confidence levels mean more precise intervals.
+Example Context: 
+-Question: In a recent study, 1,115 males 25 to 35 years of age were randomly chosen and asked about their exercise habits. Based on the study results, the researchers estimated the mean time that a male 25 to 35 years of age spends exercising with 90%, 95%, and 99% confidence intervals. These were as follows: (3.4), (2.5, 4.5), (2,5). Which interval has the most precise estimation?
+-Student Response: (2,5) has the most precise estimation because it has the most confidence.  Higher confidence means it is more precise.
+
+Topic: Estimation
+Relevant Topics 1: Point Estimate
+Possible Misconceptions 1: Sampling a large number of data reduces the bias of the point estimate.
+Example Context: 
+-Question: A study estimates that the average number of children per family in Japan is 1.3. Do you think using a sample of 1,000 college students to obtain a point estimate is appropriate? Why or why not?
+-Student Response: No. If we get a point estimate by sampling from college students, we will get a biased estimate because it does not represent the population of Japan. But if the number of students sampled is significantly larger, it reduces the bias.
+
+Topic: Anova
+Relevant Topics:[List 5 relevant topics to the given topic.]
+Possible Misconceptions for each : [List 5 possible misconceptions for each relevant topic]
+Example Context: [For each misconception, provide a sample context where the misunderstanding is likely to emerge by following the given instruction.]
+        
+ID:11 ====================================	
+Topic: Hypothesis Testing
+Relevant Topics 1: Null Hypothesis
+Possible Misconceptions 1: The null hypothesis is what you want to prove true.
+Example Context: 
+-Question: Given the following case, what is the null hypothesis in this case? 
+According to the Centers for Disease Control and Prevention, the proportion of U.S. adults age 25 or older who smoke is .22. A researcher suspects that the rate is lower among U.S. adults 25 or older who have a bachelor's degree or higher education level.
+-Student Response: The null hypothesis of this case is “The proportion of smokers among U.S. adults 25 or older who have a bachelor's degree or higher is less than .22.” This is the hypothesis that researchers check if it is rejected by hypothesis testing.
+
+Topic: Interval Estimation
+Relevant Topics 1: Confidence Intervals
+Possible Misconceptions 1: Higher confidence levels mean more precise intervals.
+Example Context: 
+-Question: In a recent study, 1,115 males 25 to 35 years of age were randomly chosen and asked about their exercise habits. Based on the study results, the researchers estimated the mean time that a male 25 to 35 years of age spends exercising with 90%, 95%, and 99% confidence intervals. These were as follows: (3.4), (2.5, 4.5), (2,5). Which interval has the most precise estimation?
+-Student Response: (2,5) has the most precise estimation because it has the most confidence.  Higher confidence means it is more precise.
+
+Topic: Estimation
+Relevant Topics 1: Point Estimate
+Possible Misconceptions 1: Sampling a large number of data reduces the bias of the point estimate.
+Example Context: 
+-Question: A study estimates that the average number of children per family in Japan is 1.3. Do you think using a sample of 1,000 college students to obtain a point estimate is appropriate? Why or why not?
+-Student Response: No. If we get a point estimate by sampling from college students, we will get a biased estimate because it does not represent the population of Japan. But if the number of students sampled is significantly larger, it reduces the bias.
+
+Topic: Repeated Measure
+Relevant Topics:[List 5 relevant topics to the given topic.]
+Possible Misconceptions for each : [List 5 possible misconceptions for each relevant topic]
+Example Context: [For each misconception, provide a sample context where the misunderstanding is likely to emerge by following the given instruction.]
+        
+ID:12 ====================================	
+Topic: Hypothesis Testing
+Relevant Topics 1: Null Hypothesis
+Possible Misconceptions 1: The null hypothesis is what you want to prove true.
+Example Context: 
+-Question: Given the following case, what is the null hypothesis in this case? 
+According to the Centers for Disease Control and Prevention, the proportion of U.S. adults age 25 or older who smoke is .22. A researcher suspects that the rate is lower among U.S. adults 25 or older who have a bachelor's degree or higher education level.
+-Student Response: The null hypothesis of this case is “The proportion of smokers among U.S. adults 25 or older who have a bachelor's degree or higher is less than .22.” This is the hypothesis that researchers check if it is rejected by hypothesis testing.
+
+Topic: Interval Estimation
+Relevant Topics 1: Confidence Intervals
+Possible Misconceptions 1: Higher confidence levels mean more precise intervals.
+Example Context: 
+-Question: In a recent study, 1,115 males 25 to 35 years of age were randomly chosen and asked about their exercise habits. Based on the study results, the researchers estimated the mean time that a male 25 to 35 years of age spends exercising with 90%, 95%, and 99% confidence intervals. These were as follows: (3.4), (2.5, 4.5), (2,5). Which interval has the most precise estimation?
+-Student Response: (2,5) has the most precise estimation because it has the most confidence.  Higher confidence means it is more precise.
+
+Topic: Estimation
+Relevant Topics 1: Point Estimate
+Possible Misconceptions 1: Sampling a large number of data reduces the bias of the point estimate.
+Example Context: 
+-Question: A study estimates that the average number of children per family in Japan is 1.3. Do you think using a sample of 1,000 college students to obtain a point estimate is appropriate? Why or why not?
+-Student Response: No. If we get a point estimate by sampling from college students, we will get a biased estimate because it does not represent the population of Japan. But if the number of students sampled is significantly larger, it reduces the bias.
+
+Topic: Chi-square Test
+Relevant Topics:[List 5 relevant topics to the given topic.]
+Possible Misconceptions for each : [List 5 possible misconceptions for each relevant topic]
+Example Context: [For each misconception, provide a sample context where the misunderstanding is likely to emerge by following the given instruction.]
+        
+ID:13 ====================================	
+Topic: Hypothesis Testing
+Relevant Topics 1: Null Hypothesis
+Possible Misconceptions 1: The null hypothesis is what you want to prove true.
+Example Context: 
+-Question: Given the following case, what is the null hypothesis in this case? 
+According to the Centers for Disease Control and Prevention, the proportion of U.S. adults age 25 or older who smoke is .22. A researcher suspects that the rate is lower among U.S. adults 25 or older who have a bachelor's degree or higher education level.
+-Student Response: The null hypothesis of this case is “The proportion of smokers among U.S. adults 25 or older who have a bachelor's degree or higher is less than .22.” This is the hypothesis that researchers check if it is rejected by hypothesis testing.
+
+Topic: Interval Estimation
+Relevant Topics 1: Confidence Intervals
+Possible Misconceptions 1: Higher confidence levels mean more precise intervals.
+Example Context: 
+-Question: In a recent study, 1,115 males 25 to 35 years of age were randomly chosen and asked about their exercise habits. Based on the study results, the researchers estimated the mean time that a male 25 to 35 years of age spends exercising with 90%, 95%, and 99% confidence intervals. These were as follows: (3.4), (2.5, 4.5), (2,5). Which interval has the most precise estimation?
+-Student Response: (2,5) has the most precise estimation because it has the most confidence.  Higher confidence means it is more precise.
+
+Topic: Estimation
+Relevant Topics 1: Point Estimate
+Possible Misconceptions 1: Sampling a large number of data reduces the bias of the point estimate.
+Example Context: 
+-Question: A study estimates that the average number of children per family in Japan is 1.3. Do you think using a sample of 1,000 college students to obtain a point estimate is appropriate? Why or why not?
+-Student Response: No. If we get a point estimate by sampling from college students, we will get a biased estimate because it does not represent the population of Japan. But if the number of students sampled is significantly larger, it reduces the bias.
+
+Topic: Probability Density Functions
+Relevant Topics:[List 5 relevant topics to the given topic.]
+Possible Misconceptions for each : [List 5 possible misconceptions for each relevant topic]
+Example Context: [For each misconception, provide a sample context where the misunderstanding is likely to emerge by following the given instruction.]
+        
+ID:14 ====================================	
+Topic: Hypothesis Testing
+Relevant Topics 1: Null Hypothesis
+Possible Misconceptions 1: The null hypothesis is what you want to prove true.
+Example Context: 
+-Question: Given the following case, what is the null hypothesis in this case? 
+According to the Centers for Disease Control and Prevention, the proportion of U.S. adults age 25 or older who smoke is .22. A researcher suspects that the rate is lower among U.S. adults 25 or older who have a bachelor's degree or higher education level.
+-Student Response: The null hypothesis of this case is “The proportion of smokers among U.S. adults 25 or older who have a bachelor's degree or higher is less than .22.” This is the hypothesis that researchers check if it is rejected by hypothesis testing.
+
+Topic: Interval Estimation
+Relevant Topics 1: Confidence Intervals
+Possible Misconceptions 1: Higher confidence levels mean more precise intervals.
+Example Context: 
+-Question: In a recent study, 1,115 males 25 to 35 years of age were randomly chosen and asked about their exercise habits. Based on the study results, the researchers estimated the mean time that a male 25 to 35 years of age spends exercising with 90%, 95%, and 99% confidence intervals. These were as follows: (3.4), (2.5, 4.5), (2,5). Which interval has the most precise estimation?
+-Student Response: (2,5) has the most precise estimation because it has the most confidence.  Higher confidence means it is more precise.
+
+Topic: Estimation
+Relevant Topics 1: Point Estimate
+Possible Misconceptions 1: Sampling a large number of data reduces the bias of the point estimate.
+Example Context: 
+-Question: A study estimates that the average number of children per family in Japan is 1.3. Do you think using a sample of 1,000 college students to obtain a point estimate is appropriate? Why or why not?
+-Student Response: No. If we get a point estimate by sampling from college students, we will get a biased estimate because it does not represent the population of Japan. But if the number of students sampled is significantly larger, it reduces the bias.
+
+Topic: Expected Values
+Relevant Topics:[List 5 relevant topics to the given topic.]
+Possible Misconceptions for each : [List 5 possible misconceptions for each relevant topic]
+Example Context: [For each misconception, provide a sample context where the misunderstanding is likely to emerge by following the given instruction.]
+        
+ID:15 ====================================	
+Topic: Hypothesis Testing
+Relevant Topics 1: Null Hypothesis
+Possible Misconceptions 1: The null hypothesis is what you want to prove true.
+Example Context: 
+-Question: Given the following case, what is the null hypothesis in this case? 
+According to the Centers for Disease Control and Prevention, the proportion of U.S. adults age 25 or older who smoke is .22. A researcher suspects that the rate is lower among U.S. adults 25 or older who have a bachelor's degree or higher education level.
+-Student Response: The null hypothesis of this case is “The proportion of smokers among U.S. adults 25 or older who have a bachelor's degree or higher is less than .22.” This is the hypothesis that researchers check if it is rejected by hypothesis testing.
+
+Topic: Interval Estimation
+Relevant Topics 1: Confidence Intervals
+Possible Misconceptions 1: Higher confidence levels mean more precise intervals.
+Example Context: 
+-Question: In a recent study, 1,115 males 25 to 35 years of age were randomly chosen and asked about their exercise habits. Based on the study results, the researchers estimated the mean time that a male 25 to 35 years of age spends exercising with 90%, 95%, and 99% confidence intervals. These were as follows: (3.4), (2.5, 4.5), (2,5). Which interval has the most precise estimation?
+-Student Response: (2,5) has the most precise estimation because it has the most confidence.  Higher confidence means it is more precise.
+
+Topic: Estimation
+Relevant Topics 1: Point Estimate
+Possible Misconceptions 1: Sampling a large number of data reduces the bias of the point estimate.
+Example Context: 
+-Question: A study estimates that the average number of children per family in Japan is 1.3. Do you think using a sample of 1,000 college students to obtain a point estimate is appropriate? Why or why not?
+-Student Response: No. If we get a point estimate by sampling from college students, we will get a biased estimate because it does not represent the population of Japan. But if the number of students sampled is significantly larger, it reduces the bias.
+
+Topic: Wilcoxon Signed-Rank Test
+Relevant Topics:[List 5 relevant topics to the given topic.]
+Possible Misconceptions for each : [List 5 possible misconceptions for each relevant topic]
+Example Context: [For each misconception, provide a sample context where the misunderstanding is likely to emerge by following the given instruction.]
+        
+ID:16 ====================================	
+Topic: Hypothesis Testing
+Relevant Topics 1: Null Hypothesis
+Possible Misconceptions 1: The null hypothesis is what you want to prove true.
+Example Context: 
+-Question: Given the following case, what is the null hypothesis in this case? 
+According to the Centers for Disease Control and Prevention, the proportion of U.S. adults age 25 or older who smoke is .22. A researcher suspects that the rate is lower among U.S. adults 25 or older who have a bachelor's degree or higher education level.
+-Student Response: The null hypothesis of this case is “The proportion of smokers among U.S. adults 25 or older who have a bachelor's degree or higher is less than .22.” This is the hypothesis that researchers check if it is rejected by hypothesis testing.
+
+Topic: Interval Estimation
+Relevant Topics 1: Confidence Intervals
+Possible Misconceptions 1: Higher confidence levels mean more precise intervals.
+Example Context: 
+-Question: In a recent study, 1,115 males 25 to 35 years of age were randomly chosen and asked about their exercise habits. Based on the study results, the researchers estimated the mean time that a male 25 to 35 years of age spends exercising with 90%, 95%, and 99% confidence intervals. These were as follows: (3.4), (2.5, 4.5), (2,5). Which interval has the most precise estimation?
+-Student Response: (2,5) has the most precise estimation because it has the most confidence.  Higher confidence means it is more precise.
+
+Topic: Estimation
+Relevant Topics 1: Point Estimate
+Possible Misconceptions 1: Sampling a large number of data reduces the bias of the point estimate.
+Example Context: 
+-Question: A study estimates that the average number of children per family in Japan is 1.3. Do you think using a sample of 1,000 college students to obtain a point estimate is appropriate? Why or why not?
+-Student Response: No. If we get a point estimate by sampling from college students, we will get a biased estimate because it does not represent the population of Japan. But if the number of students sampled is significantly larger, it reduces the bias.
+
+Topic: Maximum likelihood Estimation
+Relevant Topics:[List 5 relevant topics to the given topic.]
+Possible Misconceptions for each : [List 5 possible misconceptions for each relevant topic]
+Example Context: [For each misconception, provide a sample context where the misunderstanding is likely to emerge by following the given instruction.]
+        
+ID:17 ====================================	
+Topic: Hypothesis Testing
+Relevant Topics 1: Null Hypothesis
+Possible Misconceptions 1: The null hypothesis is what you want to prove true.
+Example Context: 
+-Question: Given the following case, what is the null hypothesis in this case? 
+According to the Centers for Disease Control and Prevention, the proportion of U.S. adults age 25 or older who smoke is .22. A researcher suspects that the rate is lower among U.S. adults 25 or older who have a bachelor's degree or higher education level.
+-Student Response: The null hypothesis of this case is “The proportion of smokers among U.S. adults 25 or older who have a bachelor's degree or higher is less than .22.” This is the hypothesis that researchers check if it is rejected by hypothesis testing.
+
+Topic: Interval Estimation
+Relevant Topics 1: Confidence Intervals
+Possible Misconceptions 1: Higher confidence levels mean more precise intervals.
+Example Context: 
+-Question: In a recent study, 1,115 males 25 to 35 years of age were randomly chosen and asked about their exercise habits. Based on the study results, the researchers estimated the mean time that a male 25 to 35 years of age spends exercising with 90%, 95%, and 99% confidence intervals. These were as follows: (3.4), (2.5, 4.5), (2,5). Which interval has the most precise estimation?
+-Student Response: (2,5) has the most precise estimation because it has the most confidence.  Higher confidence means it is more precise.
+
+Topic: Estimation
+Relevant Topics 1: Point Estimate
+Possible Misconceptions 1: Sampling a large number of data reduces the bias of the point estimate.
+Example Context: 
+-Question: A study estimates that the average number of children per family in Japan is 1.3. Do you think using a sample of 1,000 college students to obtain a point estimate is appropriate? Why or why not?
+-Student Response: No. If we get a point estimate by sampling from college students, we will get a biased estimate because it does not represent the population of Japan. But if the number of students sampled is significantly larger, it reduces the bias.
+
+Topic: Generalized linear models
+Relevant Topics:[List 5 relevant topics to the given topic.]
+Possible Misconceptions for each : [List 5 possible misconceptions for each relevant topic]
+Example Context: [For each misconception, provide a sample context where the misunderstanding is likely to emerge by following the given instruction.]
+        
+ID:18 ====================================	
+Topic: Hypothesis Testing
+Relevant Topics 1: Null Hypothesis
+Possible Misconceptions 1: The null hypothesis is what you want to prove true.
+Example Context: 
+-Question: Given the following case, what is the null hypothesis in this case? 
+According to the Centers for Disease Control and Prevention, the proportion of U.S. adults age 25 or older who smoke is .22. A researcher suspects that the rate is lower among U.S. adults 25 or older who have a bachelor's degree or higher education level.
+-Student Response: The null hypothesis of this case is “The proportion of smokers among U.S. adults 25 or older who have a bachelor's degree or higher is less than .22.” This is the hypothesis that researchers check if it is rejected by hypothesis testing.
+
+Topic: Interval Estimation
+Relevant Topics 1: Confidence Intervals
+Possible Misconceptions 1: Higher confidence levels mean more precise intervals.
+Example Context: 
+-Question: In a recent study, 1,115 males 25 to 35 years of age were randomly chosen and asked about their exercise habits. Based on the study results, the researchers estimated the mean time that a male 25 to 35 years of age spends exercising with 90%, 95%, and 99% confidence intervals. These were as follows: (3.4), (2.5, 4.5), (2,5). Which interval has the most precise estimation?
+-Student Response: (2,5) has the most precise estimation because it has the most confidence.  Higher confidence means it is more precise.
+
+Topic: Estimation
+Relevant Topics 1: Point Estimate
+Possible Misconceptions 1: Sampling a large number of data reduces the bias of the point estimate.
+Example Context: 
+-Question: A study estimates that the average number of children per family in Japan is 1.3. Do you think using a sample of 1,000 college students to obtain a point estimate is appropriate? Why or why not?
+-Student Response: No. If we get a point estimate by sampling from college students, we will get a biased estimate because it does not represent the population of Japan. But if the number of students sampled is significantly larger, it reduces the bias.
+
+Topic: Average
+Relevant Topics:[List 5 relevant topics to the given topic.]
+Possible Misconceptions for each : [List 5 possible misconceptions for each relevant topic]
+Example Context: [For each misconception, provide a sample context where the misunderstanding is likely to emerge by following the given instruction.]
+        
+ID:19 ====================================	
+Topic: Hypothesis Testing
+Relevant Topics 1: Null Hypothesis
+Possible Misconceptions 1: The null hypothesis is what you want to prove true.
+Example Context: 
+-Question: Given the following case, what is the null hypothesis in this case? 
+According to the Centers for Disease Control and Prevention, the proportion of U.S. adults age 25 or older who smoke is .22. A researcher suspects that the rate is lower among U.S. adults 25 or older who have a bachelor's degree or higher education level.
+-Student Response: The null hypothesis of this case is “The proportion of smokers among U.S. adults 25 or older who have a bachelor's degree or higher is less than .22.” This is the hypothesis that researchers check if it is rejected by hypothesis testing.
+
+Topic: Interval Estimation
+Relevant Topics 1: Confidence Intervals
+Possible Misconceptions 1: Higher confidence levels mean more precise intervals.
+Example Context: 
+-Question: In a recent study, 1,115 males 25 to 35 years of age were randomly chosen and asked about their exercise habits. Based on the study results, the researchers estimated the mean time that a male 25 to 35 years of age spends exercising with 90%, 95%, and 99% confidence intervals. These were as follows: (3.4), (2.5, 4.5), (2,5). Which interval has the most precise estimation?
+-Student Response: (2,5) has the most precise estimation because it has the most confidence.  Higher confidence means it is more precise.
+
+Topic: Estimation
+Relevant Topics 1: Point Estimate
+Possible Misconceptions 1: Sampling a large number of data reduces the bias of the point estimate.
+Example Context: 
+-Question: A study estimates that the average number of children per family in Japan is 1.3. Do you think using a sample of 1,000 college students to obtain a point estimate is appropriate? Why or why not?
+-Student Response: No. If we get a point estimate by sampling from college students, we will get a biased estimate because it does not represent the population of Japan. But if the number of students sampled is significantly larger, it reduces the bias.
+
+Topic: Goodness-of-Fit Test
+Relevant Topics:[List 5 relevant topics to the given topic.]
+Possible Misconceptions for each : [List 5 possible misconceptions for each relevant topic]
+Example Context: [For each misconception, provide a sample context where the misunderstanding is likely to emerge by following the given instruction.]
+        
